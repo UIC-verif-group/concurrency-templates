@@ -1,0 +1,3681 @@
+DIGEST 6067a8f70344ee538ca9a51aaf329587
+Fcompcert.lib.Coqlib
+R1282:1287 Coq.Strings.String <> <> lib
+R1305:1310 Coq.ZArith.ZArith <> <> lib
+R1328:1337 Coq.ZArith.Znumtheory <> <> lib
+R1355:1358 Coq.Lists.List <> <> lib
+R1376:1379 Coq.Bool.Bool <> <> lib
+R1397:1399 Coq.micromega.Lia <> <> lib
+R1595:1601 Coq.Init.Logic <> eq_refl constr
+R1740:1742 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1740:1742 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1773:1776 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1773:1776 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1801:1804 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+prf 1896:1906 <> modusponens
+binder 1917:1917 <> P:1
+binder 1919:1919 <> Q:2
+R1930:1933 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1929:1929 compcert.lib.Coqlib <> P:1 var
+R1934:1934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1941:1945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1936:1939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1935:1935 compcert.lib.Coqlib <> P:1 var
+R1940:1940 compcert.lib.Coqlib <> Q:2 var
+R1946:1946 compcert.lib.Coqlib <> Q:2 var
+R4446:4456 compcert.lib.Coqlib <> modusponens thm
+R4407:4417 compcert.lib.Coqlib <> modusponens thm
+R4366:4376 compcert.lib.Coqlib <> modusponens thm
+R4323:4333 compcert.lib.Coqlib <> modusponens thm
+R4278:4288 compcert.lib.Coqlib <> modusponens thm
+R4231:4241 compcert.lib.Coqlib <> modusponens thm
+R4182:4192 compcert.lib.Coqlib <> modusponens thm
+R4131:4141 compcert.lib.Coqlib <> modusponens thm
+R4078:4088 compcert.lib.Coqlib <> modusponens thm
+R4023:4033 compcert.lib.Coqlib <> modusponens thm
+R3966:3976 compcert.lib.Coqlib <> modusponens thm
+R3907:3917 compcert.lib.Coqlib <> modusponens thm
+R3846:3856 compcert.lib.Coqlib <> modusponens thm
+R3783:3793 compcert.lib.Coqlib <> modusponens thm
+R3718:3728 compcert.lib.Coqlib <> modusponens thm
+R3651:3661 compcert.lib.Coqlib <> modusponens thm
+R3582:3592 compcert.lib.Coqlib <> modusponens thm
+R3511:3521 compcert.lib.Coqlib <> modusponens thm
+R3438:3448 compcert.lib.Coqlib <> modusponens thm
+R3363:3373 compcert.lib.Coqlib <> modusponens thm
+R3286:3296 compcert.lib.Coqlib <> modusponens thm
+R3207:3217 compcert.lib.Coqlib <> modusponens thm
+R3126:3136 compcert.lib.Coqlib <> modusponens thm
+R3043:3053 compcert.lib.Coqlib <> modusponens thm
+R2958:2968 compcert.lib.Coqlib <> modusponens thm
+R2871:2881 compcert.lib.Coqlib <> modusponens thm
+R2782:2792 compcert.lib.Coqlib <> modusponens thm
+R2691:2701 compcert.lib.Coqlib <> modusponens thm
+R2598:2608 compcert.lib.Coqlib <> modusponens thm
+R2503:2513 compcert.lib.Coqlib <> modusponens thm
+R2406:2416 compcert.lib.Coqlib <> modusponens thm
+R2307:2317 compcert.lib.Coqlib <> modusponens thm
+R2206:2216 compcert.lib.Coqlib <> modusponens thm
+R2103:2113 compcert.lib.Coqlib <> modusponens thm
+R1998:2008 compcert.lib.Coqlib <> modusponens thm
+def 4544:4546 <> peq
+R4562:4569 Coq.Numbers.BinNums <> positive ind
+binder 4557:4557 <> x:3
+binder 4559:4559 <> y:4
+R4573:4573 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4579:4583 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4590:4590 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4575:4577 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4574:4574 compcert.lib.Coqlib <> x:3 var
+R4578:4578 compcert.lib.Coqlib <> y:4 var
+R4585:4588 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4584:4584 compcert.lib.Coqlib <> x:3 var
+R4589:4589 compcert.lib.Coqlib <> y:4 var
+R4595:4604 Coq.PArith.BinPos Pos eq_dec defax
+R4621:4623 compcert.lib.Coqlib <> peq def
+prf 4633:4640 <> peq_true
+binder 4653:4653 <> A:5
+R4666:4673 Coq.Numbers.BinNums <> positive ind
+binder 4663:4663 <> x:6
+R4682:4682 compcert.lib.Coqlib <> A:5 var
+binder 4677:4677 <> a:7
+binder 4679:4679 <> b:8
+R4686:4686 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4711:4714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4690:4692 compcert.lib.Coqlib <> peq def
+R4694:4694 compcert.lib.Coqlib <> x:6 var
+R4696:4696 compcert.lib.Coqlib <> x:6 var
+R4710:4710 compcert.lib.Coqlib <> b:8 var
+R4703:4703 compcert.lib.Coqlib <> a:7 var
+R4715:4715 compcert.lib.Coqlib <> a:7 var
+R4741:4743 compcert.lib.Coqlib <> peq def
+R4741:4743 compcert.lib.Coqlib <> peq def
+prf 4795:4803 <> peq_false
+binder 4816:4816 <> A:9
+R4831:4838 Coq.Numbers.BinNums <> positive ind
+binder 4826:4826 <> x:10
+binder 4828:4828 <> y:11
+R4847:4847 compcert.lib.Coqlib <> A:9 var
+binder 4842:4842 <> a:12
+binder 4844:4844 <> b:13
+R4857:4860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4852:4855 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4851:4851 compcert.lib.Coqlib <> x:10 var
+R4856:4856 compcert.lib.Coqlib <> y:11 var
+R4861:4861 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4886:4889 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4865:4867 compcert.lib.Coqlib <> peq def
+R4869:4869 compcert.lib.Coqlib <> x:10 var
+R4871:4871 compcert.lib.Coqlib <> y:11 var
+R4885:4885 compcert.lib.Coqlib <> b:13 var
+R4878:4878 compcert.lib.Coqlib <> a:12 var
+R4890:4890 compcert.lib.Coqlib <> b:13 var
+R4916:4918 compcert.lib.Coqlib <> peq def
+R4916:4918 compcert.lib.Coqlib <> peq def
+def 4975:4977 <> Plt
+R4988:4991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4980:4987 Coq.Numbers.BinNums <> positive ind
+R5000:5003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4992:4999 Coq.Numbers.BinNums <> positive ind
+R5012:5017 Coq.PArith.BinPos Pos lt def
+prf 5027:5032 <> Plt_ne
+R5050:5057 Coq.Numbers.BinNums <> positive ind
+binder 5045:5045 <> x:14
+binder 5047:5047 <> y:15
+R5068:5071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5061:5063 compcert.lib.Coqlib <> Plt def
+R5065:5065 compcert.lib.Coqlib <> x:14 var
+R5067:5067 compcert.lib.Coqlib <> y:15 var
+R5073:5076 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5072:5072 compcert.lib.Coqlib <> x:14 var
+R5077:5077 compcert.lib.Coqlib <> y:15 var
+R5096:5098 compcert.lib.Coqlib <> Plt def
+R5136:5148 Coq.PArith.BinPos Pos lt_irrefl thm
+R5136:5148 Coq.PArith.BinPos Pos lt_irrefl thm
+prf 5206:5214 <> Plt_trans
+R5234:5241 Coq.Numbers.BinNums <> positive ind
+binder 5227:5227 <> x:16
+binder 5229:5229 <> y:17
+binder 5231:5231 <> z:18
+R5252:5255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5245:5247 compcert.lib.Coqlib <> Plt def
+R5249:5249 compcert.lib.Coqlib <> x:16 var
+R5251:5251 compcert.lib.Coqlib <> y:17 var
+R5263:5266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5256:5258 compcert.lib.Coqlib <> Plt def
+R5260:5260 compcert.lib.Coqlib <> y:17 var
+R5262:5262 compcert.lib.Coqlib <> z:18 var
+R5267:5269 compcert.lib.Coqlib <> Plt def
+R5271:5271 compcert.lib.Coqlib <> x:16 var
+R5273:5273 compcert.lib.Coqlib <> z:18 var
+R5283:5294 Coq.PArith.BinPos Pos lt_trans thm
+prf 5305:5312 <> Plt_succ
+R5328:5335 Coq.Numbers.BinNums <> positive ind
+binder 5325:5325 <> x:19
+R5339:5341 compcert.lib.Coqlib <> Plt def
+R5343:5343 compcert.lib.Coqlib <> x:19 var
+R5346:5353 Coq.PArith.BinPos Pos succ def
+R5355:5355 compcert.lib.Coqlib <> x:19 var
+R5375:5377 compcert.lib.Coqlib <> Plt def
+R5394:5406 Coq.PArith.BinPos Pos lt_succ_r thm
+R5394:5406 Coq.PArith.BinPos Pos lt_succ_r thm
+R5415:5425 Coq.PArith.BinPos Pos le_refl thm
+R5415:5425 Coq.PArith.BinPos Pos le_refl thm
+prf 5478:5491 <> Plt_trans_succ
+R5509:5516 Coq.Numbers.BinNums <> positive ind
+binder 5504:5504 <> x:20
+binder 5506:5506 <> y:21
+R5527:5530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5520:5522 compcert.lib.Coqlib <> Plt def
+R5524:5524 compcert.lib.Coqlib <> x:20 var
+R5526:5526 compcert.lib.Coqlib <> y:21 var
+R5531:5533 compcert.lib.Coqlib <> Plt def
+R5535:5535 compcert.lib.Coqlib <> x:20 var
+R5538:5545 Coq.PArith.BinPos Pos succ def
+R5547:5547 compcert.lib.Coqlib <> y:21 var
+R5574:5582 compcert.lib.Coqlib <> Plt_trans thm
+R5574:5582 compcert.lib.Coqlib <> Plt_trans thm
+R5610:5617 compcert.lib.Coqlib <> Plt_succ thm
+R5610:5617 compcert.lib.Coqlib <> Plt_succ thm
+prf 5670:5681 <> Plt_succ_inv
+R5699:5706 Coq.Numbers.BinNums <> positive ind
+binder 5694:5694 <> x:22
+binder 5696:5696 <> y:23
+R5728:5731 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5710:5712 compcert.lib.Coqlib <> Plt def
+R5714:5714 compcert.lib.Coqlib <> x:22 var
+R5717:5724 Coq.PArith.BinPos Pos succ def
+R5726:5726 compcert.lib.Coqlib <> y:23 var
+R5739:5742 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5732:5734 compcert.lib.Coqlib <> Plt def
+R5736:5736 compcert.lib.Coqlib <> x:22 var
+R5738:5738 compcert.lib.Coqlib <> y:23 var
+R5744:5746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5743:5743 compcert.lib.Coqlib <> x:22 var
+R5747:5747 compcert.lib.Coqlib <> y:23 var
+R5766:5768 compcert.lib.Coqlib <> Plt def
+R5787:5799 Coq.PArith.BinPos Pos lt_succ_r thm
+R5787:5799 Coq.PArith.BinPos Pos lt_succ_r thm
+R5787:5799 Coq.PArith.BinPos Pos lt_succ_r thm
+R5815:5825 Coq.PArith.BinPos Pos le_lteq prfax
+R5815:5825 Coq.PArith.BinPos Pos le_lteq prfax
+def 5851:5853 <> plt
+R5861:5868 Coq.Numbers.BinNums <> positive ind
+binder 5856:5856 <> x:24
+binder 5858:5858 <> y:25
+R5873:5873 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5881:5885 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5895:5895 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5874:5876 compcert.lib.Coqlib <> Plt def
+R5878:5878 compcert.lib.Coqlib <> x:24 var
+R5880:5880 compcert.lib.Coqlib <> y:25 var
+R5886:5887 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5888:5890 compcert.lib.Coqlib <> Plt def
+R5892:5892 compcert.lib.Coqlib <> x:24 var
+R5894:5894 compcert.lib.Coqlib <> y:25 var
+R5914:5916 compcert.lib.Coqlib <> Plt def
+R5919:5924 Coq.PArith.BinPos Pos lt def
+R5945:5955 Coq.PArith.BinPos Pos compare def
+R5945:5955 Coq.PArith.BinPos Pos compare def
+R6048:6050 compcert.lib.Coqlib <> plt def
+def 6065:6067 <> Ple
+R6078:6081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6070:6077 Coq.Numbers.BinNums <> positive ind
+R6090:6093 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6082:6089 Coq.Numbers.BinNums <> positive ind
+R6102:6107 Coq.PArith.BinPos Pos le def
+prf 6117:6124 <> Ple_refl
+R6138:6145 Coq.Numbers.BinNums <> positive ind
+binder 6135:6135 <> p:26
+R6149:6151 compcert.lib.Coqlib <> Ple def
+R6153:6153 compcert.lib.Coqlib <> p:26 var
+R6155:6155 compcert.lib.Coqlib <> p:26 var
+R6165:6175 Coq.PArith.BinPos Pos le_refl thm
+prf 6186:6194 <> Ple_trans
+R6212:6219 Coq.Numbers.BinNums <> positive ind
+binder 6205:6205 <> p:27
+binder 6207:6207 <> q:28
+binder 6209:6209 <> r:29
+R6230:6233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6223:6225 compcert.lib.Coqlib <> Ple def
+R6227:6227 compcert.lib.Coqlib <> p:27 var
+R6229:6229 compcert.lib.Coqlib <> q:28 var
+R6241:6244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6234:6236 compcert.lib.Coqlib <> Ple def
+R6238:6238 compcert.lib.Coqlib <> q:28 var
+R6240:6240 compcert.lib.Coqlib <> r:29 var
+R6245:6247 compcert.lib.Coqlib <> Ple def
+R6249:6249 compcert.lib.Coqlib <> p:27 var
+R6251:6251 compcert.lib.Coqlib <> r:29 var
+R6261:6272 Coq.PArith.BinPos Pos le_trans thm
+prf 6283:6289 <> Plt_Ple
+R6305:6312 Coq.Numbers.BinNums <> positive ind
+binder 6300:6300 <> p:30
+binder 6302:6302 <> q:31
+R6323:6326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6316:6318 compcert.lib.Coqlib <> Plt def
+R6320:6320 compcert.lib.Coqlib <> p:30 var
+R6322:6322 compcert.lib.Coqlib <> q:31 var
+R6327:6329 compcert.lib.Coqlib <> Ple def
+R6331:6331 compcert.lib.Coqlib <> p:30 var
+R6333:6333 compcert.lib.Coqlib <> q:31 var
+R6343:6356 Coq.PArith.BinPos Pos lt_le_incl thm
+prf 6367:6374 <> Ple_succ
+R6388:6395 Coq.Numbers.BinNums <> positive ind
+binder 6385:6385 <> p:32
+R6399:6401 compcert.lib.Coqlib <> Ple def
+R6403:6403 compcert.lib.Coqlib <> p:32 var
+R6406:6413 Coq.PArith.BinPos Pos succ def
+R6415:6415 compcert.lib.Coqlib <> p:32 var
+R6442:6448 compcert.lib.Coqlib <> Plt_Ple thm
+R6442:6448 compcert.lib.Coqlib <> Plt_Ple thm
+R6457:6464 compcert.lib.Coqlib <> Plt_succ thm
+R6457:6464 compcert.lib.Coqlib <> Plt_succ thm
+prf 6479:6491 <> Plt_Ple_trans
+R6511:6518 Coq.Numbers.BinNums <> positive ind
+binder 6504:6504 <> p:33
+binder 6506:6506 <> q:34
+binder 6508:6508 <> r:35
+R6529:6532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6522:6524 compcert.lib.Coqlib <> Plt def
+R6526:6526 compcert.lib.Coqlib <> p:33 var
+R6528:6528 compcert.lib.Coqlib <> q:34 var
+R6540:6543 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6533:6535 compcert.lib.Coqlib <> Ple def
+R6537:6537 compcert.lib.Coqlib <> q:34 var
+R6539:6539 compcert.lib.Coqlib <> r:35 var
+R6544:6546 compcert.lib.Coqlib <> Plt def
+R6548:6548 compcert.lib.Coqlib <> p:33 var
+R6550:6550 compcert.lib.Coqlib <> r:35 var
+R6560:6574 Coq.PArith.BinPos Pos lt_le_trans thm
+prf 6585:6594 <> Plt_strict
+binder 6604:6604 <> p:36
+R6607:6608 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6609:6611 compcert.lib.Coqlib <> Plt def
+R6613:6613 compcert.lib.Coqlib <> p:36 var
+R6615:6615 compcert.lib.Coqlib <> p:36 var
+R6625:6637 Coq.PArith.BinPos Pos lt_irrefl thm
+R6731:6733 compcert.lib.Coqlib <> Plt def
+R6736:6738 compcert.lib.Coqlib <> Ple def
+sec 6807:6824 <> POSITIVE_ITERATION
+prf 6834:6839 <> Plt_wf
+R6842:6853 Coq.Init.Wf <> well_founded def
+R6855:6857 compcert.lib.Coqlib <> Plt def
+R6903:6912 Coq.PArith.BinPos Pos to_nat def
+R6875:6896 Coq.Arith.Wf_nat <> well_founded_lt_compat thm
+R6903:6912 Coq.PArith.BinPos Pos to_nat def
+R6875:6896 Coq.Arith.Wf_nat <> well_founded_lt_compat thm
+R6931:6961 Coq.PArith.Pnat <> nat_of_P_lt_Lt_compare_morphism thm
+R6931:6961 Coq.PArith.Pnat <> nat_of_P_lt_Lt_compare_morphism thm
+var 6988:6988 POSITIVE_ITERATION A
+var 7006:7007 POSITIVE_ITERATION v1
+R7010:7010 compcert.lib.Coqlib <> POSITIVE_ITERATION.A var
+var 7022:7022 POSITIVE_ITERATION f
+R7033:7036 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7025:7032 Coq.Numbers.BinNums <> positive ind
+R7038:7041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7037:7037 compcert.lib.Coqlib <> POSITIVE_ITERATION.A var
+R7042:7042 compcert.lib.Coqlib <> POSITIVE_ITERATION.A var
+prf 7052:7060 <> Ppred_Plt
+binder 7072:7072 <> x:40
+R7082:7085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7076:7079 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7075:7075 compcert.lib.Coqlib <> x:40 var
+R7080:7081 Coq.Numbers.BinNums <> xH constr
+R7086:7088 compcert.lib.Coqlib <> Plt def
+R7091:7098 Coq.PArith.BinPos Pos pred def
+R7100:7100 compcert.lib.Coqlib <> x:40 var
+R7103:7103 compcert.lib.Coqlib <> x:40 var
+R7129:7144 Coq.PArith.BinPos Pos succ_pred_or thm
+R7129:7144 Coq.PArith.BinPos Pos succ_pred_or thm
+R7184:7191 Coq.PArith.BinPos Pos pred def
+R7184:7191 Coq.PArith.BinPos Pos pred def
+R7223:7230 compcert.lib.Coqlib <> Plt_succ thm
+R7223:7230 compcert.lib.Coqlib <> Plt_succ thm
+var 7243:7246 POSITIVE_ITERATION iter
+R7252:7259 Coq.Numbers.BinNums <> positive ind
+binder 7249:7249 <> x:41
+binder 7273:7273 <> y:42
+R7283:7286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7276:7278 compcert.lib.Coqlib <> Plt def
+R7280:7280 compcert.lib.Coqlib <> y:42 var
+R7282:7282 compcert.lib.Coqlib <> x:41 var
+R7287:7287 compcert.lib.Coqlib <> POSITIVE_ITERATION.A var
+binder 7263:7263 <> P:43
+R7292:7292 compcert.lib.Coqlib <> POSITIVE_ITERATION.A var
+R7305:7307 compcert.lib.Coqlib <> peq def
+R7309:7309 compcert.lib.Coqlib <> x:41 var
+R7311:7312 Coq.Numbers.BinNums <> xH constr
+R7323:7326 Coq.Init.Specif <> left constr
+R7334:7335 compcert.lib.Coqlib <> POSITIVE_ITERATION.v1 var
+R7341:7345 Coq.Init.Specif <> right constr
+R7356:7356 compcert.lib.Coqlib <> POSITIVE_ITERATION.f var
+R7359:7366 Coq.PArith.BinPos Pos pred def
+R7368:7368 compcert.lib.Coqlib <> x:41 var
+R7372:7372 compcert.lib.Coqlib <> P:43 var
+R7388:7396 compcert.lib.Coqlib <> Ppred_Plt thm
+R7398:7398 compcert.lib.Coqlib <> x:41 var
+R7375:7382 Coq.PArith.BinPos Pos pred def
+R7384:7384 compcert.lib.Coqlib <> x:41 var
+def 7427:7438 <> positive_rec
+R7450:7453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7442:7449 Coq.Numbers.BinNums <> positive ind
+R7454:7454 compcert.lib.Coqlib <> POSITIVE_ITERATION.A var
+R7461:7463 Coq.Init.Wf <> Fix def
+R7485:7488 compcert.lib.Coqlib <> POSITIVE_ITERATION.iter var
+R7482:7482 compcert.lib.Coqlib <> POSITIVE_ITERATION.A var
+R7465:7470 compcert.lib.Coqlib <> Plt_wf thm
+prf 7498:7516 <> unroll_positive_rec
+binder 7528:7528 <> x:44
+R7547:7549 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7533:7544 compcert.lib.Coqlib <> positive_rec def
+R7546:7546 compcert.lib.Coqlib <> x:44 var
+R7550:7553 compcert.lib.Coqlib <> POSITIVE_ITERATION.iter var
+R7555:7555 compcert.lib.Coqlib <> x:44 var
+binder 7562:7562 <> y:45
+R7569:7580 compcert.lib.Coqlib <> positive_rec def
+R7582:7582 compcert.lib.Coqlib <> y:45 var
+R7602:7613 compcert.lib.Coqlib <> positive_rec def
+R7623:7628 Coq.Init.Wf <> Fix_eq thm
+R7650:7653 compcert.lib.Coqlib <> POSITIVE_ITERATION.iter var
+R7647:7647 compcert.lib.Coqlib <> POSITIVE_ITERATION.A var
+R7630:7635 compcert.lib.Coqlib <> Plt_wf thm
+R7623:7628 Coq.Init.Wf <> Fix_eq thm
+R7650:7653 compcert.lib.Coqlib <> POSITIVE_ITERATION.iter var
+R7647:7647 compcert.lib.Coqlib <> POSITIVE_ITERATION.A var
+R7630:7635 compcert.lib.Coqlib <> Plt_wf thm
+R7674:7677 compcert.lib.Coqlib <> iter vardef
+R7686:7688 compcert.lib.Coqlib <> peq def
+R7686:7688 compcert.lib.Coqlib <> peq def
+prf 7737:7753 <> positive_rec_base
+R7781:7783 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7758:7769 compcert.lib.Coqlib <> positive_rec def
+R7784:7785 compcert.lib.Coqlib <> POSITIVE_ITERATION.v1 var
+R7805:7823 compcert.lib.Coqlib <> unroll_positive_rec thm
+R7805:7823 compcert.lib.Coqlib <> unroll_positive_rec thm
+R7805:7823 compcert.lib.Coqlib <> unroll_positive_rec thm
+R7833:7836 compcert.lib.Coqlib <> iter vardef
+R7845:7847 compcert.lib.Coqlib <> peq def
+R7845:7847 compcert.lib.Coqlib <> peq def
+prf 7896:7912 <> positive_rec_succ
+binder 7924:7924 <> x:46
+R7952:7954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7927:7938 compcert.lib.Coqlib <> positive_rec def
+R7941:7948 Coq.PArith.BinPos Pos succ def
+R7950:7950 compcert.lib.Coqlib <> x:46 var
+R7955:7955 compcert.lib.Coqlib <> POSITIVE_ITERATION.f var
+R7957:7957 compcert.lib.Coqlib <> x:46 var
+R7960:7971 compcert.lib.Coqlib <> positive_rec def
+R7973:7973 compcert.lib.Coqlib <> x:46 var
+R8001:8019 compcert.lib.Coqlib <> unroll_positive_rec thm
+R8001:8019 compcert.lib.Coqlib <> unroll_positive_rec thm
+R8001:8019 compcert.lib.Coqlib <> unroll_positive_rec thm
+R8029:8032 compcert.lib.Coqlib <> iter vardef
+R8043:8045 compcert.lib.Coqlib <> peq def
+R8048:8055 Coq.PArith.BinPos Pos succ def
+R8043:8045 compcert.lib.Coqlib <> peq def
+R8048:8055 Coq.PArith.BinPos Pos succ def
+R8121:8133 Coq.PArith.BinPos Pos pred_succ thm
+R8121:8133 Coq.PArith.BinPos Pos pred_succ thm
+R8121:8133 Coq.PArith.BinPos Pos pred_succ thm
+prf 8154:8171 <> positive_Peano_ind
+R8195:8198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8187:8194 Coq.Numbers.BinNums <> positive ind
+binder 8184:8184 <> P:47
+R8212:8217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8208:8208 compcert.lib.Coqlib <> P:47 var
+R8210:8211 Coq.Numbers.BinNums <> xH constr
+R8218:8218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8250:8256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8226:8226 <> x:48
+R8232:8235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8229:8229 compcert.lib.Coqlib <> P:47 var
+R8231:8231 compcert.lib.Coqlib <> x:48 var
+R8236:8236 compcert.lib.Coqlib <> P:47 var
+R8239:8246 Coq.PArith.BinPos Pos succ def
+R8248:8248 compcert.lib.Coqlib <> x:48 var
+binder 8264:8264 <> x:49
+R8267:8267 compcert.lib.Coqlib <> P:47 var
+R8269:8269 compcert.lib.Coqlib <> x:49 var
+R8298:8313 Coq.Init.Wf <> well_founded_ind thm
+R8315:8320 compcert.lib.Coqlib <> Plt_wf thm
+R8298:8313 Coq.Init.Wf <> well_founded_ind thm
+R8315:8320 compcert.lib.Coqlib <> Plt_wf thm
+R8344:8346 compcert.lib.Coqlib <> peq def
+R8351:8352 Coq.Numbers.BinNums <> xH constr
+R8344:8346 compcert.lib.Coqlib <> peq def
+R8351:8352 Coq.Numbers.BinNums <> xH constr
+R8389:8404 Coq.PArith.BinPos Pos succ_pred_or thm
+R8389:8404 Coq.PArith.BinPos Pos succ_pred_or thm
+R8476:8484 compcert.lib.Coqlib <> Ppred_Plt thm
+R8476:8484 compcert.lib.Coqlib <> Ppred_Plt thm
+R8503:8520 compcert.lib.Coqlib POSITIVE_ITERATION <> sec
+def 8588:8590 <> zeq
+R8606:8606 Coq.Numbers.BinNums <> Z ind
+binder 8601:8601 <> x:50
+binder 8603:8603 <> y:51
+R8610:8610 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8616:8620 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8627:8627 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8612:8614 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8611:8611 compcert.lib.Coqlib <> x:50 var
+R8615:8615 compcert.lib.Coqlib <> y:51 var
+R8622:8625 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8621:8621 compcert.lib.Coqlib <> x:50 var
+R8626:8626 compcert.lib.Coqlib <> y:51 var
+R8632:8639 Coq.ZArith.BinInt Z eq_dec def
+prf 8649:8656 <> zeq_true
+binder 8669:8669 <> A:52
+R8682:8682 Coq.Numbers.BinNums <> Z ind
+binder 8679:8679 <> x:53
+R8691:8691 compcert.lib.Coqlib <> A:52 var
+binder 8686:8686 <> a:54
+binder 8688:8688 <> b:55
+R8695:8695 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8720:8723 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8699:8701 compcert.lib.Coqlib <> zeq def
+R8703:8703 compcert.lib.Coqlib <> x:53 var
+R8705:8705 compcert.lib.Coqlib <> x:53 var
+R8719:8719 compcert.lib.Coqlib <> b:55 var
+R8712:8712 compcert.lib.Coqlib <> a:54 var
+R8724:8724 compcert.lib.Coqlib <> a:54 var
+R8750:8752 compcert.lib.Coqlib <> zeq def
+R8750:8752 compcert.lib.Coqlib <> zeq def
+prf 8804:8812 <> zeq_false
+binder 8825:8825 <> A:56
+R8840:8840 Coq.Numbers.BinNums <> Z ind
+binder 8835:8835 <> x:57
+binder 8837:8837 <> y:58
+R8849:8849 compcert.lib.Coqlib <> A:56 var
+binder 8844:8844 <> a:59
+binder 8846:8846 <> b:60
+R8859:8862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8854:8857 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8853:8853 compcert.lib.Coqlib <> x:57 var
+R8858:8858 compcert.lib.Coqlib <> y:58 var
+R8863:8863 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8888:8891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8867:8869 compcert.lib.Coqlib <> zeq def
+R8871:8871 compcert.lib.Coqlib <> x:57 var
+R8873:8873 compcert.lib.Coqlib <> y:58 var
+R8887:8887 compcert.lib.Coqlib <> b:60 var
+R8880:8880 compcert.lib.Coqlib <> a:59 var
+R8892:8892 compcert.lib.Coqlib <> b:60 var
+R8918:8920 compcert.lib.Coqlib <> zeq def
+R8918:8920 compcert.lib.Coqlib <> zeq def
+def 8998:9000 <> zlt
+R9016:9016 Coq.Numbers.BinNums <> Z ind
+binder 9011:9011 <> x:61
+binder 9013:9013 <> y:62
+R9020:9020 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9026:9030 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9037:9037 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9022:9024 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R9021:9021 compcert.lib.Coqlib <> x:61 var
+R9025:9025 compcert.lib.Coqlib <> y:62 var
+R9032:9035 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R9031:9031 compcert.lib.Coqlib <> x:61 var
+R9036:9036 compcert.lib.Coqlib <> y:62 var
+R9042:9049 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+prf 9059:9066 <> zlt_true
+binder 9079:9079 <> A:63
+R9094:9094 Coq.Numbers.BinNums <> Z ind
+binder 9089:9089 <> x:64
+binder 9091:9091 <> y:65
+R9103:9103 compcert.lib.Coqlib <> A:63 var
+binder 9098:9098 <> a:66
+binder 9100:9100 <> b:67
+R9114:9117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9110:9112 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R9109:9109 compcert.lib.Coqlib <> x:64 var
+R9113:9113 compcert.lib.Coqlib <> y:65 var
+R9118:9118 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9143:9146 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9122:9124 compcert.lib.Coqlib <> zlt def
+R9126:9126 compcert.lib.Coqlib <> x:64 var
+R9128:9128 compcert.lib.Coqlib <> y:65 var
+R9142:9142 compcert.lib.Coqlib <> b:67 var
+R9135:9135 compcert.lib.Coqlib <> a:66 var
+R9147:9147 compcert.lib.Coqlib <> a:66 var
+R9173:9175 compcert.lib.Coqlib <> zlt def
+R9173:9175 compcert.lib.Coqlib <> zlt def
+prf 9221:9229 <> zlt_false
+binder 9242:9242 <> A:68
+R9257:9257 Coq.Numbers.BinNums <> Z ind
+binder 9252:9252 <> x:69
+binder 9254:9254 <> y:70
+R9266:9266 compcert.lib.Coqlib <> A:68 var
+binder 9261:9261 <> a:71
+binder 9263:9263 <> b:72
+R9278:9281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9273:9276 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R9272:9272 compcert.lib.Coqlib <> x:69 var
+R9277:9277 compcert.lib.Coqlib <> y:70 var
+R9282:9282 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9307:9310 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9286:9288 compcert.lib.Coqlib <> zlt def
+R9290:9290 compcert.lib.Coqlib <> x:69 var
+R9292:9292 compcert.lib.Coqlib <> y:70 var
+R9306:9306 compcert.lib.Coqlib <> b:72 var
+R9299:9299 compcert.lib.Coqlib <> a:71 var
+R9311:9311 compcert.lib.Coqlib <> b:72 var
+R9337:9339 compcert.lib.Coqlib <> zlt def
+R9337:9339 compcert.lib.Coqlib <> zlt def
+def 9390:9392 <> zle
+R9408:9408 Coq.Numbers.BinNums <> Z ind
+binder 9403:9403 <> x:73
+binder 9405:9405 <> y:74
+R9412:9412 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9419:9423 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9429:9429 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9414:9417 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9413:9413 compcert.lib.Coqlib <> x:73 var
+R9418:9418 compcert.lib.Coqlib <> y:74 var
+R9425:9427 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R9424:9424 compcert.lib.Coqlib <> x:73 var
+R9428:9428 compcert.lib.Coqlib <> y:74 var
+R9434:9444 Coq.ZArith.ZArith_dec <> Z_le_gt_dec def
+prf 9454:9461 <> zle_true
+binder 9474:9474 <> A:75
+R9489:9489 Coq.Numbers.BinNums <> Z ind
+binder 9484:9484 <> x:76
+binder 9486:9486 <> y:77
+R9498:9498 compcert.lib.Coqlib <> A:75 var
+binder 9493:9493 <> a:78
+binder 9495:9495 <> b:79
+R9510:9513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9505:9508 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9504:9504 compcert.lib.Coqlib <> x:76 var
+R9509:9509 compcert.lib.Coqlib <> y:77 var
+R9514:9514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9539:9542 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9518:9520 compcert.lib.Coqlib <> zle def
+R9522:9522 compcert.lib.Coqlib <> x:76 var
+R9524:9524 compcert.lib.Coqlib <> y:77 var
+R9538:9538 compcert.lib.Coqlib <> b:79 var
+R9531:9531 compcert.lib.Coqlib <> a:78 var
+R9543:9543 compcert.lib.Coqlib <> a:78 var
+R9569:9571 compcert.lib.Coqlib <> zle def
+R9569:9571 compcert.lib.Coqlib <> zle def
+prf 9617:9625 <> zle_false
+binder 9638:9638 <> A:80
+R9653:9653 Coq.Numbers.BinNums <> Z ind
+binder 9648:9648 <> x:81
+binder 9650:9650 <> y:82
+R9662:9662 compcert.lib.Coqlib <> A:80 var
+binder 9657:9657 <> a:83
+binder 9659:9659 <> b:84
+R9673:9676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9669:9671 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R9668:9668 compcert.lib.Coqlib <> x:81 var
+R9672:9672 compcert.lib.Coqlib <> y:82 var
+R9677:9677 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9702:9705 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9681:9683 compcert.lib.Coqlib <> zle def
+R9685:9685 compcert.lib.Coqlib <> x:81 var
+R9687:9687 compcert.lib.Coqlib <> y:82 var
+R9701:9701 compcert.lib.Coqlib <> b:84 var
+R9694:9694 compcert.lib.Coqlib <> a:83 var
+R9706:9706 compcert.lib.Coqlib <> b:84 var
+R9732:9734 compcert.lib.Coqlib <> zle def
+R9732:9734 compcert.lib.Coqlib <> zle def
+prf 9817:9831 <> two_power_nat_O
+R9850:9852 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9835:9847 Coq.ZArith.Zpower <> two_power_nat def
+R9849:9849 Coq.Init.Datatypes <> O constr
+prf 9888:9904 <> two_power_nat_pos
+R9919:9921 Coq.Init.Datatypes <> nat ind
+binder 9915:9915 <> n:85
+R9939:9941 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R9924:9936 Coq.ZArith.Zpower <> two_power_nat def
+R9938:9938 compcert.lib.Coqlib <> n:85 var
+R9975:9989 compcert.lib.Coqlib <> two_power_nat_O thm
+R9975:9989 compcert.lib.Coqlib <> two_power_nat_O thm
+R9975:9989 compcert.lib.Coqlib <> two_power_nat_O thm
+R10007:10021 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10007:10021 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10007:10021 Coq.ZArith.Zpower <> two_power_nat_S thm
+prf 10041:10059 <> two_power_nat_two_p
+binder 10071:10071 <> x:86
+R10089:10091 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10074:10086 Coq.ZArith.Zpower <> two_power_nat def
+R10088:10088 compcert.lib.Coqlib <> x:86 var
+R10092:10096 Coq.ZArith.Zpower <> two_p def
+R10099:10106 Coq.ZArith.BinInt Z of_nat def
+R10108:10108 compcert.lib.Coqlib <> x:86 var
+R10150:10164 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10150:10164 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10150:10164 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10175:10188 Coq.ZArith.Znat Nat2Z inj_succ thm
+R10175:10188 Coq.ZArith.Znat Nat2Z inj_succ thm
+R10175:10188 Coq.ZArith.Znat Nat2Z inj_succ thm
+R10199:10205 Coq.ZArith.Zpower <> two_p_S thm
+R10199:10205 Coq.ZArith.Zpower <> two_p_S thm
+R10199:10205 Coq.ZArith.Zpower <> two_p_S thm
+R10199:10205 Coq.ZArith.Zpower <> two_p_S thm
+prf 10230:10243 <> two_p_monotone
+binder 10255:10255 <> x:87
+binder 10257:10257 <> y:88
+R10271:10274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10261:10264 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R10266:10269 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R10265:10265 compcert.lib.Coqlib <> x:87 var
+R10265:10265 compcert.lib.Coqlib <> x:87 var
+R10270:10270 compcert.lib.Coqlib <> y:88 var
+R10282:10285 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R10275:10279 Coq.ZArith.Zpower <> two_p def
+R10281:10281 compcert.lib.Coqlib <> x:87 var
+R10286:10290 Coq.ZArith.Zpower <> two_p def
+R10292:10292 compcert.lib.Coqlib <> y:88 var
+R10323:10327 Coq.ZArith.Zpower <> two_p def
+R10345:10347 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10338:10342 Coq.ZArith.Zpower <> two_p def
+R10323:10327 Coq.ZArith.Zpower <> two_p def
+R10345:10347 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10338:10342 Coq.ZArith.Zpower <> two_p def
+R10378:10381 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10387:10387 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10383:10385 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10378:10381 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10387:10387 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10383:10385 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10408:10419 Coq.ZArith.Zpower <> two_p_is_exp thm
+R10408:10419 Coq.ZArith.Zpower <> two_p_is_exp thm
+R10408:10419 Coq.ZArith.Zpower <> two_p_is_exp thm
+R10408:10419 Coq.ZArith.Zpower <> two_p_is_exp thm
+R10408:10419 Coq.ZArith.Zpower <> two_p_is_exp thm
+R10439:10455 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R10439:10455 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R10481:10483 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R10468:10472 Coq.ZArith.Zpower <> two_p def
+R10476:10478 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10481:10483 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R10468:10472 Coq.ZArith.Zpower <> two_p def
+R10476:10478 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10494:10506 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R10494:10506 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R10536:10538 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R10529:10533 Coq.ZArith.Zpower <> two_p def
+R10536:10538 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R10529:10533 Coq.ZArith.Zpower <> two_p def
+R10549:10561 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R10549:10561 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+prf 10586:10606 <> two_p_monotone_strict
+binder 10618:10618 <> x:89
+binder 10620:10620 <> y:90
+R10633:10636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10624:10627 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R10629:10631 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R10628:10628 compcert.lib.Coqlib <> x:89 var
+R10628:10628 compcert.lib.Coqlib <> x:89 var
+R10632:10632 compcert.lib.Coqlib <> y:90 var
+R10644:10646 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R10637:10641 Coq.ZArith.Zpower <> two_p def
+R10643:10643 compcert.lib.Coqlib <> x:89 var
+R10647:10651 Coq.ZArith.Zpower <> two_p def
+R10653:10653 compcert.lib.Coqlib <> y:90 var
+R10688:10691 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R10681:10685 Coq.ZArith.Zpower <> two_p def
+R10692:10696 Coq.ZArith.Zpower <> two_p def
+R10700:10702 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10688:10691 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R10681:10685 Coq.ZArith.Zpower <> two_p def
+R10692:10696 Coq.ZArith.Zpower <> two_p def
+R10700:10702 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10714:10727 compcert.lib.Coqlib <> two_p_monotone thm
+R10714:10727 compcert.lib.Coqlib <> two_p_monotone thm
+R10758:10760 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R10745:10749 Coq.ZArith.Zpower <> two_p def
+R10753:10755 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10758:10760 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R10745:10749 Coq.ZArith.Zpower <> two_p def
+R10753:10755 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10771:10783 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R10771:10783 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R10809:10814 Coq.ZArith.BinInt Z succ def
+R10818:10820 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10809:10814 Coq.ZArith.BinInt Z succ def
+R10818:10820 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10841:10847 Coq.ZArith.Zpower <> two_p_S thm
+R10841:10847 Coq.ZArith.Zpower <> two_p_S thm
+R10841:10847 Coq.ZArith.Zpower <> two_p_S thm
+R10841:10847 Coq.ZArith.Zpower <> two_p_S thm
+prf 10872:10883 <> two_p_strict
+binder 10895:10895 <> x:91
+R10904:10907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10899:10902 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R10898:10898 compcert.lib.Coqlib <> x:91 var
+R10909:10911 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R10908:10908 compcert.lib.Coqlib <> x:91 var
+R10912:10916 Coq.ZArith.Zpower <> two_p def
+R10918:10918 compcert.lib.Coqlib <> x:91 var
+R10962:10972 Coq.ZArith.Wf_Z <> natlike_ind thm
+R10962:10972 Coq.ZArith.Wf_Z <> natlike_ind thm
+R11007:11013 Coq.ZArith.Zpower <> two_p_S thm
+R11007:11013 Coq.ZArith.Zpower <> two_p_S thm
+R11007:11013 Coq.ZArith.Zpower <> two_p_S thm
+R11007:11013 Coq.ZArith.Zpower <> two_p_S thm
+R11034:11046 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R11034:11046 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+prf 11078:11091 <> two_p_strict_2
+binder 11103:11103 <> x:92
+R11112:11115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11107:11110 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R11106:11106 compcert.lib.Coqlib <> x:92 var
+R11125:11127 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R11121:11123 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11117:11119 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R11120:11120 compcert.lib.Coqlib <> x:92 var
+R11128:11132 Coq.ZArith.Zpower <> two_p def
+R11134:11134 compcert.lib.Coqlib <> x:92 var
+R11167:11170 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11163:11165 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11176:11179 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R11172:11174 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11167:11170 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11163:11165 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11176:11179 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R11172:11174 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11242:11246 Coq.ZArith.Zpower <> two_p def
+R11258:11260 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R11261:11265 Coq.ZArith.Zpower <> two_p def
+R11269:11271 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11242:11246 Coq.ZArith.Zpower <> two_p def
+R11258:11260 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R11261:11265 Coq.ZArith.Zpower <> two_p def
+R11269:11271 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11291:11302 compcert.lib.Coqlib <> two_p_strict thm
+R11291:11302 compcert.lib.Coqlib <> two_p_strict thm
+R11329:11335 Coq.ZArith.Zpower <> two_p_S thm
+R11329:11335 Coq.ZArith.Zpower <> two_p_S thm
+R11329:11335 Coq.ZArith.Zpower <> two_p_S thm
+R11329:11335 Coq.ZArith.Zpower <> two_p_S thm
+prf 11407:11415 <> Zmin_spec
+binder 11427:11427 <> x:93
+binder 11429:11429 <> y:94
+R11441:11443 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11432:11436 Coq.ZArith.BinInt Z min def
+R11438:11438 compcert.lib.Coqlib <> x:93 var
+R11440:11440 compcert.lib.Coqlib <> y:94 var
+R11447:11449 compcert.lib.Coqlib <> zlt def
+R11451:11451 compcert.lib.Coqlib <> x:93 var
+R11453:11453 compcert.lib.Coqlib <> y:94 var
+R11467:11467 compcert.lib.Coqlib <> y:94 var
+R11460:11460 compcert.lib.Coqlib <> x:93 var
+R11493:11495 compcert.lib.Coqlib <> zlt def
+R11510:11513 Coq.ZArith.BinInt Z lt def
+R11516:11519 Coq.ZArith.BinInt Z ge def
+R11493:11495 compcert.lib.Coqlib <> zlt def
+R11540:11544 Coq.ZArith.BinInt Z min def
+R11573:11577 Coq.ZArith.BinInt Z min def
+R11589:11592 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R11589:11592 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R11612:11623 Coq.ZArith.BinInt Z compare_eq thm
+R11612:11623 Coq.ZArith.BinInt Z compare_eq thm
+prf 11676:11684 <> Zmax_spec
+binder 11696:11696 <> x:95
+binder 11698:11698 <> y:96
+R11710:11712 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11701:11705 Coq.ZArith.BinInt Z max def
+R11707:11707 compcert.lib.Coqlib <> x:95 var
+R11709:11709 compcert.lib.Coqlib <> y:96 var
+R11716:11718 compcert.lib.Coqlib <> zlt def
+R11720:11720 compcert.lib.Coqlib <> y:96 var
+R11722:11722 compcert.lib.Coqlib <> x:95 var
+R11736:11736 compcert.lib.Coqlib <> y:96 var
+R11729:11729 compcert.lib.Coqlib <> x:95 var
+R11762:11764 compcert.lib.Coqlib <> zlt def
+R11779:11782 Coq.ZArith.BinInt Z lt def
+R11785:11788 Coq.ZArith.BinInt Z ge def
+R11762:11764 compcert.lib.Coqlib <> zlt def
+R11809:11813 Coq.ZArith.BinInt Z max def
+R11828:11843 Coq.ZArith.Zcompare <> Zcompare_antisym thm
+R11828:11843 Coq.ZArith.Zcompare <> Zcompare_antisym thm
+R11828:11843 Coq.ZArith.Zcompare <> Zcompare_antisym thm
+R11886:11890 Coq.ZArith.BinInt Z max def
+R11905:11920 Coq.ZArith.Zcompare <> Zcompare_antisym thm
+R11905:11920 Coq.ZArith.Zcompare <> Zcompare_antisym thm
+R11905:11920 Coq.ZArith.Zcompare <> Zcompare_antisym thm
+R11939:11942 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R11939:11942 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R11979:11990 Coq.ZArith.BinInt Z compare_eq thm
+R11979:11990 Coq.ZArith.BinInt Z compare_eq thm
+prf 12041:12052 <> Zmax_bound_l
+binder 12064:12064 <> x:97
+binder 12066:12066 <> y:98
+binder 12068:12068 <> z:99
+R12077:12080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12072:12075 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R12071:12071 compcert.lib.Coqlib <> x:97 var
+R12076:12076 compcert.lib.Coqlib <> y:98 var
+R12082:12085 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R12081:12081 compcert.lib.Coqlib <> x:97 var
+R12086:12090 Coq.ZArith.BinInt Z max def
+R12092:12092 compcert.lib.Coqlib <> y:98 var
+R12094:12094 compcert.lib.Coqlib <> z:99 var
+R12126:12135 Coq.ZArith.BinInt Z le_max_l thm
+R12126:12135 Coq.ZArith.BinInt Z le_max_l thm
+prf 12159:12170 <> Zmax_bound_r
+binder 12182:12182 <> x:100
+binder 12184:12184 <> y:101
+binder 12186:12186 <> z:102
+R12195:12198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12190:12193 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R12189:12189 compcert.lib.Coqlib <> x:100 var
+R12194:12194 compcert.lib.Coqlib <> z:102 var
+R12200:12203 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R12199:12199 compcert.lib.Coqlib <> x:100 var
+R12204:12208 Coq.ZArith.BinInt Z max def
+R12210:12210 compcert.lib.Coqlib <> y:101 var
+R12212:12212 compcert.lib.Coqlib <> z:102 var
+R12244:12253 Coq.ZArith.BinInt Z le_max_r thm
+R12244:12253 Coq.ZArith.BinInt Z le_max_r thm
+prf 12332:12343 <> Z_div_mod_eq
+binder 12353:12353 <> a:103
+binder 12355:12355 <> b:104
+R12365:12368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12361:12363 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R12360:12360 compcert.lib.Coqlib <> b:104 var
+R12370:12373 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12395:12395 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12369:12369 compcert.lib.Coqlib <> a:103 var
+R12385:12387 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12375:12378 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R12384:12384 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R12374:12374 compcert.lib.Coqlib <> b:104 var
+R12380:12382 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R12379:12379 compcert.lib.Coqlib <> a:103 var
+R12383:12383 compcert.lib.Coqlib <> b:104 var
+R12389:12393 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R12388:12388 compcert.lib.Coqlib <> a:103 var
+R12394:12394 compcert.lib.Coqlib <> b:104 var
+R12421:12429 Coq.ZArith.BinInt Z div_mod thm
+R12421:12429 Coq.ZArith.BinInt Z div_mod thm
+prf 12449:12459 <> Zmod_unique
+binder 12471:12471 <> x:105
+binder 12473:12473 <> y:106
+binder 12475:12475 <> a:107
+binder 12477:12477 <> b:108
+R12495:12498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12483:12485 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12482:12482 compcert.lib.Coqlib <> x:105 var
+R12491:12493 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12487:12489 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R12486:12486 compcert.lib.Coqlib <> a:107 var
+R12490:12490 compcert.lib.Coqlib <> y:106 var
+R12494:12494 compcert.lib.Coqlib <> b:108 var
+R12509:12512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12500:12503 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12505:12507 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12504:12504 compcert.lib.Coqlib <> b:108 var
+R12504:12504 compcert.lib.Coqlib <> b:108 var
+R12508:12508 compcert.lib.Coqlib <> y:106 var
+R12520:12522 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12514:12518 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R12513:12513 compcert.lib.Coqlib <> x:105 var
+R12519:12519 compcert.lib.Coqlib <> y:106 var
+R12523:12523 compcert.lib.Coqlib <> b:108 var
+R12560:12569 Coq.ZArith.BinInt Z add_comm thm
+R12560:12569 Coq.ZArith.BinInt Z add_comm thm
+R12560:12569 Coq.ZArith.BinInt Z add_comm thm
+R12582:12591 Coq.ZArith.Zdiv <> Z_mod_plus thm
+R12582:12591 Coq.ZArith.Zdiv <> Z_mod_plus thm
+R12582:12591 Coq.ZArith.Zdiv <> Z_mod_plus thm
+R12582:12591 Coq.ZArith.Zdiv <> Z_mod_plus thm
+R12600:12610 Coq.ZArith.BinInt Z mod_small thm
+R12600:12610 Coq.ZArith.BinInt Z mod_small thm
+prf 12636:12646 <> Zdiv_unique
+binder 12658:12658 <> x:109
+binder 12660:12660 <> y:110
+binder 12662:12662 <> a:111
+binder 12664:12664 <> b:112
+R12682:12685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12670:12672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12669:12669 compcert.lib.Coqlib <> x:109 var
+R12678:12680 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12674:12676 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R12673:12673 compcert.lib.Coqlib <> a:111 var
+R12677:12677 compcert.lib.Coqlib <> y:110 var
+R12681:12681 compcert.lib.Coqlib <> b:112 var
+R12696:12699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12687:12690 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12692:12694 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12691:12691 compcert.lib.Coqlib <> b:112 var
+R12691:12691 compcert.lib.Coqlib <> b:112 var
+R12695:12695 compcert.lib.Coqlib <> y:110 var
+R12705:12707 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12701:12703 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R12700:12700 compcert.lib.Coqlib <> x:109 var
+R12704:12704 compcert.lib.Coqlib <> y:110 var
+R12708:12708 compcert.lib.Coqlib <> a:111 var
+R12745:12754 Coq.ZArith.BinInt Z add_comm thm
+R12745:12754 Coq.ZArith.BinInt Z add_comm thm
+R12745:12754 Coq.ZArith.BinInt Z add_comm thm
+R12767:12776 Coq.ZArith.Zdiv <> Z_div_plus thm
+R12767:12776 Coq.ZArith.Zdiv <> Z_div_plus thm
+R12767:12776 Coq.ZArith.Zdiv <> Z_div_plus thm
+R12767:12776 Coq.ZArith.Zdiv <> Z_div_plus thm
+R12788:12797 Coq.ZArith.Zdiv <> Zdiv_small thm
+R12788:12797 Coq.ZArith.Zdiv <> Zdiv_small thm
+R12788:12797 Coq.ZArith.Zdiv <> Zdiv_small thm
+prf 12830:12838 <> Zdiv_Zdiv
+binder 12850:12850 <> a:113
+binder 12852:12852 <> b:114
+binder 12854:12854 <> c:115
+R12864:12867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12860:12862 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R12859:12859 compcert.lib.Coqlib <> b:114 var
+R12873:12876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12869:12871 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R12868:12868 compcert.lib.Coqlib <> c:115 var
+R12888:12890 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12877:12877 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R12883:12886 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R12879:12881 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R12878:12878 compcert.lib.Coqlib <> a:113 var
+R12882:12882 compcert.lib.Coqlib <> b:114 var
+R12887:12887 compcert.lib.Coqlib <> c:115 var
+R12892:12895 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R12901:12901 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R12891:12891 compcert.lib.Coqlib <> a:113 var
+R12897:12899 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R12896:12896 compcert.lib.Coqlib <> b:114 var
+R12900:12900 compcert.lib.Coqlib <> c:115 var
+R12927:12935 Coq.ZArith.BinInt Z div_div thm
+R12927:12935 Coq.ZArith.BinInt Z div_div thm
+prf 12955:12969 <> Zdiv_interval_1
+binder 12981:12982 <> lo:116
+binder 12984:12985 <> hi:117
+binder 12987:12987 <> a:118
+binder 12989:12989 <> b:119
+R13001:13004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12996:12999 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R12994:12995 compcert.lib.Coqlib <> lo:116 var
+R13011:13014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13007:13009 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R13005:13006 compcert.lib.Coqlib <> hi:117 var
+R13020:13025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13016:13018 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R13015:13015 compcert.lib.Coqlib <> b:119 var
+R13046:13051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13032:13035 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R13037:13039 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R13028:13030 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13026:13027 compcert.lib.Coqlib <> lo:116 var
+R13031:13031 compcert.lib.Coqlib <> b:119 var
+R13036:13036 compcert.lib.Coqlib <> a:118 var
+R13036:13036 compcert.lib.Coqlib <> a:118 var
+R13042:13044 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13040:13041 compcert.lib.Coqlib <> hi:117 var
+R13045:13045 compcert.lib.Coqlib <> b:119 var
+R13054:13057 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R13061:13063 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R13052:13053 compcert.lib.Coqlib <> lo:116 var
+R13059:13059 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13058:13058 compcert.lib.Coqlib <> a:118 var
+R13060:13060 compcert.lib.Coqlib <> b:119 var
+R13059:13059 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13058:13058 compcert.lib.Coqlib <> a:118 var
+R13060:13060 compcert.lib.Coqlib <> b:119 var
+R13064:13065 compcert.lib.Coqlib <> hi:117 var
+R13099:13110 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R13099:13110 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R13133:13140 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R13133:13140 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R13172:13172 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13172:13172 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13193:13197 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13193:13197 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13228:13231 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13237:13237 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13233:13235 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13228:13231 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13237:13237 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R13233:13235 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13249:13262 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R13249:13262 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R13285:13297 Coq.ZArith.BinInt Z le_lt_trans thm
+R13285:13297 Coq.ZArith.BinInt Z le_lt_trans thm
+R13323:13323 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13329:13332 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13325:13327 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13347:13349 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13343:13345 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13323:13323 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13329:13332 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13325:13327 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13347:13349 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13343:13345 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13384:13397 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R13384:13397 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R13424:13426 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13437:13439 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13424:13426 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13437:13439 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+prf 13471:13485 <> Zdiv_interval_2
+binder 13497:13498 <> lo:120
+binder 13500:13501 <> hi:121
+binder 13503:13503 <> a:122
+binder 13505:13505 <> b:123
+R13523:13526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13512:13515 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R13517:13520 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R13510:13511 compcert.lib.Coqlib <> lo:120 var
+R13516:13516 compcert.lib.Coqlib <> a:122 var
+R13516:13516 compcert.lib.Coqlib <> a:122 var
+R13521:13522 compcert.lib.Coqlib <> hi:121 var
+R13534:13537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13529:13532 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13527:13528 compcert.lib.Coqlib <> lo:120 var
+R13545:13548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13540:13543 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R13538:13539 compcert.lib.Coqlib <> hi:121 var
+R13554:13559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13550:13552 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R13549:13549 compcert.lib.Coqlib <> b:123 var
+R13562:13565 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R13569:13572 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R13560:13561 compcert.lib.Coqlib <> lo:120 var
+R13567:13567 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13566:13566 compcert.lib.Coqlib <> a:122 var
+R13568:13568 compcert.lib.Coqlib <> b:123 var
+R13567:13567 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13566:13566 compcert.lib.Coqlib <> a:122 var
+R13568:13568 compcert.lib.Coqlib <> b:123 var
+R13573:13574 compcert.lib.Coqlib <> hi:121 var
+R13606:13609 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R13615:13617 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R13611:13613 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13611:13613 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13620:13620 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13606:13609 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R13615:13617 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R13611:13613 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13611:13613 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R13620:13620 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13633:13647 compcert.lib.Coqlib <> Zdiv_interval_1 thm
+R13633:13647 compcert.lib.Coqlib <> Zdiv_interval_1 thm
+R13682:13685 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13678:13680 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13688:13690 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13704:13725 Coq.ZArith.BinInt Z mul_le_mono_nonpos_l thm
+R13682:13685 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13678:13680 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13688:13690 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13704:13725 Coq.ZArith.BinInt Z mul_le_mono_nonpos_l thm
+R13747:13749 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13747:13749 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13798:13801 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13786:13786 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13793:13796 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13789:13791 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13802:13802 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13809:13812 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13805:13807 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13826:13847 Coq.ZArith.BinInt Z mul_le_mono_nonneg_l thm
+R13798:13801 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13786:13786 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13793:13796 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13789:13791 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13802:13802 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13809:13812 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13805:13807 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13826:13847 Coq.ZArith.BinInt Z mul_le_mono_nonneg_l thm
+R13867:13867 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13874:13877 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13870:13872 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13889:13891 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13867:13867 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13874:13877 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13870:13872 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13889:13891 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+prf 13936:13949 <> Zmod_recombine
+binder 13961:13961 <> x:124
+binder 13963:13963 <> a:125
+binder 13965:13965 <> b:126
+R13975:13978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13971:13973 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R13970:13970 compcert.lib.Coqlib <> a:125 var
+R13984:13989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13980:13982 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R13979:13979 compcert.lib.Coqlib <> b:126 var
+R14003:14005 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13991:13996 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14002:14002 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13990:13990 compcert.lib.Coqlib <> x:124 var
+R13998:14000 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R13997:13997 compcert.lib.Coqlib <> a:125 var
+R14001:14001 compcert.lib.Coqlib <> b:126 var
+R14023:14026 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14034:14034 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14006:14006 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14018:14021 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14007:14007 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14011:14016 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14009:14009 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R14008:14008 compcert.lib.Coqlib <> x:124 var
+R14010:14010 compcert.lib.Coqlib <> b:126 var
+R14017:14017 compcert.lib.Coqlib <> a:125 var
+R14022:14022 compcert.lib.Coqlib <> b:126 var
+R14028:14032 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14027:14027 compcert.lib.Coqlib <> x:124 var
+R14033:14033 compcert.lib.Coqlib <> b:126 var
+R14063:14072 Coq.ZArith.BinInt Z mul_comm thm
+R14063:14072 Coq.ZArith.BinInt Z mul_comm thm
+R14063:14072 Coq.ZArith.BinInt Z mul_comm thm
+R14088:14098 Coq.ZArith.BinInt Z rem_mul_r thm
+R14088:14098 Coq.ZArith.BinInt Z rem_mul_r thm
+R14088:14098 Coq.ZArith.BinInt Z rem_mul_r thm
+prf 14163:14178 <> Zdivide_interval
+binder 14190:14190 <> a:127
+binder 14192:14192 <> b:128
+binder 14194:14194 <> c:129
+R14204:14207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14200:14202 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R14203:14203 compcert.lib.Coqlib <> c:129 var
+R14218:14221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14209:14212 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R14214:14216 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R14213:14213 compcert.lib.Coqlib <> a:127 var
+R14213:14213 compcert.lib.Coqlib <> a:127 var
+R14217:14217 compcert.lib.Coqlib <> b:128 var
+R14229:14232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14222:14222 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R14224:14226 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R14228:14228 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R14223:14223 compcert.lib.Coqlib <> c:129 var
+R14227:14227 compcert.lib.Coqlib <> a:127 var
+R14240:14243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14233:14233 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R14235:14237 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R14239:14239 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R14234:14234 compcert.lib.Coqlib <> c:129 var
+R14238:14238 compcert.lib.Coqlib <> b:128 var
+R14245:14248 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R14250:14253 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R14249:14249 compcert.lib.Coqlib <> a:127 var
+R14249:14249 compcert.lib.Coqlib <> a:127 var
+R14255:14257 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14254:14254 compcert.lib.Coqlib <> b:128 var
+R14258:14258 compcert.lib.Coqlib <> c:129 var
+R14368:14381 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R14415:14417 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14411:14413 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14427:14427 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14433:14436 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14429:14431 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14415:14417 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14411:14413 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14427:14427 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14433:14436 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14429:14431 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14457:14473 Coq.ZArith.Zorder <> Zmult_le_compat_r thm
+R14457:14473 Coq.ZArith.Zorder <> Zmult_le_compat_r thm
+prf 14531:14542 <> Z_to_nat_neg
+binder 14554:14554 <> n:130
+R14563:14566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14558:14561 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R14557:14557 compcert.lib.Coqlib <> n:130 var
+R14577:14579 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14567:14574 Coq.ZArith.BinInt Z to_nat def
+R14576:14576 compcert.lib.Coqlib <> n:130 var
+R14580:14580 Coq.Init.Datatypes <> O constr
+R14611:14614 Coq.ZArith.BinInt Z le def
+prf 14654:14665 <> Z_to_nat_max
+binder 14677:14677 <> z:131
+R14701:14703 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14680:14687 Coq.ZArith.BinInt Z of_nat def
+R14690:14697 Coq.ZArith.BinInt Z to_nat def
+R14699:14699 compcert.lib.Coqlib <> z:131 var
+R14704:14708 Coq.ZArith.BinInt Z max def
+R14710:14710 compcert.lib.Coqlib <> z:131 var
+R14742:14744 compcert.lib.Coqlib <> zle def
+R14742:14744 compcert.lib.Coqlib <> zle def
+R14762:14769 Coq.ZArith.Znat Z2Nat id thm
+R14762:14769 Coq.ZArith.Znat Z2Nat id thm
+R14762:14769 Coq.ZArith.Znat Z2Nat id thm
+R14798:14809 compcert.lib.Coqlib <> Z_to_nat_neg thm
+R14798:14809 compcert.lib.Coqlib <> Z_to_nat_neg thm
+R14798:14809 compcert.lib.Coqlib <> Z_to_nat_neg thm
+def 14954:14958 <> align
+R14964:14964 Coq.Numbers.BinNums <> Z ind
+binder 14961:14961 <> n:132
+R14976:14976 Coq.Numbers.BinNums <> Z ind
+binder 14968:14973 <> amount:133
+R14984:14984 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15010:15013 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14985:14985 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R15000:15003 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R14996:14998 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14987:14989 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14986:14986 compcert.lib.Coqlib <> n:132 var
+R14990:14995 compcert.lib.Coqlib <> amount:133 var
+R15004:15009 compcert.lib.Coqlib <> amount:133 var
+R15014:15019 compcert.lib.Coqlib <> amount:133 var
+prf 15029:15036 <> align_le
+binder 15046:15046 <> x:134
+binder 15048:15048 <> y:135
+R15056:15059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15052:15054 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R15051:15051 compcert.lib.Coqlib <> y:135 var
+R15061:15064 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R15060:15060 compcert.lib.Coqlib <> x:134 var
+R15065:15069 compcert.lib.Coqlib <> align def
+R15071:15071 compcert.lib.Coqlib <> x:134 var
+R15073:15073 compcert.lib.Coqlib <> y:135 var
+R15100:15104 compcert.lib.Coqlib <> align def
+R15121:15132 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R15140:15142 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15136:15138 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15121:15132 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R15140:15142 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15136:15138 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15185:15187 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15170:15170 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R15180:15183 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R15176:15178 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15172:15174 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15202:15202 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15212:15215 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15208:15210 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15204:15206 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15216:15216 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15226:15231 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15222:15224 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15218:15220 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15185:15187 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R15170:15170 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R15180:15183 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R15176:15178 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15172:15174 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15202:15202 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15212:15215 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15208:15210 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15204:15206 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15216:15216 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15226:15231 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15222:15224 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15218:15220 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15250:15257 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R15265:15267 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15261:15263 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15250:15257 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R15265:15267 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15261:15263 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15292:15301 Coq.ZArith.BinInt Z mul_comm thm
+R15292:15301 Coq.ZArith.BinInt Z mul_comm thm
+R15292:15301 Coq.ZArith.BinInt Z mul_comm thm
+prf 15321:15333 <> align_divides
+binder 15343:15343 <> x:136
+binder 15345:15345 <> y:137
+R15353:15356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15349:15351 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R15348:15348 compcert.lib.Coqlib <> y:137 var
+R15357:15357 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R15359:15361 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R15371:15371 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R15358:15358 compcert.lib.Coqlib <> y:137 var
+R15362:15366 compcert.lib.Coqlib <> align def
+R15368:15368 compcert.lib.Coqlib <> x:136 var
+R15370:15370 compcert.lib.Coqlib <> y:137 var
+R15398:15402 compcert.lib.Coqlib <> align def
+R15411:15427 Coq.ZArith.BinInt Z divide_factor_r thm
+R15411:15427 Coq.ZArith.BinInt Z divide_factor_r thm
+prf 15442:15449 <> align_lt
+binder 15459:15459 <> x:138
+binder 15461:15461 <> y:139
+R15469:15472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15465:15467 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R15464:15464 compcert.lib.Coqlib <> y:139 var
+R15482:15484 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R15473:15477 compcert.lib.Coqlib <> align def
+R15479:15479 compcert.lib.Coqlib <> x:138 var
+R15481:15481 compcert.lib.Coqlib <> y:139 var
+R15486:15488 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15485:15485 compcert.lib.Coqlib <> x:138 var
+R15489:15489 compcert.lib.Coqlib <> y:139 var
+R15516:15520 compcert.lib.Coqlib <> align def
+R15537:15548 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R15556:15558 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15552:15554 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15537:15548 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R15556:15558 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15552:15554 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15589:15596 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R15604:15606 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15600:15602 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15589:15596 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R15604:15606 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15600:15602 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+prf 15642:15651 <> align_same
+binder 15663:15663 <> x:140
+binder 15665:15665 <> y:141
+R15673:15676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15669:15671 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R15668:15668 compcert.lib.Coqlib <> y:141 var
+R15684:15687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15677:15677 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R15679:15681 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R15683:15683 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R15678:15678 compcert.lib.Coqlib <> y:141 var
+R15682:15682 compcert.lib.Coqlib <> x:140 var
+R15697:15699 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15688:15692 compcert.lib.Coqlib <> align def
+R15694:15694 compcert.lib.Coqlib <> x:140 var
+R15696:15696 compcert.lib.Coqlib <> y:141 var
+R15700:15700 compcert.lib.Coqlib <> x:140 var
+R15719:15723 compcert.lib.Coqlib <> align def
+R15773:15775 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15768:15771 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15786:15789 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15795:15795 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15791:15793 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15773:15775 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15768:15771 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15786:15789 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15795:15795 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15791:15793 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15819:15829 Coq.ZArith.BinInt Z div_add_l thm
+R15832:15842 Coq.ZArith.BinInt Z div_small thm
+R15819:15829 Coq.ZArith.BinInt Z div_add_l thm
+R15819:15829 Coq.ZArith.BinInt Z div_add_l thm
+R15832:15842 Coq.ZArith.BinInt Z div_small thm
+R15832:15842 Coq.ZArith.BinInt Z div_small thm
+def 15981:15985 <> floor
+R15991:15991 Coq.Numbers.BinNums <> Z ind
+binder 15988:15988 <> n:142
+R16003:16003 Coq.Numbers.BinNums <> Z ind
+binder 15995:16000 <> amount:143
+R16009:16009 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16020:16023 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16011:16013 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16010:16010 compcert.lib.Coqlib <> n:142 var
+R16014:16019 compcert.lib.Coqlib <> amount:143 var
+R16024:16029 compcert.lib.Coqlib <> amount:143 var
+prf 16039:16052 <> floor_interval
+binder 16064:16064 <> x:144
+binder 16066:16066 <> y:145
+R16074:16077 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16070:16072 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R16069:16069 compcert.lib.Coqlib <> y:145 var
+R16087:16090 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R16092:16094 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R16078:16082 compcert.lib.Coqlib <> floor def
+R16084:16084 compcert.lib.Coqlib <> x:144 var
+R16086:16086 compcert.lib.Coqlib <> y:145 var
+R16091:16091 compcert.lib.Coqlib <> x:144 var
+R16091:16091 compcert.lib.Coqlib <> x:144 var
+R16104:16106 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16095:16099 compcert.lib.Coqlib <> floor def
+R16101:16101 compcert.lib.Coqlib <> x:144 var
+R16103:16103 compcert.lib.Coqlib <> y:145 var
+R16107:16107 compcert.lib.Coqlib <> y:145 var
+R16126:16130 compcert.lib.Coqlib <> floor def
+R16155:16166 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R16176:16183 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R16155:16166 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R16176:16183 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R16206:16208 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16206:16208 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16224:16228 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R16224:16228 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+prf 16258:16270 <> floor_divides
+binder 16282:16282 <> x:146
+binder 16284:16284 <> y:147
+R16292:16295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16288:16290 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R16287:16287 compcert.lib.Coqlib <> y:147 var
+R16296:16296 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R16298:16300 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R16310:16310 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R16297:16297 compcert.lib.Coqlib <> y:147 var
+R16301:16305 compcert.lib.Coqlib <> floor def
+R16307:16307 compcert.lib.Coqlib <> x:146 var
+R16309:16309 compcert.lib.Coqlib <> y:147 var
+R16329:16333 compcert.lib.Coqlib <> floor def
+R16353:16355 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16353:16355 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+prf 16378:16387 <> floor_same
+binder 16399:16399 <> x:148
+binder 16401:16401 <> y:149
+R16409:16412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16405:16407 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R16404:16404 compcert.lib.Coqlib <> y:149 var
+R16420:16423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16413:16413 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R16415:16417 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R16419:16419 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R16414:16414 compcert.lib.Coqlib <> y:149 var
+R16418:16418 compcert.lib.Coqlib <> x:148 var
+R16433:16435 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16424:16428 compcert.lib.Coqlib <> floor def
+R16430:16430 compcert.lib.Coqlib <> x:148 var
+R16432:16432 compcert.lib.Coqlib <> y:149 var
+R16436:16436 compcert.lib.Coqlib <> x:148 var
+R16455:16459 compcert.lib.Coqlib <> floor def
+R16479:16493 Coq.ZArith.Znumtheory <> Zdivide_Zdiv_eq thm
+R16479:16493 Coq.ZArith.Znumtheory <> Zdivide_Zdiv_eq thm
+R16479:16493 Coq.ZArith.Znumtheory <> Zdivide_Zdiv_eq thm
+R16479:16493 Coq.ZArith.Znumtheory <> Zdivide_Zdiv_eq thm
+R16479:16493 Coq.ZArith.Znumtheory <> Zdivide_Zdiv_eq thm
+prf 16529:16548 <> floor_align_interval
+binder 16560:16560 <> x:150
+binder 16562:16562 <> y:151
+R16570:16575 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16566:16568 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R16565:16565 compcert.lib.Coqlib <> y:151 var
+R16585:16588 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R16598:16601 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R16576:16580 compcert.lib.Coqlib <> floor def
+R16582:16582 compcert.lib.Coqlib <> x:150 var
+R16584:16584 compcert.lib.Coqlib <> y:151 var
+R16589:16593 compcert.lib.Coqlib <> align def
+R16595:16595 compcert.lib.Coqlib <> x:150 var
+R16597:16597 compcert.lib.Coqlib <> y:151 var
+R16589:16593 compcert.lib.Coqlib <> align def
+R16595:16595 compcert.lib.Coqlib <> x:150 var
+R16597:16597 compcert.lib.Coqlib <> y:151 var
+R16611:16613 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16602:16606 compcert.lib.Coqlib <> floor def
+R16608:16608 compcert.lib.Coqlib <> x:150 var
+R16610:16610 compcert.lib.Coqlib <> y:151 var
+R16614:16614 compcert.lib.Coqlib <> y:151 var
+R16633:16637 compcert.lib.Coqlib <> floor def
+R16640:16644 compcert.lib.Coqlib <> align def
+R16675:16677 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16671:16673 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16667:16669 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16702:16704 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16687:16687 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16697:16700 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16689:16691 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16693:16695 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16675:16677 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16671:16673 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16667:16669 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16702:16704 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16687:16687 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16697:16700 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16689:16691 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16693:16695 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+binder 16729:16729 <> a:152
+binder 16731:16731 <> b:153
+R16740:16743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16735:16738 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R16734:16734 compcert.lib.Coqlib <> a:152 var
+R16739:16739 compcert.lib.Coqlib <> b:153 var
+R16753:16756 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R16749:16751 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16745:16747 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16744:16744 compcert.lib.Coqlib <> a:152 var
+R16762:16764 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16758:16760 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16757:16757 compcert.lib.Coqlib <> b:153 var
+binder 16729:16729 <> a:154
+binder 16731:16731 <> b:155
+R16740:16743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16735:16738 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R16734:16734 compcert.lib.Coqlib <> a:154 var
+R16739:16739 compcert.lib.Coqlib <> b:155 var
+R16753:16756 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R16749:16751 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16745:16747 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16744:16744 compcert.lib.Coqlib <> a:154 var
+R16762:16764 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16758:16760 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R16757:16757 compcert.lib.Coqlib <> b:155 var
+R16787:16808 Coq.ZArith.BinInt Z mul_le_mono_nonneg_r thm
+R16787:16808 Coq.ZArith.BinInt Z mul_le_mono_nonneg_r thm
+R16822:16834 Coq.ZArith.BinInt Z div_le_mono thm
+R16822:16834 Coq.ZArith.BinInt Z div_le_mono thm
+R16877:16885 Coq.ZArith.BinInt Z div_add thm
+R16877:16885 Coq.ZArith.BinInt Z div_add thm
+R16877:16885 Coq.ZArith.BinInt Z div_add thm
+def 17054:17062 <> option_eq
+binder 17065:17065 <> A:156
+R17093:17093 compcert.lib.Coqlib <> A:156 var
+binder 17088:17088 <> x:157
+binder 17090:17090 <> y:158
+R17097:17097 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17101:17105 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17110:17110 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17099:17099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17098:17098 compcert.lib.Coqlib <> x:157 var
+R17100:17100 compcert.lib.Coqlib <> y:158 var
+R17107:17108 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R17106:17106 compcert.lib.Coqlib <> x:157 var
+R17109:17109 compcert.lib.Coqlib <> y:158 var
+binder 17075:17077 <> eqA:159
+R17129:17134 Coq.Init.Datatypes <> option ind
+R17136:17136 compcert.lib.Coqlib <> A:156 var
+binder 17124:17124 <> x:160
+binder 17126:17126 <> y:161
+R17140:17140 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17144:17148 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17153:17153 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R17142:17142 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17141:17141 compcert.lib.Coqlib <> x:160 var
+R17143:17143 compcert.lib.Coqlib <> y:161 var
+R17150:17151 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R17149:17149 compcert.lib.Coqlib <> x:160 var
+R17152:17152 compcert.lib.Coqlib <> y:161 var
+R17203:17211 compcert.lib.Coqlib <> option_eq def
+ind 17271:17280 <> option_rel
+constr 17352:17366 <> option_rel_none
+constr 17396:17410 <> option_rel_some
+binder 17283:17283 <> A:162
+binder 17285:17285 <> B:163
+R17299:17302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17298:17298 compcert.lib.Coqlib <> A:162 var
+R17304:17307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17303:17303 compcert.lib.Coqlib <> B:163 var
+binder 17295:17295 <> R:164
+R17324:17327 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17316:17321 Coq.Init.Datatypes <> option ind
+R17336:17339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17328:17333 Coq.Init.Datatypes <> option ind
+R17369:17378 compcert.lib.Coqlib <> option_rel:165 ind
+R17387:17390 Coq.Init.Datatypes <> None constr
+R17382:17385 Coq.Init.Datatypes <> None constr
+R17380:17380 compcert.lib.Coqlib <> R:164 var
+binder 17420:17420 <> x:167
+binder 17422:17422 <> y:168
+R17430:17433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17425:17425 compcert.lib.Coqlib <> R:164 var
+R17429:17429 compcert.lib.Coqlib <> y:168 var
+R17427:17427 compcert.lib.Coqlib <> x:167 var
+R17434:17443 compcert.lib.Coqlib <> option_rel:165 ind
+R17457:17460 Coq.Init.Datatypes <> Some constr
+R17462:17462 compcert.lib.Coqlib <> y:168 var
+R17448:17451 Coq.Init.Datatypes <> Some constr
+R17453:17453 compcert.lib.Coqlib <> x:167 var
+R17445:17445 compcert.lib.Coqlib <> R:164 var
+scheme 17271:17280 <> option_rel_ind
+scheme 17271:17280 <> option_rel_sind
+def 17526:17535 <> option_map
+binder 17538:17538 <> A:169
+binder 17540:17540 <> B:170
+R17554:17557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17553:17553 compcert.lib.Coqlib <> A:169 var
+R17558:17558 compcert.lib.Coqlib <> B:170 var
+binder 17550:17550 <> f:171
+R17565:17570 Coq.Init.Datatypes <> option ind
+R17572:17572 compcert.lib.Coqlib <> A:169 var
+binder 17562:17562 <> x:172
+R17577:17582 Coq.Init.Datatypes <> option ind
+R17584:17584 compcert.lib.Coqlib <> B:170 var
+R17597:17597 compcert.lib.Coqlib <> x:172 var
+R17608:17611 Coq.Init.Datatypes <> None constr
+R17616:17619 Coq.Init.Datatypes <> None constr
+R17625:17628 Coq.Init.Datatypes <> Some constr
+R17635:17638 Coq.Init.Datatypes <> Some constr
+R17641:17641 compcert.lib.Coqlib <> f:171 var
+def 17709:17720 <> sum_left_map
+binder 17723:17723 <> A:174
+binder 17725:17725 <> B:175
+binder 17727:17727 <> C:176
+R17741:17744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17740:17740 compcert.lib.Coqlib <> A:174 var
+R17745:17745 compcert.lib.Coqlib <> B:175 var
+binder 17737:17737 <> f:177
+R17753:17755 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R17752:17752 compcert.lib.Coqlib <> A:174 var
+R17756:17756 compcert.lib.Coqlib <> C:176 var
+binder 17749:17749 <> x:178
+R17762:17764 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R17761:17761 compcert.lib.Coqlib <> B:175 var
+R17765:17765 compcert.lib.Coqlib <> C:176 var
+R17778:17778 compcert.lib.Coqlib <> x:178 var
+R17789:17791 Coq.Init.Datatypes <> inl constr
+R17798:17800 Coq.Init.Datatypes <> inl constr
+R17805:17805 compcert.lib.Coqlib <> f:177 var
+R17802:17802 compcert.lib.Coqlib <> C:176 var
+R17814:17816 Coq.Init.Datatypes <> inr constr
+R17823:17825 Coq.Init.Datatypes <> inr constr
+R17827:17827 compcert.lib.Coqlib <> B:175 var
+prf 17948:17959 <> nth_error_in
+binder 17972:17972 <> A:180
+R17985:17987 Coq.Init.Datatypes <> nat ind
+binder 17982:17982 <> n:181
+R17994:17997 Coq.Init.Datatypes <> list ind
+R17999:17999 compcert.lib.Coqlib <> A:180 var
+binder 17991:17991 <> l:182
+R18006:18006 compcert.lib.Coqlib <> A:180 var
+binder 18003:18003 <> x:183
+R18039:18042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18030:18032 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18012:18025 Coq.Lists.List <> nth_error def
+R18029:18029 compcert.lib.Coqlib <> n:181 var
+R18027:18027 compcert.lib.Coqlib <> l:182 var
+R18033:18036 Coq.Init.Datatypes <> Some constr
+R18038:18038 compcert.lib.Coqlib <> x:183 var
+R18043:18044 Coq.Lists.List <> In def
+R18048:18048 compcert.lib.Coqlib <> l:182 var
+R18046:18046 compcert.lib.Coqlib <> x:183 var
+R18160:18164 Coq.Lists.List <> in_eq thm
+R18160:18164 Coq.Lists.List <> in_eq thm
+R18218:18224 Coq.Lists.List <> in_cons thm
+R18218:18224 Coq.Lists.List <> in_cons thm
+prf 18287:18299 <> nth_error_nil
+binder 18312:18312 <> A:184
+R18327:18329 Coq.Init.Datatypes <> nat ind
+binder 18322:18324 <> idx:185
+R18355:18357 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18333:18341 Coq.Lists.List <> nth_error def
+R18352:18354 compcert.lib.Coqlib <> idx:185 var
+R18345:18347 Coq.Init.Datatypes <> nil constr
+R18349:18349 compcert.lib.Coqlib <> A:184 var
+R18358:18361 Coq.Init.Datatypes <> None constr
+def 18532:18548 <> list_length_z_aux
+binder 18551:18551 <> A:186
+R18564:18567 Coq.Init.Datatypes <> list ind
+R18569:18569 compcert.lib.Coqlib <> A:186 var
+binder 18561:18561 <> l:187
+R18578:18578 Coq.Numbers.BinNums <> Z ind
+binder 18573:18575 <> acc:188
+R18593:18593 Coq.Numbers.BinNums <> Z ind
+R18606:18606 compcert.lib.Coqlib <> l:187 var
+R18617:18619 Coq.Init.Datatypes <> nil constr
+R18624:18626 compcert.lib.Coqlib <> acc:188 var
+R18634:18637 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18644:18660 compcert.lib.Coqlib <> list_length_z_aux:189 def
+R18666:18671 Coq.ZArith.BinInt Z succ def
+R18673:18675 compcert.lib.Coqlib <> acc:188 var
+prf 18693:18715 <> list_length_z_aux_shift
+binder 18728:18728 <> A:191
+R18741:18744 Coq.Init.Datatypes <> list ind
+R18746:18746 compcert.lib.Coqlib <> A:191 var
+binder 18738:18738 <> l:192
+binder 18749:18749 <> n:193
+binder 18751:18751 <> m:194
+R18777:18779 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18756:18772 compcert.lib.Coqlib <> list_length_z_aux def
+R18776:18776 compcert.lib.Coqlib <> n:193 var
+R18774:18774 compcert.lib.Coqlib <> l:192 var
+R18801:18804 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R18810:18810 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R18780:18796 compcert.lib.Coqlib <> list_length_z_aux def
+R18800:18800 compcert.lib.Coqlib <> m:194 var
+R18798:18798 compcert.lib.Coqlib <> l:192 var
+R18806:18808 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18805:18805 compcert.lib.Coqlib <> n:193 var
+R18809:18809 compcert.lib.Coqlib <> m:194 var
+R18869:18871 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18889:18891 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18881:18886 Coq.ZArith.BinInt Z succ def
+R18892:18897 Coq.ZArith.BinInt Z succ def
+R18869:18871 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18889:18891 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18881:18886 Coq.ZArith.BinInt Z succ def
+R18892:18897 Coq.ZArith.BinInt Z succ def
+def 18933:18945 <> list_length_z
+binder 18948:18948 <> A:195
+R18961:18964 Coq.Init.Datatypes <> list ind
+R18966:18966 compcert.lib.Coqlib <> A:195 var
+binder 18958:18958 <> l:196
+R18971:18971 Coq.Numbers.BinNums <> Z ind
+R18978:18994 compcert.lib.Coqlib <> list_length_z_aux def
+R18996:18996 compcert.lib.Coqlib <> l:196 var
+prf 19008:19025 <> list_length_z_cons
+binder 19038:19038 <> A:197
+R19052:19052 compcert.lib.Coqlib <> A:197 var
+binder 19048:19049 <> hd:198
+R19060:19063 Coq.Init.Datatypes <> list ind
+R19065:19065 compcert.lib.Coqlib <> A:197 var
+binder 19056:19057 <> tl:199
+R19095:19097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19071:19083 compcert.lib.Coqlib <> list_length_z def
+R19088:19091 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19086:19087 compcert.lib.Coqlib <> hd:198 var
+R19092:19093 compcert.lib.Coqlib <> tl:199 var
+R19114:19116 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R19098:19110 compcert.lib.Coqlib <> list_length_z def
+R19112:19113 compcert.lib.Coqlib <> tl:199 var
+R19144:19156 compcert.lib.Coqlib <> list_length_z def
+R19177:19199 compcert.lib.Coqlib <> list_length_z_aux_shift thm
+R19177:19199 compcert.lib.Coqlib <> list_length_z_aux_shift thm
+R19177:19199 compcert.lib.Coqlib <> list_length_z_aux_shift thm
+prf 19227:19243 <> list_length_z_pos
+binder 19256:19256 <> A:200
+R19269:19272 Coq.Init.Datatypes <> list ind
+R19274:19274 compcert.lib.Coqlib <> A:200 var
+binder 19266:19266 <> l:201
+R19295:19298 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R19280:19292 compcert.lib.Coqlib <> list_length_z def
+R19294:19294 compcert.lib.Coqlib <> l:201 var
+R19338:19350 compcert.lib.Coqlib <> list_length_z def
+R19375:19392 compcert.lib.Coqlib <> list_length_z_cons thm
+R19375:19392 compcert.lib.Coqlib <> list_length_z_cons thm
+R19375:19392 compcert.lib.Coqlib <> list_length_z_cons thm
+prf 19412:19428 <> list_length_z_map
+binder 19441:19441 <> A:202
+binder 19443:19443 <> B:203
+R19457:19460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19456:19456 compcert.lib.Coqlib <> A:202 var
+R19461:19461 compcert.lib.Coqlib <> B:203 var
+binder 19453:19453 <> f:204
+R19468:19471 Coq.Init.Datatypes <> list ind
+R19473:19473 compcert.lib.Coqlib <> A:202 var
+binder 19465:19465 <> l:205
+R19502:19504 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19479:19491 compcert.lib.Coqlib <> list_length_z def
+R19494:19496 Coq.Lists.List <> map def
+R19500:19500 compcert.lib.Coqlib <> l:205 var
+R19498:19498 compcert.lib.Coqlib <> f:204 var
+R19505:19517 compcert.lib.Coqlib <> list_length_z def
+R19519:19519 compcert.lib.Coqlib <> l:205 var
+R19579:19596 compcert.lib.Coqlib <> list_length_z_cons thm
+R19579:19596 compcert.lib.Coqlib <> list_length_z_cons thm
+R19579:19596 compcert.lib.Coqlib <> list_length_z_cons thm
+R19579:19596 compcert.lib.Coqlib <> list_length_z_cons thm
+R19579:19596 compcert.lib.Coqlib <> list_length_z_cons thm
+R19579:19596 compcert.lib.Coqlib <> list_length_z_cons thm
+def 19734:19743 <> list_nth_z
+binder 19746:19746 <> A:206
+R19759:19762 Coq.Init.Datatypes <> list ind
+R19764:19764 compcert.lib.Coqlib <> A:206 var
+binder 19756:19756 <> l:207
+R19771:19771 Coq.Numbers.BinNums <> Z ind
+binder 19768:19768 <> n:208
+R19786:19791 Coq.Init.Datatypes <> option ind
+R19793:19793 compcert.lib.Coqlib <> A:206 var
+R19806:19806 compcert.lib.Coqlib <> l:207 var
+R19817:19819 Coq.Init.Datatypes <> nil constr
+R19824:19827 Coq.Init.Datatypes <> None constr
+R19835:19838 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19848:19850 compcert.lib.Coqlib <> zeq def
+R19852:19852 compcert.lib.Coqlib <> n:208 var
+R19874:19883 compcert.lib.Coqlib <> list_nth_z:209 def
+R19889:19894 Coq.ZArith.BinInt Z pred def
+R19896:19896 compcert.lib.Coqlib <> n:208 var
+R19861:19864 Coq.Init.Datatypes <> Some constr
+prf 19913:19925 <> list_nth_z_in
+binder 19938:19938 <> A:211
+R19951:19954 Coq.Init.Datatypes <> list ind
+R19956:19956 compcert.lib.Coqlib <> A:211 var
+binder 19948:19948 <> l:212
+binder 19959:19959 <> n:213
+binder 19961:19961 <> x:214
+R19989:19992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19980:19982 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19966:19975 compcert.lib.Coqlib <> list_nth_z def
+R19979:19979 compcert.lib.Coqlib <> n:213 var
+R19977:19977 compcert.lib.Coqlib <> l:212 var
+R19983:19986 Coq.Init.Datatypes <> Some constr
+R19988:19988 compcert.lib.Coqlib <> x:214 var
+R19993:19994 Coq.Lists.List <> In def
+R19998:19998 compcert.lib.Coqlib <> l:212 var
+R19996:19996 compcert.lib.Coqlib <> x:214 var
+R20064:20066 compcert.lib.Coqlib <> zeq def
+R20064:20066 compcert.lib.Coqlib <> zeq def
+prf 20118:20131 <> list_nth_z_map
+binder 20144:20144 <> A:215
+binder 20146:20146 <> B:216
+R20160:20163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20159:20159 compcert.lib.Coqlib <> A:215 var
+R20164:20164 compcert.lib.Coqlib <> B:216 var
+binder 20156:20156 <> f:217
+R20171:20174 Coq.Init.Datatypes <> list ind
+R20176:20176 compcert.lib.Coqlib <> A:215 var
+binder 20168:20168 <> l:218
+binder 20179:20179 <> n:219
+R20211:20213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20184:20193 compcert.lib.Coqlib <> list_nth_z def
+R20210:20210 compcert.lib.Coqlib <> n:219 var
+R20196:20203 Coq.Lists.List <> map def
+R20207:20207 compcert.lib.Coqlib <> l:218 var
+R20205:20205 compcert.lib.Coqlib <> f:217 var
+R20214:20223 compcert.lib.Coqlib <> option_map def
+R20228:20237 compcert.lib.Coqlib <> list_nth_z def
+R20241:20241 compcert.lib.Coqlib <> n:219 var
+R20239:20239 compcert.lib.Coqlib <> l:218 var
+R20225:20225 compcert.lib.Coqlib <> f:217 var
+R20302:20304 compcert.lib.Coqlib <> zeq def
+R20302:20304 compcert.lib.Coqlib <> zeq def
+prf 20337:20352 <> list_nth_z_range
+binder 20365:20365 <> A:220
+R20378:20381 Coq.Init.Datatypes <> list ind
+R20383:20383 compcert.lib.Coqlib <> A:220 var
+binder 20375:20375 <> l:221
+binder 20386:20386 <> n:222
+binder 20388:20388 <> x:223
+R20416:20419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20407:20409 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20393:20402 compcert.lib.Coqlib <> list_nth_z def
+R20406:20406 compcert.lib.Coqlib <> n:222 var
+R20404:20404 compcert.lib.Coqlib <> l:221 var
+R20410:20413 Coq.Init.Datatypes <> Some constr
+R20415:20415 compcert.lib.Coqlib <> x:223 var
+R20421:20424 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R20426:20428 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R20425:20425 compcert.lib.Coqlib <> n:222 var
+R20425:20425 compcert.lib.Coqlib <> n:222 var
+R20429:20441 compcert.lib.Coqlib <> list_length_z def
+R20443:20443 compcert.lib.Coqlib <> l:221 var
+R20509:20526 compcert.lib.Coqlib <> list_length_z_cons thm
+R20509:20526 compcert.lib.Coqlib <> list_length_z_cons thm
+R20509:20526 compcert.lib.Coqlib <> list_length_z_cons thm
+R20539:20541 compcert.lib.Coqlib <> zeq def
+R20539:20541 compcert.lib.Coqlib <> zeq def
+R20563:20579 compcert.lib.Coqlib <> list_length_z_pos thm
+R20563:20579 compcert.lib.Coqlib <> list_length_z_pos thm
+prf 20681:20693 <> incl_cons_inv
+binder 20706:20706 <> A:224
+R20719:20719 compcert.lib.Coqlib <> A:224 var
+binder 20716:20716 <> a:225
+R20728:20731 Coq.Init.Datatypes <> list ind
+R20733:20733 compcert.lib.Coqlib <> A:224 var
+binder 20723:20723 <> b:226
+binder 20725:20725 <> c:227
+R20754:20757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20739:20742 Coq.Lists.List <> incl def
+R20753:20753 compcert.lib.Coqlib <> c:227 var
+R20746:20749 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20745:20745 compcert.lib.Coqlib <> a:225 var
+R20750:20750 compcert.lib.Coqlib <> b:226 var
+R20758:20761 Coq.Lists.List <> incl def
+R20765:20765 compcert.lib.Coqlib <> c:227 var
+R20763:20763 compcert.lib.Coqlib <> b:226 var
+R20784:20787 Coq.Lists.List <> incl def
+R20813:20819 Coq.Lists.List <> in_cons thm
+R20813:20819 Coq.Lists.List <> in_cons thm
+prf 20883:20896 <> incl_app_inv_l
+binder 20909:20909 <> A:228
+R20928:20931 Coq.Init.Datatypes <> list ind
+R20933:20933 compcert.lib.Coqlib <> A:228 var
+binder 20919:20920 <> l1:229
+binder 20922:20923 <> l2:230
+binder 20925:20925 <> m:231
+R20956:20959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20939:20942 Coq.Lists.List <> incl def
+R20955:20955 compcert.lib.Coqlib <> m:231 var
+R20947:20950 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20945:20946 compcert.lib.Coqlib <> l1:229 var
+R20951:20952 compcert.lib.Coqlib <> l2:230 var
+R20960:20963 Coq.Lists.List <> incl def
+R20968:20968 compcert.lib.Coqlib <> m:231 var
+R20965:20966 compcert.lib.Coqlib <> l1:229 var
+R20987:20990 Coq.Lists.List <> incl def
+R21016:21024 Coq.Lists.List <> in_or_app thm
+R21016:21024 Coq.Lists.List <> in_or_app thm
+prf 21057:21070 <> incl_app_inv_r
+binder 21083:21083 <> A:232
+R21102:21105 Coq.Init.Datatypes <> list ind
+R21107:21107 compcert.lib.Coqlib <> A:232 var
+binder 21093:21094 <> l1:233
+binder 21096:21097 <> l2:234
+binder 21099:21099 <> m:235
+R21130:21133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21113:21116 Coq.Lists.List <> incl def
+R21129:21129 compcert.lib.Coqlib <> m:235 var
+R21121:21124 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R21119:21120 compcert.lib.Coqlib <> l1:233 var
+R21125:21126 compcert.lib.Coqlib <> l2:234 var
+R21134:21137 Coq.Lists.List <> incl def
+R21142:21142 compcert.lib.Coqlib <> m:235 var
+R21139:21140 compcert.lib.Coqlib <> l2:234 var
+R21161:21164 Coq.Lists.List <> incl def
+R21190:21198 Coq.Lists.List <> in_or_app thm
+R21190:21198 Coq.Lists.List <> in_or_app thm
+prf 21311:21324 <> incl_same_head
+binder 21337:21337 <> A:236
+R21350:21350 compcert.lib.Coqlib <> A:236 var
+binder 21347:21347 <> x:237
+R21361:21364 Coq.Init.Datatypes <> list ind
+R21366:21366 compcert.lib.Coqlib <> A:236 var
+binder 21354:21355 <> l1:238
+binder 21357:21358 <> l2:239
+R21382:21385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21372:21375 Coq.Lists.List <> incl def
+R21380:21381 compcert.lib.Coqlib <> l2:239 var
+R21377:21378 compcert.lib.Coqlib <> l1:238 var
+R21386:21389 Coq.Lists.List <> incl def
+R21401:21402 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R21400:21400 compcert.lib.Coqlib <> x:237 var
+R21403:21404 compcert.lib.Coqlib <> l2:239 var
+R21393:21394 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R21392:21392 compcert.lib.Coqlib <> x:237 var
+R21395:21396 compcert.lib.Coqlib <> l1:238 var
+prf 21535:21548 <> list_map_exten
+binder 21561:21561 <> A:240
+binder 21563:21563 <> B:241
+R21580:21583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21579:21579 compcert.lib.Coqlib <> A:240 var
+R21584:21584 compcert.lib.Coqlib <> B:241 var
+binder 21573:21573 <> f:242
+binder 21575:21576 <> f':243
+R21591:21594 Coq.Init.Datatypes <> list ind
+R21596:21596 compcert.lib.Coqlib <> A:240 var
+binder 21588:21588 <> l:244
+R21602:21602 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21633:21639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 21610:21610 <> x:245
+R21619:21622 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21613:21614 Coq.Lists.List <> In def
+R21618:21618 compcert.lib.Coqlib <> l:244 var
+R21616:21616 compcert.lib.Coqlib <> x:245 var
+R21626:21628 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21623:21623 compcert.lib.Coqlib <> f:242 var
+R21625:21625 compcert.lib.Coqlib <> x:245 var
+R21629:21630 compcert.lib.Coqlib <> f':243 var
+R21632:21632 compcert.lib.Coqlib <> x:245 var
+R21653:21655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21640:21647 Coq.Lists.List <> map def
+R21652:21652 compcert.lib.Coqlib <> l:244 var
+R21649:21650 compcert.lib.Coqlib <> f':243 var
+R21656:21663 Coq.Lists.List <> map def
+R21667:21667 compcert.lib.Coqlib <> l:244 var
+R21665:21665 compcert.lib.Coqlib <> f:242 var
+prf 21811:21826 <> list_map_compose
+binder 21839:21839 <> A:246
+binder 21841:21841 <> B:247
+binder 21843:21843 <> C:248
+R21857:21860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21856:21856 compcert.lib.Coqlib <> A:246 var
+R21861:21861 compcert.lib.Coqlib <> B:247 var
+binder 21853:21853 <> f:249
+R21869:21872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21868:21868 compcert.lib.Coqlib <> B:247 var
+R21873:21873 compcert.lib.Coqlib <> C:248 var
+binder 21865:21865 <> g:250
+R21880:21883 Coq.Init.Datatypes <> list ind
+R21885:21885 compcert.lib.Coqlib <> A:246 var
+binder 21877:21877 <> l:251
+R21916:21918 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21891:21898 Coq.Lists.List <> map def
+R21903:21910 Coq.Lists.List <> map def
+R21914:21914 compcert.lib.Coqlib <> l:251 var
+R21912:21912 compcert.lib.Coqlib <> f:249 var
+R21900:21900 compcert.lib.Coqlib <> g:250 var
+R21919:21926 Coq.Lists.List <> map def
+R21946:21946 compcert.lib.Coqlib <> l:251 var
+binder 21933:21933 <> x:252
+R21938:21938 compcert.lib.Coqlib <> g:250 var
+R21940:21940 compcert.lib.Coqlib <> f:249 var
+R21942:21942 compcert.lib.Coqlib <> x:252 var
+prf 22029:22045 <> list_map_identity
+binder 22058:22058 <> A:253
+R22071:22074 Coq.Init.Datatypes <> list ind
+R22076:22076 compcert.lib.Coqlib <> A:253 var
+binder 22068:22068 <> l:254
+R22109:22111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22082:22089 Coq.Lists.List <> map def
+R22108:22108 compcert.lib.Coqlib <> l:254 var
+R22099:22099 compcert.lib.Coqlib <> A:253 var
+binder 22097:22097 <> x:255
+R22105:22105 compcert.lib.Coqlib <> x:255 var
+R22112:22112 compcert.lib.Coqlib <> l:254 var
+prf 22168:22179 <> list_map_nth
+binder 22192:22192 <> A:256
+binder 22194:22194 <> B:257
+R22208:22211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22207:22207 compcert.lib.Coqlib <> A:256 var
+R22212:22212 compcert.lib.Coqlib <> B:257 var
+binder 22204:22204 <> f:258
+R22219:22222 Coq.Init.Datatypes <> list ind
+R22224:22224 compcert.lib.Coqlib <> A:256 var
+binder 22216:22216 <> l:259
+R22231:22233 Coq.Init.Datatypes <> nat ind
+binder 22228:22228 <> n:260
+R22265:22267 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22239:22247 Coq.Lists.List <> nth_error def
+R22264:22264 compcert.lib.Coqlib <> n:260 var
+R22250:22257 Coq.Lists.List <> map def
+R22261:22261 compcert.lib.Coqlib <> l:259 var
+R22259:22259 compcert.lib.Coqlib <> f:258 var
+R22268:22277 compcert.lib.Coqlib <> option_map def
+R22282:22290 Coq.Lists.List <> nth_error def
+R22294:22294 compcert.lib.Coqlib <> n:260 var
+R22292:22292 compcert.lib.Coqlib <> l:259 var
+R22279:22279 compcert.lib.Coqlib <> f:258 var
+R22352:22364 compcert.lib.Coqlib <> nth_error_nil thm
+R22352:22364 compcert.lib.Coqlib <> nth_error_nil thm
+R22352:22364 compcert.lib.Coqlib <> nth_error_nil thm
+R22352:22364 compcert.lib.Coqlib <> nth_error_nil thm
+R22352:22364 compcert.lib.Coqlib <> nth_error_nil thm
+R22352:22364 compcert.lib.Coqlib <> nth_error_nil thm
+prf 22432:22446 <> list_length_map
+binder 22459:22459 <> A:261
+binder 22461:22461 <> B:262
+R22475:22478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22474:22474 compcert.lib.Coqlib <> A:261 var
+R22479:22479 compcert.lib.Coqlib <> B:262 var
+binder 22471:22471 <> f:263
+R22486:22489 Coq.Init.Datatypes <> list ind
+R22491:22491 compcert.lib.Coqlib <> A:261 var
+binder 22483:22483 <> l:264
+R22523:22525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22497:22507 Coq.Lists.List <> length abbrev
+R22510:22517 Coq.Lists.List <> map def
+R22521:22521 compcert.lib.Coqlib <> l:264 var
+R22519:22519 compcert.lib.Coqlib <> f:263 var
+R22526:22536 Coq.Lists.List <> length abbrev
+R22538:22538 compcert.lib.Coqlib <> l:264 var
+prf 22594:22608 <> list_in_map_inv
+binder 22621:22621 <> A:265
+binder 22623:22623 <> B:266
+R22637:22640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22636:22636 compcert.lib.Coqlib <> A:265 var
+R22641:22641 compcert.lib.Coqlib <> B:266 var
+binder 22633:22633 <> f:267
+R22648:22651 Coq.Init.Datatypes <> list ind
+R22653:22653 compcert.lib.Coqlib <> A:265 var
+binder 22645:22645 <> l:268
+R22660:22660 compcert.lib.Coqlib <> B:266 var
+binder 22657:22657 <> y:269
+R22685:22688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22666:22667 Coq.Lists.List <> In def
+R22672:22679 Coq.Lists.List <> map def
+R22683:22683 compcert.lib.Coqlib <> l:268 var
+R22681:22681 compcert.lib.Coqlib <> f:267 var
+R22669:22669 compcert.lib.Coqlib <> y:269 var
+R22689:22695 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22699:22700 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22698:22698 compcert.lib.Coqlib <> A:265 var
+binder 22696:22696 <> x:270
+R22708:22711 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22702:22704 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22701:22701 compcert.lib.Coqlib <> y:269 var
+R22705:22705 compcert.lib.Coqlib <> f:267 var
+R22707:22707 compcert.lib.Coqlib <> x:270 var
+R22712:22713 Coq.Lists.List <> In def
+R22717:22717 compcert.lib.Coqlib <> l:268 var
+R22715:22715 compcert.lib.Coqlib <> x:270 var
+prf 22895:22909 <> list_append_map
+binder 22922:22922 <> A:271
+binder 22924:22924 <> B:272
+R22938:22941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22937:22937 compcert.lib.Coqlib <> A:271 var
+R22942:22942 compcert.lib.Coqlib <> B:272 var
+binder 22934:22934 <> f:273
+R22953:22956 Coq.Init.Datatypes <> list ind
+R22958:22958 compcert.lib.Coqlib <> A:271 var
+binder 22946:22947 <> l1:274
+binder 22949:22950 <> l2:275
+R22985:22987 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22964:22971 Coq.Lists.List <> map def
+R22978:22981 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22976:22977 compcert.lib.Coqlib <> l1:274 var
+R22982:22983 compcert.lib.Coqlib <> l2:275 var
+R22973:22973 compcert.lib.Coqlib <> f:273 var
+R23001:23004 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22988:22995 Coq.Lists.List <> map def
+R22999:23000 compcert.lib.Coqlib <> l1:274 var
+R22997:22997 compcert.lib.Coqlib <> f:273 var
+R23005:23012 Coq.Lists.List <> map def
+R23016:23017 compcert.lib.Coqlib <> l2:275 var
+R23014:23014 compcert.lib.Coqlib <> f:273 var
+prf 23098:23116 <> list_append_map_inv
+binder 23129:23129 <> A:276
+binder 23131:23131 <> B:277
+R23145:23148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23144:23144 compcert.lib.Coqlib <> A:276 var
+R23149:23149 compcert.lib.Coqlib <> B:277 var
+binder 23141:23141 <> f:278
+R23160:23163 Coq.Init.Datatypes <> list ind
+R23165:23165 compcert.lib.Coqlib <> B:277 var
+binder 23153:23154 <> m1:279
+binder 23156:23157 <> m2:280
+R23172:23175 Coq.Init.Datatypes <> list ind
+R23177:23177 compcert.lib.Coqlib <> A:276 var
+binder 23169:23169 <> l:281
+R23206:23211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23195:23197 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23183:23190 Coq.Lists.List <> map def
+R23194:23194 compcert.lib.Coqlib <> l:281 var
+R23192:23192 compcert.lib.Coqlib <> f:278 var
+R23200:23203 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23198:23199 compcert.lib.Coqlib <> m1:279 var
+R23204:23205 compcert.lib.Coqlib <> m2:280 var
+R23212:23218 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23221:23222 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23219:23220 <> l1:282
+R23223:23229 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23232:23233 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23230:23231 <> l2:283
+R23252:23255 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23247:23249 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23234:23241 Coq.Lists.List <> map def
+R23245:23246 compcert.lib.Coqlib <> l1:282 var
+R23243:23243 compcert.lib.Coqlib <> f:278 var
+R23250:23251 compcert.lib.Coqlib <> m1:279 var
+R23274:23277 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23269:23271 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23256:23263 Coq.Lists.List <> map def
+R23267:23268 compcert.lib.Coqlib <> l2:283 var
+R23265:23265 compcert.lib.Coqlib <> f:278 var
+R23272:23273 compcert.lib.Coqlib <> m2:280 var
+R23279:23281 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23278:23278 compcert.lib.Coqlib <> l:281 var
+R23284:23287 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23282:23283 compcert.lib.Coqlib <> l1:282 var
+R23288:23289 compcert.lib.Coqlib <> l2:283 var
+R23341:23343 Coq.Init.Datatypes <> nil constr
+R23341:23343 Coq.Init.Datatypes <> nil constr
+R23470:23473 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23470:23473 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 23581:23587 <> app_ass
+binder 23600:23600 <> A:284
+R23620:23623 Coq.Init.Datatypes <> list ind
+R23625:23625 compcert.lib.Coqlib <> A:284 var
+binder 23610:23611 <> l1:285
+binder 23613:23614 <> l2:286
+binder 23616:23617 <> l3:287
+R23645:23647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23629:23629 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23638:23642 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23632:23635 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23630:23631 compcert.lib.Coqlib <> l1:285 var
+R23636:23637 compcert.lib.Coqlib <> l2:286 var
+R23643:23644 compcert.lib.Coqlib <> l3:287 var
+R23650:23654 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23663:23663 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23648:23649 compcert.lib.Coqlib <> l1:285 var
+R23657:23660 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23655:23656 compcert.lib.Coqlib <> l2:286 var
+R23661:23662 compcert.lib.Coqlib <> l3:287 var
+R23699:23707 Coq.Lists.List <> app_assoc thm
+R23699:23707 Coq.Lists.List <> app_assoc thm
+prf 23722:23744 <> list_append_injective_l
+binder 23757:23757 <> A:288
+R23782:23785 Coq.Init.Datatypes <> list ind
+R23787:23787 compcert.lib.Coqlib <> A:288 var
+binder 23767:23768 <> l1:289
+binder 23770:23771 <> l2:290
+binder 23773:23775 <> l1':291
+binder 23777:23779 <> l2':292
+R23814:23817 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23801:23803 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23795:23798 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23793:23794 compcert.lib.Coqlib <> l1:289 var
+R23799:23800 compcert.lib.Coqlib <> l2:290 var
+R23807:23810 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23804:23806 compcert.lib.Coqlib <> l1':291 var
+R23811:23813 compcert.lib.Coqlib <> l2':292 var
+R23850:23853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23832:23834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23818:23828 Coq.Lists.List <> length abbrev
+R23830:23831 compcert.lib.Coqlib <> l1:289 var
+R23835:23845 Coq.Lists.List <> length abbrev
+R23847:23849 compcert.lib.Coqlib <> l1':291 var
+R23862:23865 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23856:23858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23854:23855 compcert.lib.Coqlib <> l1:289 var
+R23859:23861 compcert.lib.Coqlib <> l1':291 var
+R23868:23870 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23866:23867 compcert.lib.Coqlib <> l2:290 var
+R23871:23873 compcert.lib.Coqlib <> l2':292 var
+prf 24107:24129 <> list_append_injective_r
+binder 24142:24142 <> A:293
+R24167:24170 Coq.Init.Datatypes <> list ind
+R24172:24172 compcert.lib.Coqlib <> A:293 var
+binder 24152:24153 <> l1:294
+binder 24155:24156 <> l2:295
+binder 24158:24160 <> l1':296
+binder 24162:24164 <> l2':297
+R24199:24202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24186:24188 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24180:24183 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24178:24179 compcert.lib.Coqlib <> l1:294 var
+R24184:24185 compcert.lib.Coqlib <> l2:295 var
+R24192:24195 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24189:24191 compcert.lib.Coqlib <> l1':296 var
+R24196:24198 compcert.lib.Coqlib <> l2':297 var
+R24235:24238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24217:24219 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24203:24213 Coq.Lists.List <> length abbrev
+R24215:24216 compcert.lib.Coqlib <> l2:295 var
+R24220:24230 Coq.Lists.List <> length abbrev
+R24232:24234 compcert.lib.Coqlib <> l2':297 var
+R24247:24250 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24241:24243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24239:24240 compcert.lib.Coqlib <> l1:294 var
+R24244:24246 compcert.lib.Coqlib <> l1':296 var
+R24253:24255 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24251:24252 compcert.lib.Coqlib <> l2:295 var
+R24256:24258 compcert.lib.Coqlib <> l2':297 var
+R24307:24310 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24297:24299 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24291:24293 Coq.Lists.List <> rev def
+R24300:24302 Coq.Lists.List <> rev def
+R24317:24319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24311:24313 Coq.Lists.List <> rev def
+R24320:24322 Coq.Lists.List <> rev def
+R24307:24310 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24297:24299 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24291:24293 Coq.Lists.List <> rev def
+R24300:24302 Coq.Lists.List <> rev def
+R24317:24319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24311:24313 Coq.Lists.List <> rev def
+R24320:24322 Coq.Lists.List <> rev def
+R24340:24362 compcert.lib.Coqlib <> list_append_injective_l thm
+R24340:24362 compcert.lib.Coqlib <> list_append_injective_l thm
+R24382:24394 Coq.Lists.List <> rev_app_distr thm
+R24382:24394 Coq.Lists.List <> rev_app_distr thm
+R24382:24394 Coq.Lists.List <> rev_app_distr thm
+R24382:24394 Coq.Lists.List <> rev_app_distr thm
+R24382:24394 Coq.Lists.List <> rev_app_distr thm
+R24423:24432 Coq.Lists.List <> rev_length thm
+R24423:24432 Coq.Lists.List <> rev_length thm
+R24423:24432 Coq.Lists.List <> rev_length thm
+R24423:24432 Coq.Lists.List <> rev_length thm
+R24423:24432 Coq.Lists.List <> rev_length thm
+R24457:24470 Coq.Lists.List <> rev_involutive thm
+R24481:24494 Coq.Lists.List <> rev_involutive thm
+R24506:24519 Coq.Lists.List <> rev_involutive thm
+R24530:24543 Coq.Lists.List <> rev_involutive thm
+R24457:24470 Coq.Lists.List <> rev_involutive thm
+R24457:24470 Coq.Lists.List <> rev_involutive thm
+R24481:24494 Coq.Lists.List <> rev_involutive thm
+R24481:24494 Coq.Lists.List <> rev_involutive thm
+R24506:24519 Coq.Lists.List <> rev_involutive thm
+R24506:24519 Coq.Lists.List <> rev_involutive thm
+R24530:24543 Coq.Lists.List <> rev_involutive thm
+R24530:24543 Coq.Lists.List <> rev_involutive thm
+sec 24628:24636 <> LIST_FOLD
+var 24650:24650 LIST_FOLD A
+var 24652:24652 LIST_FOLD B
+var 24670:24670 LIST_FOLD f
+R24674:24677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24673:24673 compcert.lib.Coqlib <> LIST_FOLD.A var
+R24679:24682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24678:24678 compcert.lib.Coqlib <> LIST_FOLD.B var
+R24683:24683 compcert.lib.Coqlib <> LIST_FOLD.B var
+def 24816:24829 <> list_fold_left
+R24838:24838 compcert.lib.Coqlib <> LIST_FOLD.B var
+binder 24832:24835 <> accu:301
+R24845:24848 Coq.Init.Datatypes <> list ind
+R24850:24850 compcert.lib.Coqlib <> LIST_FOLD.A var
+binder 24842:24842 <> l:302
+R24855:24855 compcert.lib.Coqlib <> LIST_FOLD.B var
+R24868:24868 compcert.lib.Coqlib <> l:302 var
+R24875:24877 Coq.Init.Datatypes <> nil constr
+R24882:24885 compcert.lib.Coqlib <> accu:301 var
+R24890:24893 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24900:24913 compcert.lib.Coqlib <> list_fold_left:303 def
+R24916:24916 compcert.lib.Coqlib <> LIST_FOLD.f var
+R24920:24923 compcert.lib.Coqlib <> accu:301 var
+def 25064:25078 <> list_fold_right
+R25084:25087 Coq.Init.Datatypes <> list ind
+R25089:25089 compcert.lib.Coqlib <> LIST_FOLD.A var
+binder 25081:25081 <> l:305
+R25099:25099 compcert.lib.Coqlib <> LIST_FOLD.B var
+binder 25093:25096 <> base:306
+R25104:25104 compcert.lib.Coqlib <> LIST_FOLD.B var
+R25111:25124 compcert.lib.Coqlib <> list_fold_left def
+R25132:25140 Coq.Lists.List <> rev' def
+R25142:25142 compcert.lib.Coqlib <> l:305 var
+R25126:25129 compcert.lib.Coqlib <> base:306 var
+prf 25154:25171 <> list_fold_left_app
+binder 25183:25184 <> l1:307
+binder 25186:25187 <> l2:308
+binder 25189:25192 <> accu:309
+R25227:25229 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25197:25210 compcert.lib.Coqlib <> list_fold_left def
+R25220:25223 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25218:25219 compcert.lib.Coqlib <> l1:307 var
+R25224:25225 compcert.lib.Coqlib <> l2:308 var
+R25212:25215 compcert.lib.Coqlib <> accu:309 var
+R25230:25243 compcert.lib.Coqlib <> list_fold_left def
+R25270:25271 compcert.lib.Coqlib <> l2:308 var
+R25246:25259 compcert.lib.Coqlib <> list_fold_left def
+R25266:25267 compcert.lib.Coqlib <> l1:307 var
+R25261:25264 compcert.lib.Coqlib <> accu:309 var
+prf 25354:25371 <> list_fold_right_eq
+binder 25383:25383 <> l:310
+binder 25385:25388 <> base:311
+R25415:25419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25393:25407 compcert.lib.Coqlib <> list_fold_right def
+R25411:25414 compcert.lib.Coqlib <> base:311 var
+R25409:25409 compcert.lib.Coqlib <> l:310 var
+R25426:25426 compcert.lib.Coqlib <> l:310 var
+R25433:25435 Coq.Init.Datatypes <> nil constr
+R25440:25443 compcert.lib.Coqlib <> base:311 var
+R25448:25451 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25458:25458 compcert.lib.Coqlib <> LIST_FOLD.f var
+R25463:25477 compcert.lib.Coqlib <> list_fold_right def
+R25482:25485 compcert.lib.Coqlib <> base:311 var
+R25509:25523 compcert.lib.Coqlib <> list_fold_right def
+R25565:25568 Coq.Lists.List <> rev' def
+R25584:25590 Coq.Lists.List <> rev_alt thm
+R25584:25590 Coq.Lists.List <> rev_alt thm
+R25584:25590 Coq.Lists.List <> rev_alt thm
+R25584:25590 Coq.Lists.List <> rev_alt thm
+R25584:25590 Coq.Lists.List <> rev_alt thm
+R25610:25627 compcert.lib.Coqlib <> list_fold_left_app thm
+R25610:25627 compcert.lib.Coqlib <> list_fold_left_app thm
+R25610:25627 compcert.lib.Coqlib <> list_fold_left_app thm
+prf 25655:25674 <> list_fold_right_spec
+binder 25686:25686 <> l:313
+binder 25688:25691 <> base:314
+R25716:25718 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25694:25708 compcert.lib.Coqlib <> list_fold_right def
+R25712:25715 compcert.lib.Coqlib <> base:314 var
+R25710:25710 compcert.lib.Coqlib <> l:313 var
+R25719:25733 Coq.Lists.List <> fold_right def
+R25742:25742 compcert.lib.Coqlib <> l:313 var
+R25737:25740 compcert.lib.Coqlib <> base:314 var
+R25735:25735 compcert.lib.Coqlib <> LIST_FOLD.f var
+R25790:25807 compcert.lib.Coqlib <> list_fold_right_eq thm
+R25790:25807 compcert.lib.Coqlib <> list_fold_right_eq thm
+R25790:25807 compcert.lib.Coqlib <> list_fold_right_eq thm
+R25790:25807 compcert.lib.Coqlib <> list_fold_right_eq thm
+R25790:25807 compcert.lib.Coqlib <> list_fold_right_eq thm
+R25832:25840 compcert.lib.Coqlib LIST_FOLD <> sec
+prf 25889:25894 <> in_cns
+binder 25907:25907 <> A:315
+R25922:25922 compcert.lib.Coqlib <> A:315 var
+binder 25917:25917 <> x:316
+binder 25919:25919 <> y:317
+R25929:25932 Coq.Init.Datatypes <> list ind
+R25934:25934 compcert.lib.Coqlib <> A:315 var
+binder 25926:25926 <> l:318
+R25951:25955 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R25938:25939 Coq.Lists.List <> In def
+R25945:25948 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25944:25944 compcert.lib.Coqlib <> y:317 var
+R25949:25949 compcert.lib.Coqlib <> l:318 var
+R25941:25941 compcert.lib.Coqlib <> x:316 var
+R25961:25964 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25957:25959 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25956:25956 compcert.lib.Coqlib <> y:317 var
+R25960:25960 compcert.lib.Coqlib <> x:316 var
+R25965:25966 Coq.Lists.List <> In def
+R25970:25970 compcert.lib.Coqlib <> l:318 var
+R25968:25968 compcert.lib.Coqlib <> x:316 var
+prf 26016:26021 <> in_app
+binder 26034:26034 <> A:319
+R26047:26047 compcert.lib.Coqlib <> A:319 var
+binder 26044:26044 <> x:320
+R26058:26061 Coq.Init.Datatypes <> list ind
+R26063:26063 compcert.lib.Coqlib <> A:319 var
+binder 26051:26052 <> l1:321
+binder 26054:26055 <> l2:322
+R26082:26086 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R26067:26068 Coq.Lists.List <> In def
+R26075:26078 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R26073:26074 compcert.lib.Coqlib <> l1:321 var
+R26079:26080 compcert.lib.Coqlib <> l2:322 var
+R26070:26070 compcert.lib.Coqlib <> x:320 var
+R26094:26097 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R26087:26088 Coq.Lists.List <> In def
+R26092:26093 compcert.lib.Coqlib <> l1:321 var
+R26090:26090 compcert.lib.Coqlib <> x:320 var
+R26098:26099 Coq.Lists.List <> In def
+R26103:26104 compcert.lib.Coqlib <> l2:322 var
+R26101:26101 compcert.lib.Coqlib <> x:320 var
+R26144:26152 Coq.Lists.List <> in_app_or thm
+R26144:26152 Coq.Lists.List <> in_app_or thm
+R26167:26175 Coq.Lists.List <> in_or_app thm
+R26167:26175 Coq.Lists.List <> in_or_app thm
+prf 26196:26209 <> list_in_insert
+binder 26222:26222 <> A:323
+R26235:26235 compcert.lib.Coqlib <> A:323 var
+binder 26232:26232 <> x:324
+R26246:26249 Coq.Init.Datatypes <> list ind
+R26251:26251 compcert.lib.Coqlib <> A:323 var
+binder 26239:26240 <> l1:325
+binder 26242:26243 <> l2:326
+R26258:26258 compcert.lib.Coqlib <> A:323 var
+binder 26255:26255 <> y:327
+R26279:26282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26264:26265 Coq.Lists.List <> In def
+R26272:26275 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R26270:26271 compcert.lib.Coqlib <> l1:325 var
+R26276:26277 compcert.lib.Coqlib <> l2:326 var
+R26267:26267 compcert.lib.Coqlib <> x:324 var
+R26283:26284 Coq.Lists.List <> In def
+R26291:26294 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R26289:26290 compcert.lib.Coqlib <> l1:325 var
+R26296:26299 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26295:26295 compcert.lib.Coqlib <> y:327 var
+R26300:26301 compcert.lib.Coqlib <> l2:326 var
+R26286:26286 compcert.lib.Coqlib <> x:324 var
+R26328:26336 Coq.Lists.List <> in_or_app thm
+R26328:26336 Coq.Lists.List <> in_or_app thm
+R26352:26360 Coq.Lists.List <> in_app_or thm
+R26352:26360 Coq.Lists.List <> in_app_or thm
+def 26486:26498 <> list_disjoint
+binder 26501:26501 <> A:328
+R26518:26521 Coq.Init.Datatypes <> list ind
+R26523:26523 compcert.lib.Coqlib <> A:328 var
+binder 26511:26512 <> l1:329
+binder 26514:26515 <> l2:330
+R26551:26551 compcert.lib.Coqlib <> A:328 var
+binder 26546:26546 <> x:331
+binder 26548:26548 <> y:332
+R26562:26565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26555:26556 Coq.Lists.List <> In def
+R26560:26561 compcert.lib.Coqlib <> l1:329 var
+R26558:26558 compcert.lib.Coqlib <> x:331 var
+R26573:26576 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26566:26567 Coq.Lists.List <> In def
+R26571:26572 compcert.lib.Coqlib <> l2:330 var
+R26569:26569 compcert.lib.Coqlib <> y:332 var
+R26578:26581 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R26577:26577 compcert.lib.Coqlib <> x:331 var
+R26582:26582 compcert.lib.Coqlib <> y:332 var
+prf 26592:26611 <> list_disjoint_cons_l
+binder 26624:26624 <> A:333
+R26637:26637 compcert.lib.Coqlib <> A:333 var
+binder 26634:26634 <> a:334
+R26648:26651 Coq.Init.Datatypes <> list ind
+R26653:26653 compcert.lib.Coqlib <> A:333 var
+binder 26641:26642 <> l1:335
+binder 26644:26645 <> l2:336
+R26678:26681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26659:26671 compcert.lib.Coqlib <> list_disjoint def
+R26676:26677 compcert.lib.Coqlib <> l2:336 var
+R26673:26674 compcert.lib.Coqlib <> l1:335 var
+R26690:26693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26682:26682 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26683:26684 Coq.Lists.List <> In def
+R26688:26689 compcert.lib.Coqlib <> l2:336 var
+R26686:26686 compcert.lib.Coqlib <> a:334 var
+R26694:26706 compcert.lib.Coqlib <> list_disjoint def
+R26718:26719 compcert.lib.Coqlib <> l2:336 var
+R26710:26713 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26709:26709 compcert.lib.Coqlib <> a:334 var
+R26714:26715 compcert.lib.Coqlib <> l1:335 var
+R26738:26750 compcert.lib.Coqlib <> list_disjoint def
+prf 26820:26839 <> list_disjoint_cons_r
+binder 26852:26852 <> A:337
+R26865:26865 compcert.lib.Coqlib <> A:337 var
+binder 26862:26862 <> a:338
+R26876:26879 Coq.Init.Datatypes <> list ind
+R26881:26881 compcert.lib.Coqlib <> A:337 var
+binder 26869:26870 <> l1:339
+binder 26872:26873 <> l2:340
+R26906:26909 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26887:26899 compcert.lib.Coqlib <> list_disjoint def
+R26904:26905 compcert.lib.Coqlib <> l2:340 var
+R26901:26902 compcert.lib.Coqlib <> l1:339 var
+R26918:26921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26910:26910 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26911:26912 Coq.Lists.List <> In def
+R26916:26917 compcert.lib.Coqlib <> l1:339 var
+R26914:26914 compcert.lib.Coqlib <> a:338 var
+R26922:26934 compcert.lib.Coqlib <> list_disjoint def
+R26941:26944 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26940:26940 compcert.lib.Coqlib <> a:338 var
+R26945:26946 compcert.lib.Coqlib <> l2:340 var
+R26936:26937 compcert.lib.Coqlib <> l1:339 var
+R26966:26978 compcert.lib.Coqlib <> list_disjoint def
+prf 27048:27070 <> list_disjoint_cons_left
+binder 27083:27083 <> A:341
+R27096:27096 compcert.lib.Coqlib <> A:341 var
+binder 27093:27093 <> a:342
+R27107:27110 Coq.Init.Datatypes <> list ind
+R27112:27112 compcert.lib.Coqlib <> A:341 var
+binder 27100:27101 <> l1:343
+binder 27103:27104 <> l2:344
+R27144:27147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27118:27130 compcert.lib.Coqlib <> list_disjoint def
+R27142:27143 compcert.lib.Coqlib <> l2:344 var
+R27134:27137 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27133:27133 compcert.lib.Coqlib <> a:342 var
+R27138:27139 compcert.lib.Coqlib <> l1:343 var
+R27148:27160 compcert.lib.Coqlib <> list_disjoint def
+R27165:27166 compcert.lib.Coqlib <> l2:344 var
+R27162:27163 compcert.lib.Coqlib <> l1:343 var
+R27185:27197 compcert.lib.Coqlib <> list_disjoint def
+prf 27243:27266 <> list_disjoint_cons_right
+binder 27279:27279 <> A:345
+R27292:27292 compcert.lib.Coqlib <> A:345 var
+binder 27289:27289 <> a:346
+R27303:27306 Coq.Init.Datatypes <> list ind
+R27308:27308 compcert.lib.Coqlib <> A:345 var
+binder 27296:27297 <> l1:347
+binder 27299:27300 <> l2:348
+R27340:27343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27314:27326 compcert.lib.Coqlib <> list_disjoint def
+R27333:27336 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27332:27332 compcert.lib.Coqlib <> a:346 var
+R27337:27338 compcert.lib.Coqlib <> l2:348 var
+R27328:27329 compcert.lib.Coqlib <> l1:347 var
+R27344:27356 compcert.lib.Coqlib <> list_disjoint def
+R27361:27362 compcert.lib.Coqlib <> l2:348 var
+R27358:27359 compcert.lib.Coqlib <> l1:347 var
+R27381:27393 compcert.lib.Coqlib <> list_disjoint def
+prf 27439:27457 <> list_disjoint_notin
+binder 27470:27470 <> A:349
+R27487:27490 Coq.Init.Datatypes <> list ind
+R27492:27492 compcert.lib.Coqlib <> A:349 var
+binder 27480:27481 <> l1:350
+binder 27483:27484 <> l2:351
+R27499:27499 compcert.lib.Coqlib <> A:349 var
+binder 27496:27496 <> a:352
+R27524:27527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27505:27517 compcert.lib.Coqlib <> list_disjoint def
+R27522:27523 compcert.lib.Coqlib <> l2:351 var
+R27519:27520 compcert.lib.Coqlib <> l1:350 var
+R27535:27538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27528:27529 Coq.Lists.List <> In def
+R27533:27534 compcert.lib.Coqlib <> l1:350 var
+R27531:27531 compcert.lib.Coqlib <> a:352 var
+R27539:27540 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27548:27548 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27541:27542 Coq.Lists.List <> In def
+R27546:27547 compcert.lib.Coqlib <> l2:351 var
+R27544:27544 compcert.lib.Coqlib <> a:352 var
+R27567:27579 compcert.lib.Coqlib <> list_disjoint def
+prf 27641:27657 <> list_disjoint_sym
+binder 27670:27670 <> A:353
+R27687:27690 Coq.Init.Datatypes <> list ind
+R27692:27692 compcert.lib.Coqlib <> A:353 var
+binder 27680:27681 <> l1:354
+binder 27683:27684 <> l2:355
+R27717:27720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27698:27710 compcert.lib.Coqlib <> list_disjoint def
+R27715:27716 compcert.lib.Coqlib <> l2:355 var
+R27712:27713 compcert.lib.Coqlib <> l1:354 var
+R27721:27733 compcert.lib.Coqlib <> list_disjoint def
+R27738:27739 compcert.lib.Coqlib <> l1:354 var
+R27735:27736 compcert.lib.Coqlib <> l2:355 var
+R27758:27770 compcert.lib.Coqlib <> list_disjoint def
+R27789:27798 Coq.Init.Logic <> not_eq_sym thm
+R27789:27798 Coq.Init.Logic <> not_eq_sym thm
+prf 27828:27844 <> list_disjoint_dec
+binder 27857:27857 <> A:356
+R27889:27889 compcert.lib.Coqlib <> A:356 var
+binder 27884:27884 <> x:357
+binder 27886:27886 <> y:358
+R27893:27893 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27897:27901 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27906:27906 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27895:27895 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27894:27894 compcert.lib.Coqlib <> x:357 var
+R27896:27896 compcert.lib.Coqlib <> y:358 var
+R27903:27904 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R27902:27902 compcert.lib.Coqlib <> x:357 var
+R27905:27905 compcert.lib.Coqlib <> y:358 var
+binder 27867:27873 <> eqA_dec:359
+R27917:27920 Coq.Init.Datatypes <> list ind
+R27922:27922 compcert.lib.Coqlib <> A:356 var
+binder 27910:27911 <> l1:360
+binder 27913:27914 <> l2:361
+R27928:27928 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27948:27952 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27973:27973 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R27929:27941 compcert.lib.Coqlib <> list_disjoint def
+R27946:27947 compcert.lib.Coqlib <> l2:361 var
+R27943:27944 compcert.lib.Coqlib <> l1:360 var
+R27953:27953 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27954:27966 compcert.lib.Coqlib <> list_disjoint def
+R27971:27972 compcert.lib.Coqlib <> l2:361 var
+R27968:27969 compcert.lib.Coqlib <> l1:360 var
+R28044:28049 Coq.Lists.List <> In_dec abbrev
+R28044:28049 Coq.Lists.List <> In_dec abbrev
+R28287:28309 compcert.lib.Coqlib <> list_disjoint_cons_left thm
+R28287:28309 compcert.lib.Coqlib <> list_disjoint_cons_left thm
+def 28428:28437 <> list_equiv
+binder 28440:28440 <> A:362
+R28458:28461 Coq.Init.Datatypes <> list ind
+R28463:28463 compcert.lib.Coqlib <> A:362 var
+binder 28451:28452 <> l1:363
+binder 28454:28455 <> l2:364
+binder 28485:28485 <> x:365
+R28495:28499 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R28488:28489 Coq.Lists.List <> In def
+R28493:28494 compcert.lib.Coqlib <> l1:363 var
+R28491:28491 compcert.lib.Coqlib <> x:365 var
+R28500:28501 Coq.Lists.List <> In def
+R28505:28506 compcert.lib.Coqlib <> l2:364 var
+R28503:28503 compcert.lib.Coqlib <> x:365 var
+ind 28625:28636 <> list_norepet
+constr 28672:28687 <> list_norepet_nil
+constr 28717:28733 <> list_norepet_cons
+binder 28639:28639 <> A:366
+R28656:28659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28650:28653 Coq.Init.Datatypes <> list ind
+R28696:28707 compcert.lib.Coqlib <> list_norepet:367 ind
+R28709:28711 Coq.Init.Datatypes <> nil constr
+binder 28749:28750 <> hd:369
+binder 28752:28753 <> tl:370
+R28773:28776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28762:28763 Coq.Init.Logic <> ::type_scope:'~'_x not
+R28772:28772 Coq.Init.Logic <> ::type_scope:'~'_x not
+R28764:28765 Coq.Lists.List <> In def
+R28770:28771 compcert.lib.Coqlib <> tl:370 var
+R28767:28768 compcert.lib.Coqlib <> hd:369 var
+R28792:28795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28777:28788 compcert.lib.Coqlib <> list_norepet:367 ind
+R28790:28791 compcert.lib.Coqlib <> tl:370 var
+R28796:28807 compcert.lib.Coqlib <> list_norepet:367 ind
+R28812:28815 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R28810:28811 compcert.lib.Coqlib <> hd:369 var
+R28816:28817 compcert.lib.Coqlib <> tl:370 var
+scheme 28625:28636 <> list_norepet_ind
+scheme 28625:28636 <> list_norepet_sind
+prf 28828:28843 <> list_norepet_dec
+binder 28856:28856 <> A:371
+R28888:28888 compcert.lib.Coqlib <> A:371 var
+binder 28883:28883 <> x:372
+binder 28885:28885 <> y:373
+R28892:28892 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R28896:28900 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R28905:28905 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R28894:28894 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28893:28893 compcert.lib.Coqlib <> x:372 var
+R28895:28895 compcert.lib.Coqlib <> y:373 var
+R28902:28903 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R28901:28901 compcert.lib.Coqlib <> x:372 var
+R28904:28904 compcert.lib.Coqlib <> y:373 var
+binder 28866:28872 <> eqA_dec:374
+R28912:28915 Coq.Init.Datatypes <> list ind
+R28917:28917 compcert.lib.Coqlib <> A:371 var
+binder 28909:28909 <> l:375
+R28923:28923 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R28938:28942 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R28958:28958 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R28924:28935 compcert.lib.Coqlib <> list_norepet ind
+R28937:28937 compcert.lib.Coqlib <> l:375 var
+R28943:28943 Coq.Init.Logic <> ::type_scope:'~'_x not
+R28944:28955 compcert.lib.Coqlib <> list_norepet ind
+R28957:28957 compcert.lib.Coqlib <> l:375 var
+R29028:29033 Coq.Lists.List <> In_dec abbrev
+R29028:29033 Coq.Lists.List <> In_dec abbrev
+prf 29197:29212 <> list_map_norepet
+binder 29225:29225 <> A:376
+binder 29227:29227 <> B:377
+R29241:29244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29240:29240 compcert.lib.Coqlib <> A:376 var
+R29245:29245 compcert.lib.Coqlib <> B:377 var
+binder 29237:29237 <> f:378
+R29252:29255 Coq.Init.Datatypes <> list ind
+R29257:29257 compcert.lib.Coqlib <> A:376 var
+binder 29249:29249 <> l:379
+R29277:29282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29263:29274 compcert.lib.Coqlib <> list_norepet ind
+R29276:29276 compcert.lib.Coqlib <> l:379 var
+R29283:29283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29336:29342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 29291:29291 <> x:380
+binder 29293:29293 <> y:381
+R29302:29305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29296:29297 Coq.Lists.List <> In def
+R29301:29301 compcert.lib.Coqlib <> l:379 var
+R29299:29299 compcert.lib.Coqlib <> x:380 var
+R29312:29315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29306:29307 Coq.Lists.List <> In def
+R29311:29311 compcert.lib.Coqlib <> l:379 var
+R29309:29309 compcert.lib.Coqlib <> y:381 var
+R29322:29325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29317:29320 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29316:29316 compcert.lib.Coqlib <> x:380 var
+R29321:29321 compcert.lib.Coqlib <> y:381 var
+R29329:29332 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29326:29326 compcert.lib.Coqlib <> f:378 var
+R29328:29328 compcert.lib.Coqlib <> x:380 var
+R29333:29333 compcert.lib.Coqlib <> f:378 var
+R29335:29335 compcert.lib.Coqlib <> y:381 var
+R29343:29354 compcert.lib.Coqlib <> list_norepet ind
+R29357:29364 Coq.Lists.List <> map def
+R29368:29368 compcert.lib.Coqlib <> l:379 var
+R29366:29366 compcert.lib.Coqlib <> f:378 var
+R29465:29479 compcert.lib.Coqlib <> list_in_map_inv thm
+R29465:29479 compcert.lib.Coqlib <> list_in_map_inv thm
+R29541:29544 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29541:29544 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+prf 29690:29715 <> list_norepet_append_commut
+binder 29728:29728 <> A:382
+R29743:29746 Coq.Init.Datatypes <> list ind
+R29748:29748 compcert.lib.Coqlib <> A:382 var
+binder 29738:29738 <> a:383
+binder 29740:29740 <> b:384
+R29775:29778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29754:29765 compcert.lib.Coqlib <> list_norepet ind
+R29769:29772 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29768:29768 compcert.lib.Coqlib <> a:383 var
+R29773:29773 compcert.lib.Coqlib <> b:384 var
+R29779:29790 compcert.lib.Coqlib <> list_norepet ind
+R29794:29797 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29793:29793 compcert.lib.Coqlib <> b:384 var
+R29798:29798 compcert.lib.Coqlib <> a:383 var
+binder 29838:29838 <> x:385
+R29848:29851 Coq.Init.Datatypes <> list ind
+binder 29845:29845 <> b:386
+R29860:29863 Coq.Init.Datatypes <> list ind
+binder 29857:29857 <> a:387
+R29901:29904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29880:29891 compcert.lib.Coqlib <> list_norepet ind
+R29895:29898 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29894:29894 compcert.lib.Coqlib <> a:387 var
+R29899:29899 compcert.lib.Coqlib <> b:386 var
+R29914:29917 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29905:29906 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29913:29913 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29907:29908 Coq.Lists.List <> In def
+R29912:29912 compcert.lib.Coqlib <> a:387 var
+R29910:29910 compcert.lib.Coqlib <> x:385 var
+R29927:29941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29918:29919 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29926:29926 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29920:29921 Coq.Lists.List <> In def
+R29925:29925 compcert.lib.Coqlib <> b:386 var
+R29923:29923 compcert.lib.Coqlib <> x:385 var
+R29942:29953 compcert.lib.Coqlib <> list_norepet ind
+R29957:29960 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29956:29956 compcert.lib.Coqlib <> a:387 var
+R29962:29965 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29961:29961 compcert.lib.Coqlib <> x:385 var
+R29966:29966 compcert.lib.Coqlib <> b:386 var
+binder 29838:29838 <> x:388
+R29848:29851 Coq.Init.Datatypes <> list ind
+binder 29845:29845 <> b:389
+R29860:29863 Coq.Init.Datatypes <> list ind
+binder 29857:29857 <> a:390
+R29901:29904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29880:29891 compcert.lib.Coqlib <> list_norepet ind
+R29895:29898 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29894:29894 compcert.lib.Coqlib <> a:390 var
+R29899:29899 compcert.lib.Coqlib <> b:389 var
+R29914:29917 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29905:29906 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29913:29913 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29907:29908 Coq.Lists.List <> In def
+R29912:29912 compcert.lib.Coqlib <> a:390 var
+R29910:29910 compcert.lib.Coqlib <> x:388 var
+R29927:29941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29918:29919 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29926:29926 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29920:29921 Coq.Lists.List <> In def
+R29925:29925 compcert.lib.Coqlib <> b:389 var
+R29923:29923 compcert.lib.Coqlib <> x:388 var
+R29942:29953 compcert.lib.Coqlib <> list_norepet ind
+R29957:29960 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29956:29956 compcert.lib.Coqlib <> a:390 var
+R29962:29965 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29961:29961 compcert.lib.Coqlib <> x:388 var
+R29966:29966 compcert.lib.Coqlib <> b:389 var
+R30078:30086 Coq.Lists.List <> in_app_or thm
+R30078:30086 Coq.Lists.List <> in_app_or thm
+R30125:30133 Coq.Lists.List <> in_or_app thm
+R30125:30133 Coq.Lists.List <> in_or_app thm
+R30212:30220 Coq.Lists.List <> in_or_app thm
+R30212:30220 Coq.Lists.List <> in_or_app thm
+R30280:30288 Coq.Lists.List <> app_nil_r thm
+R30280:30288 Coq.Lists.List <> app_nil_r thm
+R30280:30288 Coq.Lists.List <> app_nil_r thm
+R30357:30365 Coq.Lists.List <> in_or_app thm
+R30357:30365 Coq.Lists.List <> in_or_app thm
+R30404:30412 Coq.Lists.List <> in_or_app thm
+R30404:30412 Coq.Lists.List <> in_or_app thm
+prf 30434:30449 <> list_norepet_app
+binder 30462:30462 <> A:391
+R30479:30482 Coq.Init.Datatypes <> list ind
+R30484:30484 compcert.lib.Coqlib <> A:391 var
+binder 30472:30473 <> l1:392
+binder 30475:30476 <> l2:393
+R30513:30519 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R30490:30501 compcert.lib.Coqlib <> list_norepet ind
+R30506:30509 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R30504:30505 compcert.lib.Coqlib <> l1:392 var
+R30510:30511 compcert.lib.Coqlib <> l2:393 var
+R30535:30538 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30520:30531 compcert.lib.Coqlib <> list_norepet ind
+R30533:30534 compcert.lib.Coqlib <> l1:392 var
+R30554:30557 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30539:30550 compcert.lib.Coqlib <> list_norepet ind
+R30552:30553 compcert.lib.Coqlib <> l2:393 var
+R30558:30570 compcert.lib.Coqlib <> list_disjoint def
+R30575:30576 compcert.lib.Coqlib <> l2:393 var
+R30572:30573 compcert.lib.Coqlib <> l1:392 var
+R30733:30738 compcert.lib.Coqlib <> in_app thm
+R30733:30738 compcert.lib.Coqlib <> in_app thm
+R30733:30738 compcert.lib.Coqlib <> in_app thm
+R30898:30903 compcert.lib.Coqlib <> in_app thm
+R30898:30903 compcert.lib.Coqlib <> in_app thm
+R30898:30903 compcert.lib.Coqlib <> in_app thm
+R30943:30947 Coq.Lists.List <> in_eq thm
+R30943:30947 Coq.Lists.List <> in_eq thm
+R31011:31017 Coq.Lists.List <> in_cons thm
+R31011:31017 Coq.Lists.List <> in_cons thm
+prf 31038:31056 <> list_norepet_append
+binder 31069:31069 <> A:394
+R31086:31089 Coq.Init.Datatypes <> list ind
+R31091:31091 compcert.lib.Coqlib <> A:394 var
+binder 31079:31080 <> l1:395
+binder 31082:31083 <> l2:396
+R31112:31115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31097:31108 compcert.lib.Coqlib <> list_norepet ind
+R31110:31111 compcert.lib.Coqlib <> l1:395 var
+R31131:31134 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31116:31127 compcert.lib.Coqlib <> list_norepet ind
+R31129:31130 compcert.lib.Coqlib <> l2:396 var
+R31154:31159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31135:31147 compcert.lib.Coqlib <> list_disjoint def
+R31152:31153 compcert.lib.Coqlib <> l2:396 var
+R31149:31150 compcert.lib.Coqlib <> l1:395 var
+R31160:31171 compcert.lib.Coqlib <> list_norepet ind
+R31176:31179 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31174:31175 compcert.lib.Coqlib <> l1:395 var
+R31180:31181 compcert.lib.Coqlib <> l2:396 var
+R31205:31220 compcert.lib.Coqlib <> list_norepet_app thm
+R31205:31220 compcert.lib.Coqlib <> list_norepet_app thm
+prf 31247:31271 <> list_norepet_append_right
+binder 31284:31284 <> A:397
+R31301:31304 Coq.Init.Datatypes <> list ind
+R31306:31306 compcert.lib.Coqlib <> A:397 var
+binder 31294:31295 <> l1:398
+binder 31297:31298 <> l2:399
+R31335:31338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31312:31323 compcert.lib.Coqlib <> list_norepet ind
+R31328:31331 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31326:31327 compcert.lib.Coqlib <> l1:398 var
+R31332:31333 compcert.lib.Coqlib <> l2:399 var
+R31339:31350 compcert.lib.Coqlib <> list_norepet ind
+R31352:31353 compcert.lib.Coqlib <> l2:399 var
+R31376:31391 compcert.lib.Coqlib <> list_norepet_app thm
+R31376:31391 compcert.lib.Coqlib <> list_norepet_app thm
+prf 31418:31441 <> list_norepet_append_left
+binder 31454:31454 <> A:400
+R31471:31474 Coq.Init.Datatypes <> list ind
+R31476:31476 compcert.lib.Coqlib <> A:400 var
+binder 31464:31465 <> l1:401
+binder 31467:31468 <> l2:402
+R31505:31508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31482:31493 compcert.lib.Coqlib <> list_norepet ind
+R31498:31501 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31496:31497 compcert.lib.Coqlib <> l1:401 var
+R31502:31503 compcert.lib.Coqlib <> l2:402 var
+R31509:31520 compcert.lib.Coqlib <> list_norepet ind
+R31522:31523 compcert.lib.Coqlib <> l1:401 var
+R31546:31561 compcert.lib.Coqlib <> list_norepet_app thm
+R31546:31561 compcert.lib.Coqlib <> list_norepet_app thm
+prf 31588:31603 <> list_norepet_rev
+binder 31616:31616 <> A:403
+R31629:31632 Coq.Init.Datatypes <> list ind
+R31634:31634 compcert.lib.Coqlib <> A:403 var
+binder 31626:31626 <> l:404
+R31652:31655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31638:31649 compcert.lib.Coqlib <> list_norepet ind
+R31651:31651 compcert.lib.Coqlib <> l:404 var
+R31656:31667 compcert.lib.Coqlib <> list_norepet ind
+R31670:31677 Coq.Lists.List <> rev def
+R31679:31679 compcert.lib.Coqlib <> l:404 var
+R31735:31760 compcert.lib.Coqlib <> list_norepet_append_commut thm
+R31735:31760 compcert.lib.Coqlib <> list_norepet_append_commut thm
+R31800:31810 Coq.Lists.List <> in_rev thm
+R31800:31810 Coq.Lists.List <> in_rev thm
+R31800:31810 Coq.Lists.List <> in_rev thm
+ind 31913:31919 <> is_tail
+constr 31964:31975 <> is_tail_refl
+constr 32010:32021 <> is_tail_cons
+binder 31922:31922 <> A:405
+R31938:31941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31932:31935 Coq.Init.Datatypes <> list ind
+R31948:31951 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31942:31945 Coq.Init.Datatypes <> list ind
+binder 31991:31991 <> c:408
+R31994:32000 compcert.lib.Coqlib <> is_tail:406 ind
+R32004:32004 compcert.lib.Coqlib <> c:408 var
+R32002:32002 compcert.lib.Coqlib <> c:408 var
+binder 32037:32037 <> i:409
+binder 32039:32040 <> c1:410
+binder 32042:32043 <> c2:411
+R32059:32062 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32046:32052 compcert.lib.Coqlib <> is_tail:406 ind
+R32057:32058 compcert.lib.Coqlib <> c2:411 var
+R32054:32055 compcert.lib.Coqlib <> c1:410 var
+R32063:32069 compcert.lib.Coqlib <> is_tail:406 ind
+R32076:32079 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32075:32075 compcert.lib.Coqlib <> i:409 var
+R32080:32081 compcert.lib.Coqlib <> c2:411 var
+R32071:32072 compcert.lib.Coqlib <> c1:410 var
+scheme 31913:31919 <> is_tail_ind
+scheme 31913:31919 <> is_tail_sind
+prf 32092:32101 <> is_tail_in
+binder 32114:32114 <> A:412
+R32127:32127 compcert.lib.Coqlib <> A:412 var
+binder 32124:32124 <> i:413
+binder 32130:32131 <> c1:414
+binder 32133:32134 <> c2:415
+R32157:32160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32137:32143 compcert.lib.Coqlib <> is_tail ind
+R32155:32156 compcert.lib.Coqlib <> c2:415 var
+R32147:32150 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32146:32146 compcert.lib.Coqlib <> i:413 var
+R32151:32152 compcert.lib.Coqlib <> c1:414 var
+R32161:32162 Coq.Lists.List <> In def
+R32166:32167 compcert.lib.Coqlib <> c2:415 var
+R32164:32164 compcert.lib.Coqlib <> i:413 var
+prf 32270:32286 <> is_tail_cons_left
+binder 32299:32299 <> A:416
+R32312:32312 compcert.lib.Coqlib <> A:416 var
+binder 32309:32309 <> i:417
+binder 32315:32316 <> c1:418
+binder 32318:32319 <> c2:419
+R32342:32345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32322:32328 compcert.lib.Coqlib <> is_tail ind
+R32340:32341 compcert.lib.Coqlib <> c2:419 var
+R32332:32335 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32331:32331 compcert.lib.Coqlib <> i:417 var
+R32336:32337 compcert.lib.Coqlib <> c1:418 var
+R32346:32352 compcert.lib.Coqlib <> is_tail ind
+R32357:32358 compcert.lib.Coqlib <> c2:419 var
+R32354:32355 compcert.lib.Coqlib <> c1:418 var
+prf 32549:32560 <> is_tail_incl
+binder 32573:32573 <> A:420
+R32590:32593 Coq.Init.Datatypes <> list ind
+R32595:32595 compcert.lib.Coqlib <> A:420 var
+binder 32583:32584 <> l1:421
+binder 32586:32587 <> l2:422
+R32612:32615 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32599:32605 compcert.lib.Coqlib <> is_tail ind
+R32610:32611 compcert.lib.Coqlib <> l2:422 var
+R32607:32608 compcert.lib.Coqlib <> l1:421 var
+R32616:32619 Coq.Lists.List <> incl def
+R32624:32625 compcert.lib.Coqlib <> l2:422 var
+R32621:32622 compcert.lib.Coqlib <> l1:421 var
+prf 32681:32693 <> is_tail_trans
+binder 32706:32706 <> A:423
+R32723:32726 Coq.Init.Datatypes <> list ind
+R32728:32728 compcert.lib.Coqlib <> A:423 var
+binder 32716:32717 <> l1:424
+binder 32719:32720 <> l2:425
+R32747:32750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32734:32740 compcert.lib.Coqlib <> is_tail ind
+R32745:32746 compcert.lib.Coqlib <> l2:425 var
+R32742:32743 compcert.lib.Coqlib <> l1:424 var
+R32763:32766 Coq.Init.Datatypes <> list ind
+R32768:32768 compcert.lib.Coqlib <> A:423 var
+binder 32759:32760 <> l3:426
+R32785:32788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32772:32778 compcert.lib.Coqlib <> is_tail ind
+R32783:32784 compcert.lib.Coqlib <> l3:426 var
+R32780:32781 compcert.lib.Coqlib <> l2:425 var
+R32789:32795 compcert.lib.Coqlib <> is_tail ind
+R32800:32801 compcert.lib.Coqlib <> l3:426 var
+R32797:32798 compcert.lib.Coqlib <> l1:424 var
+R32864:32880 compcert.lib.Coqlib <> is_tail_cons_left thm
+R32864:32880 compcert.lib.Coqlib <> is_tail_cons_left thm
+sec 33006:33012 <> FORALL2
+var 33025:33025 FORALL2 A
+var 33043:33043 FORALL2 B
+var 33061:33061 FORALL2 P
+R33065:33068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33064:33064 compcert.lib.Coqlib <> FORALL2.A var
+R33070:33073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33069:33069 compcert.lib.Coqlib <> FORALL2.B var
+ind 33091:33102 <> list_forall2
+constr 33137:33152 <> list_forall2_nil
+constr 33186:33202 <> list_forall2_cons
+R33111:33114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33105:33108 Coq.Init.Datatypes <> list ind
+R33110:33110 compcert.lib.Coqlib <> FORALL2.A var
+R33121:33124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33115:33118 Coq.Init.Datatypes <> list ind
+R33120:33120 compcert.lib.Coqlib <> FORALL2.B var
+R33161:33172 compcert.lib.Coqlib <> list_forall2:430 ind
+R33178:33180 Coq.Init.Datatypes <> nil constr
+R33174:33176 Coq.Init.Datatypes <> nil constr
+binder 33218:33219 <> a1:432
+binder 33221:33222 <> al:433
+binder 33224:33225 <> b1:434
+binder 33227:33228 <> bl:435
+R33244:33253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33237:33237 compcert.lib.Coqlib <> FORALL2.P var
+R33242:33243 compcert.lib.Coqlib <> b1:434 var
+R33239:33240 compcert.lib.Coqlib <> a1:432 var
+R33272:33281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33254:33265 compcert.lib.Coqlib <> list_forall2:430 ind
+R33270:33271 compcert.lib.Coqlib <> bl:435 var
+R33267:33268 compcert.lib.Coqlib <> al:433 var
+R33282:33293 compcert.lib.Coqlib <> list_forall2:430 ind
+R33309:33312 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33307:33308 compcert.lib.Coqlib <> b1:434 var
+R33313:33314 compcert.lib.Coqlib <> bl:435 var
+R33298:33301 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33296:33297 compcert.lib.Coqlib <> a1:432 var
+R33302:33303 compcert.lib.Coqlib <> al:433 var
+scheme 33091:33102 <> list_forall2_ind
+scheme 33091:33102 <> list_forall2_sind
+prf 33325:33340 <> list_forall2_app
+binder 33352:33353 <> a2:436
+binder 33355:33356 <> b2:437
+binder 33358:33359 <> a1:438
+binder 33361:33362 <> b1:439
+R33385:33388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33367:33378 compcert.lib.Coqlib <> list_forall2 ind
+R33383:33384 compcert.lib.Coqlib <> b1:439 var
+R33380:33381 compcert.lib.Coqlib <> a1:438 var
+R33407:33412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33389:33400 compcert.lib.Coqlib <> list_forall2 ind
+R33405:33406 compcert.lib.Coqlib <> b2:437 var
+R33402:33403 compcert.lib.Coqlib <> a2:436 var
+R33413:33424 compcert.lib.Coqlib <> list_forall2 ind
+R33440:33443 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33438:33439 compcert.lib.Coqlib <> b1:439 var
+R33444:33445 compcert.lib.Coqlib <> b2:437 var
+R33429:33432 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33427:33428 compcert.lib.Coqlib <> a1:438 var
+R33433:33434 compcert.lib.Coqlib <> a2:436 var
+prf 33523:33541 <> list_forall2_length
+binder 33553:33554 <> l1:440
+binder 33556:33557 <> l2:441
+R33580:33583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33562:33573 compcert.lib.Coqlib <> list_forall2 ind
+R33578:33579 compcert.lib.Coqlib <> l2:441 var
+R33575:33576 compcert.lib.Coqlib <> l1:440 var
+R33593:33595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33584:33589 Coq.Lists.List <> length abbrev
+R33591:33592 compcert.lib.Coqlib <> l1:440 var
+R33596:33601 Coq.Lists.List <> length abbrev
+R33603:33604 compcert.lib.Coqlib <> l2:441 var
+prf 33660:33679 <> list_forall2_in_left
+binder 33691:33692 <> x1:442
+binder 33694:33695 <> l1:443
+binder 33697:33698 <> l2:444
+R33721:33724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33703:33714 compcert.lib.Coqlib <> list_forall2 ind
+R33719:33720 compcert.lib.Coqlib <> l2:444 var
+R33716:33717 compcert.lib.Coqlib <> l1:443 var
+R33733:33736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33725:33726 Coq.Lists.List <> In def
+R33731:33732 compcert.lib.Coqlib <> l1:443 var
+R33728:33729 compcert.lib.Coqlib <> x1:442 var
+R33737:33743 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33746:33747 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 33744:33745 <> x2:445
+R33756:33759 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33748:33749 Coq.Lists.List <> In def
+R33754:33755 compcert.lib.Coqlib <> l2:444 var
+R33751:33752 compcert.lib.Coqlib <> x2:445 var
+R33760:33760 compcert.lib.Coqlib <> FORALL2.P var
+R33765:33766 compcert.lib.Coqlib <> x2:445 var
+R33762:33763 compcert.lib.Coqlib <> x1:442 var
+prf 33943:33963 <> list_forall2_in_right
+binder 33975:33976 <> x2:446
+binder 33978:33979 <> l1:447
+binder 33981:33982 <> l2:448
+R34005:34008 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33987:33998 compcert.lib.Coqlib <> list_forall2 ind
+R34003:34004 compcert.lib.Coqlib <> l2:448 var
+R34000:34001 compcert.lib.Coqlib <> l1:447 var
+R34017:34020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34009:34010 Coq.Lists.List <> In def
+R34015:34016 compcert.lib.Coqlib <> l2:448 var
+R34012:34013 compcert.lib.Coqlib <> x2:446 var
+R34021:34027 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R34030:34031 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 34028:34029 <> x1:449
+R34040:34043 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R34032:34033 Coq.Lists.List <> In def
+R34038:34039 compcert.lib.Coqlib <> l1:447 var
+R34035:34036 compcert.lib.Coqlib <> x1:449 var
+R34044:34044 compcert.lib.Coqlib <> FORALL2.P var
+R34049:34050 compcert.lib.Coqlib <> x2:446 var
+R34046:34047 compcert.lib.Coqlib <> x1:449 var
+R34225:34231 compcert.lib.Coqlib FORALL2 <> sec
+prf 34241:34258 <> list_forall2_imply
+binder 34271:34271 <> A:450
+binder 34273:34273 <> B:451
+R34288:34291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34287:34287 compcert.lib.Coqlib <> A:450 var
+R34293:34296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34292:34292 compcert.lib.Coqlib <> B:451 var
+binder 34283:34284 <> P1:452
+R34308:34311 Coq.Init.Datatypes <> list ind
+R34313:34313 compcert.lib.Coqlib <> A:450 var
+binder 34304:34305 <> l1:453
+R34321:34324 Coq.Init.Datatypes <> list ind
+R34326:34326 compcert.lib.Coqlib <> B:451 var
+binder 34317:34318 <> l2:454
+R34353:34358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34332:34343 compcert.lib.Coqlib <> list_forall2 ind
+R34351:34352 compcert.lib.Coqlib <> l2:454 var
+R34348:34349 compcert.lib.Coqlib <> l1:453 var
+R34345:34346 compcert.lib.Coqlib <> P1:452 var
+R34372:34375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34371:34371 compcert.lib.Coqlib <> A:450 var
+R34377:34380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34376:34376 compcert.lib.Coqlib <> B:451 var
+binder 34367:34368 <> P2:455
+R34390:34390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34449:34455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 34398:34399 <> v1:456
+binder 34401:34402 <> v2:457
+R34413:34416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34405:34406 Coq.Lists.List <> In def
+R34411:34412 compcert.lib.Coqlib <> l1:453 var
+R34408:34409 compcert.lib.Coqlib <> v1:456 var
+R34425:34428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34417:34418 Coq.Lists.List <> In def
+R34423:34424 compcert.lib.Coqlib <> l2:454 var
+R34420:34421 compcert.lib.Coqlib <> v2:457 var
+R34437:34440 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34429:34430 compcert.lib.Coqlib <> P1:452 var
+R34435:34436 compcert.lib.Coqlib <> v2:457 var
+R34432:34433 compcert.lib.Coqlib <> v1:456 var
+R34441:34442 compcert.lib.Coqlib <> P2:455 var
+R34447:34448 compcert.lib.Coqlib <> v2:457 var
+R34444:34445 compcert.lib.Coqlib <> v1:456 var
+R34456:34467 compcert.lib.Coqlib <> list_forall2 ind
+R34475:34476 compcert.lib.Coqlib <> l2:454 var
+R34472:34473 compcert.lib.Coqlib <> l1:453 var
+R34469:34470 compcert.lib.Coqlib <> P2:455 var
+def 34677:34685 <> list_drop
+binder 34688:34688 <> A:458
+R34701:34703 Coq.Init.Datatypes <> nat ind
+binder 34698:34698 <> n:459
+R34710:34713 Coq.Init.Datatypes <> list ind
+R34715:34715 compcert.lib.Coqlib <> A:458 var
+binder 34707:34707 <> x:460
+R34731:34734 Coq.Init.Datatypes <> list ind
+R34736:34736 compcert.lib.Coqlib <> A:458 var
+R34749:34749 compcert.lib.Coqlib <> n:459 var
+R34760:34760 Coq.Init.Datatypes <> O constr
+R34765:34765 compcert.lib.Coqlib <> x:460 var
+R34771:34771 Coq.Init.Datatypes <> S constr
+R34785:34785 compcert.lib.Coqlib <> x:460 var
+R34792:34794 Coq.Init.Datatypes <> nil constr
+R34799:34801 Coq.Init.Datatypes <> nil constr
+R34807:34810 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34817:34825 compcert.lib.Coqlib <> list_drop:461 def
+prf 34851:34864 <> list_drop_incl
+binder 34877:34877 <> A:464
+R34890:34890 compcert.lib.Coqlib <> A:464 var
+binder 34887:34887 <> x:465
+binder 34893:34893 <> n:466
+R34899:34902 Coq.Init.Datatypes <> list ind
+R34904:34904 compcert.lib.Coqlib <> A:464 var
+binder 34896:34896 <> l:467
+R34928:34931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34908:34909 Coq.Lists.List <> In def
+R34914:34922 compcert.lib.Coqlib <> list_drop def
+R34926:34926 compcert.lib.Coqlib <> l:467 var
+R34924:34924 compcert.lib.Coqlib <> n:466 var
+R34911:34911 compcert.lib.Coqlib <> x:465 var
+R34932:34933 Coq.Lists.List <> In def
+R34937:34937 compcert.lib.Coqlib <> l:467 var
+R34935:34935 compcert.lib.Coqlib <> x:465 var
+prf 35027:35043 <> list_drop_norepet
+binder 35056:35056 <> A:468
+binder 35065:35065 <> n:469
+R35071:35074 Coq.Init.Datatypes <> list ind
+R35076:35076 compcert.lib.Coqlib <> A:468 var
+binder 35068:35068 <> l:470
+R35094:35097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35080:35091 compcert.lib.Coqlib <> list_norepet ind
+R35093:35093 compcert.lib.Coqlib <> l:470 var
+R35098:35109 compcert.lib.Coqlib <> list_norepet ind
+R35112:35120 compcert.lib.Coqlib <> list_drop def
+R35124:35124 compcert.lib.Coqlib <> l:470 var
+R35122:35122 compcert.lib.Coqlib <> n:469 var
+prf 35211:35223 <> list_map_drop
+binder 35236:35236 <> A:471
+binder 35238:35238 <> B:472
+R35252:35255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35251:35251 compcert.lib.Coqlib <> A:471 var
+R35256:35256 compcert.lib.Coqlib <> B:472 var
+binder 35248:35248 <> f:473
+binder 35259:35259 <> n:474
+R35265:35268 Coq.Init.Datatypes <> list ind
+R35270:35270 compcert.lib.Coqlib <> A:471 var
+binder 35262:35262 <> l:475
+R35297:35299 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35276:35284 compcert.lib.Coqlib <> list_drop def
+R35289:35291 Coq.Lists.List <> map def
+R35295:35295 compcert.lib.Coqlib <> l:475 var
+R35293:35293 compcert.lib.Coqlib <> f:473 var
+R35286:35286 compcert.lib.Coqlib <> n:474 var
+R35300:35302 Coq.Lists.List <> map def
+R35307:35315 compcert.lib.Coqlib <> list_drop def
+R35319:35319 compcert.lib.Coqlib <> l:475 var
+R35317:35317 compcert.lib.Coqlib <> n:474 var
+R35304:35304 compcert.lib.Coqlib <> f:473 var
+def 35464:35475 <> proj_sumbool
+binder 35478:35478 <> P:476
+binder 35480:35480 <> Q:477
+R35493:35493 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35495:35499 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35501:35501 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35494:35494 compcert.lib.Coqlib <> P:476 var
+R35500:35500 compcert.lib.Coqlib <> Q:477 var
+binder 35490:35490 <> a:478
+R35506:35509 Coq.Init.Datatypes <> bool ind
+R35519:35519 compcert.lib.Coqlib <> a:478 var
+R35536:35540 Coq.Init.Datatypes <> false constr
+R35526:35529 Coq.Init.Datatypes <> true constr
+R35544:35582 compcert.lib.Coqlib <> proj_sumbool def
+prf 35592:35608 <> proj_sumbool_true
+binder 35621:35621 <> P:479
+binder 35623:35623 <> Q:480
+R35636:35636 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35638:35640 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35642:35642 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35637:35637 compcert.lib.Coqlib <> P:479 var
+R35641:35641 compcert.lib.Coqlib <> Q:480 var
+binder 35633:35633 <> a:481
+R35667:35670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35660:35662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35646:35657 compcert.lib.Coqlib <> proj_sumbool def
+R35659:35659 compcert.lib.Coqlib <> a:481 var
+R35663:35666 Coq.Init.Datatypes <> true constr
+R35671:35671 compcert.lib.Coqlib <> P:479 var
+prf 35746:35765 <> proj_sumbool_is_true
+binder 35778:35778 <> P:482
+R35791:35791 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35793:35795 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35798:35798 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35792:35792 compcert.lib.Coqlib <> P:482 var
+R35796:35796 Coq.Init.Logic <> ::type_scope:'~'_x not
+R35797:35797 compcert.lib.Coqlib <> P:482 var
+binder 35788:35788 <> a:483
+R35803:35806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35802:35802 compcert.lib.Coqlib <> P:482 var
+R35821:35823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35807:35818 compcert.lib.Coqlib <> proj_sumbool def
+R35820:35820 compcert.lib.Coqlib <> a:483 var
+R35824:35827 Coq.Init.Datatypes <> true constr
+R35854:35865 compcert.lib.Coqlib <> proj_sumbool def
+R35960:35962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35955:35958 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R35963:35966 Coq.Init.Datatypes <> true constr
+R35960:35962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35955:35958 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R35963:35966 Coq.Init.Datatypes <> true constr
+R36048:36050 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36043:36046 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R36051:36055 Coq.Init.Datatypes <> false constr
+R36048:36050 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36043:36046 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R36051:36055 Coq.Init.Datatypes <> false constr
+R36151:36153 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36136:36147 compcert.lib.Coqlib <> proj_sumbool def
+R36154:36157 Coq.Init.Datatypes <> true constr
+R36151:36153 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36136:36147 compcert.lib.Coqlib <> proj_sumbool def
+R36154:36157 Coq.Init.Datatypes <> true constr
+R36187:36203 compcert.lib.Coqlib <> proj_sumbool_true thm
+R36083:36096 Coq.Bool.Bool <> orb_false_elim thm
+R35994:36002 Coq.Init.Datatypes <> andb_prop thm
+sec 36270:36287 <> DECIDABLE_EQUALITY
+var 36300:36300 DECIDABLE_EQUALITY A
+var 36318:36323 DECIDABLE_EQUALITY dec_eq
+R36339:36339 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.A var
+binder 36334:36334 <> x:485
+binder 36336:36336 <> y:486
+R36343:36343 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R36347:36351 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R36356:36356 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R36345:36345 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36344:36344 compcert.lib.Coqlib <> x:485 var
+R36346:36346 compcert.lib.Coqlib <> y:486 var
+R36353:36354 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R36352:36352 compcert.lib.Coqlib <> x:485 var
+R36355:36355 compcert.lib.Coqlib <> y:486 var
+var 36368:36368 DECIDABLE_EQUALITY B
+prf 36384:36394 <> dec_eq_true
+R36410:36410 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.A var
+binder 36407:36407 <> x:489
+R36426:36426 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.B var
+binder 36414:36417 <> ifso:490
+binder 36419:36423 <> ifnot:491
+R36432:36432 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36467:36470 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36436:36441 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.dec_eq var
+R36445:36445 compcert.lib.Coqlib <> x:489 var
+R36443:36443 compcert.lib.Coqlib <> x:489 var
+R36462:36466 compcert.lib.Coqlib <> ifnot:491 var
+R36452:36455 compcert.lib.Coqlib <> ifso:490 var
+R36471:36474 compcert.lib.Coqlib <> ifso:490 var
+R36504:36509 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.dec_eq var
+R36504:36509 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.dec_eq var
+prf 36547:36558 <> dec_eq_false
+R36576:36576 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.A var
+binder 36571:36571 <> x:492
+binder 36573:36573 <> y:493
+R36592:36592 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.B var
+binder 36580:36583 <> ifso:494
+binder 36585:36589 <> ifnot:495
+R36604:36607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36599:36602 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R36598:36598 compcert.lib.Coqlib <> x:492 var
+R36603:36603 compcert.lib.Coqlib <> y:493 var
+R36608:36608 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36643:36646 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36612:36617 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.dec_eq var
+R36621:36621 compcert.lib.Coqlib <> y:493 var
+R36619:36619 compcert.lib.Coqlib <> x:492 var
+R36638:36642 compcert.lib.Coqlib <> ifnot:495 var
+R36628:36631 compcert.lib.Coqlib <> ifso:494 var
+R36647:36651 compcert.lib.Coqlib <> ifnot:495 var
+R36681:36686 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.dec_eq var
+R36681:36686 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.dec_eq var
+prf 36724:36733 <> dec_eq_sym
+R36751:36751 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.A var
+binder 36746:36746 <> x:496
+binder 36748:36748 <> y:497
+R36767:36767 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.B var
+binder 36755:36758 <> ifso:498
+binder 36760:36764 <> ifnot:499
+R36773:36773 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36808:36814 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36849:36849 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36777:36782 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.dec_eq var
+R36786:36786 compcert.lib.Coqlib <> y:497 var
+R36784:36784 compcert.lib.Coqlib <> x:496 var
+R36803:36807 compcert.lib.Coqlib <> ifnot:499 var
+R36793:36796 compcert.lib.Coqlib <> ifso:498 var
+R36818:36823 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.dec_eq var
+R36827:36827 compcert.lib.Coqlib <> x:496 var
+R36825:36825 compcert.lib.Coqlib <> y:497 var
+R36844:36848 compcert.lib.Coqlib <> ifnot:499 var
+R36834:36837 compcert.lib.Coqlib <> ifso:498 var
+R36879:36884 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.dec_eq var
+R36879:36884 compcert.lib.Coqlib <> DECIDABLE_EQUALITY.dec_eq var
+R36911:36921 compcert.lib.Coqlib <> dec_eq_true thm
+R36911:36921 compcert.lib.Coqlib <> dec_eq_true thm
+R36911:36921 compcert.lib.Coqlib <> dec_eq_true thm
+R36940:36951 compcert.lib.Coqlib <> dec_eq_false thm
+R36940:36951 compcert.lib.Coqlib <> dec_eq_false thm
+R36940:36951 compcert.lib.Coqlib <> dec_eq_false thm
+R36940:36951 compcert.lib.Coqlib <> dec_eq_false thm
+R36970:36987 compcert.lib.Coqlib DECIDABLE_EQUALITY <> sec
+sec 36999:37017 <> DECIDABLE_PREDICATE
+var 37030:37030 DECIDABLE_PREDICATE P
+var 37048:37050 DECIDABLE_PREDICATE dec
+R37053:37053 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R37055:37059 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R37062:37062 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R37054:37054 compcert.lib.Coqlib <> DECIDABLE_PREDICATE.P var
+R37060:37060 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37061:37061 compcert.lib.Coqlib <> DECIDABLE_PREDICATE.P var
+var 37074:37074 DECIDABLE_PREDICATE A
+prf 37090:37102 <> pred_dec_true
+R37120:37120 compcert.lib.Coqlib <> DECIDABLE_PREDICATE.A var
+binder 37115:37115 <> a:503
+binder 37117:37117 <> b:504
+R37125:37128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37124:37124 compcert.lib.Coqlib <> DECIDABLE_PREDICATE.P var
+R37129:37129 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37150:37153 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37133:37135 compcert.lib.Coqlib <> DECIDABLE_PREDICATE.dec var
+R37149:37149 compcert.lib.Coqlib <> b:504 var
+R37142:37142 compcert.lib.Coqlib <> a:503 var
+R37154:37154 compcert.lib.Coqlib <> a:503 var
+R37183:37185 compcert.lib.Coqlib <> DECIDABLE_PREDICATE.dec var
+prf 37221:37234 <> pred_dec_false
+R37252:37252 compcert.lib.Coqlib <> DECIDABLE_PREDICATE.A var
+binder 37247:37247 <> a:505
+binder 37249:37249 <> b:506
+R37258:37261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37256:37256 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37257:37257 compcert.lib.Coqlib <> DECIDABLE_PREDICATE.P var
+R37262:37262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37283:37286 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37266:37268 compcert.lib.Coqlib <> DECIDABLE_PREDICATE.dec var
+R37282:37282 compcert.lib.Coqlib <> b:506 var
+R37275:37275 compcert.lib.Coqlib <> a:505 var
+R37287:37287 compcert.lib.Coqlib <> b:506 var
+R37316:37318 compcert.lib.Coqlib <> DECIDABLE_PREDICATE.dec var
+R37352:37370 compcert.lib.Coqlib DECIDABLE_PREDICATE <> sec
+R37422:37430 Coq.Relations.Relations <> <> lib
+sec 37501:37509 <> LEX_ORDER
+var 37522:37522 LEX_ORDER A
+var 37540:37540 LEX_ORDER B
+var 37558:37561 LEX_ORDER ordA
+R37565:37568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37564:37564 compcert.lib.Coqlib <> LEX_ORDER.A var
+R37570:37573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37569:37569 compcert.lib.Coqlib <> LEX_ORDER.A var
+var 37589:37592 LEX_ORDER ordB
+R37596:37599 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37595:37595 compcert.lib.Coqlib <> LEX_ORDER.B var
+R37601:37604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37600:37600 compcert.lib.Coqlib <> LEX_ORDER.B var
+ind 37622:37628 <> lex_ord
+constr 37657:37668 <> lex_ord_left
+constr 37739:37751 <> lex_ord_right
+R37634:37637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37632:37632 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R37631:37631 compcert.lib.Coqlib <> LEX_ORDER.A var
+R37633:37633 compcert.lib.Coqlib <> LEX_ORDER.B var
+R37641:37644 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37639:37639 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R37638:37638 compcert.lib.Coqlib <> LEX_ORDER.A var
+R37640:37640 compcert.lib.Coqlib <> LEX_ORDER.B var
+binder 37678:37679 <> a1:513
+binder 37681:37682 <> b1:514
+binder 37684:37685 <> a2:515
+binder 37687:37688 <> b2:516
+R37707:37710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37697:37700 compcert.lib.Coqlib <> LEX_ORDER.ordA var
+R37705:37706 compcert.lib.Coqlib <> a2:515 var
+R37702:37703 compcert.lib.Coqlib <> a1:513 var
+R37711:37717 compcert.lib.Coqlib <> lex_ord:511 ind
+R37727:37727 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37730:37730 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37733:37733 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37728:37729 compcert.lib.Coqlib <> a2:515 var
+R37731:37732 compcert.lib.Coqlib <> b2:516 var
+R37719:37719 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37722:37722 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37725:37725 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37720:37721 compcert.lib.Coqlib <> a1:513 var
+R37723:37724 compcert.lib.Coqlib <> b1:514 var
+binder 37761:37761 <> a:517
+binder 37763:37764 <> b1:518
+binder 37766:37767 <> b2:519
+R37786:37789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37776:37779 compcert.lib.Coqlib <> LEX_ORDER.ordB var
+R37784:37785 compcert.lib.Coqlib <> b2:519 var
+R37781:37782 compcert.lib.Coqlib <> b1:518 var
+R37790:37796 compcert.lib.Coqlib <> lex_ord:511 ind
+R37805:37805 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37807:37807 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37810:37810 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37806:37806 compcert.lib.Coqlib <> a:517 var
+R37808:37809 compcert.lib.Coqlib <> b2:519 var
+R37798:37798 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37800:37800 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37803:37803 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37799:37799 compcert.lib.Coqlib <> a:517 var
+R37801:37802 compcert.lib.Coqlib <> b1:518 var
+scheme 37622:37628 <> lex_ord_ind
+scheme 37622:37628 <> lex_ord_sind
+prf 37820:37829 <> wf_lex_ord
+R37851:37854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37834:37845 Coq.Init.Wf <> well_founded def
+R37847:37850 compcert.lib.Coqlib <> LEX_ORDER.ordA var
+R37872:37875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37855:37866 Coq.Init.Wf <> well_founded def
+R37868:37871 compcert.lib.Coqlib <> LEX_ORDER.ordB var
+R37876:37887 Coq.Init.Wf <> well_founded def
+R37889:37895 compcert.lib.Coqlib <> lex_ord ind
+binder 37940:37940 <> a:520
+R37953:37956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37943:37945 Coq.Init.Wf <> Acc ind
+R37952:37952 compcert.lib.Coqlib <> a:520 var
+R37947:37950 compcert.lib.Coqlib <> LEX_ORDER.ordA var
+binder 37964:37964 <> b:521
+R37977:37980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37967:37969 Coq.Init.Wf <> Acc ind
+R37976:37976 compcert.lib.Coqlib <> b:521 var
+R37971:37974 compcert.lib.Coqlib <> LEX_ORDER.ordB var
+R37981:37983 Coq.Init.Wf <> Acc ind
+R37993:37993 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37995:37996 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37998:37998 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37994:37994 compcert.lib.Coqlib <> a:520 var
+R37997:37997 compcert.lib.Coqlib <> b:521 var
+R37985:37991 compcert.lib.Coqlib <> lex_ord ind
+binder 37940:37940 <> a:522
+R37953:37956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37943:37945 Coq.Init.Wf <> Acc ind
+R37952:37952 compcert.lib.Coqlib <> a:522 var
+R37947:37950 compcert.lib.Coqlib <> LEX_ORDER.ordA var
+binder 37964:37964 <> b:523
+R37977:37980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37967:37969 Coq.Init.Wf <> Acc ind
+R37976:37976 compcert.lib.Coqlib <> b:523 var
+R37971:37974 compcert.lib.Coqlib <> LEX_ORDER.ordB var
+R37981:37983 Coq.Init.Wf <> Acc ind
+R37993:37993 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37995:37996 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37998:37998 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37994:37994 compcert.lib.Coqlib <> a:522 var
+R37997:37997 compcert.lib.Coqlib <> b:523 var
+R37985:37991 compcert.lib.Coqlib <> lex_ord ind
+prf 38175:38192 <> transitive_lex_ord
+R38214:38217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38197:38206 Coq.Relations.Relation_Definitions <> transitive def
+R38210:38213 compcert.lib.Coqlib <> LEX_ORDER.ordA var
+R38235:38238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38218:38227 Coq.Relations.Relation_Definitions <> transitive def
+R38231:38234 compcert.lib.Coqlib <> LEX_ORDER.ordB var
+R38239:38248 Coq.Relations.Relation_Definitions <> transitive def
+R38252:38258 compcert.lib.Coqlib <> lex_ord ind
+R38409:38417 compcert.lib.Coqlib LEX_ORDER <> sec
+ind 38456:38460 <> nlist
+constr 38486:38490 <> nbase
+constr 38510:38514 <> ncons
+binder 38463:38463 <> A:524
+R38494:38497 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38493:38493 compcert.lib.Coqlib <> A:524 var
+R38498:38502 compcert.lib.Coqlib <> nlist:525 ind
+R38504:38504 compcert.lib.Coqlib <> A:524 var
+R38518:38521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38517:38517 compcert.lib.Coqlib <> A:524 var
+R38529:38532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38522:38526 compcert.lib.Coqlib <> nlist:525 ind
+R38528:38528 compcert.lib.Coqlib <> A:524 var
+R38533:38537 compcert.lib.Coqlib <> nlist:525 ind
+R38539:38539 compcert.lib.Coqlib <> A:524 var
+scheme 38456:38460 <> nlist_rect
+scheme 38456:38460 <> nlist_ind
+scheme 38456:38460 <> nlist_rec
+scheme 38456:38460 <> nlist_sind
+def 38554:38559 <> nfirst
+binder 38562:38562 <> A:527
+R38575:38579 compcert.lib.Coqlib <> nlist ind
+R38581:38581 compcert.lib.Coqlib <> A:527 var
+binder 38572:38572 <> l:528
+R38595:38595 compcert.lib.Coqlib <> l:528 var
+R38602:38606 compcert.lib.Coqlib <> nbase constr
+R38617:38621 compcert.lib.Coqlib <> ncons constr
+def 38648:38652 <> nlast
+binder 38655:38655 <> A:530
+R38668:38672 compcert.lib.Coqlib <> nlist ind
+R38674:38674 compcert.lib.Coqlib <> A:530 var
+binder 38665:38665 <> l:531
+R38688:38688 compcert.lib.Coqlib <> l:531 var
+R38695:38699 compcert.lib.Coqlib <> nbase constr
+R38710:38714 compcert.lib.Coqlib <> ncons constr
+R38724:38728 compcert.lib.Coqlib <> nlast:532 def
+def 38748:38750 <> nIn
+binder 38753:38753 <> A:534
+R38766:38766 compcert.lib.Coqlib <> A:534 var
+binder 38763:38763 <> x:535
+R38773:38777 compcert.lib.Coqlib <> nlist ind
+R38779:38779 compcert.lib.Coqlib <> A:534 var
+binder 38770:38770 <> l:536
+R38800:38800 compcert.lib.Coqlib <> l:536 var
+R38811:38815 compcert.lib.Coqlib <> nbase constr
+R38823:38825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R38826:38826 compcert.lib.Coqlib <> x:535 var
+R38832:38836 compcert.lib.Coqlib <> ncons constr
+R38850:38853 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R38846:38848 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R38849:38849 compcert.lib.Coqlib <> x:535 var
+R38854:38856 compcert.lib.Coqlib <> nIn:537 def
+R38860:38860 compcert.lib.Coqlib <> l:536 var
+R38858:38858 compcert.lib.Coqlib <> x:535 var
+ind 38880:38892 <> nlist_forall2
+constr 38962:38974 <> nbase_forall2
+constr 39038:39050 <> ncons_forall2
+binder 38895:38895 <> A:539
+binder 38897:38897 <> B:540
+R38911:38914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38910:38910 compcert.lib.Coqlib <> A:539 var
+R38916:38919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38915:38915 compcert.lib.Coqlib <> B:540 var
+binder 38907:38907 <> R:541
+R38935:38938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38928:38932 compcert.lib.Coqlib <> nlist ind
+R38946:38949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38939:38943 compcert.lib.Coqlib <> nlist ind
+binder 38984:38984 <> a:544
+binder 38986:38986 <> b:545
+R38994:38997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38989:38989 compcert.lib.Coqlib <> R:541 var
+R38993:38993 compcert.lib.Coqlib <> b:545 var
+R38991:38991 compcert.lib.Coqlib <> a:544 var
+R38998:39010 compcert.lib.Coqlib <> nlist_forall2:542 ind
+R39025:39029 compcert.lib.Coqlib <> nbase constr
+R39031:39031 compcert.lib.Coqlib <> b:545 var
+R39015:39019 compcert.lib.Coqlib <> nbase constr
+R39021:39021 compcert.lib.Coqlib <> a:544 var
+R39012:39012 compcert.lib.Coqlib <> R:541 var
+binder 39060:39060 <> a:546
+binder 39062:39062 <> l:547
+binder 39064:39064 <> b:548
+binder 39066:39066 <> m:549
+R39074:39077 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39069:39069 compcert.lib.Coqlib <> R:541 var
+R39073:39073 compcert.lib.Coqlib <> b:548 var
+R39071:39071 compcert.lib.Coqlib <> a:546 var
+R39097:39100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39078:39090 compcert.lib.Coqlib <> nlist_forall2:542 ind
+R39096:39096 compcert.lib.Coqlib <> m:549 var
+R39094:39094 compcert.lib.Coqlib <> l:547 var
+R39092:39092 compcert.lib.Coqlib <> R:541 var
+R39101:39113 compcert.lib.Coqlib <> nlist_forall2:542 ind
+R39130:39134 compcert.lib.Coqlib <> ncons constr
+R39138:39138 compcert.lib.Coqlib <> m:549 var
+R39136:39136 compcert.lib.Coqlib <> b:548 var
+R39118:39122 compcert.lib.Coqlib <> ncons constr
+R39126:39126 compcert.lib.Coqlib <> l:547 var
+R39124:39124 compcert.lib.Coqlib <> a:546 var
+R39115:39115 compcert.lib.Coqlib <> R:541 var
+scheme 38880:38892 <> nlist_forall2_ind
+scheme 38880:38892 <> nlist_forall2_sind
+prf 39149:39167 <> nlist_forall2_imply
+binder 39180:39180 <> A:550
+binder 39182:39182 <> B:551
+R39197:39200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39196:39196 compcert.lib.Coqlib <> A:550 var
+R39202:39205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39201:39201 compcert.lib.Coqlib <> B:551 var
+binder 39192:39193 <> P1:552
+R39217:39221 compcert.lib.Coqlib <> nlist ind
+R39223:39223 compcert.lib.Coqlib <> A:550 var
+binder 39213:39214 <> l1:553
+R39231:39235 compcert.lib.Coqlib <> nlist ind
+R39237:39237 compcert.lib.Coqlib <> B:551 var
+binder 39227:39228 <> l2:554
+R39265:39270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39243:39255 compcert.lib.Coqlib <> nlist_forall2 ind
+R39263:39264 compcert.lib.Coqlib <> l2:554 var
+R39260:39261 compcert.lib.Coqlib <> l1:553 var
+R39257:39258 compcert.lib.Coqlib <> P1:552 var
+R39284:39287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39283:39283 compcert.lib.Coqlib <> A:550 var
+R39289:39292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39288:39288 compcert.lib.Coqlib <> B:551 var
+binder 39279:39280 <> P2:555
+R39302:39302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39363:39369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 39310:39311 <> v1:556
+binder 39313:39314 <> v2:557
+R39326:39329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39317:39319 compcert.lib.Coqlib <> nIn def
+R39324:39325 compcert.lib.Coqlib <> l1:553 var
+R39321:39322 compcert.lib.Coqlib <> v1:556 var
+R39339:39342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39330:39332 compcert.lib.Coqlib <> nIn def
+R39337:39338 compcert.lib.Coqlib <> l2:554 var
+R39334:39335 compcert.lib.Coqlib <> v2:557 var
+R39351:39354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39343:39344 compcert.lib.Coqlib <> P1:552 var
+R39349:39350 compcert.lib.Coqlib <> v2:557 var
+R39346:39347 compcert.lib.Coqlib <> v1:556 var
+R39355:39356 compcert.lib.Coqlib <> P2:555 var
+R39361:39362 compcert.lib.Coqlib <> v2:557 var
+R39358:39359 compcert.lib.Coqlib <> v1:556 var
+R39370:39382 compcert.lib.Coqlib <> nlist_forall2 ind
+R39390:39391 compcert.lib.Coqlib <> l2:554 var
+R39387:39388 compcert.lib.Coqlib <> l1:553 var
+R39384:39385 compcert.lib.Coqlib <> P2:555 var

@@ -1,0 +1,34 @@
+-Q theories iris_ora
+# We sometimes want to locally override notation, and there is no good way to do that with scopes.
+-arg -w -arg -notation-overridden
+# Cannot use non-canonical projections as it causes massive unification failures
+# (https://github.com/coq/coq/issues/6294).
+-arg -w -arg -redundant-canonical-projection
+
+theories/algebra/ora.v
+theories/algebra/excl.v
+theories/algebra/osum.v
+theories/algebra/agree.v
+theories/algebra/gmap.v
+theories/algebra/functions.v
+theories/algebra/dfrac.v
+theories/algebra/ext_order.v
+theories/algebra/view.v
+theories/algebra/auth.v
+theories/algebra/excl_auth.v
+theories/algebra/frac_auth.v
+theories/algebra/gmap_view.v
+theories/logic/oupred.v
+theories/logic/algebra.v
+theories/logic/iprop.v
+theories/logic/derived.v
+theories/logic/own.v
+theories/logic/proofmode.v
+theories/logic/logic.v
+theories/logic/wsat.v
+theories/logic/later_credits.v
+theories/logic/fancy_updates.v
+theories/logic/invariants.v
+theories/logic/cancelable_invariants.v
+theories/logic/weakestpre.v
+theories/logic/ghost_map.v

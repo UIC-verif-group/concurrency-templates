@@ -1,0 +1,29 @@
+opam-version: "2.0"
+name:         "templates-builddep"
+version:      "dev"
+synopsis:     "Build dependencies for the templates component"
+maintainer:   "you@example.com"
+authors:      ["Your Name"]
+license:      "MIT"
+homepage:     "https://…"
+bug-reports:  "https://…/issues"
+dev-repo:     "git+https://…"
+
+depends: [
+  "ocaml"          {>= "4.14.0"}        (* if you need a minimal OCaml version *)
+  "coq"            {= "8.19.2"}
+  "coq-compcert"   {= "3.15"}
+  "coq-iris"       {= "4.3.0"}
+]
+
+build: [
+  ["%{make}%" "all"]
+]
+
+install: [
+  ["%{make}%" "install" "PREFIX=%{prefix}%"]
+]
+
+remove: [
+  ["%{make}%" "clean"]
+]

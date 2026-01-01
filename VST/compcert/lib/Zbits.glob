@@ -1,0 +1,3515 @@
+DIGEST dda9f0e94d653c4f36b158f25ed6c6d1
+Fcompcert.lib.Zbits
+R1234:1238 Coq.micromega.Psatz <> <> lib
+R1240:1244 Coq.ZArith.Zquot <> <> lib
+R1262:1267 compcert.lib.Coqlib <> <> lib
+sec 1403:1411 <> EQ_MODULO
+var 1424:1428 EQ_MODULO modul
+R1431:1431 Coq.Numbers.BinNums <> Z ind
+var 1445:1453 EQ_MODULO modul_pos
+R1461:1463 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R1456:1460 compcert.lib.Zbits <> EQ_MODULO.modul var
+def 1479:1483 <> eqmod
+R1491:1491 Coq.Numbers.BinNums <> Z ind
+binder 1486:1486 <> x:3
+binder 1488:1488 <> y:4
+R1504:1510 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1512:1513 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1511:1511 <> k:5
+R1515:1517 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1514:1514 compcert.lib.Zbits <> x:3 var
+R1527:1529 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1519:1521 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1518:1518 compcert.lib.Zbits <> k:5 var
+R1522:1526 compcert.lib.Zbits <> EQ_MODULO.modul var
+R1530:1530 compcert.lib.Zbits <> y:4 var
+prf 1540:1549 <> eqmod_refl
+binder 1559:1559 <> x:6
+R1562:1566 compcert.lib.Zbits <> eqmod def
+R1568:1568 compcert.lib.Zbits <> x:6 var
+R1570:1570 compcert.lib.Zbits <> x:6 var
+prf 1622:1632 <> eqmod_refl2
+binder 1642:1642 <> x:7
+binder 1644:1644 <> y:8
+R1652:1655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1648:1650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1647:1647 compcert.lib.Zbits <> x:7 var
+R1651:1651 compcert.lib.Zbits <> y:8 var
+R1656:1660 compcert.lib.Zbits <> eqmod def
+R1662:1662 compcert.lib.Zbits <> x:7 var
+R1664:1664 compcert.lib.Zbits <> y:8 var
+R1699:1708 compcert.lib.Zbits <> eqmod_refl thm
+R1699:1708 compcert.lib.Zbits <> eqmod_refl thm
+prf 1723:1731 <> eqmod_sym
+binder 1741:1741 <> x:9
+binder 1743:1743 <> y:10
+R1755:1758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1746:1750 compcert.lib.Zbits <> eqmod def
+R1752:1752 compcert.lib.Zbits <> x:9 var
+R1754:1754 compcert.lib.Zbits <> y:10 var
+R1759:1763 compcert.lib.Zbits <> eqmod def
+R1765:1765 compcert.lib.Zbits <> y:10 var
+R1767:1767 compcert.lib.Zbits <> x:9 var
+R1811:1811 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1811:1811 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+prf 1843:1853 <> eqmod_trans
+binder 1863:1863 <> x:11
+binder 1865:1865 <> y:12
+binder 1867:1867 <> z:13
+R1879:1882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1870:1874 compcert.lib.Zbits <> eqmod def
+R1876:1876 compcert.lib.Zbits <> x:11 var
+R1878:1878 compcert.lib.Zbits <> y:12 var
+R1892:1895 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1883:1887 compcert.lib.Zbits <> eqmod def
+R1889:1889 compcert.lib.Zbits <> y:12 var
+R1891:1891 compcert.lib.Zbits <> z:13 var
+R1896:1900 compcert.lib.Zbits <> eqmod def
+R1902:1902 compcert.lib.Zbits <> x:11 var
+R1904:1904 compcert.lib.Zbits <> z:13 var
+R1965:1967 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1965:1967 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+prf 2009:2022 <> eqmod_small_eq
+binder 2034:2034 <> x:14
+binder 2036:2036 <> y:15
+R2048:2051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2039:2043 compcert.lib.Zbits <> eqmod def
+R2045:2045 compcert.lib.Zbits <> x:14 var
+R2047:2047 compcert.lib.Zbits <> y:15 var
+R2066:2069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2053:2056 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2058:2060 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2057:2057 compcert.lib.Zbits <> x:14 var
+R2057:2057 compcert.lib.Zbits <> x:14 var
+R2061:2065 compcert.lib.Zbits <> EQ_MODULO.modul var
+R2084:2087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2071:2074 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2076:2078 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R2075:2075 compcert.lib.Zbits <> y:15 var
+R2075:2075 compcert.lib.Zbits <> y:15 var
+R2079:2083 compcert.lib.Zbits <> EQ_MODULO.modul var
+R2089:2091 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2088:2088 compcert.lib.Zbits <> x:14 var
+R2092:2092 compcert.lib.Zbits <> y:15 var
+R2143:2153 compcert.lib.Coqlib <> Zdiv_unique thm
+R2143:2153 compcert.lib.Coqlib <> Zdiv_unique thm
+R2189:2199 Coq.ZArith.BinInt Z div_small thm
+R2203:2207 compcert.lib.Zbits <> EQ_MODULO.modul var
+R2189:2199 Coq.ZArith.BinInt Z div_small thm
+R2203:2207 compcert.lib.Zbits <> EQ_MODULO.modul var
+R2189:2199 Coq.ZArith.BinInt Z div_small thm
+R2203:2207 compcert.lib.Zbits <> EQ_MODULO.modul var
+prf 2245:2256 <> eqmod_mod_eq
+binder 2268:2268 <> x:16
+binder 2270:2270 <> y:17
+R2282:2285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2273:2277 compcert.lib.Zbits <> eqmod def
+R2279:2279 compcert.lib.Zbits <> x:16 var
+R2281:2281 compcert.lib.Zbits <> y:17 var
+R2297:2299 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2287:2291 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R2286:2286 compcert.lib.Zbits <> x:16 var
+R2292:2296 compcert.lib.Zbits <> EQ_MODULO.modul var
+R2301:2305 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R2300:2300 compcert.lib.Zbits <> y:17 var
+R2306:2310 compcert.lib.Zbits <> EQ_MODULO.modul var
+R2360:2369 Coq.ZArith.BinInt Z add_comm thm
+R2360:2369 Coq.ZArith.BinInt Z add_comm thm
+R2360:2369 Coq.ZArith.BinInt Z add_comm thm
+R2378:2387 Coq.ZArith.Zdiv <> Z_mod_plus thm
+R2378:2387 Coq.ZArith.Zdiv <> Z_mod_plus thm
+prf 2408:2416 <> eqmod_mod
+binder 2428:2428 <> x:18
+R2431:2435 compcert.lib.Zbits <> eqmod def
+R2437:2437 compcert.lib.Zbits <> x:18 var
+R2441:2445 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R2440:2440 compcert.lib.Zbits <> x:18 var
+R2446:2450 compcert.lib.Zbits <> EQ_MODULO.modul var
+R2485:2487 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R2488:2492 compcert.lib.Zbits <> EQ_MODULO.modul var
+R2485:2487 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R2488:2492 compcert.lib.Zbits <> EQ_MODULO.modul var
+R2506:2515 Coq.ZArith.BinInt Z mul_comm thm
+R2506:2515 Coq.ZArith.BinInt Z mul_comm thm
+R2506:2515 Coq.ZArith.BinInt Z mul_comm thm
+R2524:2535 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R2524:2535 compcert.lib.Coqlib <> Z_div_mod_eq thm
+prf 2556:2564 <> eqmod_add
+binder 2576:2576 <> a:19
+binder 2578:2578 <> b:20
+binder 2580:2580 <> c:21
+binder 2582:2582 <> d:22
+R2594:2597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2585:2589 compcert.lib.Zbits <> eqmod def
+R2591:2591 compcert.lib.Zbits <> a:19 var
+R2593:2593 compcert.lib.Zbits <> b:20 var
+R2607:2610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2598:2602 compcert.lib.Zbits <> eqmod def
+R2604:2604 compcert.lib.Zbits <> c:21 var
+R2606:2606 compcert.lib.Zbits <> d:22 var
+R2611:2615 compcert.lib.Zbits <> eqmod def
+R2619:2621 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2618:2618 compcert.lib.Zbits <> a:19 var
+R2622:2622 compcert.lib.Zbits <> c:21 var
+R2627:2629 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2626:2626 compcert.lib.Zbits <> b:20 var
+R2630:2630 compcert.lib.Zbits <> d:22 var
+R2712:2714 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2712:2714 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+prf 2738:2746 <> eqmod_neg
+binder 2758:2758 <> x:23
+binder 2760:2760 <> y:24
+R2772:2775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2763:2767 compcert.lib.Zbits <> eqmod def
+R2769:2769 compcert.lib.Zbits <> x:23 var
+R2771:2771 compcert.lib.Zbits <> y:24 var
+R2776:2780 compcert.lib.Zbits <> eqmod def
+R2783:2783 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2784:2784 compcert.lib.Zbits <> x:23 var
+R2788:2788 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2789:2789 compcert.lib.Zbits <> y:24 var
+R2834:2834 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2834:2834 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+prf 2869:2877 <> eqmod_sub
+binder 2889:2889 <> a:25
+binder 2891:2891 <> b:26
+binder 2893:2893 <> c:27
+binder 2895:2895 <> d:28
+R2907:2910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2898:2902 compcert.lib.Zbits <> eqmod def
+R2904:2904 compcert.lib.Zbits <> a:25 var
+R2906:2906 compcert.lib.Zbits <> b:26 var
+R2920:2923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2911:2915 compcert.lib.Zbits <> eqmod def
+R2917:2917 compcert.lib.Zbits <> c:27 var
+R2919:2919 compcert.lib.Zbits <> d:28 var
+R2924:2928 compcert.lib.Zbits <> eqmod def
+R2932:2934 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2931:2931 compcert.lib.Zbits <> a:25 var
+R2935:2935 compcert.lib.Zbits <> c:27 var
+R2940:2942 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2939:2939 compcert.lib.Zbits <> b:26 var
+R2943:2943 compcert.lib.Zbits <> d:28 var
+R3025:3027 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3025:3027 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+prf 3051:3060 <> eqmod_mult
+binder 3072:3072 <> a:29
+binder 3074:3074 <> b:30
+binder 3076:3076 <> c:31
+binder 3078:3078 <> d:32
+R3090:3093 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3081:3085 compcert.lib.Zbits <> eqmod def
+R3087:3087 compcert.lib.Zbits <> a:29 var
+R3089:3089 compcert.lib.Zbits <> c:31 var
+R3103:3106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3094:3098 compcert.lib.Zbits <> eqmod def
+R3100:3100 compcert.lib.Zbits <> b:30 var
+R3102:3102 compcert.lib.Zbits <> d:32 var
+R3107:3111 compcert.lib.Zbits <> eqmod def
+R3115:3117 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3114:3114 compcert.lib.Zbits <> a:29 var
+R3118:3118 compcert.lib.Zbits <> b:30 var
+R3123:3125 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3122:3122 compcert.lib.Zbits <> c:31 var
+R3126:3126 compcert.lib.Zbits <> d:32 var
+R3232:3234 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3223:3225 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3215:3217 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3210:3212 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3218:3222 compcert.lib.Zbits <> EQ_MODULO.modul var
+R3227:3229 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3237:3239 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3232:3234 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3223:3225 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3215:3217 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3210:3212 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3218:3222 compcert.lib.Zbits <> EQ_MODULO.modul var
+R3227:3229 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3237:3239 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3262:3270 compcert.lib.Zbits EQ_MODULO <> sec
+prf 3280:3292 <> eqmod_divides
+binder 3304:3304 <> n:33
+binder 3306:3306 <> m:34
+binder 3308:3308 <> x:35
+binder 3310:3310 <> y:36
+R3324:3327 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3313:3317 compcert.lib.Zbits <> eqmod def
+R3321:3321 compcert.lib.Zbits <> x:35 var
+R3323:3323 compcert.lib.Zbits <> y:36 var
+R3319:3319 compcert.lib.Zbits <> n:33 var
+R3340:3343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3328:3335 Coq.ZArith.BinInt Z divide def
+R3337:3337 compcert.lib.Zbits <> m:34 var
+R3339:3339 compcert.lib.Zbits <> n:33 var
+R3344:3348 compcert.lib.Zbits <> eqmod def
+R3352:3352 compcert.lib.Zbits <> x:35 var
+R3354:3354 compcert.lib.Zbits <> y:36 var
+R3350:3350 compcert.lib.Zbits <> m:34 var
+R3435:3435 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3435:3435 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3452:3462 Coq.ZArith.BinInt Z mul_assoc thm
+R3452:3462 Coq.ZArith.BinInt Z mul_assoc thm
+R3452:3462 Coq.ZArith.BinInt Z mul_assoc thm
+def 3545:3555 <> P_mod_two_p
+R3561:3568 Coq.Numbers.BinNums <> positive ind
+binder 3558:3558 <> p:37
+R3575:3577 Coq.Init.Datatypes <> nat ind
+binder 3572:3572 <> n:38
+R3593:3593 Coq.Numbers.BinNums <> Z ind
+R3606:3606 compcert.lib.Zbits <> n:38 var
+R3617:3617 Coq.Init.Datatypes <> O constr
+R3628:3628 Coq.Init.Datatypes <> S constr
+R3647:3647 compcert.lib.Zbits <> p:37 var
+R3662:3663 Coq.Numbers.BinNums <> xH constr
+R3678:3679 Coq.Numbers.BinNums <> xO constr
+R3686:3693 Coq.ZArith.BinInt Z double def
+R3696:3706 compcert.lib.Zbits <> P_mod_two_p:39 def
+R3721:3722 Coq.Numbers.BinNums <> xI constr
+R3729:3741 Coq.ZArith.BinInt Z succ_double def
+R3744:3754 compcert.lib.Zbits <> P_mod_two_p:39 def
+def 3790:3800 <> Z_mod_two_p
+R3806:3806 Coq.Numbers.BinNums <> Z ind
+binder 3803:3803 <> x:42
+R3813:3815 Coq.Init.Datatypes <> nat ind
+binder 3810:3810 <> n:43
+R3820:3820 Coq.Numbers.BinNums <> Z ind
+R3833:3833 compcert.lib.Zbits <> x:42 var
+R3844:3845 Coq.Numbers.BinNums <> Z0 constr
+R3856:3859 Coq.Numbers.BinNums <> Zpos constr
+R3866:3876 compcert.lib.Zbits <> P_mod_two_p def
+R3880:3880 compcert.lib.Zbits <> n:43 var
+R3886:3889 Coq.Numbers.BinNums <> Zneg constr
+R3905:3915 compcert.lib.Zbits <> P_mod_two_p def
+R3919:3919 compcert.lib.Zbits <> n:43 var
+binder 3900:3900 <> r:45
+R3927:3929 compcert.lib.Coqlib <> zeq def
+R3931:3931 compcert.lib.Zbits <> r:45 var
+R3962:3964 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3947:3959 Coq.ZArith.Zpower <> two_power_nat def
+R3961:3961 compcert.lib.Zbits <> n:43 var
+R3965:3965 compcert.lib.Zbits <> r:45 var
+prf 3981:3997 <> P_mod_two_p_range
+binder 4009:4009 <> n:46
+binder 4011:4011 <> p:47
+R4015:4018 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R4034:4036 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R4019:4029 compcert.lib.Zbits <> P_mod_two_p def
+R4031:4031 compcert.lib.Zbits <> p:47 var
+R4033:4033 compcert.lib.Zbits <> n:46 var
+R4019:4029 compcert.lib.Zbits <> P_mod_two_p def
+R4031:4031 compcert.lib.Zbits <> p:47 var
+R4033:4033 compcert.lib.Zbits <> n:46 var
+R4037:4049 Coq.ZArith.Zpower <> two_power_nat def
+R4051:4051 compcert.lib.Zbits <> n:46 var
+R4103:4117 compcert.lib.Coqlib <> two_power_nat_O thm
+R4103:4117 compcert.lib.Coqlib <> two_power_nat_O thm
+R4103:4117 compcert.lib.Coqlib <> two_power_nat_O thm
+R4137:4151 Coq.ZArith.Zpower <> two_power_nat_S thm
+R4137:4151 Coq.ZArith.Zpower <> two_power_nat_S thm
+R4137:4151 Coq.ZArith.Zpower <> two_power_nat_S thm
+R4200:4217 Coq.ZArith.BinInt Z succ_double_spec thm
+R4200:4217 Coq.ZArith.BinInt Z succ_double_spec thm
+R4200:4217 Coq.ZArith.BinInt Z succ_double_spec thm
+R4259:4271 Coq.ZArith.BinInt Z double_spec thm
+R4259:4271 Coq.ZArith.BinInt Z double_spec thm
+R4259:4271 Coq.ZArith.BinInt Z double_spec thm
+R4297:4313 compcert.lib.Coqlib <> two_power_nat_pos thm
+R4297:4313 compcert.lib.Coqlib <> two_power_nat_pos thm
+prf 4336:4349 <> P_mod_two_p_eq
+binder 4361:4361 <> n:48
+binder 4363:4363 <> p:49
+R4381:4383 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4366:4376 compcert.lib.Zbits <> P_mod_two_p def
+R4378:4378 compcert.lib.Zbits <> p:49 var
+R4380:4380 compcert.lib.Zbits <> n:48 var
+R4384:4384 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4391:4397 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4413:4413 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R4385:4388 Coq.Numbers.BinNums <> Zpos constr
+R4390:4390 compcert.lib.Zbits <> p:49 var
+R4398:4410 Coq.ZArith.Zpower <> two_power_nat def
+R4412:4412 compcert.lib.Zbits <> n:48 var
+binder 4440:4440 <> n:50
+binder 4442:4442 <> p:51
+R4445:4451 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4453:4454 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4452:4452 <> y:52
+R4461:4463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4455:4458 Coq.Numbers.BinNums <> Zpos constr
+R4460:4460 compcert.lib.Zbits <> p:51 var
+R4483:4485 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4465:4467 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4464:4464 compcert.lib.Zbits <> y:52 var
+R4468:4480 Coq.ZArith.Zpower <> two_power_nat def
+R4482:4482 compcert.lib.Zbits <> n:50 var
+R4486:4496 compcert.lib.Zbits <> P_mod_two_p def
+R4498:4498 compcert.lib.Zbits <> p:51 var
+R4500:4500 compcert.lib.Zbits <> n:50 var
+binder 4440:4440 <> n:53
+binder 4442:4442 <> p:54
+R4445:4451 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4453:4454 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4452:4452 <> y:55
+R4461:4463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4455:4458 Coq.Numbers.BinNums <> Zpos constr
+R4460:4460 compcert.lib.Zbits <> p:54 var
+R4483:4485 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4465:4467 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4464:4464 compcert.lib.Zbits <> y:55 var
+R4468:4480 Coq.ZArith.Zpower <> two_power_nat def
+R4482:4482 compcert.lib.Zbits <> n:53 var
+R4486:4496 compcert.lib.Zbits <> P_mod_two_p def
+R4498:4498 compcert.lib.Zbits <> p:54 var
+R4500:4500 compcert.lib.Zbits <> n:53 var
+R4554:4568 compcert.lib.Coqlib <> two_power_nat_O thm
+R4554:4568 compcert.lib.Coqlib <> two_power_nat_O thm
+R4554:4568 compcert.lib.Coqlib <> two_power_nat_O thm
+R4579:4582 Coq.Numbers.BinNums <> Zpos constr
+R4579:4582 Coq.Numbers.BinNums <> Zpos constr
+R4608:4622 Coq.ZArith.Zpower <> two_power_nat_S thm
+R4608:4622 Coq.ZArith.Zpower <> two_power_nat_S thm
+R4608:4622 Coq.ZArith.Zpower <> two_power_nat_S thm
+R4699:4702 Coq.Numbers.BinNums <> Zpos constr
+R4705:4706 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R4725:4727 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4716:4718 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4719:4722 Coq.Numbers.BinNums <> Zpos constr
+R4699:4702 Coq.Numbers.BinNums <> Zpos constr
+R4705:4706 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R4725:4727 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4716:4718 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4719:4722 Coq.Numbers.BinNums <> Zpos constr
+R4760:4777 Coq.ZArith.BinInt Z succ_double_spec thm
+R4760:4777 Coq.ZArith.BinInt Z succ_double_spec thm
+R4760:4777 Coq.ZArith.BinInt Z succ_double_spec thm
+R4848:4851 Coq.Numbers.BinNums <> Zpos constr
+R4854:4855 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R4865:4867 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4868:4871 Coq.Numbers.BinNums <> Zpos constr
+R4848:4851 Coq.Numbers.BinNums <> Zpos constr
+R4854:4855 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R4865:4867 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4868:4871 Coq.Numbers.BinNums <> Zpos constr
+R4906:4918 Coq.ZArith.BinInt Z double_spec thm
+R4921:4931 compcert.lib.Zbits <> P_mod_two_p def
+R4906:4918 Coq.ZArith.BinInt Z double_spec thm
+R4921:4931 compcert.lib.Zbits <> P_mod_two_p def
+R4906:4918 Coq.ZArith.BinInt Z double_spec thm
+R4921:4931 compcert.lib.Zbits <> P_mod_two_p def
+R5031:5041 compcert.lib.Coqlib <> Zmod_unique thm
+R5031:5041 compcert.lib.Coqlib <> Zmod_unique thm
+R5063:5079 compcert.lib.Zbits <> P_mod_two_p_range thm
+R5063:5079 compcert.lib.Zbits <> P_mod_two_p_range thm
+prf 5094:5110 <> Z_mod_two_p_range
+binder 5122:5122 <> n:56
+binder 5124:5124 <> x:57
+R5128:5131 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5147:5149 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5132:5142 compcert.lib.Zbits <> Z_mod_two_p def
+R5144:5144 compcert.lib.Zbits <> x:57 var
+R5146:5146 compcert.lib.Zbits <> n:56 var
+R5132:5142 compcert.lib.Zbits <> Z_mod_two_p def
+R5144:5144 compcert.lib.Zbits <> x:57 var
+R5146:5146 compcert.lib.Zbits <> n:56 var
+R5150:5162 Coq.ZArith.Zpower <> two_power_nat def
+R5164:5164 compcert.lib.Zbits <> n:56 var
+R5191:5201 compcert.lib.Zbits <> Z_mod_two_p def
+R5216:5232 compcert.lib.Coqlib <> two_power_nat_pos thm
+R5216:5232 compcert.lib.Coqlib <> two_power_nat_pos thm
+R5279:5295 compcert.lib.Zbits <> P_mod_two_p_range thm
+R5279:5295 compcert.lib.Zbits <> P_mod_two_p_range thm
+R5312:5322 compcert.lib.Zbits <> P_mod_two_p def
+R5312:5322 compcert.lib.Zbits <> P_mod_two_p def
+R5343:5346 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5348:5350 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5351:5363 Coq.ZArith.Zpower <> two_power_nat def
+R5377:5393 compcert.lib.Zbits <> P_mod_two_p_range thm
+R5343:5346 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5348:5350 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5351:5363 Coq.ZArith.Zpower <> two_power_nat def
+R5377:5393 compcert.lib.Zbits <> P_mod_two_p_range thm
+R5410:5412 compcert.lib.Coqlib <> zeq def
+R5410:5412 compcert.lib.Coqlib <> zeq def
+prf 5500:5513 <> Z_mod_two_p_eq
+binder 5525:5525 <> n:58
+binder 5527:5527 <> x:59
+R5545:5547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5530:5540 compcert.lib.Zbits <> Z_mod_two_p def
+R5542:5542 compcert.lib.Zbits <> x:59 var
+R5544:5544 compcert.lib.Zbits <> n:58 var
+R5549:5554 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5570:5570 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R5548:5548 compcert.lib.Zbits <> x:59 var
+R5555:5567 Coq.ZArith.Zpower <> two_power_nat def
+R5569:5569 compcert.lib.Zbits <> n:58 var
+R5597:5607 compcert.lib.Zbits <> Z_mod_two_p def
+R5622:5638 compcert.lib.Coqlib <> two_power_nat_pos thm
+R5622:5638 compcert.lib.Coqlib <> two_power_nat_pos thm
+R5678:5685 Coq.ZArith.Zdiv <> Zmod_0_l thm
+R5678:5685 Coq.ZArith.Zdiv <> Zmod_0_l thm
+R5678:5685 Coq.ZArith.Zdiv <> Zmod_0_l thm
+R5704:5717 compcert.lib.Zbits <> P_mod_two_p_eq thm
+R5704:5717 compcert.lib.Zbits <> P_mod_two_p_eq thm
+R5736:5752 compcert.lib.Zbits <> P_mod_two_p_range thm
+R5760:5773 compcert.lib.Zbits <> P_mod_two_p_eq thm
+R5736:5752 compcert.lib.Zbits <> P_mod_two_p_range thm
+R5760:5773 compcert.lib.Zbits <> P_mod_two_p_eq thm
+R5806:5817 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R5820:5823 Coq.Numbers.BinNums <> Zpos constr
+R5829:5841 Coq.ZArith.Zpower <> two_power_nat def
+R5806:5817 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R5820:5823 Coq.Numbers.BinNums <> Zpos constr
+R5829:5841 Coq.ZArith.Zpower <> two_power_nat def
+R5884:5886 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R5878:5881 Coq.Numbers.BinNums <> Zpos constr
+R5887:5899 Coq.ZArith.Zpower <> two_power_nat def
+R5884:5886 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R5878:5881 Coq.Numbers.BinNums <> Zpos constr
+R5887:5899 Coq.ZArith.Zpower <> two_power_nat def
+R5924:5934 compcert.lib.Zbits <> P_mod_two_p def
+R5924:5934 compcert.lib.Zbits <> P_mod_two_p def
+R5982:5986 Coq.ZArith.BinInt Z neg abbrev
+R5997:5999 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6007:6007 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6000:6004 Coq.ZArith.BinInt Z pos abbrev
+R5982:5986 Coq.ZArith.BinInt Z neg abbrev
+R5997:5999 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6007:6007 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6000:6004 Coq.ZArith.BinInt Z pos abbrev
+R6021:6023 compcert.lib.Coqlib <> zeq def
+R6021:6023 compcert.lib.Coqlib <> zeq def
+R6071:6071 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6053:6063 compcert.lib.Coqlib <> Zmod_unique thm
+R6071:6071 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6053:6063 compcert.lib.Coqlib <> Zmod_unique thm
+R6150:6152 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6148:6148 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6130:6140 compcert.lib.Coqlib <> Zmod_unique thm
+R6150:6152 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6148:6148 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6130:6140 compcert.lib.Coqlib <> Zmod_unique thm
+def 6317:6324 <> Zshiftin
+R6330:6333 Coq.Init.Datatypes <> bool ind
+binder 6327:6327 <> b:60
+R6340:6340 Coq.Numbers.BinNums <> Z ind
+binder 6337:6337 <> x:61
+R6345:6345 Coq.Numbers.BinNums <> Z ind
+R6355:6355 compcert.lib.Zbits <> b:60 var
+R6383:6390 Coq.ZArith.BinInt Z double def
+R6392:6392 compcert.lib.Zbits <> x:61 var
+R6362:6374 Coq.ZArith.BinInt Z succ_double def
+R6376:6376 compcert.lib.Zbits <> x:61 var
+prf 6403:6412 <> Ztestbit_0
+binder 6422:6422 <> n:62
+R6438:6440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6425:6433 Coq.ZArith.BinInt Z testbit def
+R6437:6437 compcert.lib.Zbits <> n:62 var
+R6441:6445 Coq.Init.Datatypes <> false constr
+R6454:6466 Coq.ZArith.BinInt Z testbit_0_l thm
+prf 6477:6486 <> Ztestbit_1
+binder 6496:6496 <> n:63
+R6512:6514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6499:6507 Coq.ZArith.BinInt Z testbit def
+R6511:6511 compcert.lib.Zbits <> n:63 var
+R6515:6517 compcert.lib.Coqlib <> zeq def
+R6519:6519 compcert.lib.Zbits <> n:63 var
+prf 6579:6589 <> Ztestbit_m1
+binder 6599:6599 <> n:64
+R6608:6611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6603:6606 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6607:6607 compcert.lib.Zbits <> n:64 var
+R6628:6630 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6612:6620 Coq.ZArith.BinInt Z testbit def
+R6627:6627 compcert.lib.Zbits <> n:64 var
+R6631:6634 Coq.Init.Datatypes <> true constr
+prf 6692:6704 <> Zshiftin_spec
+binder 6716:6716 <> b:65
+binder 6718:6718 <> x:66
+R6733:6735 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6721:6728 compcert.lib.Zbits <> Zshiftin def
+R6730:6730 compcert.lib.Zbits <> b:65 var
+R6732:6732 compcert.lib.Zbits <> x:66 var
+R6741:6744 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6763:6763 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6737:6739 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6740:6740 compcert.lib.Zbits <> x:66 var
+R6748:6748 compcert.lib.Zbits <> b:65 var
+R6782:6789 compcert.lib.Zbits <> Zshiftin def
+R6824:6841 Coq.ZArith.BinInt Z succ_double_spec thm
+R6824:6841 Coq.ZArith.BinInt Z succ_double_spec thm
+R6824:6841 Coq.ZArith.BinInt Z succ_double_spec thm
+R6861:6873 Coq.ZArith.BinInt Z double_spec thm
+R6861:6873 Coq.ZArith.BinInt Z double_spec thm
+R6861:6873 Coq.ZArith.BinInt Z double_spec thm
+prf 6894:6905 <> Zshiftin_inj
+binder 6917:6918 <> b1:67
+binder 6920:6921 <> x1:68
+binder 6923:6924 <> b2:69
+binder 6926:6927 <> x2:70
+R6963:6966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6946:6948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6932:6939 compcert.lib.Zbits <> Zshiftin def
+R6941:6942 compcert.lib.Zbits <> b1:67 var
+R6944:6945 compcert.lib.Zbits <> x1:68 var
+R6949:6956 compcert.lib.Zbits <> Zshiftin def
+R6958:6959 compcert.lib.Zbits <> b2:69 var
+R6961:6962 compcert.lib.Zbits <> x2:70 var
+R6974:6977 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6969:6971 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6967:6968 compcert.lib.Zbits <> b1:67 var
+R6972:6973 compcert.lib.Zbits <> b2:69 var
+R6980:6982 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6978:6979 compcert.lib.Zbits <> x1:68 var
+R6983:6984 compcert.lib.Zbits <> x2:70 var
+R7013:7025 compcert.lib.Zbits <> Zshiftin_spec thm
+R7013:7025 compcert.lib.Zbits <> Zshiftin_spec thm
+R7013:7025 compcert.lib.Zbits <> Zshiftin_spec thm
+R7013:7025 compcert.lib.Zbits <> Zshiftin_spec thm
+R7013:7025 compcert.lib.Zbits <> Zshiftin_spec thm
+prf 7136:7142 <> Zdecomp
+binder 7154:7154 <> x:71
+R7158:7160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7157:7157 compcert.lib.Zbits <> x:71 var
+R7161:7168 compcert.lib.Zbits <> Zshiftin def
+R7171:7175 Coq.ZArith.BinInt Z odd def
+R7177:7177 compcert.lib.Zbits <> x:71 var
+R7181:7186 Coq.ZArith.BinInt Z div2 def
+R7188:7188 compcert.lib.Zbits <> x:71 var
+R7297:7316 Coq.PArith.BinPos Pos pred_double_succ thm
+R7297:7316 Coq.PArith.BinPos Pos pred_double_succ thm
+R7297:7316 Coq.PArith.BinPos Pos pred_double_succ thm
+prf 7338:7353 <> Ztestbit_shiftin
+binder 7365:7365 <> b:72
+binder 7367:7367 <> x:73
+binder 7369:7369 <> n:74
+R7380:7385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7375:7378 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7379:7379 compcert.lib.Zbits <> n:74 var
+R7412:7414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7386:7394 Coq.ZArith.BinInt Z testbit def
+R7397:7404 compcert.lib.Zbits <> Zshiftin def
+R7406:7406 compcert.lib.Zbits <> b:72 var
+R7408:7408 compcert.lib.Zbits <> x:73 var
+R7411:7411 compcert.lib.Zbits <> n:74 var
+R7418:7420 compcert.lib.Coqlib <> zeq def
+R7422:7422 compcert.lib.Zbits <> n:74 var
+R7438:7446 Coq.ZArith.BinInt Z testbit def
+R7448:7448 compcert.lib.Zbits <> x:73 var
+R7451:7456 Coq.ZArith.BinInt Z pred def
+R7458:7458 compcert.lib.Zbits <> n:74 var
+R7431:7431 compcert.lib.Zbits <> b:72 var
+R7487:7499 compcert.lib.Zbits <> Zshiftin_spec thm
+R7487:7499 compcert.lib.Zbits <> Zshiftin_spec thm
+R7487:7499 compcert.lib.Zbits <> Zshiftin_spec thm
+R7512:7514 compcert.lib.Coqlib <> zeq def
+R7512:7514 compcert.lib.Coqlib <> zeq def
+R7559:7573 Coq.ZArith.BinInt Z testbit_odd_0 thm
+R7559:7573 Coq.ZArith.BinInt Z testbit_odd_0 thm
+R7590:7598 Coq.ZArith.BinInt Z add_0_r thm
+R7590:7598 Coq.ZArith.BinInt Z add_0_r thm
+R7590:7598 Coq.ZArith.BinInt Z add_0_r thm
+R7607:7622 Coq.ZArith.BinInt Z testbit_even_0 thm
+R7607:7622 Coq.ZArith.BinInt Z testbit_even_0 thm
+R7638:7641 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7642:7647 Coq.ZArith.BinInt Z pred def
+R7638:7641 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7642:7647 Coq.ZArith.BinInt Z pred def
+R7675:7680 Coq.ZArith.BinInt Z pred def
+R7675:7680 Coq.ZArith.BinInt Z pred def
+R7711:7716 Coq.ZArith.BinInt Z succ def
+R7711:7716 Coq.ZArith.BinInt Z succ def
+R7771:7788 Coq.ZArith.BinInt Z testbit_odd_succ thm
+R7771:7788 Coq.ZArith.BinInt Z testbit_odd_succ thm
+R7811:7819 Coq.ZArith.BinInt Z add_0_r thm
+R7811:7819 Coq.ZArith.BinInt Z add_0_r thm
+R7811:7819 Coq.ZArith.BinInt Z add_0_r thm
+R7828:7846 Coq.ZArith.BinInt Z testbit_even_succ thm
+R7828:7846 Coq.ZArith.BinInt Z testbit_even_succ thm
+prf 7868:7888 <> Ztestbit_shiftin_base
+binder 7900:7900 <> b:75
+binder 7902:7902 <> x:76
+R7931:7933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7905:7913 Coq.ZArith.BinInt Z testbit def
+R7916:7923 compcert.lib.Zbits <> Zshiftin def
+R7925:7925 compcert.lib.Zbits <> b:75 var
+R7927:7927 compcert.lib.Zbits <> x:76 var
+R7934:7934 compcert.lib.Zbits <> b:75 var
+R7962:7977 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R7962:7977 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R7962:7977 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R7962:7977 compcert.lib.Zbits <> Ztestbit_shiftin thm
+prf 8006:8026 <> Ztestbit_shiftin_succ
+binder 8038:8038 <> b:77
+binder 8040:8040 <> x:78
+binder 8042:8042 <> n:79
+R8051:8054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8046:8049 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R8050:8050 compcert.lib.Zbits <> n:79 var
+R8090:8092 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8055:8063 Coq.ZArith.BinInt Z testbit def
+R8066:8073 compcert.lib.Zbits <> Zshiftin def
+R8075:8075 compcert.lib.Zbits <> b:77 var
+R8077:8077 compcert.lib.Zbits <> x:78 var
+R8081:8086 Coq.ZArith.BinInt Z succ def
+R8088:8088 compcert.lib.Zbits <> n:79 var
+R8093:8101 Coq.ZArith.BinInt Z testbit def
+R8103:8103 compcert.lib.Zbits <> x:78 var
+R8105:8105 compcert.lib.Zbits <> n:79 var
+R8133:8148 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R8133:8148 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R8133:8148 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R8133:8148 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R8159:8167 compcert.lib.Coqlib <> zeq_false thm
+R8159:8167 compcert.lib.Coqlib <> zeq_false thm
+R8159:8167 compcert.lib.Coqlib <> zeq_false thm
+R8159:8167 compcert.lib.Coqlib <> zeq_false thm
+R8178:8188 Coq.ZArith.BinInt Z pred_succ thm
+R8178:8188 Coq.ZArith.BinInt Z pred_succ thm
+R8178:8188 Coq.ZArith.BinInt Z pred_succ thm
+prf 8221:8232 <> Zshiftin_ind
+R8249:8252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8248:8248 Coq.Numbers.BinNums <> Z ind
+binder 8245:8245 <> P:80
+R8265:8270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8262:8262 compcert.lib.Zbits <> P:80 var
+R8271:8271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8317:8323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8279:8279 <> b:81
+binder 8281:8281 <> x:82
+R8290:8293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8285:8288 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R8289:8289 compcert.lib.Zbits <> x:82 var
+R8297:8300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8294:8294 compcert.lib.Zbits <> P:80 var
+R8296:8296 compcert.lib.Zbits <> x:82 var
+R8301:8301 compcert.lib.Zbits <> P:80 var
+R8304:8311 compcert.lib.Zbits <> Zshiftin def
+R8313:8313 compcert.lib.Zbits <> b:81 var
+R8315:8315 compcert.lib.Zbits <> x:82 var
+binder 8331:8331 <> x:83
+R8340:8343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8335:8338 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R8339:8339 compcert.lib.Zbits <> x:83 var
+R8344:8344 compcert.lib.Zbits <> P:80 var
+R8346:8346 compcert.lib.Zbits <> x:83 var
+R8422:8429 compcert.lib.Zbits <> Zshiftin def
+R8431:8434 Coq.Init.Datatypes <> true constr
+R8437:8441 Coq.ZArith.BinInt Z pos abbrev
+R8422:8429 compcert.lib.Zbits <> Zshiftin def
+R8431:8434 Coq.Init.Datatypes <> true constr
+R8437:8441 Coq.ZArith.BinInt Z pos abbrev
+R8472:8479 compcert.lib.Zbits <> Zshiftin def
+R8481:8485 Coq.Init.Datatypes <> false constr
+R8488:8492 Coq.ZArith.BinInt Z pos abbrev
+R8472:8479 compcert.lib.Zbits <> Zshiftin def
+R8481:8485 Coq.Init.Datatypes <> false constr
+R8488:8492 Coq.ZArith.BinInt Z pos abbrev
+R8523:8530 compcert.lib.Zbits <> Zshiftin def
+R8532:8535 Coq.Init.Datatypes <> true constr
+R8523:8530 compcert.lib.Zbits <> Zshiftin def
+R8532:8535 Coq.Init.Datatypes <> true constr
+prf 8616:8631 <> Zshiftin_pos_ind
+R8648:8651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8647:8647 Coq.Numbers.BinNums <> Z ind
+binder 8644:8644 <> P:84
+R8664:8669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8661:8661 compcert.lib.Zbits <> P:84 var
+R8670:8670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8715:8721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8678:8678 <> b:85
+binder 8680:8680 <> x:86
+R8688:8691 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8684:8686 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R8687:8687 compcert.lib.Zbits <> x:86 var
+R8695:8698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8692:8692 compcert.lib.Zbits <> P:84 var
+R8694:8694 compcert.lib.Zbits <> x:86 var
+R8699:8699 compcert.lib.Zbits <> P:84 var
+R8702:8709 compcert.lib.Zbits <> Zshiftin def
+R8711:8711 compcert.lib.Zbits <> b:85 var
+R8713:8713 compcert.lib.Zbits <> x:86 var
+binder 8729:8729 <> x:87
+R8737:8740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8733:8735 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R8736:8736 compcert.lib.Zbits <> x:87 var
+R8741:8741 compcert.lib.Zbits <> P:84 var
+R8743:8743 compcert.lib.Zbits <> x:87 var
+R8838:8845 compcert.lib.Zbits <> Zshiftin def
+R8847:8850 Coq.Init.Datatypes <> true constr
+R8853:8857 Coq.ZArith.BinInt Z pos abbrev
+R8838:8845 compcert.lib.Zbits <> Zshiftin def
+R8847:8850 Coq.Init.Datatypes <> true constr
+R8853:8857 Coq.ZArith.BinInt Z pos abbrev
+R8888:8895 compcert.lib.Zbits <> Zshiftin def
+R8897:8901 Coq.Init.Datatypes <> false constr
+R8904:8908 Coq.ZArith.BinInt Z pos abbrev
+R8888:8895 compcert.lib.Zbits <> Zshiftin def
+R8897:8901 Coq.Init.Datatypes <> false constr
+R8904:8908 Coq.ZArith.BinInt Z pos abbrev
+prf 8995:9005 <> Ztestbit_eq
+binder 9017:9017 <> n:88
+binder 9019:9019 <> x:89
+R9028:9033 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9023:9026 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9027:9027 compcert.lib.Zbits <> n:88 var
+R9047:9049 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9034:9042 Coq.ZArith.BinInt Z testbit def
+R9044:9044 compcert.lib.Zbits <> x:89 var
+R9046:9046 compcert.lib.Zbits <> n:88 var
+R9053:9055 compcert.lib.Coqlib <> zeq def
+R9057:9057 compcert.lib.Zbits <> n:88 var
+R9079:9087 Coq.ZArith.BinInt Z testbit def
+R9090:9095 Coq.ZArith.BinInt Z div2 def
+R9097:9097 compcert.lib.Zbits <> x:89 var
+R9101:9106 Coq.ZArith.BinInt Z pred def
+R9108:9108 compcert.lib.Zbits <> n:88 var
+R9066:9070 Coq.ZArith.BinInt Z odd def
+R9072:9072 compcert.lib.Zbits <> x:89 var
+R9138:9144 compcert.lib.Zbits <> Zdecomp thm
+R9138:9144 compcert.lib.Zbits <> Zdecomp thm
+R9138:9144 compcert.lib.Zbits <> Zdecomp thm
+R9161:9176 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R9161:9176 compcert.lib.Zbits <> Ztestbit_shiftin thm
+prf 9198:9210 <> Ztestbit_base
+binder 9222:9222 <> x:90
+R9238:9240 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9225:9233 Coq.ZArith.BinInt Z testbit def
+R9235:9235 compcert.lib.Zbits <> x:90 var
+R9241:9245 Coq.ZArith.BinInt Z odd def
+R9247:9247 compcert.lib.Zbits <> x:90 var
+R9275:9285 compcert.lib.Zbits <> Ztestbit_eq thm
+R9275:9285 compcert.lib.Zbits <> Ztestbit_eq thm
+R9275:9285 compcert.lib.Zbits <> Ztestbit_eq thm
+R9275:9285 compcert.lib.Zbits <> Ztestbit_eq thm
+prf 9314:9326 <> Ztestbit_succ
+binder 9338:9338 <> n:91
+binder 9340:9340 <> x:92
+R9349:9352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9344:9347 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9348:9348 compcert.lib.Zbits <> n:91 var
+R9375:9377 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9353:9361 Coq.ZArith.BinInt Z testbit def
+R9363:9363 compcert.lib.Zbits <> x:92 var
+R9366:9371 Coq.ZArith.BinInt Z succ def
+R9373:9373 compcert.lib.Zbits <> n:91 var
+R9378:9386 Coq.ZArith.BinInt Z testbit def
+R9389:9394 Coq.ZArith.BinInt Z div2 def
+R9396:9396 compcert.lib.Zbits <> x:92 var
+R9399:9399 compcert.lib.Zbits <> n:91 var
+R9427:9437 compcert.lib.Zbits <> Ztestbit_eq thm
+R9427:9437 compcert.lib.Zbits <> Ztestbit_eq thm
+R9427:9437 compcert.lib.Zbits <> Ztestbit_eq thm
+R9427:9437 compcert.lib.Zbits <> Ztestbit_eq thm
+R9448:9456 compcert.lib.Coqlib <> zeq_false thm
+R9448:9456 compcert.lib.Coqlib <> zeq_false thm
+R9448:9456 compcert.lib.Coqlib <> zeq_false thm
+R9448:9456 compcert.lib.Coqlib <> zeq_false thm
+R9467:9477 Coq.ZArith.BinInt Z pred_succ thm
+R9467:9477 Coq.ZArith.BinInt Z pred_succ thm
+R9467:9477 Coq.ZArith.BinInt Z pred_succ thm
+prf 9510:9524 <> eqmod_same_bits
+binder 9536:9536 <> n:93
+binder 9538:9538 <> x:94
+binder 9540:9540 <> y:95
+R9545:9545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9608:9614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9553:9553 <> i:96
+R9575:9578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9557:9560 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R9562:9564 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R9561:9561 compcert.lib.Zbits <> i:96 var
+R9561:9561 compcert.lib.Zbits <> i:96 var
+R9565:9572 Coq.ZArith.BinInt Z of_nat def
+R9574:9574 compcert.lib.Zbits <> n:93 var
+R9592:9594 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9579:9587 Coq.ZArith.BinInt Z testbit def
+R9589:9589 compcert.lib.Zbits <> x:94 var
+R9591:9591 compcert.lib.Zbits <> i:96 var
+R9595:9603 Coq.ZArith.BinInt Z testbit def
+R9605:9605 compcert.lib.Zbits <> y:95 var
+R9607:9607 compcert.lib.Zbits <> i:96 var
+R9615:9619 compcert.lib.Zbits <> eqmod def
+R9639:9639 compcert.lib.Zbits <> x:94 var
+R9641:9641 compcert.lib.Zbits <> y:95 var
+R9622:9634 Coq.ZArith.Zpower <> two_power_nat def
+R9636:9636 compcert.lib.Zbits <> n:93 var
+R9686:9698 Coq.ZArith.Zpower <> two_power_nat def
+R9686:9698 Coq.ZArith.Zpower <> two_power_nat def
+R9720:9720 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R9720:9720 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R9743:9757 Coq.ZArith.Zpower <> two_power_nat_S thm
+R9743:9757 Coq.ZArith.Zpower <> two_power_nat_S thm
+R9743:9757 Coq.ZArith.Zpower <> two_power_nat_S thm
+R9772:9776 compcert.lib.Zbits <> eqmod def
+R9797:9802 Coq.ZArith.BinInt Z div2 def
+R9808:9813 Coq.ZArith.BinInt Z div2 def
+R9779:9791 Coq.ZArith.Zpower <> two_power_nat def
+R9772:9776 compcert.lib.Zbits <> eqmod def
+R9797:9802 Coq.ZArith.BinInt Z div2 def
+R9808:9813 Coq.ZArith.BinInt Z div2 def
+R9779:9791 Coq.ZArith.Zpower <> two_power_nat def
+R9857:9869 compcert.lib.Zbits <> Ztestbit_succ thm
+R9857:9869 compcert.lib.Zbits <> Ztestbit_succ thm
+R9857:9869 compcert.lib.Zbits <> Ztestbit_succ thm
+R9857:9869 compcert.lib.Zbits <> Ztestbit_succ thm
+R9857:9869 compcert.lib.Zbits <> Ztestbit_succ thm
+R9857:9869 compcert.lib.Zbits <> Ztestbit_succ thm
+R9857:9869 compcert.lib.Zbits <> Ztestbit_succ thm
+R9889:9902 Coq.ZArith.Znat Nat2Z inj_succ thm
+R9889:9902 Coq.ZArith.Znat Nat2Z inj_succ thm
+R9889:9902 Coq.ZArith.Znat Nat2Z inj_succ thm
+R9972:9978 compcert.lib.Zbits <> Zdecomp thm
+R9972:9978 compcert.lib.Zbits <> Zdecomp thm
+R9972:9978 compcert.lib.Zbits <> Zdecomp thm
+R9993:9999 compcert.lib.Zbits <> Zdecomp thm
+R9993:9999 compcert.lib.Zbits <> Zdecomp thm
+R9993:9999 compcert.lib.Zbits <> Zdecomp thm
+R10016:10020 Coq.ZArith.BinInt Z odd def
+R10031:10035 Coq.ZArith.BinInt Z odd def
+R10016:10020 Coq.ZArith.BinInt Z odd def
+R10031:10035 Coq.ZArith.BinInt Z odd def
+R10064:10076 compcert.lib.Zbits <> Zshiftin_spec thm
+R10064:10076 compcert.lib.Zbits <> Zshiftin_spec thm
+R10064:10076 compcert.lib.Zbits <> Zshiftin_spec thm
+R10064:10076 compcert.lib.Zbits <> Zshiftin_spec thm
+R10064:10076 compcert.lib.Zbits <> Zshiftin_spec thm
+R10110:10123 Coq.ZArith.Znat Nat2Z inj_succ thm
+R10110:10123 Coq.ZArith.Znat Nat2Z inj_succ thm
+R10110:10123 Coq.ZArith.Znat Nat2Z inj_succ thm
+R10142:10154 compcert.lib.Zbits <> Ztestbit_base thm
+R10142:10154 compcert.lib.Zbits <> Ztestbit_base thm
+R10142:10154 compcert.lib.Zbits <> Ztestbit_base thm
+R10142:10154 compcert.lib.Zbits <> Ztestbit_base thm
+R10142:10154 compcert.lib.Zbits <> Ztestbit_base thm
+prf 10175:10189 <> same_bits_eqmod
+binder 10201:10201 <> n:97
+binder 10203:10203 <> x:98
+binder 10205:10205 <> y:99
+binder 10207:10207 <> i:100
+R10239:10242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10212:10216 compcert.lib.Zbits <> eqmod def
+R10236:10236 compcert.lib.Zbits <> x:98 var
+R10238:10238 compcert.lib.Zbits <> y:99 var
+R10219:10231 Coq.ZArith.Zpower <> two_power_nat def
+R10233:10233 compcert.lib.Zbits <> n:97 var
+R10262:10267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10244:10247 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R10249:10251 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R10248:10248 compcert.lib.Zbits <> i:100 var
+R10248:10248 compcert.lib.Zbits <> i:100 var
+R10252:10259 Coq.ZArith.BinInt Z of_nat def
+R10261:10261 compcert.lib.Zbits <> n:97 var
+R10281:10283 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10268:10276 Coq.ZArith.BinInt Z testbit def
+R10278:10278 compcert.lib.Zbits <> x:98 var
+R10280:10280 compcert.lib.Zbits <> i:100 var
+R10284:10292 Coq.ZArith.BinInt Z testbit def
+R10294:10294 compcert.lib.Zbits <> y:99 var
+R10296:10296 compcert.lib.Zbits <> i:100 var
+R10366:10379 Coq.ZArith.Znat Nat2Z inj_succ thm
+R10366:10379 Coq.ZArith.Znat Nat2Z inj_succ thm
+R10366:10379 Coq.ZArith.Znat Nat2Z inj_succ thm
+R10396:10410 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10396:10410 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10396:10410 Coq.ZArith.Zpower <> two_power_nat_S thm
+R10432:10442 compcert.lib.Zbits <> Ztestbit_eq thm
+R10432:10442 compcert.lib.Zbits <> Ztestbit_eq thm
+R10432:10442 compcert.lib.Zbits <> Ztestbit_eq thm
+R10432:10442 compcert.lib.Zbits <> Ztestbit_eq thm
+R10432:10442 compcert.lib.Zbits <> Ztestbit_eq thm
+R10432:10442 compcert.lib.Zbits <> Ztestbit_eq thm
+R10432:10442 compcert.lib.Zbits <> Ztestbit_eq thm
+R10531:10550 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10502:10509 compcert.lib.Zbits <> Zshiftin def
+R10512:10516 Coq.ZArith.BinInt Z odd def
+R10522:10527 Coq.ZArith.BinInt Z div2 def
+R10551:10558 compcert.lib.Zbits <> Zshiftin def
+R10561:10565 Coq.ZArith.BinInt Z odd def
+R10590:10592 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10572:10574 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10575:10587 Coq.ZArith.Zpower <> two_power_nat def
+R10593:10598 Coq.ZArith.BinInt Z div2 def
+R10531:10550 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10502:10509 compcert.lib.Zbits <> Zshiftin def
+R10512:10516 Coq.ZArith.BinInt Z odd def
+R10522:10527 Coq.ZArith.BinInt Z div2 def
+R10551:10558 compcert.lib.Zbits <> Zshiftin def
+R10561:10565 Coq.ZArith.BinInt Z odd def
+R10590:10592 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10572:10574 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10575:10587 Coq.ZArith.Zpower <> two_power_nat def
+R10593:10598 Coq.ZArith.BinInt Z div2 def
+R10626:10632 compcert.lib.Zbits <> Zdecomp thm
+R10626:10632 compcert.lib.Zbits <> Zdecomp thm
+R10626:10632 compcert.lib.Zbits <> Zdecomp thm
+R10653:10659 compcert.lib.Zbits <> Zdecomp thm
+R10653:10659 compcert.lib.Zbits <> Zdecomp thm
+R10653:10659 compcert.lib.Zbits <> Zdecomp thm
+R10698:10710 compcert.lib.Zbits <> Zshiftin_spec thm
+R10698:10710 compcert.lib.Zbits <> Zshiftin_spec thm
+R10698:10710 compcert.lib.Zbits <> Zshiftin_spec thm
+R10698:10710 compcert.lib.Zbits <> Zshiftin_spec thm
+R10698:10710 compcert.lib.Zbits <> Zshiftin_spec thm
+R10737:10748 compcert.lib.Zbits <> Zshiftin_inj thm
+R10786:10788 compcert.lib.Coqlib <> zeq def
+R10786:10788 compcert.lib.Coqlib <> zeq def
+prf 10858:10872 <> equal_same_bits
+binder 10884:10884 <> x:101
+binder 10886:10886 <> y:102
+R10891:10891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10941:10947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 10899:10899 <> i:103
+R10908:10911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10903:10906 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R10907:10907 compcert.lib.Zbits <> i:103 var
+R10925:10927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10912:10920 Coq.ZArith.BinInt Z testbit def
+R10922:10922 compcert.lib.Zbits <> x:101 var
+R10924:10924 compcert.lib.Zbits <> i:103 var
+R10928:10936 Coq.ZArith.BinInt Z testbit def
+R10938:10938 compcert.lib.Zbits <> y:102 var
+R10940:10940 compcert.lib.Zbits <> i:103 var
+R10949:10951 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10948:10948 compcert.lib.Zbits <> x:101 var
+R10952:10952 compcert.lib.Zbits <> y:102 var
+R10961:10971 Coq.ZArith.BinInt Z bits_inj' thm
+prf 10981:10996 <> Z_one_complement
+binder 11008:11008 <> i:104
+R11017:11022 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11012:11015 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R11016:11016 compcert.lib.Zbits <> i:104 var
+binder 11030:11030 <> x:105
+R11051:11053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11033:11041 Coq.ZArith.BinInt Z testbit def
+R11046:11046 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11044:11044 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R11045:11045 compcert.lib.Zbits <> x:105 var
+R11050:11050 compcert.lib.Zbits <> i:104 var
+R11054:11057 Coq.Init.Datatypes <> negb def
+R11060:11068 Coq.ZArith.BinInt Z testbit def
+R11070:11070 compcert.lib.Zbits <> x:105 var
+R11072:11072 compcert.lib.Zbits <> i:104 var
+R11119:11127 Coq.ZArith.Wf_Z <> Zlt_0_ind thm
+R11119:11127 Coq.ZArith.Wf_Z <> Zlt_0_ind thm
+R11169:11175 compcert.lib.Zbits <> Zdecomp thm
+R11169:11175 compcert.lib.Zbits <> Zdecomp thm
+R11169:11175 compcert.lib.Zbits <> Zdecomp thm
+R11191:11196 Coq.ZArith.BinInt Z div2 def
+R11191:11196 Coq.ZArith.BinInt Z div2 def
+R11235:11237 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11213:11214 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R11215:11222 compcert.lib.Zbits <> Zshiftin def
+R11225:11229 Coq.ZArith.BinInt Z odd def
+R11252:11259 compcert.lib.Zbits <> Zshiftin def
+R11262:11265 Coq.Init.Datatypes <> negb def
+R11268:11272 Coq.ZArith.BinInt Z odd def
+R11282:11284 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11279:11280 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R11235:11237 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11213:11214 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R11215:11222 compcert.lib.Zbits <> Zshiftin def
+R11225:11229 Coq.ZArith.BinInt Z odd def
+R11252:11259 compcert.lib.Zbits <> Zshiftin def
+R11262:11265 Coq.Init.Datatypes <> negb def
+R11268:11272 Coq.ZArith.BinInt Z odd def
+R11282:11284 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11279:11280 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R11301:11316 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R11301:11316 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R11301:11316 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R11301:11316 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R11301:11316 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R11301:11316 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R11301:11316 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R11337:11339 compcert.lib.Coqlib <> zeq def
+R11337:11339 compcert.lib.Coqlib <> zeq def
+R11380:11392 compcert.lib.Zbits <> Zshiftin_spec thm
+R11380:11392 compcert.lib.Zbits <> Zshiftin_spec thm
+R11380:11392 compcert.lib.Zbits <> Zshiftin_spec thm
+R11380:11392 compcert.lib.Zbits <> Zshiftin_spec thm
+R11380:11392 compcert.lib.Zbits <> Zshiftin_spec thm
+R11405:11409 Coq.ZArith.BinInt Z odd def
+R11421:11424 Coq.Init.Datatypes <> negb def
+R11405:11409 Coq.ZArith.BinInt Z odd def
+prf 11445:11458 <> Ztestbit_above
+binder 11470:11470 <> n:106
+binder 11472:11472 <> x:107
+binder 11474:11474 <> i:108
+R11503:11508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11480:11483 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R11485:11487 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R11484:11484 compcert.lib.Zbits <> x:107 var
+R11484:11484 compcert.lib.Zbits <> x:107 var
+R11488:11500 Coq.ZArith.Zpower <> two_power_nat def
+R11502:11502 compcert.lib.Zbits <> n:106 var
+R11524:11529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11510:11513 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R11509:11509 compcert.lib.Zbits <> i:108 var
+R11514:11521 Coq.ZArith.BinInt Z of_nat def
+R11523:11523 compcert.lib.Zbits <> n:106 var
+R11543:11545 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11530:11538 Coq.ZArith.BinInt Z testbit def
+R11540:11540 compcert.lib.Zbits <> x:107 var
+R11542:11542 compcert.lib.Zbits <> i:108 var
+R11546:11550 Coq.Init.Datatypes <> false constr
+R11595:11607 Coq.ZArith.Zpower <> two_power_nat def
+R11595:11607 Coq.ZArith.Zpower <> two_power_nat def
+R11664:11676 Coq.ZArith.BinInt Z testbit_0_l thm
+R11664:11676 Coq.ZArith.BinInt Z testbit_0_l thm
+R11691:11704 Coq.ZArith.Znat Nat2Z inj_succ thm
+R11691:11704 Coq.ZArith.Znat Nat2Z inj_succ thm
+R11691:11704 Coq.ZArith.Znat Nat2Z inj_succ thm
+R11721:11731 compcert.lib.Zbits <> Ztestbit_eq thm
+R11721:11731 compcert.lib.Zbits <> Ztestbit_eq thm
+R11721:11731 compcert.lib.Zbits <> Ztestbit_eq thm
+R11721:11731 compcert.lib.Zbits <> Ztestbit_eq thm
+R11742:11750 compcert.lib.Coqlib <> zeq_false thm
+R11742:11750 compcert.lib.Coqlib <> zeq_false thm
+R11742:11750 compcert.lib.Coqlib <> zeq_false thm
+R11742:11750 compcert.lib.Coqlib <> zeq_false thm
+R11776:11790 Coq.ZArith.Zpower <> two_power_nat_S thm
+R11776:11790 Coq.ZArith.Zpower <> two_power_nat_S thm
+R11776:11790 Coq.ZArith.Zpower <> two_power_nat_S thm
+R11807:11813 compcert.lib.Zbits <> Zdecomp thm
+R11807:11813 compcert.lib.Zbits <> Zdecomp thm
+R11807:11813 compcert.lib.Zbits <> Zdecomp thm
+R11836:11848 compcert.lib.Zbits <> Zshiftin_spec thm
+R11836:11848 compcert.lib.Zbits <> Zshiftin_spec thm
+R11836:11848 compcert.lib.Zbits <> Zshiftin_spec thm
+R11866:11870 Coq.ZArith.BinInt Z odd def
+R11866:11870 Coq.ZArith.BinInt Z odd def
+prf 11912:11929 <> Ztestbit_above_neg
+binder 11941:11941 <> n:109
+binder 11943:11943 <> x:110
+binder 11945:11945 <> i:111
+R11975:11980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11966:11969 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R11971:11973 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R11950:11950 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R11951:11963 Coq.ZArith.Zpower <> two_power_nat def
+R11965:11965 compcert.lib.Zbits <> n:109 var
+R11970:11970 compcert.lib.Zbits <> x:110 var
+R11970:11970 compcert.lib.Zbits <> x:110 var
+R11996:12001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11982:11985 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R11981:11981 compcert.lib.Zbits <> i:111 var
+R11986:11993 Coq.ZArith.BinInt Z of_nat def
+R11995:11995 compcert.lib.Zbits <> n:109 var
+R12015:12017 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12002:12010 Coq.ZArith.BinInt Z testbit def
+R12012:12012 compcert.lib.Zbits <> x:110 var
+R12014:12014 compcert.lib.Zbits <> i:111 var
+R12018:12021 Coq.Init.Datatypes <> true constr
+R12053:12053 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12051:12051 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R12053:12053 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12051:12051 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R12081:12083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12068:12076 Coq.ZArith.BinInt Z testbit def
+R12084:12088 Coq.Init.Datatypes <> false constr
+R12081:12083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12068:12076 Coq.ZArith.BinInt Z testbit def
+R12084:12088 Coq.Init.Datatypes <> false constr
+R12102:12115 compcert.lib.Zbits <> Ztestbit_above thm
+R12102:12115 compcert.lib.Zbits <> Ztestbit_above thm
+R12176:12191 compcert.lib.Zbits <> Z_one_complement thm
+R12176:12191 compcert.lib.Zbits <> Z_one_complement thm
+R12176:12191 compcert.lib.Zbits <> Z_one_complement thm
+R12176:12191 compcert.lib.Zbits <> Z_one_complement thm
+R12209:12212 Coq.Init.Datatypes <> true constr
+R12220:12223 Coq.Init.Datatypes <> negb def
+R12225:12229 Coq.Init.Datatypes <> false constr
+R12209:12212 Coq.Init.Datatypes <> true constr
+R12220:12223 Coq.Init.Datatypes <> negb def
+R12225:12229 Coq.Init.Datatypes <> false constr
+R12256:12270 Coq.Bool.Bool <> negb_involutive thm
+R12256:12270 Coq.Bool.Bool <> negb_involutive thm
+R12256:12270 Coq.Bool.Bool <> negb_involutive thm
+prf 12298:12306 <> Zsign_bit
+binder 12318:12318 <> n:112
+binder 12320:12320 <> x:113
+R12353:12358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12326:12329 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12331:12333 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12330:12330 compcert.lib.Zbits <> x:113 var
+R12330:12330 compcert.lib.Zbits <> x:113 var
+R12334:12346 Coq.ZArith.Zpower <> two_power_nat def
+R12349:12349 Coq.Init.Datatypes <> S constr
+R12351:12351 compcert.lib.Zbits <> n:112 var
+R12383:12385 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12359:12367 Coq.ZArith.BinInt Z testbit def
+R12369:12369 compcert.lib.Zbits <> x:113 var
+R12372:12379 Coq.ZArith.BinInt Z of_nat def
+R12381:12381 compcert.lib.Zbits <> n:112 var
+R12389:12391 compcert.lib.Coqlib <> zlt def
+R12393:12393 compcert.lib.Zbits <> x:113 var
+R12396:12408 Coq.ZArith.Zpower <> two_power_nat def
+R12410:12410 compcert.lib.Zbits <> n:112 var
+R12429:12432 Coq.Init.Datatypes <> true constr
+R12418:12422 Coq.Init.Datatypes <> false constr
+R12477:12489 Coq.ZArith.Zpower <> two_power_nat def
+R12477:12489 Coq.ZArith.Zpower <> two_power_nat def
+R12524:12527 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12520:12522 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12529:12531 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12524:12527 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12520:12522 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12529:12531 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12594:12607 Coq.ZArith.Znat Nat2Z inj_succ thm
+R12594:12607 Coq.ZArith.Znat Nat2Z inj_succ thm
+R12594:12607 Coq.ZArith.Znat Nat2Z inj_succ thm
+R12618:12628 compcert.lib.Zbits <> Ztestbit_eq thm
+R12618:12628 compcert.lib.Zbits <> Ztestbit_eq thm
+R12618:12628 compcert.lib.Zbits <> Ztestbit_eq thm
+R12618:12628 compcert.lib.Zbits <> Ztestbit_eq thm
+R12639:12647 compcert.lib.Coqlib <> zeq_false thm
+R12639:12647 compcert.lib.Coqlib <> zeq_false thm
+R12639:12647 compcert.lib.Coqlib <> zeq_false thm
+R12639:12647 compcert.lib.Coqlib <> zeq_false thm
+R12658:12668 Coq.ZArith.BinInt Z pred_succ thm
+R12658:12668 Coq.ZArith.BinInt Z pred_succ thm
+R12658:12668 Coq.ZArith.BinInt Z pred_succ thm
+R12696:12710 Coq.ZArith.Zpower <> two_power_nat_S thm
+R12696:12710 Coq.ZArith.Zpower <> two_power_nat_S thm
+R12696:12710 Coq.ZArith.Zpower <> two_power_nat_S thm
+R12727:12729 compcert.lib.Coqlib <> zlt def
+R12732:12737 Coq.ZArith.BinInt Z div2 def
+R12743:12755 Coq.ZArith.Zpower <> two_power_nat def
+R12771:12777 compcert.lib.Zbits <> Zdecomp thm
+R12791:12803 compcert.lib.Zbits <> Zshiftin_spec thm
+R12727:12729 compcert.lib.Coqlib <> zlt def
+R12732:12737 Coq.ZArith.BinInt Z div2 def
+R12743:12755 Coq.ZArith.Zpower <> two_power_nat def
+R12771:12777 compcert.lib.Zbits <> Zdecomp thm
+R12771:12777 compcert.lib.Zbits <> Zdecomp thm
+R12771:12777 compcert.lib.Zbits <> Zdecomp thm
+R12771:12777 compcert.lib.Zbits <> Zdecomp thm
+R12791:12803 compcert.lib.Zbits <> Zshiftin_spec thm
+R12791:12803 compcert.lib.Zbits <> Zshiftin_spec thm
+R12791:12803 compcert.lib.Zbits <> Zshiftin_spec thm
+R12791:12803 compcert.lib.Zbits <> Zshiftin_spec thm
+R12818:12825 compcert.lib.Coqlib <> zlt_true thm
+R12818:12825 compcert.lib.Coqlib <> zlt_true thm
+R12818:12825 compcert.lib.Coqlib <> zlt_true thm
+R12818:12825 compcert.lib.Coqlib <> zlt_true thm
+R12844:12848 Coq.ZArith.BinInt Z odd def
+R12844:12848 Coq.ZArith.BinInt Z odd def
+R12871:12879 compcert.lib.Coqlib <> zlt_false thm
+R12871:12879 compcert.lib.Coqlib <> zlt_false thm
+R12871:12879 compcert.lib.Coqlib <> zlt_false thm
+R12871:12879 compcert.lib.Coqlib <> zlt_false thm
+R12898:12902 Coq.ZArith.BinInt Z odd def
+R12898:12902 Coq.ZArith.BinInt Z odd def
+R12926:12932 compcert.lib.Zbits <> Zdecomp thm
+R12951:12963 compcert.lib.Zbits <> Zshiftin_spec thm
+R12926:12932 compcert.lib.Zbits <> Zdecomp thm
+R12926:12932 compcert.lib.Zbits <> Zdecomp thm
+R12951:12963 compcert.lib.Zbits <> Zshiftin_spec thm
+R12951:12963 compcert.lib.Zbits <> Zshiftin_spec thm
+R12983:12997 Coq.ZArith.Zpower <> two_power_nat_S thm
+R12983:12997 Coq.ZArith.Zpower <> two_power_nat_S thm
+R12983:12997 Coq.ZArith.Zpower <> two_power_nat_S thm
+R13015:13019 Coq.ZArith.BinInt Z odd def
+R13015:13019 Coq.ZArith.BinInt Z odd def
+prf 13056:13066 <> Ztestbit_le
+binder 13078:13078 <> x:114
+binder 13080:13080 <> y:115
+R13091:13096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13086:13089 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13090:13090 compcert.lib.Zbits <> y:115 var
+R13097:13097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13162:13168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13105:13105 <> i:116
+R13114:13117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13109:13112 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13113:13113 compcert.lib.Zbits <> i:116 var
+R13138:13141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13131:13133 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13118:13126 Coq.ZArith.BinInt Z testbit def
+R13128:13128 compcert.lib.Zbits <> x:114 var
+R13130:13130 compcert.lib.Zbits <> i:116 var
+R13134:13137 Coq.Init.Datatypes <> true constr
+R13155:13157 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13142:13150 Coq.ZArith.BinInt Z testbit def
+R13152:13152 compcert.lib.Zbits <> y:115 var
+R13154:13154 compcert.lib.Zbits <> i:116 var
+R13158:13161 Coq.Init.Datatypes <> true constr
+R13170:13173 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13169:13169 compcert.lib.Zbits <> x:114 var
+R13174:13174 compcert.lib.Zbits <> y:115 var
+R13232:13243 compcert.lib.Zbits <> Zshiftin_ind thm
+R13232:13243 compcert.lib.Zbits <> Zshiftin_ind thm
+R13293:13307 compcert.lib.Zbits <> equal_same_bits thm
+R13293:13307 compcert.lib.Zbits <> equal_same_bits thm
+R13330:13339 compcert.lib.Zbits <> Ztestbit_0 thm
+R13330:13339 compcert.lib.Zbits <> Ztestbit_0 thm
+R13330:13339 compcert.lib.Zbits <> Ztestbit_0 thm
+R13352:13360 Coq.ZArith.BinInt Z testbit def
+R13352:13360 Coq.ZArith.BinInt Z testbit def
+R13416:13425 compcert.lib.Zbits <> Ztestbit_0 thm
+R13416:13425 compcert.lib.Zbits <> Ztestbit_0 thm
+R13416:13425 compcert.lib.Zbits <> Ztestbit_0 thm
+R13455:13458 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13446:13451 Coq.ZArith.BinInt Z div2 def
+R13455:13458 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13446:13451 Coq.ZArith.BinInt Z div2 def
+R13500:13505 Coq.ZArith.BinInt Z succ def
+R13500:13505 Coq.ZArith.BinInt Z succ def
+R13533:13545 compcert.lib.Zbits <> Ztestbit_succ thm
+R13533:13545 compcert.lib.Zbits <> Ztestbit_succ thm
+R13533:13545 compcert.lib.Zbits <> Ztestbit_succ thm
+R13533:13545 compcert.lib.Zbits <> Ztestbit_succ thm
+R13562:13582 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R13562:13582 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R13562:13582 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R13562:13582 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R13610:13616 compcert.lib.Zbits <> Zdecomp thm
+R13610:13616 compcert.lib.Zbits <> Zdecomp thm
+R13610:13616 compcert.lib.Zbits <> Zdecomp thm
+R13632:13644 compcert.lib.Zbits <> Zshiftin_spec thm
+R13632:13644 compcert.lib.Zbits <> Zshiftin_spec thm
+R13632:13644 compcert.lib.Zbits <> Zshiftin_spec thm
+R13632:13644 compcert.lib.Zbits <> Zshiftin_spec thm
+R13632:13644 compcert.lib.Zbits <> Zshiftin_spec thm
+R13661:13665 Coq.ZArith.BinInt Z odd def
+R13661:13665 Coq.ZArith.BinInt Z odd def
+R13752:13764 compcert.lib.Zbits <> Ztestbit_base thm
+R13752:13764 compcert.lib.Zbits <> Ztestbit_base thm
+R13752:13764 compcert.lib.Zbits <> Ztestbit_base thm
+R13785:13805 compcert.lib.Zbits <> Ztestbit_shiftin_base thm
+R13785:13805 compcert.lib.Zbits <> Ztestbit_shiftin_base thm
+R13785:13805 compcert.lib.Zbits <> Ztestbit_shiftin_base thm
+prf 13832:13849 <> Ztestbit_mod_two_p
+binder 13861:13861 <> n:117
+binder 13863:13863 <> x:118
+binder 13865:13865 <> i:119
+R13876:13879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13871:13874 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13875:13875 compcert.lib.Zbits <> n:117 var
+R13886:13891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13881:13884 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R13885:13885 compcert.lib.Zbits <> i:119 var
+R13921:13923 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13892:13900 Coq.ZArith.BinInt Z testbit def
+R13904:13909 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13917:13917 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R13903:13903 compcert.lib.Zbits <> x:118 var
+R13910:13914 Coq.ZArith.Zpower <> two_p def
+R13916:13916 compcert.lib.Zbits <> n:117 var
+R13920:13920 compcert.lib.Zbits <> i:119 var
+R13927:13929 compcert.lib.Coqlib <> zlt def
+R13931:13931 compcert.lib.Zbits <> i:119 var
+R13933:13933 compcert.lib.Zbits <> n:117 var
+R13959:13963 Coq.Init.Datatypes <> false constr
+R13940:13948 Coq.ZArith.BinInt Z testbit def
+R13950:13950 compcert.lib.Zbits <> x:118 var
+R13952:13952 compcert.lib.Zbits <> i:119 var
+R14026:14036 Coq.ZArith.Wf_Z <> natlike_ind thm
+R14026:14036 Coq.ZArith.Wf_Z <> natlike_ind thm
+R14065:14069 Coq.ZArith.Zpower <> two_p def
+R14065:14069 Coq.ZArith.Zpower <> two_p def
+R14090:14097 Coq.ZArith.Zdiv <> Zmod_1_r thm
+R14090:14097 Coq.ZArith.Zdiv <> Zmod_1_r thm
+R14090:14097 Coq.ZArith.Zdiv <> Zmod_1_r thm
+R14108:14120 Coq.ZArith.BinInt Z testbit_0_l thm
+R14108:14120 Coq.ZArith.BinInt Z testbit_0_l thm
+R14108:14120 Coq.ZArith.BinInt Z testbit_0_l thm
+R14135:14143 compcert.lib.Coqlib <> zlt_false thm
+R14135:14143 compcert.lib.Coqlib <> zlt_false thm
+R14135:14143 compcert.lib.Coqlib <> zlt_false thm
+R14135:14143 compcert.lib.Coqlib <> zlt_false thm
+R14177:14183 Coq.ZArith.Zpower <> two_p_S thm
+R14177:14183 Coq.ZArith.Zpower <> two_p_S thm
+R14177:14183 Coq.ZArith.Zpower <> two_p_S thm
+R14177:14183 Coq.ZArith.Zpower <> two_p_S thm
+R14207:14212 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14224:14224 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14214:14216 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14217:14221 Coq.ZArith.Zpower <> two_p def
+R14240:14247 compcert.lib.Zbits <> Zshiftin def
+R14250:14254 Coq.ZArith.BinInt Z odd def
+R14270:14274 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14261:14266 Coq.ZArith.BinInt Z div2 def
+R14275:14279 Coq.ZArith.Zpower <> two_p def
+R14207:14212 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14224:14224 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14214:14216 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14217:14221 Coq.ZArith.Zpower <> two_p def
+R14240:14247 compcert.lib.Zbits <> Zshiftin def
+R14250:14254 Coq.ZArith.BinInt Z odd def
+R14270:14274 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14261:14266 Coq.ZArith.BinInt Z div2 def
+R14275:14279 Coq.ZArith.Zpower <> two_p def
+R14298:14313 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R14298:14313 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R14298:14313 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R14298:14313 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R14331:14341 compcert.lib.Zbits <> Ztestbit_eq thm
+R14331:14341 compcert.lib.Zbits <> Ztestbit_eq thm
+R14331:14341 compcert.lib.Zbits <> Ztestbit_eq thm
+R14331:14341 compcert.lib.Zbits <> Ztestbit_eq thm
+R14366:14368 compcert.lib.Coqlib <> zeq def
+R14366:14368 compcert.lib.Coqlib <> zeq def
+R14390:14397 compcert.lib.Coqlib <> zlt_true thm
+R14390:14397 compcert.lib.Coqlib <> zlt_true thm
+R14390:14397 compcert.lib.Coqlib <> zlt_true thm
+R14390:14397 compcert.lib.Coqlib <> zlt_true thm
+R14439:14441 compcert.lib.Coqlib <> zlt def
+R14444:14449 Coq.ZArith.BinInt Z pred def
+R14439:14441 compcert.lib.Coqlib <> zlt def
+R14444:14449 Coq.ZArith.BinInt Z pred def
+R14474:14481 compcert.lib.Coqlib <> zlt_true thm
+R14474:14481 compcert.lib.Coqlib <> zlt_true thm
+R14474:14481 compcert.lib.Coqlib <> zlt_true thm
+R14474:14481 compcert.lib.Coqlib <> zlt_true thm
+R14511:14519 compcert.lib.Coqlib <> zlt_false thm
+R14511:14519 compcert.lib.Coqlib <> zlt_false thm
+R14511:14519 compcert.lib.Coqlib <> zlt_false thm
+R14511:14519 compcert.lib.Coqlib <> zlt_false thm
+R14561:14567 compcert.lib.Zbits <> Zdecomp thm
+R14561:14567 compcert.lib.Zbits <> Zdecomp thm
+R14561:14567 compcert.lib.Zbits <> Zdecomp thm
+R14590:14595 Coq.ZArith.BinInt Z div2 def
+R14590:14595 Coq.ZArith.BinInt Z div2 def
+R14644:14646 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R14647:14651 Coq.ZArith.Zpower <> two_p def
+R14624:14634 compcert.lib.Coqlib <> Zmod_unique thm
+R14644:14646 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R14647:14651 Coq.ZArith.Zpower <> two_p def
+R14624:14634 compcert.lib.Coqlib <> Zmod_unique thm
+R14672:14684 compcert.lib.Zbits <> Zshiftin_spec thm
+R14672:14684 compcert.lib.Zbits <> Zshiftin_spec thm
+R14672:14684 compcert.lib.Zbits <> Zshiftin_spec thm
+R14672:14684 compcert.lib.Zbits <> Zshiftin_spec thm
+R14672:14684 compcert.lib.Zbits <> Zshiftin_spec thm
+R14695:14705 Coq.ZArith.BinInt Z add_assoc thm
+R14695:14705 Coq.ZArith.BinInt Z add_assoc thm
+R14695:14705 Coq.ZArith.BinInt Z add_assoc thm
+R14738:14741 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14783:14783 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14766:14768 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14749:14752 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14765:14765 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14742:14746 Coq.ZArith.Zpower <> two_p def
+R14755:14757 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R14758:14762 Coq.ZArith.Zpower <> two_p def
+R14771:14775 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14776:14780 Coq.ZArith.Zpower <> two_p def
+R14738:14741 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14783:14783 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14766:14768 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14749:14752 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14765:14765 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14742:14746 Coq.ZArith.Zpower <> two_p def
+R14755:14757 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R14758:14762 Coq.ZArith.Zpower <> two_p def
+R14771:14775 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R14776:14780 Coq.ZArith.Zpower <> two_p def
+R14808:14819 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R14808:14819 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R14828:14840 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R14828:14840 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R14875:14887 compcert.lib.Zbits <> Zshiftin_spec thm
+R14875:14887 compcert.lib.Zbits <> Zshiftin_spec thm
+R14875:14887 compcert.lib.Zbits <> Zshiftin_spec thm
+R14899:14906 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R14912:14916 Coq.ZArith.Zpower <> two_p def
+R14899:14906 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R14912:14916 Coq.ZArith.Zpower <> two_p def
+R14929:14941 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R14929:14941 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R14966:14970 Coq.ZArith.BinInt Z odd def
+R14966:14970 Coq.ZArith.BinInt Z odd def
+prf 14998:15014 <> Ztestbit_two_p_m1
+binder 15026:15026 <> n:120
+binder 15028:15028 <> i:121
+R15037:15040 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15032:15035 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R15036:15036 compcert.lib.Zbits <> n:120 var
+R15047:15052 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15042:15045 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R15046:15046 compcert.lib.Zbits <> i:121 var
+R15078:15080 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15053:15061 Coq.ZArith.BinInt Z testbit def
+R15071:15073 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15064:15068 Coq.ZArith.Zpower <> two_p def
+R15070:15070 compcert.lib.Zbits <> n:120 var
+R15077:15077 compcert.lib.Zbits <> i:121 var
+R15084:15086 compcert.lib.Coqlib <> zlt def
+R15088:15088 compcert.lib.Zbits <> i:121 var
+R15090:15090 compcert.lib.Zbits <> n:120 var
+R15107:15111 Coq.Init.Datatypes <> false constr
+R15097:15100 Coq.Init.Datatypes <> true constr
+R15147:15149 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15140:15144 Coq.ZArith.Zpower <> two_p def
+R15159:15159 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15162:15168 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15176:15176 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15169:15173 Coq.ZArith.Zpower <> two_p def
+R15147:15149 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15140:15144 Coq.ZArith.Zpower <> two_p def
+R15159:15159 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15162:15168 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15176:15176 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R15169:15173 Coq.ZArith.Zpower <> two_p def
+R15190:15207 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R15190:15207 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R15190:15207 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R15190:15207 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R15190:15207 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R15226:15228 compcert.lib.Coqlib <> zlt def
+R15226:15228 compcert.lib.Coqlib <> zlt def
+R15248:15258 compcert.lib.Zbits <> Ztestbit_m1 thm
+R15248:15258 compcert.lib.Zbits <> Ztestbit_m1 thm
+R15275:15285 compcert.lib.Coqlib <> Zmod_unique thm
+R15275:15285 compcert.lib.Coqlib <> Zmod_unique thm
+R15315:15327 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R15315:15327 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+prf 15360:15377 <> Ztestbit_neg_two_p
+binder 15389:15389 <> n:122
+binder 15391:15391 <> i:123
+R15400:15403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15395:15398 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R15399:15399 compcert.lib.Zbits <> n:122 var
+R15410:15415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15405:15408 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R15409:15409 compcert.lib.Zbits <> i:123 var
+R15441:15443 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15416:15424 Coq.ZArith.BinInt Z testbit def
+R15427:15429 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R15437:15437 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R15430:15434 Coq.ZArith.Zpower <> two_p def
+R15436:15436 compcert.lib.Zbits <> n:122 var
+R15440:15440 compcert.lib.Zbits <> i:123 var
+R15447:15449 compcert.lib.Coqlib <> zlt def
+R15451:15451 compcert.lib.Zbits <> i:123 var
+R15453:15453 compcert.lib.Zbits <> n:122 var
+R15471:15474 Coq.Init.Datatypes <> true constr
+R15460:15464 Coq.Init.Datatypes <> false constr
+R15506:15507 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R15508:15512 Coq.ZArith.Zpower <> two_p def
+R15538:15540 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15523:15525 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R15537:15537 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R15533:15535 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15526:15530 Coq.ZArith.Zpower <> two_p def
+R15506:15507 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R15508:15512 Coq.ZArith.Zpower <> two_p def
+R15538:15540 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15523:15525 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R15537:15537 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R15533:15535 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15526:15530 Coq.ZArith.Zpower <> two_p def
+R15563:15578 compcert.lib.Zbits <> Z_one_complement thm
+R15563:15578 compcert.lib.Zbits <> Z_one_complement thm
+R15563:15578 compcert.lib.Zbits <> Z_one_complement thm
+R15599:15615 compcert.lib.Zbits <> Ztestbit_two_p_m1 thm
+R15599:15615 compcert.lib.Zbits <> Ztestbit_two_p_m1 thm
+R15599:15615 compcert.lib.Zbits <> Ztestbit_two_p_m1 thm
+R15639:15641 compcert.lib.Coqlib <> zlt def
+R15639:15641 compcert.lib.Coqlib <> zlt def
+prf 15667:15677 <> Z_add_is_or
+binder 15689:15689 <> i:124
+R15698:15703 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15693:15696 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R15697:15697 compcert.lib.Zbits <> i:124 var
+binder 15711:15711 <> x:125
+binder 15713:15713 <> y:126
+R15718:15718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15782:15788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 15726:15726 <> j:127
+R15740:15743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15730:15733 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R15735:15738 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R15734:15734 compcert.lib.Zbits <> j:127 var
+R15734:15734 compcert.lib.Zbits <> j:127 var
+R15739:15739 compcert.lib.Zbits <> i:124 var
+R15774:15776 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15757:15760 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R15744:15752 Coq.ZArith.BinInt Z testbit def
+R15754:15754 compcert.lib.Zbits <> x:125 var
+R15756:15756 compcert.lib.Zbits <> j:127 var
+R15761:15769 Coq.ZArith.BinInt Z testbit def
+R15771:15771 compcert.lib.Zbits <> y:126 var
+R15773:15773 compcert.lib.Zbits <> j:127 var
+R15777:15781 Coq.Init.Datatypes <> false constr
+R15808:15810 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15789:15797 Coq.ZArith.BinInt Z testbit def
+R15801:15803 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15800:15800 compcert.lib.Zbits <> x:125 var
+R15804:15804 compcert.lib.Zbits <> y:126 var
+R15807:15807 compcert.lib.Zbits <> i:124 var
+R15824:15827 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R15811:15819 Coq.ZArith.BinInt Z testbit def
+R15821:15821 compcert.lib.Zbits <> x:125 var
+R15823:15823 compcert.lib.Zbits <> i:124 var
+R15828:15836 Coq.ZArith.BinInt Z testbit def
+R15838:15838 compcert.lib.Zbits <> y:126 var
+R15840:15840 compcert.lib.Zbits <> i:124 var
+R15886:15894 Coq.ZArith.Wf_Z <> Zlt_0_ind thm
+R15886:15894 Coq.ZArith.Wf_Z <> Zlt_0_ind thm
+R15943:15949 compcert.lib.Zbits <> Zdecomp thm
+R15943:15949 compcert.lib.Zbits <> Zdecomp thm
+R15943:15949 compcert.lib.Zbits <> Zdecomp thm
+R15969:15975 compcert.lib.Zbits <> Zdecomp thm
+R15969:15975 compcert.lib.Zbits <> Zdecomp thm
+R15969:15975 compcert.lib.Zbits <> Zdecomp thm
+R16002:16010 Coq.ZArith.BinInt Z testbit def
+R16013:16020 compcert.lib.Zbits <> Zshiftin def
+R16030:16033 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R16023:16027 Coq.ZArith.BinInt Z odd def
+R16034:16038 Coq.ZArith.BinInt Z odd def
+R16052:16054 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16044:16049 Coq.ZArith.BinInt Z div2 def
+R16055:16060 Coq.ZArith.BinInt Z div2 def
+R16002:16010 Coq.ZArith.BinInt Z testbit def
+R16013:16020 compcert.lib.Zbits <> Zshiftin def
+R16030:16033 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R16023:16027 Coq.ZArith.BinInt Z odd def
+R16034:16038 Coq.ZArith.BinInt Z odd def
+R16052:16054 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16044:16049 Coq.ZArith.BinInt Z div2 def
+R16055:16060 Coq.ZArith.BinInt Z div2 def
+R16092:16104 compcert.lib.Zbits <> Zshiftin_spec thm
+R16092:16104 compcert.lib.Zbits <> Zshiftin_spec thm
+R16092:16104 compcert.lib.Zbits <> Zshiftin_spec thm
+R16092:16104 compcert.lib.Zbits <> Zshiftin_spec thm
+R16092:16104 compcert.lib.Zbits <> Zshiftin_spec thm
+R16092:16104 compcert.lib.Zbits <> Zshiftin_spec thm
+R16143:16163 compcert.lib.Zbits <> Ztestbit_shiftin_base thm
+R16143:16163 compcert.lib.Zbits <> Ztestbit_shiftin_base thm
+R16143:16163 compcert.lib.Zbits <> Ztestbit_shiftin_base thm
+R16143:16163 compcert.lib.Zbits <> Ztestbit_shiftin_base thm
+R16143:16163 compcert.lib.Zbits <> Ztestbit_shiftin_base thm
+R16181:16185 Coq.ZArith.BinInt Z mul def
+R16202:16206 Coq.ZArith.BinInt Z odd def
+R16222:16226 Coq.ZArith.BinInt Z odd def
+R16202:16206 Coq.ZArith.BinInt Z odd def
+R16222:16226 Coq.ZArith.BinInt Z odd def
+R16222:16226 Coq.ZArith.BinInt Z odd def
+R16279:16294 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R16279:16294 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R16279:16294 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R16279:16294 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R16279:16294 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R16279:16294 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R16279:16294 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R16279:16294 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R16279:16294 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R16317:16319 compcert.lib.Coqlib <> zeq def
+R16317:16319 compcert.lib.Coqlib <> zeq def
+R16390:16395 Coq.ZArith.BinInt Z succ def
+R16390:16395 Coq.ZArith.BinInt Z succ def
+R16422:16442 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R16422:16442 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R16422:16442 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R16422:16442 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R16422:16442 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R16422:16442 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R16422:16442 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R16181:16185 Coq.ZArith.BinInt Z mul def
+def 17047:17055 <> Zzero_ext
+R17061:17061 Coq.Numbers.BinNums <> Z ind
+binder 17058:17058 <> n:128
+R17068:17068 Coq.Numbers.BinNums <> Z ind
+binder 17065:17065 <> x:129
+R17073:17073 Coq.Numbers.BinNums <> Z ind
+R17080:17085 Coq.ZArith.BinInt Z iter def
+R17165:17165 compcert.lib.Zbits <> x:129 var
+binder 17153:17153 <> x:130
+binder 17098:17100 <> rec:131
+binder 17102:17102 <> x:132
+R17107:17114 compcert.lib.Zbits <> Zshiftin def
+R17117:17121 Coq.ZArith.BinInt Z odd def
+R17123:17123 compcert.lib.Zbits <> x:132 var
+R17127:17129 compcert.lib.Zbits <> rec:131 var
+R17132:17137 Coq.ZArith.BinInt Z div2 def
+R17139:17139 compcert.lib.Zbits <> x:132 var
+R17087:17087 compcert.lib.Zbits <> n:128 var
+def 17180:17188 <> Zsign_ext
+R17194:17194 Coq.Numbers.BinNums <> Z ind
+binder 17191:17191 <> n:133
+R17201:17201 Coq.Numbers.BinNums <> Z ind
+binder 17198:17198 <> x:134
+R17206:17206 Coq.Numbers.BinNums <> Z ind
+R17213:17218 Coq.ZArith.BinInt Z iter def
+R17342:17342 compcert.lib.Zbits <> x:134 var
+binder 17295:17295 <> x:135
+R17310:17313 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R17303:17307 Coq.ZArith.BinInt Z odd def
+R17309:17309 compcert.lib.Zbits <> x:135 var
+R17314:17316 compcert.lib.Coqlib <> zlt def
+R17320:17320 compcert.lib.Zbits <> n:133 var
+binder 17240:17242 <> rec:136
+binder 17244:17244 <> x:137
+R17249:17256 compcert.lib.Zbits <> Zshiftin def
+R17259:17263 Coq.ZArith.BinInt Z odd def
+R17265:17265 compcert.lib.Zbits <> x:137 var
+R17269:17271 compcert.lib.Zbits <> rec:136 var
+R17274:17279 Coq.ZArith.BinInt Z div2 def
+R17281:17281 compcert.lib.Zbits <> x:137 var
+R17221:17226 Coq.ZArith.BinInt Z pred def
+R17228:17228 compcert.lib.Zbits <> n:133 var
+prf 17352:17361 <> Ziter_base
+binder 17374:17374 <> A:138
+binder 17383:17383 <> n:139
+R17390:17393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17389:17389 compcert.lib.Zbits <> A:138 var
+R17394:17394 compcert.lib.Zbits <> A:138 var
+binder 17386:17386 <> f:140
+binder 17397:17397 <> x:141
+R17406:17409 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17401:17404 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17400:17400 compcert.lib.Zbits <> n:139 var
+R17422:17424 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17410:17415 Coq.ZArith.BinInt Z iter def
+R17421:17421 compcert.lib.Zbits <> x:141 var
+R17419:17419 compcert.lib.Zbits <> f:140 var
+R17417:17417 compcert.lib.Zbits <> n:139 var
+R17425:17425 compcert.lib.Zbits <> x:141 var
+R17452:17457 Coq.ZArith.BinInt Z iter def
+prf 17518:17527 <> Ziter_succ
+binder 17540:17540 <> A:142
+binder 17549:17549 <> n:143
+R17556:17559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17555:17555 compcert.lib.Zbits <> A:142 var
+R17560:17560 compcert.lib.Zbits <> A:142 var
+binder 17552:17552 <> f:144
+binder 17563:17563 <> x:145
+R17574:17577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17569:17572 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17573:17573 compcert.lib.Zbits <> n:143 var
+R17599:17601 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17578:17583 Coq.ZArith.BinInt Z iter def
+R17598:17598 compcert.lib.Zbits <> x:145 var
+R17596:17596 compcert.lib.Zbits <> f:144 var
+R17586:17591 Coq.ZArith.BinInt Z succ def
+R17593:17593 compcert.lib.Zbits <> n:143 var
+R17602:17602 compcert.lib.Zbits <> f:144 var
+R17605:17610 Coq.ZArith.BinInt Z iter def
+R17616:17616 compcert.lib.Zbits <> x:145 var
+R17614:17614 compcert.lib.Zbits <> f:144 var
+R17612:17612 compcert.lib.Zbits <> n:143 var
+R17678:17688 Coq.PArith.BinPos Pos add_1_r thm
+R17678:17688 Coq.PArith.BinPos Pos add_1_r thm
+R17678:17688 Coq.PArith.BinPos Pos add_1_r thm
+R17697:17709 Coq.PArith.BinPos Pos iter_succ thm
+R17697:17709 Coq.PArith.BinPos Pos iter_succ thm
+prf 17756:17767 <> Znatlike_ind
+R17784:17787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17783:17783 Coq.Numbers.BinNums <> Z ind
+binder 17780:17780 <> P:146
+R17797:17797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17821:17827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 17805:17805 <> n:147
+R17814:17817 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17809:17812 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17808:17808 compcert.lib.Zbits <> n:147 var
+R17818:17818 compcert.lib.Zbits <> P:146 var
+R17820:17820 compcert.lib.Zbits <> n:147 var
+R17828:17828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17868:17874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 17836:17836 <> n:148
+R17845:17848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17840:17843 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R17844:17844 compcert.lib.Zbits <> n:148 var
+R17852:17855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17849:17849 compcert.lib.Zbits <> P:146 var
+R17851:17851 compcert.lib.Zbits <> n:148 var
+R17856:17856 compcert.lib.Zbits <> P:146 var
+R17859:17864 Coq.ZArith.BinInt Z succ def
+R17866:17866 compcert.lib.Zbits <> n:148 var
+binder 17882:17882 <> n:149
+R17885:17885 compcert.lib.Zbits <> P:146 var
+R17887:17887 compcert.lib.Zbits <> n:149 var
+R17917:17919 compcert.lib.Coqlib <> zle def
+R17917:17919 compcert.lib.Coqlib <> zle def
+R17935:17945 Coq.ZArith.Wf_Z <> natlike_ind thm
+R17935:17945 Coq.ZArith.Wf_Z <> natlike_ind thm
+prf 17996:18009 <> Zzero_ext_spec
+binder 18021:18021 <> n:150
+binder 18023:18023 <> x:151
+binder 18025:18025 <> i:152
+R18034:18039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18029:18032 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R18033:18033 compcert.lib.Zbits <> i:152 var
+R18067:18069 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18040:18048 Coq.ZArith.BinInt Z testbit def
+R18051:18059 compcert.lib.Zbits <> Zzero_ext def
+R18061:18061 compcert.lib.Zbits <> n:150 var
+R18063:18063 compcert.lib.Zbits <> x:151 var
+R18066:18066 compcert.lib.Zbits <> i:152 var
+R18073:18075 compcert.lib.Coqlib <> zlt def
+R18077:18077 compcert.lib.Zbits <> i:152 var
+R18079:18079 compcert.lib.Zbits <> n:150 var
+R18105:18109 Coq.Init.Datatypes <> false constr
+R18086:18094 Coq.ZArith.BinInt Z testbit def
+R18096:18096 compcert.lib.Zbits <> x:151 var
+R18098:18098 compcert.lib.Zbits <> i:152 var
+R18128:18136 compcert.lib.Zbits <> Zzero_ext def
+R18157:18168 compcert.lib.Zbits <> Znatlike_ind thm
+R18157:18168 compcert.lib.Zbits <> Znatlike_ind thm
+R18191:18200 compcert.lib.Zbits <> Ziter_base thm
+R18191:18200 compcert.lib.Zbits <> Ziter_base thm
+R18191:18200 compcert.lib.Zbits <> Ziter_base thm
+R18191:18200 compcert.lib.Zbits <> Ziter_base thm
+R18221:18229 compcert.lib.Coqlib <> zlt_false thm
+R18221:18229 compcert.lib.Coqlib <> zlt_false thm
+R18221:18229 compcert.lib.Coqlib <> zlt_false thm
+R18221:18229 compcert.lib.Coqlib <> zlt_false thm
+R18240:18249 compcert.lib.Zbits <> Ztestbit_0 thm
+R18240:18249 compcert.lib.Zbits <> Ztestbit_0 thm
+R18240:18249 compcert.lib.Zbits <> Ztestbit_0 thm
+R18283:18292 compcert.lib.Zbits <> Ziter_succ thm
+R18283:18292 compcert.lib.Zbits <> Ziter_succ thm
+R18283:18292 compcert.lib.Zbits <> Ziter_succ thm
+R18283:18292 compcert.lib.Zbits <> Ziter_succ thm
+R18313:18328 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R18313:18328 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R18313:18328 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R18313:18328 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R18350:18360 compcert.lib.Zbits <> Ztestbit_eq thm
+R18350:18360 compcert.lib.Zbits <> Ztestbit_eq thm
+R18350:18360 compcert.lib.Zbits <> Ztestbit_eq thm
+R18350:18360 compcert.lib.Zbits <> Ztestbit_eq thm
+R18388:18390 compcert.lib.Coqlib <> zeq def
+R18388:18390 compcert.lib.Coqlib <> zeq def
+R18421:18428 compcert.lib.Coqlib <> zlt_true thm
+R18421:18428 compcert.lib.Coqlib <> zlt_true thm
+R18421:18428 compcert.lib.Coqlib <> zlt_true thm
+R18421:18428 compcert.lib.Coqlib <> zlt_true thm
+R18471:18473 compcert.lib.Coqlib <> zlt def
+R18476:18481 Coq.ZArith.BinInt Z pred def
+R18471:18473 compcert.lib.Coqlib <> zlt def
+R18476:18481 Coq.ZArith.BinInt Z pred def
+R18504:18511 compcert.lib.Coqlib <> zlt_true thm
+R18504:18511 compcert.lib.Coqlib <> zlt_true thm
+R18504:18511 compcert.lib.Coqlib <> zlt_true thm
+R18504:18511 compcert.lib.Coqlib <> zlt_true thm
+R18539:18547 compcert.lib.Coqlib <> zlt_false thm
+R18539:18547 compcert.lib.Coqlib <> zlt_false thm
+R18539:18547 compcert.lib.Coqlib <> zlt_false thm
+R18539:18547 compcert.lib.Coqlib <> zlt_false thm
+prf 18584:18597 <> Zsign_ext_spec
+binder 18609:18609 <> n:153
+binder 18611:18611 <> x:154
+binder 18613:18613 <> i:155
+R18622:18627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18617:18620 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R18621:18621 compcert.lib.Zbits <> i:155 var
+R18655:18657 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18628:18636 Coq.ZArith.BinInt Z testbit def
+R18639:18647 compcert.lib.Zbits <> Zsign_ext def
+R18649:18649 compcert.lib.Zbits <> n:153 var
+R18651:18651 compcert.lib.Zbits <> x:154 var
+R18654:18654 compcert.lib.Zbits <> i:155 var
+R18658:18666 Coq.ZArith.BinInt Z testbit def
+R18668:18668 compcert.lib.Zbits <> x:154 var
+R18674:18676 compcert.lib.Coqlib <> zlt def
+R18678:18678 compcert.lib.Zbits <> i:155 var
+R18680:18680 compcert.lib.Zbits <> n:153 var
+R18695:18697 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R18694:18694 compcert.lib.Zbits <> n:153 var
+R18687:18687 compcert.lib.Zbits <> i:155 var
+R18736:18744 compcert.lib.Zbits <> Zsign_ext def
+R18757:18768 compcert.lib.Coqlib <> proj_sumbool def
+R18781:18783 compcert.lib.Coqlib <> zlt def
+R18781:18783 compcert.lib.Coqlib <> zlt def
+R18845:18863 Coq.ZArith.Wf_Z <> Zlt_lower_bound_ind thm
+R18845:18863 Coq.ZArith.Wf_Z <> Zlt_lower_bound_ind thm
+R18900:18908 compcert.lib.Zbits <> Zsign_ext def
+R18931:18933 compcert.lib.Coqlib <> zeq def
+R18931:18933 compcert.lib.Coqlib <> zeq def
+R18977:18979 compcert.lib.Coqlib <> zlt def
+R18977:18979 compcert.lib.Coqlib <> zlt def
+R19020:19032 compcert.lib.Zbits <> Ztestbit_base thm
+R19020:19032 compcert.lib.Zbits <> Ztestbit_base thm
+R19020:19032 compcert.lib.Zbits <> Ztestbit_base thm
+R19049:19053 Coq.ZArith.BinInt Z odd def
+R19068:19078 compcert.lib.Zbits <> Ztestbit_m1 thm
+R19094:19103 compcert.lib.Zbits <> Ztestbit_0 thm
+R19049:19053 Coq.ZArith.BinInt Z odd def
+R19068:19078 compcert.lib.Zbits <> Ztestbit_m1 thm
+R19094:19103 compcert.lib.Zbits <> Ztestbit_0 thm
+R19122:19124 compcert.lib.Coqlib <> zlt def
+R19122:19124 compcert.lib.Coqlib <> zlt def
+R19152:19157 Coq.ZArith.BinInt Z pred def
+R19152:19157 Coq.ZArith.BinInt Z pred def
+R19180:19185 Coq.ZArith.BinInt Z succ def
+R19188:19193 Coq.ZArith.BinInt Z pred def
+R19180:19185 Coq.ZArith.BinInt Z succ def
+R19188:19193 Coq.ZArith.BinInt Z pred def
+R19220:19229 compcert.lib.Zbits <> Ziter_succ thm
+R19220:19229 compcert.lib.Zbits <> Ziter_succ thm
+R19220:19229 compcert.lib.Zbits <> Ziter_succ thm
+R19260:19275 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R19260:19275 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R19260:19275 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R19300:19302 compcert.lib.Coqlib <> zeq def
+R19300:19302 compcert.lib.Coqlib <> zeq def
+R19333:19340 compcert.lib.Coqlib <> zlt_true thm
+R19333:19340 compcert.lib.Coqlib <> zlt_true thm
+R19333:19340 compcert.lib.Coqlib <> zlt_true thm
+R19333:19340 compcert.lib.Coqlib <> zlt_true thm
+R19351:19363 compcert.lib.Zbits <> Ztestbit_base thm
+R19351:19363 compcert.lib.Zbits <> Ztestbit_base thm
+R19351:19363 compcert.lib.Zbits <> Ztestbit_base thm
+R19441:19443 compcert.lib.Coqlib <> zlt def
+R19446:19451 Coq.ZArith.BinInt Z pred def
+R19457:19462 Coq.ZArith.BinInt Z pred def
+R19441:19443 compcert.lib.Coqlib <> zlt def
+R19446:19451 Coq.ZArith.BinInt Z pred def
+R19457:19462 Coq.ZArith.BinInt Z pred def
+R19486:19493 compcert.lib.Coqlib <> zlt_true thm
+R19486:19493 compcert.lib.Coqlib <> zlt_true thm
+R19486:19493 compcert.lib.Coqlib <> zlt_true thm
+R19521:19531 compcert.lib.Zbits <> Ztestbit_eq thm
+R19521:19531 compcert.lib.Zbits <> Ztestbit_eq thm
+R19521:19531 compcert.lib.Zbits <> Ztestbit_eq thm
+R19564:19572 compcert.lib.Coqlib <> zeq_false thm
+R19564:19572 compcert.lib.Coqlib <> zeq_false thm
+R19564:19572 compcert.lib.Coqlib <> zeq_false thm
+R19605:19613 compcert.lib.Coqlib <> zlt_false thm
+R19605:19613 compcert.lib.Coqlib <> zlt_false thm
+R19605:19613 compcert.lib.Coqlib <> zlt_false thm
+R19641:19651 compcert.lib.Zbits <> Ztestbit_eq thm
+R19655:19657 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R19641:19651 compcert.lib.Zbits <> Ztestbit_eq thm
+R19655:19657 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R19641:19651 compcert.lib.Zbits <> Ztestbit_eq thm
+R19655:19657 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R19690:19698 compcert.lib.Coqlib <> zeq_false thm
+R19690:19698 compcert.lib.Coqlib <> zeq_false thm
+R19690:19698 compcert.lib.Coqlib <> zeq_false thm
+R19724:19733 compcert.lib.Zbits <> Ziter_base thm
+R19724:19733 compcert.lib.Zbits <> Ziter_base thm
+R19724:19733 compcert.lib.Zbits <> Ziter_base thm
+R19751:19762 Coq.Bool.Bool <> andb_false_r thm
+R19751:19762 Coq.Bool.Bool <> andb_false_r thm
+R19751:19762 Coq.Bool.Bool <> andb_false_r thm
+R19776:19788 Coq.ZArith.BinInt Z testbit_0_l thm
+R19791:19805 Coq.ZArith.BinInt Z testbit_neg_r thm
+R19776:19788 Coq.ZArith.BinInt Z testbit_0_l thm
+R19776:19788 Coq.ZArith.BinInt Z testbit_0_l thm
+R19791:19805 Coq.ZArith.BinInt Z testbit_neg_r thm
+R19791:19805 Coq.ZArith.BinInt Z testbit_neg_r thm
+R19791:19805 Coq.ZArith.BinInt Z testbit_neg_r thm
+R19826:19828 compcert.lib.Coqlib <> zlt def
+R19826:19828 compcert.lib.Coqlib <> zlt def
+prf 19896:19908 <> Zzero_ext_mod
+binder 19920:19920 <> n:156
+binder 19922:19922 <> x:157
+R19931:19934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19926:19929 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R19930:19930 compcert.lib.Zbits <> n:156 var
+R19948:19950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19935:19943 compcert.lib.Zbits <> Zzero_ext def
+R19945:19945 compcert.lib.Zbits <> n:156 var
+R19947:19947 compcert.lib.Zbits <> x:157 var
+R19952:19957 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R19965:19965 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R19951:19951 compcert.lib.Zbits <> x:157 var
+R19958:19962 Coq.ZArith.Zpower <> two_p def
+R19964:19964 compcert.lib.Zbits <> n:156 var
+R19991:20005 compcert.lib.Zbits <> equal_same_bits thm
+R19991:20005 compcert.lib.Zbits <> equal_same_bits thm
+R20026:20039 compcert.lib.Zbits <> Zzero_ext_spec thm
+R20042:20059 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R20026:20039 compcert.lib.Zbits <> Zzero_ext_spec thm
+R20026:20039 compcert.lib.Zbits <> Zzero_ext_spec thm
+R20042:20059 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R20042:20059 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+prf 20190:20204 <> Zzero_ext_range
+binder 20216:20216 <> n:158
+binder 20218:20218 <> x:159
+R20227:20230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20222:20225 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R20226:20226 compcert.lib.Zbits <> n:158 var
+R20232:20235 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R20249:20251 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R20236:20244 compcert.lib.Zbits <> Zzero_ext def
+R20246:20246 compcert.lib.Zbits <> n:158 var
+R20248:20248 compcert.lib.Zbits <> x:159 var
+R20236:20244 compcert.lib.Zbits <> Zzero_ext def
+R20246:20246 compcert.lib.Zbits <> n:158 var
+R20248:20248 compcert.lib.Zbits <> x:159 var
+R20252:20256 Coq.ZArith.Zpower <> two_p def
+R20258:20258 compcert.lib.Zbits <> n:158 var
+R20286:20298 compcert.lib.Zbits <> Zzero_ext_mod thm
+R20286:20298 compcert.lib.Zbits <> Zzero_ext_mod thm
+R20286:20298 compcert.lib.Zbits <> Zzero_ext_mod thm
+R20286:20298 compcert.lib.Zbits <> Zzero_ext_mod thm
+R20313:20320 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R20313:20320 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R20329:20341 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R20329:20341 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+prf 20361:20375 <> eqmod_Zzero_ext
+binder 20387:20387 <> n:160
+binder 20389:20389 <> x:161
+R20398:20401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20393:20396 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R20397:20397 compcert.lib.Zbits <> n:160 var
+R20402:20406 compcert.lib.Zbits <> eqmod def
+R20419:20427 compcert.lib.Zbits <> Zzero_ext def
+R20429:20429 compcert.lib.Zbits <> n:160 var
+R20431:20431 compcert.lib.Zbits <> x:161 var
+R20434:20434 compcert.lib.Zbits <> x:161 var
+R20409:20413 Coq.ZArith.Zpower <> two_p def
+R20415:20415 compcert.lib.Zbits <> n:160 var
+R20462:20474 compcert.lib.Zbits <> Zzero_ext_mod thm
+R20462:20474 compcert.lib.Zbits <> Zzero_ext_mod thm
+R20462:20474 compcert.lib.Zbits <> Zzero_ext_mod thm
+R20462:20474 compcert.lib.Zbits <> Zzero_ext_mod thm
+R20489:20497 compcert.lib.Zbits <> eqmod_sym thm
+R20489:20497 compcert.lib.Zbits <> eqmod_sym thm
+R20506:20514 compcert.lib.Zbits <> eqmod_mod thm
+R20506:20514 compcert.lib.Zbits <> eqmod_mod thm
+R20525:20537 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R20525:20537 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+prf 20618:20635 <> Zsign_ext_zero_ext
+binder 20647:20647 <> n:162
+R20656:20659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20651:20654 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R20655:20655 compcert.lib.Zbits <> n:162 var
+binder 20667:20667 <> x:163
+R20685:20687 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20672:20680 compcert.lib.Zbits <> Zsign_ext def
+R20682:20682 compcert.lib.Zbits <> n:162 var
+R20684:20684 compcert.lib.Zbits <> x:163 var
+R20701:20704 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20747:20747 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20688:20696 compcert.lib.Zbits <> Zzero_ext def
+R20698:20698 compcert.lib.Zbits <> n:162 var
+R20700:20700 compcert.lib.Zbits <> x:163 var
+R20708:20716 Coq.ZArith.BinInt Z testbit def
+R20718:20718 compcert.lib.Zbits <> x:163 var
+R20722:20724 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20721:20721 compcert.lib.Zbits <> n:162 var
+R20733:20737 Coq.ZArith.Zpower <> two_p def
+R20739:20739 compcert.lib.Zbits <> n:162 var
+R20773:20787 compcert.lib.Zbits <> equal_same_bits thm
+R20773:20787 compcert.lib.Zbits <> equal_same_bits thm
+R20808:20821 compcert.lib.Zbits <> Zsign_ext_spec thm
+R20808:20821 compcert.lib.Zbits <> Zsign_ext_spec thm
+R20808:20821 compcert.lib.Zbits <> Zsign_ext_spec thm
+R20844:20852 Coq.ZArith.BinInt Z testbit def
+R20858:20860 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20844:20852 Coq.ZArith.BinInt Z testbit def
+R20858:20860 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20891:20892 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R20893:20897 Coq.ZArith.Zpower <> two_p def
+R20891:20892 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R20893:20897 Coq.ZArith.Zpower <> two_p def
+R20928:20930 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20915:20923 compcert.lib.Zbits <> Zzero_ext def
+R20931:20935 Coq.ZArith.Zpower <> two_p def
+R20959:20961 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R20946:20954 compcert.lib.Zbits <> Zzero_ext def
+R20928:20930 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20915:20923 compcert.lib.Zbits <> Zzero_ext def
+R20931:20935 Coq.ZArith.Zpower <> two_p def
+R20959:20961 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R20946:20954 compcert.lib.Zbits <> Zzero_ext def
+R20997:21007 compcert.lib.Zbits <> Z_add_is_or thm
+R20997:21007 compcert.lib.Zbits <> Z_add_is_or thm
+R20997:21007 compcert.lib.Zbits <> Z_add_is_or thm
+R20997:21007 compcert.lib.Zbits <> Z_add_is_or thm
+R20997:21007 compcert.lib.Zbits <> Z_add_is_or thm
+R21027:21040 compcert.lib.Zbits <> Zzero_ext_spec thm
+R21027:21040 compcert.lib.Zbits <> Zzero_ext_spec thm
+R21027:21040 compcert.lib.Zbits <> Zzero_ext_spec thm
+R21070:21087 compcert.lib.Zbits <> Ztestbit_neg_two_p thm
+R21070:21087 compcert.lib.Zbits <> Ztestbit_neg_two_p thm
+R21070:21087 compcert.lib.Zbits <> Ztestbit_neg_two_p thm
+R21109:21111 compcert.lib.Coqlib <> zlt def
+R21109:21111 compcert.lib.Coqlib <> zlt def
+R21127:21137 Coq.Bool.Bool <> orb_false_r thm
+R21127:21137 Coq.Bool.Bool <> orb_false_r thm
+R21127:21137 Coq.Bool.Bool <> orb_false_r thm
+R21170:21183 compcert.lib.Zbits <> Zzero_ext_spec thm
+R21170:21183 compcert.lib.Zbits <> Zzero_ext_spec thm
+R21170:21183 compcert.lib.Zbits <> Zzero_ext_spec thm
+R21212:21229 compcert.lib.Zbits <> Ztestbit_neg_two_p thm
+R21212:21229 compcert.lib.Zbits <> Ztestbit_neg_two_p thm
+R21212:21229 compcert.lib.Zbits <> Ztestbit_neg_two_p thm
+R21251:21253 compcert.lib.Coqlib <> zlt def
+R21272:21283 Coq.Bool.Bool <> andb_false_r thm
+R21251:21253 compcert.lib.Coqlib <> zlt def
+R21272:21283 Coq.Bool.Bool <> andb_false_r thm
+R21272:21283 Coq.Bool.Bool <> andb_false_r thm
+R21310:21312 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21297:21305 compcert.lib.Zbits <> Zzero_ext def
+R21322:21330 compcert.lib.Zbits <> Zzero_ext def
+R21310:21312 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21297:21305 compcert.lib.Zbits <> Zzero_ext def
+R21322:21330 compcert.lib.Zbits <> Zzero_ext def
+R21355:21368 compcert.lib.Zbits <> Zzero_ext_spec thm
+R21355:21368 compcert.lib.Zbits <> Zzero_ext_spec thm
+R21355:21368 compcert.lib.Zbits <> Zzero_ext_spec thm
+R21391:21393 compcert.lib.Coqlib <> zlt def
+R21391:21393 compcert.lib.Coqlib <> zlt def
+prf 21538:21552 <> Zsign_ext_range
+binder 21564:21564 <> n:164
+binder 21566:21566 <> x:165
+R21574:21577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21570:21572 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R21573:21573 compcert.lib.Zbits <> n:164 var
+R21590:21593 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R21607:21609 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R21578:21578 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R21579:21583 Coq.ZArith.Zpower <> two_p def
+R21587:21587 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21586:21586 compcert.lib.Zbits <> n:164 var
+R21594:21602 compcert.lib.Zbits <> Zsign_ext def
+R21604:21604 compcert.lib.Zbits <> n:164 var
+R21606:21606 compcert.lib.Zbits <> x:165 var
+R21594:21602 compcert.lib.Zbits <> Zsign_ext def
+R21604:21604 compcert.lib.Zbits <> n:164 var
+R21606:21606 compcert.lib.Zbits <> x:165 var
+R21610:21614 Coq.ZArith.Zpower <> two_p def
+R21618:21618 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21617:21617 compcert.lib.Zbits <> n:164 var
+R21654:21657 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R21671:21673 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R21658:21666 compcert.lib.Zbits <> Zzero_ext def
+R21658:21666 compcert.lib.Zbits <> Zzero_ext def
+R21674:21678 Coq.ZArith.Zpower <> two_p def
+R21693:21707 compcert.lib.Zbits <> Zzero_ext_range thm
+R21654:21657 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R21671:21673 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R21658:21666 compcert.lib.Zbits <> Zzero_ext def
+R21658:21666 compcert.lib.Zbits <> Zzero_ext def
+R21674:21678 Coq.ZArith.Zpower <> two_p def
+R21693:21707 compcert.lib.Zbits <> Zzero_ext_range thm
+R21762:21777 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21729:21737 Coq.ZArith.BinInt Z testbit def
+R21740:21748 compcert.lib.Zbits <> Zzero_ext def
+R21757:21759 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21781:21783 compcert.lib.Coqlib <> zlt def
+R21786:21794 compcert.lib.Zbits <> Zzero_ext def
+R21802:21806 Coq.ZArith.Zpower <> two_p def
+R21810:21812 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21833:21836 Coq.Init.Datatypes <> true constr
+R21822:21826 Coq.Init.Datatypes <> false constr
+R21762:21777 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21729:21737 Coq.ZArith.BinInt Z testbit def
+R21740:21748 compcert.lib.Zbits <> Zzero_ext def
+R21757:21759 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21781:21783 compcert.lib.Coqlib <> zlt def
+R21786:21794 compcert.lib.Zbits <> Zzero_ext def
+R21802:21806 Coq.ZArith.Zpower <> two_p def
+R21810:21812 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21833:21836 Coq.Init.Datatypes <> true constr
+R21822:21826 Coq.Init.Datatypes <> false constr
+R21854:21861 Coq.ZArith.BinInt Z to_nat def
+R21865:21867 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21854:21861 Coq.ZArith.BinInt Z to_nat def
+R21865:21867 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R21889:21897 compcert.lib.Zbits <> Zsign_bit thm
+R21902:21910 compcert.lib.Zbits <> Zzero_ext def
+R21889:21897 compcert.lib.Zbits <> Zsign_bit thm
+R21902:21910 compcert.lib.Zbits <> Zzero_ext def
+R21934:21952 compcert.lib.Coqlib <> two_power_nat_two_p thm
+R21934:21952 compcert.lib.Coqlib <> two_power_nat_two_p thm
+R21934:21952 compcert.lib.Coqlib <> two_power_nat_two_p thm
+R21934:21952 compcert.lib.Coqlib <> two_power_nat_two_p thm
+R21934:21952 compcert.lib.Coqlib <> two_power_nat_two_p thm
+R21967:21971 Coq.ZArith.Znat <> inj_S abbrev
+R21967:21971 Coq.ZArith.Znat <> inj_S abbrev
+R21967:21971 Coq.ZArith.Znat <> inj_S abbrev
+R21993:22000 Coq.ZArith.Znat Z2Nat id thm
+R21993:22000 Coq.ZArith.Znat Z2Nat id thm
+R21993:22000 Coq.ZArith.Znat Z2Nat id thm
+R22043:22048 Coq.ZArith.BinInt Z succ def
+R22052:22054 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22043:22048 Coq.ZArith.BinInt Z succ def
+R22052:22054 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22108:22110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22101:22105 Coq.ZArith.Zpower <> two_p def
+R22112:22114 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R22115:22119 Coq.ZArith.Zpower <> two_p def
+R22123:22125 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22108:22110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22101:22105 Coq.ZArith.Zpower <> two_p def
+R22112:22114 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R22115:22119 Coq.ZArith.Zpower <> two_p def
+R22123:22125 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22146:22152 Coq.ZArith.Zpower <> two_p_S thm
+R22146:22152 Coq.ZArith.Zpower <> two_p_S thm
+R22146:22152 Coq.ZArith.Zpower <> two_p_S thm
+R22188:22201 compcert.lib.Zbits <> Zzero_ext_spec thm
+R22204:22211 compcert.lib.Coqlib <> zlt_true thm
+R22188:22201 compcert.lib.Zbits <> Zzero_ext_spec thm
+R22188:22201 compcert.lib.Zbits <> Zzero_ext_spec thm
+R22204:22211 compcert.lib.Coqlib <> zlt_true thm
+R22204:22211 compcert.lib.Coqlib <> zlt_true thm
+R22236:22253 compcert.lib.Zbits <> Zsign_ext_zero_ext thm
+R22236:22253 compcert.lib.Zbits <> Zsign_ext_zero_ext thm
+R22236:22253 compcert.lib.Zbits <> Zsign_ext_zero_ext thm
+R22286:22288 compcert.lib.Coqlib <> zlt def
+R22291:22299 compcert.lib.Zbits <> Zzero_ext def
+R22307:22311 Coq.ZArith.Zpower <> two_p def
+R22315:22317 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22286:22288 compcert.lib.Coqlib <> zlt def
+R22291:22299 compcert.lib.Zbits <> Zzero_ext def
+R22307:22311 Coq.ZArith.Zpower <> two_p def
+R22315:22317 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+prf 22341:22355 <> eqmod_Zsign_ext
+binder 22367:22367 <> n:166
+binder 22369:22369 <> x:167
+R22378:22383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22373:22376 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R22377:22377 compcert.lib.Zbits <> n:166 var
+R22384:22388 compcert.lib.Zbits <> eqmod def
+R22401:22409 compcert.lib.Zbits <> Zsign_ext def
+R22411:22411 compcert.lib.Zbits <> n:166 var
+R22413:22413 compcert.lib.Zbits <> x:167 var
+R22416:22416 compcert.lib.Zbits <> x:167 var
+R22391:22395 Coq.ZArith.Zpower <> two_p def
+R22397:22397 compcert.lib.Zbits <> n:166 var
+R22444:22461 compcert.lib.Zbits <> Zsign_ext_zero_ext thm
+R22444:22461 compcert.lib.Zbits <> Zsign_ext_zero_ext thm
+R22444:22461 compcert.lib.Zbits <> Zsign_ext_zero_ext thm
+R22500:22502 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22481:22491 compcert.lib.Zbits <> eqmod_trans thm
+R22500:22502 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22481:22491 compcert.lib.Zbits <> eqmod_trans thm
+R22516:22524 compcert.lib.Zbits <> eqmod_sub thm
+R22516:22524 compcert.lib.Zbits <> eqmod_sub thm
+R22536:22550 compcert.lib.Zbits <> eqmod_Zzero_ext thm
+R22536:22550 compcert.lib.Zbits <> eqmod_Zzero_ext thm
+R22571:22579 Coq.ZArith.BinInt Z testbit def
+R22585:22587 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22571:22579 Coq.ZArith.BinInt Z testbit def
+R22585:22587 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22617:22625 Coq.ZArith.BinInt Z testbit def
+R22631:22633 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22617:22625 Coq.ZArith.BinInt Z testbit def
+R22631:22633 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R22653:22663 compcert.lib.Zbits <> eqmod_refl2 thm
+R22653:22663 compcert.lib.Zbits <> eqmod_refl2 thm
+def 22750:22759 <> Z_one_bits
+R22765:22767 Coq.Init.Datatypes <> nat ind
+binder 22762:22762 <> n:168
+R22774:22774 Coq.Numbers.BinNums <> Z ind
+binder 22771:22771 <> x:169
+R22781:22781 Coq.Numbers.BinNums <> Z ind
+binder 22778:22778 <> i:170
+R22796:22799 Coq.Init.Datatypes <> list ind
+R22801:22801 Coq.Numbers.BinNums <> Z ind
+R22814:22814 compcert.lib.Zbits <> n:168 var
+R22825:22825 Coq.Init.Datatypes <> O constr
+R22830:22832 Coq.Init.Datatypes <> nil constr
+R22838:22838 Coq.Init.Datatypes <> S constr
+R22854:22858 Coq.ZArith.BinInt Z odd def
+R22860:22860 compcert.lib.Zbits <> x:169 var
+R22919:22928 compcert.lib.Zbits <> Z_one_bits:171 def
+R22945:22945 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R22944:22944 compcert.lib.Zbits <> i:170 var
+R22933:22938 Coq.ZArith.BinInt Z div2 def
+R22940:22940 compcert.lib.Zbits <> x:169 var
+R22874:22877 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22873:22873 compcert.lib.Zbits <> i:170 var
+R22878:22887 compcert.lib.Zbits <> Z_one_bits:171 def
+R22904:22904 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R22903:22903 compcert.lib.Zbits <> i:170 var
+R22892:22897 Coq.ZArith.BinInt Z div2 def
+R22899:22899 compcert.lib.Zbits <> x:169 var
+def 22966:22975 <> powerserie
+R22981:22984 Coq.Init.Datatypes <> list ind
+R22986:22986 Coq.Numbers.BinNums <> Z ind
+binder 22978:22978 <> l:173
+R22990:22990 Coq.Numbers.BinNums <> Z ind
+R23003:23003 compcert.lib.Zbits <> l:173 var
+R23014:23016 Coq.Init.Datatypes <> nil constr
+R23028:23031 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23045:23047 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R23038:23042 Coq.ZArith.Zpower <> two_p def
+R23048:23057 compcert.lib.Zbits <> powerserie:174 def
+prf 23076:23096 <> Z_one_bits_powerserie
+binder 23108:23108 <> n:176
+binder 23110:23110 <> x:177
+R23137:23140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23114:23117 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R23119:23121 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R23118:23118 compcert.lib.Zbits <> x:177 var
+R23118:23118 compcert.lib.Zbits <> x:177 var
+R23122:23134 Coq.ZArith.Zpower <> two_power_nat def
+R23136:23136 compcert.lib.Zbits <> n:176 var
+R23142:23144 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23141:23141 compcert.lib.Zbits <> x:177 var
+R23145:23154 compcert.lib.Zbits <> powerserie def
+R23157:23166 compcert.lib.Zbits <> Z_one_bits def
+R23168:23168 compcert.lib.Zbits <> n:176 var
+R23170:23170 compcert.lib.Zbits <> x:177 var
+binder 23200:23200 <> n:178
+binder 23202:23202 <> x:179
+binder 23204:23204 <> i:180
+R23217:23224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23212:23215 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R23216:23216 compcert.lib.Zbits <> i:180 var
+R23249:23256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23226:23229 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R23231:23233 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R23230:23230 compcert.lib.Zbits <> x:179 var
+R23230:23230 compcert.lib.Zbits <> x:179 var
+R23234:23246 Coq.ZArith.Zpower <> two_power_nat def
+R23248:23248 compcert.lib.Zbits <> n:178 var
+R23268:23270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23258:23260 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R23257:23257 compcert.lib.Zbits <> x:179 var
+R23261:23265 Coq.ZArith.Zpower <> two_p def
+R23267:23267 compcert.lib.Zbits <> i:180 var
+R23271:23280 compcert.lib.Zbits <> powerserie def
+R23283:23292 compcert.lib.Zbits <> Z_one_bits def
+R23294:23294 compcert.lib.Zbits <> n:178 var
+R23296:23296 compcert.lib.Zbits <> x:179 var
+R23298:23298 compcert.lib.Zbits <> i:180 var
+binder 23200:23200 <> n:181
+binder 23202:23202 <> x:182
+binder 23204:23204 <> i:183
+R23217:23224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23212:23215 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R23216:23216 compcert.lib.Zbits <> i:183 var
+R23249:23256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23226:23229 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R23231:23233 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R23230:23230 compcert.lib.Zbits <> x:182 var
+R23230:23230 compcert.lib.Zbits <> x:182 var
+R23234:23246 Coq.ZArith.Zpower <> two_power_nat def
+R23248:23248 compcert.lib.Zbits <> n:181 var
+R23268:23270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23258:23260 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R23257:23257 compcert.lib.Zbits <> x:182 var
+R23261:23265 Coq.ZArith.Zpower <> two_p def
+R23267:23267 compcert.lib.Zbits <> i:183 var
+R23271:23280 compcert.lib.Zbits <> powerserie def
+R23283:23292 compcert.lib.Zbits <> Z_one_bits def
+R23294:23294 compcert.lib.Zbits <> n:181 var
+R23296:23296 compcert.lib.Zbits <> x:182 var
+R23298:23298 compcert.lib.Zbits <> i:183 var
+R23347:23361 compcert.lib.Coqlib <> two_power_nat_O thm
+R23347:23361 compcert.lib.Coqlib <> two_power_nat_O thm
+R23347:23361 compcert.lib.Coqlib <> two_power_nat_O thm
+R23381:23383 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23381:23383 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23419:23433 Coq.ZArith.Zpower <> two_power_nat_S thm
+R23419:23433 Coq.ZArith.Zpower <> two_power_nat_S thm
+R23419:23433 Coq.ZArith.Zpower <> two_power_nat_S thm
+R23448:23457 compcert.lib.Zbits <> Z_one_bits def
+R23471:23477 compcert.lib.Zbits <> Zdecomp thm
+R23471:23477 compcert.lib.Zbits <> Zdecomp thm
+R23471:23477 compcert.lib.Zbits <> Zdecomp thm
+R23497:23509 compcert.lib.Zbits <> Zshiftin_spec thm
+R23497:23509 compcert.lib.Zbits <> Zshiftin_spec thm
+R23497:23509 compcert.lib.Zbits <> Zshiftin_spec thm
+R23556:23558 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23540:23542 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R23532:23537 Coq.ZArith.BinInt Z div2 def
+R23543:23547 Coq.ZArith.Zpower <> two_p def
+R23551:23553 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R23559:23568 compcert.lib.Zbits <> powerserie def
+R23571:23580 compcert.lib.Zbits <> Z_one_bits def
+R23585:23590 Coq.ZArith.BinInt Z div2 def
+R23597:23599 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R23556:23558 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23540:23542 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R23532:23537 Coq.ZArith.BinInt Z div2 def
+R23543:23547 Coq.ZArith.Zpower <> two_p def
+R23551:23553 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R23559:23568 compcert.lib.Zbits <> powerserie def
+R23571:23580 compcert.lib.Zbits <> Z_one_bits def
+R23585:23590 Coq.ZArith.BinInt Z div2 def
+R23597:23599 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R23640:23644 Coq.ZArith.BinInt Z odd def
+R23640:23644 Coq.ZArith.BinInt Z odd def
+R23665:23676 Coq.ZArith.Zpower <> two_p_is_exp thm
+R23665:23676 Coq.ZArith.Zpower <> two_p_is_exp thm
+R23665:23676 Coq.ZArith.Zpower <> two_p_is_exp thm
+R23665:23676 Coq.ZArith.Zpower <> two_p_is_exp thm
+R23665:23676 Coq.ZArith.Zpower <> two_p_is_exp thm
+R23693:23697 Coq.ZArith.Zpower <> two_p def
+R23693:23697 Coq.ZArith.Zpower <> two_p def
+R23727:23733 compcert.lib.Zbits <> Zdecomp thm
+R23727:23733 compcert.lib.Zbits <> Zdecomp thm
+R23727:23733 compcert.lib.Zbits <> Zdecomp thm
+R23752:23764 compcert.lib.Zbits <> Zshiftin_spec thm
+R23752:23764 compcert.lib.Zbits <> Zshiftin_spec thm
+R23752:23764 compcert.lib.Zbits <> Zshiftin_spec thm
+R23779:23783 Coq.ZArith.BinInt Z odd def
+R23795:23804 compcert.lib.Zbits <> powerserie def
+R23779:23783 Coq.ZArith.BinInt Z odd def
+R23876:23880 Coq.ZArith.Zpower <> two_p def
+R23876:23880 Coq.ZArith.Zpower <> two_p def
+prf 23927:23942 <> Z_one_bits_range
+binder 23954:23954 <> n:184
+binder 23956:23956 <> x:185
+binder 23958:23958 <> i:186
+R23984:23987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23961:23962 Coq.Lists.List <> In def
+R23967:23976 compcert.lib.Zbits <> Z_one_bits def
+R23978:23978 compcert.lib.Zbits <> n:184 var
+R23980:23980 compcert.lib.Zbits <> x:185 var
+R23964:23964 compcert.lib.Zbits <> i:186 var
+R23989:23992 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R23994:23996 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R23993:23993 compcert.lib.Zbits <> i:186 var
+R23993:23993 compcert.lib.Zbits <> i:186 var
+R23997:24004 Coq.ZArith.BinInt Z of_nat def
+R24006:24006 compcert.lib.Zbits <> n:184 var
+binder 24033:24033 <> n:187
+binder 24035:24035 <> x:188
+binder 24037:24037 <> i:189
+binder 24039:24039 <> j:190
+R24069:24072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24046:24047 Coq.Lists.List <> In def
+R24052:24061 compcert.lib.Zbits <> Z_one_bits def
+R24063:24063 compcert.lib.Zbits <> n:187 var
+R24065:24065 compcert.lib.Zbits <> x:188 var
+R24067:24067 compcert.lib.Zbits <> i:189 var
+R24049:24049 compcert.lib.Zbits <> j:190 var
+R24074:24077 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24079:24081 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24073:24073 compcert.lib.Zbits <> i:189 var
+R24078:24078 compcert.lib.Zbits <> j:190 var
+R24078:24078 compcert.lib.Zbits <> j:190 var
+R24083:24085 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R24082:24082 compcert.lib.Zbits <> i:189 var
+R24086:24093 Coq.ZArith.BinInt Z of_nat def
+R24095:24095 compcert.lib.Zbits <> n:187 var
+binder 24033:24033 <> n:191
+binder 24035:24035 <> x:192
+binder 24037:24037 <> i:193
+binder 24039:24039 <> j:194
+R24069:24072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24046:24047 Coq.Lists.List <> In def
+R24052:24061 compcert.lib.Zbits <> Z_one_bits def
+R24063:24063 compcert.lib.Zbits <> n:191 var
+R24065:24065 compcert.lib.Zbits <> x:192 var
+R24067:24067 compcert.lib.Zbits <> i:193 var
+R24049:24049 compcert.lib.Zbits <> j:194 var
+R24074:24077 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24079:24081 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24073:24073 compcert.lib.Zbits <> i:193 var
+R24078:24078 compcert.lib.Zbits <> j:194 var
+R24078:24078 compcert.lib.Zbits <> j:194 var
+R24083:24085 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R24082:24082 compcert.lib.Zbits <> i:193 var
+R24086:24093 Coq.ZArith.BinInt Z of_nat def
+R24095:24095 compcert.lib.Zbits <> n:191 var
+R24124:24125 Coq.Lists.List <> In def
+R24161:24174 Coq.ZArith.Znat Nat2Z inj_succ thm
+R24161:24174 Coq.ZArith.Znat Nat2Z inj_succ thm
+R24161:24174 Coq.ZArith.Znat Nat2Z inj_succ thm
+R24225:24228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24187:24188 Coq.Lists.List <> In def
+R24193:24202 compcert.lib.Zbits <> Z_one_bits def
+R24207:24212 Coq.ZArith.BinInt Z div2 def
+R24219:24221 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R24230:24233 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24235:24237 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24239:24241 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R24242:24247 Coq.ZArith.BinInt Z succ def
+R24250:24257 Coq.ZArith.BinInt Z of_nat def
+R24225:24228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24187:24188 Coq.Lists.List <> In def
+R24193:24202 compcert.lib.Zbits <> Z_one_bits def
+R24207:24212 Coq.ZArith.BinInt Z div2 def
+R24219:24221 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R24230:24233 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24235:24237 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24239:24241 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R24242:24247 Coq.ZArith.BinInt Z succ def
+R24250:24257 Coq.ZArith.BinInt Z of_nat def
+R24313:24317 Coq.ZArith.BinInt Z odd def
+R24313:24317 Coq.ZArith.BinInt Z odd def
+prf 24433:24447 <> Z_one_bits_zero
+binder 24459:24459 <> n:195
+binder 24461:24461 <> i:196
+R24480:24482 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24464:24473 compcert.lib.Zbits <> Z_one_bits def
+R24475:24475 compcert.lib.Zbits <> n:195 var
+R24479:24479 compcert.lib.Zbits <> i:196 var
+R24483:24485 Coq.Init.Datatypes <> nil constr
+prf 24544:24559 <> Z_one_bits_two_p
+binder 24571:24571 <> n:197
+binder 24573:24573 <> x:198
+binder 24575:24575 <> i:199
+R24599:24604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24581:24584 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24586:24588 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24585:24585 compcert.lib.Zbits <> x:198 var
+R24585:24585 compcert.lib.Zbits <> x:198 var
+R24589:24596 Coq.ZArith.BinInt Z of_nat def
+R24598:24598 compcert.lib.Zbits <> n:197 var
+R24629:24631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24605:24614 compcert.lib.Zbits <> Z_one_bits def
+R24616:24616 compcert.lib.Zbits <> n:197 var
+R24619:24623 Coq.ZArith.Zpower <> two_p def
+R24625:24625 compcert.lib.Zbits <> x:198 var
+R24628:24628 compcert.lib.Zbits <> i:199 var
+R24632:24632 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24638:24642 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24634:24636 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R24633:24633 compcert.lib.Zbits <> i:199 var
+R24637:24637 compcert.lib.Zbits <> x:198 var
+R24643:24645 Coq.Init.Datatypes <> nil constr
+R24715:24728 Coq.ZArith.Znat Nat2Z inj_succ thm
+R24715:24728 Coq.ZArith.Znat Nat2Z inj_succ thm
+R24715:24728 Coq.ZArith.Znat Nat2Z inj_succ thm
+R24751:24754 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24747:24749 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24756:24758 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R24751:24754 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24747:24749 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24756:24758 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R24819:24833 compcert.lib.Zbits <> Z_one_bits_zero thm
+R24819:24833 compcert.lib.Zbits <> Z_one_bits_zero thm
+R24869:24872 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24861:24863 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24846:24850 Coq.ZArith.BinInt Z odd def
+R24853:24857 Coq.ZArith.Zpower <> two_p def
+R24864:24868 Coq.Init.Datatypes <> false constr
+R24889:24891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24873:24878 Coq.ZArith.BinInt Z div2 def
+R24881:24885 Coq.ZArith.Zpower <> two_p def
+R24892:24896 Coq.ZArith.Zpower <> two_p def
+R24900:24900 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R24869:24872 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24861:24863 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24846:24850 Coq.ZArith.BinInt Z odd def
+R24853:24857 Coq.ZArith.Zpower <> two_p def
+R24864:24868 Coq.Init.Datatypes <> false constr
+R24889:24891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24873:24878 Coq.ZArith.BinInt Z div2 def
+R24881:24885 Coq.ZArith.Zpower <> two_p def
+R24892:24896 Coq.ZArith.Zpower <> two_p def
+R24900:24900 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R24916:24927 compcert.lib.Zbits <> Zshiftin_inj thm
+R24916:24927 compcert.lib.Zbits <> Zshiftin_inj thm
+R24941:24947 compcert.lib.Zbits <> Zdecomp thm
+R24941:24947 compcert.lib.Zbits <> Zdecomp thm
+R24941:24947 compcert.lib.Zbits <> Zdecomp thm
+R24959:24971 compcert.lib.Zbits <> Zshiftin_spec thm
+R24959:24971 compcert.lib.Zbits <> Zshiftin_spec thm
+R24959:24971 compcert.lib.Zbits <> Zshiftin_spec thm
+R24959:24971 compcert.lib.Zbits <> Zshiftin_spec thm
+R24989:24995 Coq.ZArith.Zpower <> two_p_S thm
+R24989:24995 Coq.ZArith.Zpower <> two_p_S thm
+R24989:24995 Coq.ZArith.Zpower <> two_p_S thm
+R24989:24995 Coq.ZArith.Zpower <> two_p_S thm
+R25006:25014 Coq.ZArith.BinInt Z add_0_r thm
+R25006:25014 Coq.ZArith.BinInt Z add_0_r thm
+R25006:25014 Coq.ZArith.BinInt Z add_0_r thm
+def 25171:25181 <> P_is_power2
+R25187:25194 Coq.Numbers.BinNums <> positive ind
+binder 25184:25184 <> p:200
+R25199:25202 Coq.Init.Datatypes <> bool ind
+R25215:25215 compcert.lib.Zbits <> p:200 var
+R25226:25227 Coq.Numbers.BinNums <> xH constr
+R25232:25235 Coq.Init.Datatypes <> true constr
+R25241:25242 Coq.Numbers.BinNums <> xO constr
+R25249:25259 compcert.lib.Zbits <> P_is_power2:201 def
+R25267:25268 Coq.Numbers.BinNums <> xI constr
+R25275:25279 Coq.Init.Datatypes <> false constr
+def 25300:25310 <> Z_is_power2
+R25316:25316 Coq.Numbers.BinNums <> Z ind
+binder 25313:25313 <> x:203
+R25321:25326 Coq.Init.Datatypes <> option ind
+R25328:25328 Coq.Numbers.BinNums <> Z ind
+R25341:25341 compcert.lib.Zbits <> x:203 var
+R25352:25353 Coq.Numbers.BinNums <> Z0 constr
+R25358:25361 Coq.Init.Datatypes <> None constr
+R25367:25370 Coq.Numbers.BinNums <> Zpos constr
+R25380:25390 compcert.lib.Zbits <> P_is_power2 def
+R25420:25423 Coq.Init.Datatypes <> None constr
+R25399:25402 Coq.Init.Datatypes <> Some constr
+R25405:25410 Coq.ZArith.BinInt Z log2 def
+R25412:25412 compcert.lib.Zbits <> x:203 var
+R25429:25432 Coq.Numbers.BinNums <> Zneg constr
+R25439:25442 Coq.Init.Datatypes <> None constr
+prf 25459:25475 <> P_is_power2_sound
+binder 25487:25487 <> p:205
+R25510:25513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25503:25505 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25490:25500 compcert.lib.Zbits <> P_is_power2 def
+R25502:25502 compcert.lib.Zbits <> p:205 var
+R25506:25509 Coq.Init.Datatypes <> true constr
+R25521:25523 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25514:25518 Coq.ZArith.BinInt Z pos abbrev
+R25520:25520 compcert.lib.Zbits <> p:205 var
+R25524:25528 Coq.ZArith.Zpower <> two_p def
+R25531:25536 Coq.ZArith.BinInt Z log2 def
+R25539:25543 Coq.ZArith.BinInt Z pos abbrev
+R25545:25545 compcert.lib.Zbits <> p:205 var
+R25578:25588 compcert.lib.Zbits <> P_is_power2 def
+R25625:25629 Coq.ZArith.BinInt Z pos abbrev
+R25632:25633 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R25643:25645 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R25646:25650 Coq.ZArith.BinInt Z pos abbrev
+R25625:25629 Coq.ZArith.BinInt Z pos abbrev
+R25632:25633 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R25643:25645 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R25646:25650 Coq.ZArith.BinInt Z pos abbrev
+R25643:25645 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R25646:25650 Coq.ZArith.BinInt Z pos abbrev
+R25683:25695 Coq.ZArith.BinInt Z log2_double thm
+R25683:25695 Coq.ZArith.BinInt Z log2_double thm
+R25683:25695 Coq.ZArith.BinInt Z log2_double thm
+R25716:25722 Coq.ZArith.Zpower <> two_p_S thm
+R25716:25722 Coq.ZArith.Zpower <> two_p_S thm
+R25716:25722 Coq.ZArith.Zpower <> two_p_S thm
+R25716:25722 Coq.ZArith.Zpower <> two_p_S thm
+R25746:25758 Coq.ZArith.BinInt Z log2_nonneg thm
+R25746:25758 Coq.ZArith.BinInt Z log2_nonneg thm
+prf 25788:25805 <> Z_is_power2_nonneg
+binder 25817:25817 <> x:206
+binder 25819:25819 <> i:207
+R25844:25847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25835:25837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25822:25832 compcert.lib.Zbits <> Z_is_power2 def
+R25834:25834 compcert.lib.Zbits <> x:206 var
+R25838:25841 Coq.Init.Datatypes <> Some constr
+R25843:25843 compcert.lib.Zbits <> i:207 var
+R25849:25852 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R25853:25853 compcert.lib.Zbits <> i:207 var
+R25872:25882 compcert.lib.Zbits <> Z_is_power2 def
+R25935:25945 compcert.lib.Zbits <> P_is_power2 def
+R25935:25945 compcert.lib.Zbits <> P_is_power2 def
+R25993:25998 Coq.ZArith.BinInt Z log2 def
+R26001:26005 Coq.ZArith.BinInt Z pos abbrev
+R25993:25998 Coq.ZArith.BinInt Z log2 def
+R26001:26005 Coq.ZArith.BinInt Z pos abbrev
+R26032:26044 Coq.ZArith.BinInt Z log2_nonneg thm
+R26032:26044 Coq.ZArith.BinInt Z log2_nonneg thm
+prf 26060:26076 <> Z_is_power2_sound
+binder 26088:26088 <> x:208
+binder 26090:26090 <> i:209
+R26115:26118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26106:26108 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26093:26103 compcert.lib.Zbits <> Z_is_power2 def
+R26105:26105 compcert.lib.Zbits <> x:208 var
+R26109:26112 Coq.Init.Datatypes <> Some constr
+R26114:26114 compcert.lib.Zbits <> i:209 var
+R26130:26133 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26120:26122 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26119:26119 compcert.lib.Zbits <> x:208 var
+R26123:26127 Coq.ZArith.Zpower <> two_p def
+R26129:26129 compcert.lib.Zbits <> i:209 var
+R26135:26137 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26134:26134 compcert.lib.Zbits <> i:209 var
+R26138:26143 Coq.ZArith.BinInt Z log2 def
+R26145:26145 compcert.lib.Zbits <> x:208 var
+R26164:26174 compcert.lib.Zbits <> Z_is_power2 def
+R26227:26237 compcert.lib.Zbits <> P_is_power2 def
+R26227:26237 compcert.lib.Zbits <> P_is_power2 def
+R26275:26291 compcert.lib.Zbits <> P_is_power2_sound thm
+R26275:26291 compcert.lib.Zbits <> P_is_power2_sound thm
+prf 26345:26361 <> Z_is_power2_range
+binder 26373:26373 <> n:210
+binder 26375:26375 <> x:211
+binder 26377:26377 <> i:212
+R26388:26391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26383:26386 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R26387:26387 compcert.lib.Zbits <> n:210 var
+R26408:26411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26393:26396 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R26398:26400 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R26397:26397 compcert.lib.Zbits <> x:211 var
+R26397:26397 compcert.lib.Zbits <> x:211 var
+R26401:26405 Coq.ZArith.Zpower <> two_p def
+R26407:26407 compcert.lib.Zbits <> n:210 var
+R26434:26437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26425:26427 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26412:26422 compcert.lib.Zbits <> Z_is_power2 def
+R26424:26424 compcert.lib.Zbits <> x:211 var
+R26428:26431 Coq.Init.Datatypes <> Some constr
+R26433:26433 compcert.lib.Zbits <> i:212 var
+R26439:26442 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R26444:26446 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R26443:26443 compcert.lib.Zbits <> i:212 var
+R26443:26443 compcert.lib.Zbits <> i:212 var
+R26447:26447 compcert.lib.Zbits <> n:210 var
+R26478:26481 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R26478:26481 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R26534:26550 compcert.lib.Zbits <> Z_is_power2_sound thm
+R26534:26550 compcert.lib.Zbits <> Z_is_power2_sound thm
+R26605:26617 Coq.ZArith.BinInt Z log2_nonneg thm
+R26605:26617 Coq.ZArith.BinInt Z log2_nonneg thm
+R26626:26639 Coq.ZArith.BinInt Z log2_lt_pow2 thm
+R26626:26639 Coq.ZArith.BinInt Z log2_lt_pow2 thm
+R26658:26668 Coq.ZArith.Zpower <> two_p_equiv thm
+R26658:26668 Coq.ZArith.Zpower <> two_p_equiv thm
+R26658:26668 Coq.ZArith.Zpower <> two_p_equiv thm
+prf 26690:26709 <> Z_is_power2_complete
+binder 26721:26721 <> i:213
+R26730:26733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26725:26728 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R26729:26729 compcert.lib.Zbits <> i:213 var
+R26755:26757 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26734:26744 compcert.lib.Zbits <> Z_is_power2 def
+R26747:26751 Coq.ZArith.Zpower <> two_p def
+R26753:26753 compcert.lib.Zbits <> i:213 var
+R26758:26761 Coq.Init.Datatypes <> Some constr
+R26763:26763 compcert.lib.Zbits <> i:213 var
+R26780:26785 Coq.ZArith.BinInt Z log2 def
+binder 26808:26808 <> x:214
+binder 26810:26810 <> i:215
+R26835:26838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26826:26828 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26813:26823 compcert.lib.Zbits <> Z_is_power2 def
+R26825:26825 compcert.lib.Zbits <> x:214 var
+R26829:26832 Coq.Init.Datatypes <> Some constr
+R26834:26834 compcert.lib.Zbits <> i:215 var
+R26858:26860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26839:26849 compcert.lib.Zbits <> Z_is_power2 def
+R26853:26855 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R26856:26856 compcert.lib.Zbits <> x:214 var
+R26861:26864 Coq.Init.Datatypes <> Some constr
+R26867:26872 Coq.ZArith.BinInt Z succ def
+R26874:26874 compcert.lib.Zbits <> i:215 var
+binder 26808:26808 <> x:216
+binder 26810:26810 <> i:217
+R26835:26838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26826:26828 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26813:26823 compcert.lib.Zbits <> Z_is_power2 def
+R26825:26825 compcert.lib.Zbits <> x:216 var
+R26829:26832 Coq.Init.Datatypes <> Some constr
+R26834:26834 compcert.lib.Zbits <> i:217 var
+R26858:26860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26839:26849 compcert.lib.Zbits <> Z_is_power2 def
+R26853:26855 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R26856:26856 compcert.lib.Zbits <> x:216 var
+R26861:26864 Coq.Init.Datatypes <> Some constr
+R26867:26872 Coq.ZArith.BinInt Z succ def
+R26874:26874 compcert.lib.Zbits <> i:217 var
+R26941:26943 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R26944:26948 Coq.ZArith.BinInt Z pos abbrev
+R26959:26963 Coq.ZArith.BinInt Z pos abbrev
+R26966:26967 Coq.Numbers.BinNums <> xO constr
+R26941:26943 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R26944:26948 Coq.ZArith.BinInt Z pos abbrev
+R26959:26963 Coq.ZArith.BinInt Z pos abbrev
+R26966:26967 Coq.Numbers.BinNums <> xO constr
+R26995:27005 compcert.lib.Zbits <> P_is_power2 def
+R26995:27005 compcert.lib.Zbits <> P_is_power2 def
+R27029:27041 Coq.ZArith.BinInt Z log2_double thm
+R27029:27041 Coq.ZArith.BinInt Z log2_double thm
+R27029:27041 Coq.ZArith.BinInt Z log2_double thm
+R27084:27095 compcert.lib.Zbits <> Znatlike_ind thm
+R27084:27095 compcert.lib.Zbits <> Znatlike_ind thm
+R27156:27162 Coq.ZArith.Zpower <> two_p_S thm
+R27156:27162 Coq.ZArith.Zpower <> two_p_S thm
+R27156:27162 Coq.ZArith.Zpower <> two_p_S thm
+R26780:26785 Coq.ZArith.BinInt Z log2 def
+def 27214:27226 <> Z_is_power2m1
+R27232:27232 Coq.Numbers.BinNums <> Z ind
+binder 27229:27229 <> x:218
+R27237:27242 Coq.Init.Datatypes <> option ind
+R27244:27244 Coq.Numbers.BinNums <> Z ind
+R27249:27259 compcert.lib.Zbits <> Z_is_power2 def
+R27262:27267 Coq.ZArith.BinInt Z succ def
+R27269:27269 compcert.lib.Zbits <> x:218 var
+prf 27280:27299 <> Z_is_power2m1_nonneg
+binder 27311:27311 <> x:219
+binder 27313:27313 <> i:220
+R27340:27343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27331:27333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27316:27328 compcert.lib.Zbits <> Z_is_power2m1 def
+R27330:27330 compcert.lib.Zbits <> x:219 var
+R27334:27337 Coq.Init.Datatypes <> Some constr
+R27339:27339 compcert.lib.Zbits <> i:220 var
+R27345:27348 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R27349:27349 compcert.lib.Zbits <> i:220 var
+R27368:27380 compcert.lib.Zbits <> Z_is_power2m1 def
+R27398:27415 compcert.lib.Zbits <> Z_is_power2_nonneg thm
+R27398:27415 compcert.lib.Zbits <> Z_is_power2_nonneg thm
+prf 27437:27455 <> Z_is_power2m1_sound
+binder 27467:27467 <> x:221
+binder 27469:27469 <> i:222
+R27496:27499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27487:27489 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27472:27484 compcert.lib.Zbits <> Z_is_power2m1 def
+R27486:27486 compcert.lib.Zbits <> x:221 var
+R27490:27493 Coq.Init.Datatypes <> Some constr
+R27495:27495 compcert.lib.Zbits <> i:222 var
+R27501:27503 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27500:27500 compcert.lib.Zbits <> x:221 var
+R27511:27513 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R27504:27508 Coq.ZArith.Zpower <> two_p def
+R27510:27510 compcert.lib.Zbits <> i:222 var
+R27533:27545 compcert.lib.Zbits <> Z_is_power2m1 def
+R27562:27578 compcert.lib.Zbits <> Z_is_power2_sound thm
+R27562:27578 compcert.lib.Zbits <> Z_is_power2_sound thm
+prf 27603:27624 <> Z_is_power2m1_complete
+binder 27636:27636 <> i:223
+R27645:27648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27640:27643 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R27644:27644 compcert.lib.Zbits <> i:223 var
+R27676:27678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27649:27661 compcert.lib.Zbits <> Z_is_power2m1 def
+R27671:27673 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R27664:27668 Coq.ZArith.Zpower <> two_p def
+R27670:27670 compcert.lib.Zbits <> i:223 var
+R27679:27682 Coq.Init.Datatypes <> Some constr
+R27684:27684 compcert.lib.Zbits <> i:223 var
+R27711:27723 compcert.lib.Zbits <> Z_is_power2m1 def
+R27735:27740 Coq.ZArith.BinInt Z succ def
+R27750:27752 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R27743:27747 Coq.ZArith.Zpower <> two_p def
+R27763:27767 Coq.ZArith.Zpower <> two_p def
+R27735:27740 Coq.ZArith.BinInt Z succ def
+R27750:27752 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R27743:27747 Coq.ZArith.Zpower <> two_p def
+R27763:27767 Coq.ZArith.Zpower <> two_p def
+R27788:27807 compcert.lib.Zbits <> Z_is_power2_complete thm
+R27788:27807 compcert.lib.Zbits <> Z_is_power2_complete thm
+prf 27828:27846 <> Z_is_power2m1_range
+binder 27858:27858 <> n:224
+binder 27860:27860 <> x:225
+binder 27862:27862 <> i:226
+R27873:27876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27868:27871 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R27872:27872 compcert.lib.Zbits <> n:224 var
+R27893:27896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27878:27881 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R27883:27885 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R27882:27882 compcert.lib.Zbits <> x:225 var
+R27882:27882 compcert.lib.Zbits <> x:225 var
+R27886:27890 Coq.ZArith.Zpower <> two_p def
+R27892:27892 compcert.lib.Zbits <> n:224 var
+R27921:27924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27912:27914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27897:27909 compcert.lib.Zbits <> Z_is_power2m1 def
+R27911:27911 compcert.lib.Zbits <> x:225 var
+R27915:27918 Coq.Init.Datatypes <> Some constr
+R27920:27920 compcert.lib.Zbits <> i:226 var
+R27926:27929 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R27931:27934 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R27930:27930 compcert.lib.Zbits <> i:226 var
+R27930:27930 compcert.lib.Zbits <> i:226 var
+R27935:27935 compcert.lib.Zbits <> n:224 var
+R27965:27967 compcert.lib.Coqlib <> zeq def
+R27979:27981 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R27972:27976 Coq.ZArith.Zpower <> two_p def
+R27965:27967 compcert.lib.Coqlib <> zeq def
+R27979:27981 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R27972:27976 Coq.ZArith.Zpower <> two_p def
+R28006:28027 compcert.lib.Zbits <> Z_is_power2m1_complete thm
+R28006:28027 compcert.lib.Zbits <> Z_is_power2m1_complete thm
+R28006:28027 compcert.lib.Zbits <> Z_is_power2m1_complete thm
+R28066:28078 compcert.lib.Zbits <> Z_is_power2m1 def
+R28094:28110 compcert.lib.Zbits <> Z_is_power2_range thm
+R28115:28120 Coq.ZArith.BinInt Z succ def
+R28094:28110 compcert.lib.Zbits <> Z_is_power2_range thm
+R28115:28120 Coq.ZArith.BinInt Z succ def
+prf 28302:28318 <> Zshiftl_mul_two_p
+binder 28330:28330 <> x:227
+binder 28332:28332 <> n:228
+R28341:28344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28336:28339 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R28340:28340 compcert.lib.Zbits <> n:228 var
+R28357:28359 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28345:28352 Coq.ZArith.BinInt Z shiftl def
+R28354:28354 compcert.lib.Zbits <> x:227 var
+R28356:28356 compcert.lib.Zbits <> n:228 var
+R28361:28363 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R28360:28360 compcert.lib.Zbits <> x:227 var
+R28364:28368 Coq.ZArith.Zpower <> two_p def
+R28370:28370 compcert.lib.Zbits <> n:228 var
+R28439:28451 Coq.PArith.BinPos Pos peano_ind def
+R28439:28451 Coq.PArith.BinPos Pos peano_ind def
+R28468:28480 Coq.ZArith.Zpower <> two_power_pos def
+R28468:28480 Coq.ZArith.Zpower <> two_power_pos def
+R28528:28540 Coq.PArith.BinPos Pos iter_succ thm
+R28528:28540 Coq.PArith.BinPos Pos iter_succ thm
+R28528:28540 Coq.PArith.BinPos Pos iter_succ thm
+R28569:28584 Coq.PArith.BinPos <> Pplus_one_succ_l thm
+R28569:28584 Coq.PArith.BinPos <> Pplus_one_succ_l thm
+R28569:28584 Coq.PArith.BinPos <> Pplus_one_succ_l thm
+R28595:28614 Coq.ZArith.Zpower <> two_power_pos_is_exp thm
+R28595:28614 Coq.ZArith.Zpower <> two_power_pos_is_exp thm
+R28595:28614 Coq.ZArith.Zpower <> two_power_pos_is_exp thm
+R28631:28643 Coq.ZArith.Zpower <> two_power_pos def
+R28631:28643 Coq.ZArith.Zpower <> two_power_pos def
+prf 28755:28771 <> Zshiftr_div_two_p
+binder 28783:28783 <> x:229
+binder 28785:28785 <> n:230
+R28794:28797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28789:28792 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R28793:28793 compcert.lib.Zbits <> n:230 var
+R28810:28812 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28798:28805 Coq.ZArith.BinInt Z shiftr def
+R28807:28807 compcert.lib.Zbits <> x:229 var
+R28809:28809 compcert.lib.Zbits <> n:230 var
+R28814:28816 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R28813:28813 compcert.lib.Zbits <> x:229 var
+R28817:28821 Coq.ZArith.Zpower <> two_p def
+R28823:28823 compcert.lib.Zbits <> n:230 var
+R28862:28869 Coq.ZArith.BinInt Z shiftr def
+R28891:28898 Coq.ZArith.Zdiv <> Zdiv_1_r thm
+R28891:28898 Coq.ZArith.Zdiv <> Zdiv_1_r thm
+R28891:28898 Coq.ZArith.Zdiv <> Zdiv_1_r thm
+R28928:28940 Coq.PArith.BinPos Pos peano_ind def
+R28928:28940 Coq.PArith.BinPos Pos peano_ind def
+R28957:28969 Coq.ZArith.Zpower <> two_power_pos def
+R28957:28969 Coq.ZArith.Zpower <> two_power_pos def
+R28995:29003 Coq.ZArith.Zdiv <> Zdiv2_div thm
+R28995:29003 Coq.ZArith.Zdiv <> Zdiv2_div thm
+R29028:29040 Coq.PArith.BinPos Pos iter_succ thm
+R29028:29040 Coq.PArith.BinPos Pos iter_succ thm
+R29028:29040 Coq.PArith.BinPos Pos iter_succ thm
+R29069:29084 Coq.PArith.BinPos <> Pplus_one_succ_l thm
+R29069:29084 Coq.PArith.BinPos <> Pplus_one_succ_l thm
+R29069:29084 Coq.PArith.BinPos <> Pplus_one_succ_l thm
+R29095:29114 Coq.ZArith.Zpower <> two_power_pos_is_exp thm
+R29095:29114 Coq.ZArith.Zpower <> two_power_pos_is_exp thm
+R29095:29114 Coq.ZArith.Zpower <> two_power_pos_is_exp thm
+R29131:29143 Coq.ZArith.Zpower <> two_power_pos def
+R29131:29143 Coq.ZArith.Zpower <> two_power_pos def
+R29170:29178 Coq.ZArith.Zdiv <> Zdiv2_div thm
+R29170:29178 Coq.ZArith.Zdiv <> Zdiv2_div thm
+R29170:29178 Coq.ZArith.Zdiv <> Zdiv2_div thm
+R29189:29198 Coq.ZArith.BinInt Z mul_comm thm
+R29189:29198 Coq.ZArith.BinInt Z mul_comm thm
+R29189:29198 Coq.ZArith.BinInt Z mul_comm thm
+R29207:29215 compcert.lib.Coqlib <> Zdiv_Zdiv thm
+R29207:29215 compcert.lib.Coqlib <> Zdiv_Zdiv thm
+R29232:29248 Coq.ZArith.Zpower <> two_power_pos_nat thm
+R29232:29248 Coq.ZArith.Zpower <> two_power_pos_nat thm
+R29232:29248 Coq.ZArith.Zpower <> two_power_pos_nat thm
+R29257:29273 compcert.lib.Coqlib <> two_power_nat_pos thm
+R29257:29273 compcert.lib.Coqlib <> two_power_nat_pos thm
+prf 29389:29398 <> Zquot_Zdiv
+binder 29410:29410 <> x:231
+binder 29412:29412 <> y:232
+R29422:29427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29418:29420 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R29417:29417 compcert.lib.Zbits <> y:232 var
+R29438:29440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29428:29433 Coq.ZArith.BinInt Z quot def
+R29435:29435 compcert.lib.Zbits <> x:231 var
+R29437:29437 compcert.lib.Zbits <> y:232 var
+R29444:29446 compcert.lib.Coqlib <> zlt def
+R29448:29448 compcert.lib.Zbits <> x:231 var
+R29479:29481 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R29478:29478 compcert.lib.Zbits <> x:231 var
+R29482:29482 compcert.lib.Zbits <> y:232 var
+R29457:29457 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R29467:29470 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R29463:29465 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29459:29461 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29458:29458 compcert.lib.Zbits <> x:231 var
+R29462:29462 compcert.lib.Zbits <> y:232 var
+R29471:29471 compcert.lib.Zbits <> y:232 var
+R29512:29514 compcert.lib.Coqlib <> zlt def
+R29512:29514 compcert.lib.Coqlib <> zlt def
+R29583:29586 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29592:29592 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29566:29566 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R29576:29581 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R29572:29574 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29568:29570 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29588:29590 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29542:29558 Coq.ZArith.Zquot <> Zquot_unique_full thm
+R29583:29586 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29592:29592 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29566:29566 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R29576:29581 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R29572:29574 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29568:29570 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29588:29590 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29542:29558 Coq.ZArith.Zquot <> Zquot_unique_full thm
+R29643:29650 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R29658:29660 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29654:29656 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29643:29650 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R29658:29660 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29654:29656 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29689:29696 Coq.ZArith.BinInt Z abs_eq thm
+R29689:29696 Coq.ZArith.BinInt Z abs_eq thm
+R29689:29696 Coq.ZArith.BinInt Z abs_eq thm
+R29689:29696 Coq.ZArith.BinInt Z abs_eq thm
+R29730:29730 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29772:29776 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29780:29780 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29752:29754 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29732:29735 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R29751:29751 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R29736:29736 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R29746:29749 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R29742:29744 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29738:29740 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29755:29755 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R29765:29770 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R29761:29763 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29757:29759 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29778:29778 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29730:29730 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29772:29776 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29780:29780 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29752:29754 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29732:29735 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R29751:29751 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R29736:29736 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R29746:29749 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R29742:29744 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29738:29740 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29755:29755 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R29765:29770 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R29761:29763 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29757:29759 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29778:29778 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29802:29813 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R29802:29813 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R29802:29813 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R29802:29813 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R29844:29857 Coq.ZArith.Zquot <> Zquot_Zdiv_pos thm
+R29844:29857 Coq.ZArith.Zquot <> Zquot_Zdiv_pos thm
+prf 29877:29886 <> Zdiv_shift
+binder 29898:29898 <> x:233
+binder 29900:29900 <> y:234
+R29908:29913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29904:29906 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R29903:29903 compcert.lib.Zbits <> y:234 var
+R29931:29933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29914:29914 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R29926:29929 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R29916:29919 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29925:29925 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29915:29915 compcert.lib.Zbits <> x:233 var
+R29921:29923 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R29920:29920 compcert.lib.Zbits <> y:234 var
+R29930:29930 compcert.lib.Zbits <> y:234 var
+R29939:29941 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29935:29937 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R29934:29934 compcert.lib.Zbits <> x:233 var
+R29938:29938 compcert.lib.Zbits <> y:234 var
+R29945:29947 compcert.lib.Coqlib <> zeq def
+R29950:29957 Coq.ZArith.BinInt Z modulo def
+R29959:29959 compcert.lib.Zbits <> x:233 var
+R29961:29961 compcert.lib.Zbits <> y:234 var
+R30010:30021 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R30010:30021 compcert.lib.Coqlib <> Z_div_mod_eq thm
+R30043:30050 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R30043:30050 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R30073:30075 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R30073:30075 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R30091:30095 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R30091:30095 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R30120:30122 compcert.lib.Coqlib <> zeq def
+R30120:30122 compcert.lib.Coqlib <> zeq def
+R30157:30159 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R30138:30148 compcert.lib.Coqlib <> Zdiv_unique thm
+R30157:30159 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R30138:30148 compcert.lib.Coqlib <> Zdiv_unique thm
+R30225:30227 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R30206:30216 compcert.lib.Coqlib <> Zdiv_unique thm
+R30225:30227 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R30206:30216 compcert.lib.Coqlib <> Zdiv_unique thm
+def 30310:30314 <> Zsize
+R30320:30320 Coq.Numbers.BinNums <> Z ind
+binder 30317:30317 <> x:235
+R30325:30325 Coq.Numbers.BinNums <> Z ind
+R30338:30338 compcert.lib.Zbits <> x:235 var
+R30349:30352 Coq.Numbers.BinNums <> Zpos constr
+R30359:30362 Coq.Numbers.BinNums <> Zpos constr
+R30365:30372 Coq.PArith.BinPos Pos size def
+prf 30403:30411 <> Zsize_pos
+binder 30421:30421 <> x:237
+R30425:30428 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R30429:30433 compcert.lib.Zbits <> Zsize def
+R30435:30435 compcert.lib.Zbits <> x:237 var
+prf 30520:30529 <> Zsize_pos'
+binder 30539:30539 <> x:238
+R30547:30550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30543:30545 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R30546:30546 compcert.lib.Zbits <> x:238 var
+R30552:30554 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R30555:30559 compcert.lib.Zbits <> Zsize def
+R30561:30561 compcert.lib.Zbits <> x:238 var
+prf 30645:30657 <> Zsize_shiftin
+binder 30669:30669 <> b:239
+binder 30671:30671 <> x:240
+R30679:30682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30675:30677 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R30678:30678 compcert.lib.Zbits <> x:240 var
+R30703:30705 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30683:30687 compcert.lib.Zbits <> Zsize def
+R30690:30697 compcert.lib.Zbits <> Zshiftin def
+R30699:30699 compcert.lib.Zbits <> b:239 var
+R30701:30701 compcert.lib.Zbits <> x:240 var
+R30706:30711 Coq.ZArith.BinInt Z succ def
+R30714:30718 compcert.lib.Zbits <> Zsize def
+R30720:30720 compcert.lib.Zbits <> x:240 var
+R30809:30816 compcert.lib.Zbits <> Zshiftin def
+R30818:30821 Coq.Init.Datatypes <> true constr
+R30824:30827 Coq.Numbers.BinNums <> Zpos constr
+R30839:30842 Coq.Numbers.BinNums <> Zpos constr
+R30846:30847 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R30809:30816 compcert.lib.Zbits <> Zshiftin def
+R30818:30821 Coq.Init.Datatypes <> true constr
+R30824:30827 Coq.Numbers.BinNums <> Zpos constr
+R30839:30842 Coq.Numbers.BinNums <> Zpos constr
+R30846:30847 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R30878:30888 Coq.PArith.BinPos Pos add_1_r thm
+R30878:30888 Coq.PArith.BinPos Pos add_1_r thm
+R30878:30888 Coq.PArith.BinPos Pos add_1_r thm
+R30907:30914 compcert.lib.Zbits <> Zshiftin def
+R30916:30920 Coq.Init.Datatypes <> false constr
+R30923:30926 Coq.Numbers.BinNums <> Zpos constr
+R30938:30941 Coq.Numbers.BinNums <> Zpos constr
+R30945:30946 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R30907:30914 compcert.lib.Zbits <> Zshiftin def
+R30916:30920 Coq.Init.Datatypes <> false constr
+R30923:30926 Coq.Numbers.BinNums <> Zpos constr
+R30938:30941 Coq.Numbers.BinNums <> Zpos constr
+R30945:30946 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R30977:30987 Coq.PArith.BinPos Pos add_1_r thm
+R30977:30987 Coq.PArith.BinPos Pos add_1_r thm
+R30977:30987 Coq.PArith.BinPos Pos add_1_r thm
+prf 31008:31022 <> Ztestbit_size_1
+binder 31034:31034 <> x:241
+R31042:31045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31038:31040 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R31041:31041 compcert.lib.Zbits <> x:241 var
+R31076:31078 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31046:31054 Coq.ZArith.BinInt Z testbit def
+R31056:31056 compcert.lib.Zbits <> x:241 var
+R31059:31064 Coq.ZArith.BinInt Z pred def
+R31067:31071 compcert.lib.Zbits <> Zsize def
+R31073:31073 compcert.lib.Zbits <> x:241 var
+R31079:31082 Coq.Init.Datatypes <> true constr
+R31128:31143 compcert.lib.Zbits <> Zshiftin_pos_ind thm
+R31128:31143 compcert.lib.Zbits <> Zshiftin_pos_ind thm
+R31170:31182 compcert.lib.Zbits <> Zsize_shiftin thm
+R31170:31182 compcert.lib.Zbits <> Zsize_shiftin thm
+R31170:31182 compcert.lib.Zbits <> Zsize_shiftin thm
+R31170:31182 compcert.lib.Zbits <> Zsize_shiftin thm
+R31202:31207 Coq.ZArith.BinInt Z pred def
+R31210:31215 Coq.ZArith.BinInt Z succ def
+R31218:31222 compcert.lib.Zbits <> Zsize def
+R31235:31240 Coq.ZArith.BinInt Z succ def
+R31243:31248 Coq.ZArith.BinInt Z pred def
+R31251:31255 compcert.lib.Zbits <> Zsize def
+R31202:31207 Coq.ZArith.BinInt Z pred def
+R31210:31215 Coq.ZArith.BinInt Z succ def
+R31218:31222 compcert.lib.Zbits <> Zsize def
+R31235:31240 Coq.ZArith.BinInt Z succ def
+R31243:31248 Coq.ZArith.BinInt Z pred def
+R31251:31255 compcert.lib.Zbits <> Zsize def
+R31280:31300 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R31280:31300 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R31280:31300 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R31280:31300 compcert.lib.Zbits <> Ztestbit_shiftin_succ thm
+R31321:31330 compcert.lib.Zbits <> Zsize_pos' thm
+R31321:31330 compcert.lib.Zbits <> Zsize_pos' thm
+prf 31355:31369 <> Ztestbit_size_2
+binder 31381:31381 <> x:242
+R31390:31393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31385:31388 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R31389:31389 compcert.lib.Zbits <> x:242 var
+binder 31401:31401 <> i:243
+R31416:31419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31405:31408 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R31404:31404 compcert.lib.Zbits <> i:243 var
+R31409:31413 compcert.lib.Zbits <> Zsize def
+R31415:31415 compcert.lib.Zbits <> x:242 var
+R31433:31435 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31420:31428 Coq.ZArith.BinInt Z testbit def
+R31430:31430 compcert.lib.Zbits <> x:242 var
+R31432:31432 compcert.lib.Zbits <> i:243 var
+R31436:31440 Coq.Init.Datatypes <> false constr
+R31478:31480 compcert.lib.Coqlib <> zeq def
+R31478:31480 compcert.lib.Coqlib <> zeq def
+R31517:31526 compcert.lib.Zbits <> Ztestbit_0 thm
+R31517:31526 compcert.lib.Zbits <> Ztestbit_0 thm
+R31551:31566 compcert.lib.Zbits <> Zshiftin_pos_ind thm
+R31551:31566 compcert.lib.Zbits <> Zshiftin_pos_ind thm
+R31605:31612 compcert.lib.Zbits <> Zshiftin def
+R31614:31617 Coq.Init.Datatypes <> true constr
+R31605:31612 compcert.lib.Zbits <> Zshiftin def
+R31614:31617 Coq.Init.Datatypes <> true constr
+R31631:31646 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R31631:31646 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R31631:31646 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R31631:31646 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R31663:31671 compcert.lib.Coqlib <> zeq_false thm
+R31663:31671 compcert.lib.Coqlib <> zeq_false thm
+R31663:31671 compcert.lib.Coqlib <> zeq_false thm
+R31663:31671 compcert.lib.Coqlib <> zeq_false thm
+R31680:31689 compcert.lib.Zbits <> Ztestbit_0 thm
+R31680:31689 compcert.lib.Zbits <> Ztestbit_0 thm
+R31724:31736 compcert.lib.Zbits <> Zsize_shiftin thm
+R31724:31736 compcert.lib.Zbits <> Zsize_shiftin thm
+R31724:31736 compcert.lib.Zbits <> Zsize_shiftin thm
+R31724:31736 compcert.lib.Zbits <> Zsize_shiftin thm
+R31769:31778 compcert.lib.Zbits <> Zsize_pos' thm
+R31769:31778 compcert.lib.Zbits <> Zsize_pos' thm
+R31808:31823 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R31808:31823 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R31808:31823 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R31808:31823 compcert.lib.Zbits <> Ztestbit_shiftin thm
+R31834:31842 compcert.lib.Coqlib <> zeq_false thm
+R31834:31842 compcert.lib.Coqlib <> zeq_false thm
+R31834:31842 compcert.lib.Coqlib <> zeq_false thm
+R31834:31842 compcert.lib.Coqlib <> zeq_false thm
+prf 31899:31914 <> Zsize_interval_1
+binder 31926:31926 <> x:244
+R31935:31938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31930:31933 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R31934:31934 compcert.lib.Zbits <> x:244 var
+R31940:31943 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R31945:31947 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R31944:31944 compcert.lib.Zbits <> x:244 var
+R31944:31944 compcert.lib.Zbits <> x:244 var
+R31948:31952 Coq.ZArith.Zpower <> two_p def
+R31955:31959 compcert.lib.Zbits <> Zsize def
+R31961:31961 compcert.lib.Zbits <> x:244 var
+R31993:31995 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31997:32002 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R32018:32018 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R32003:32007 Coq.ZArith.Zpower <> two_p def
+R32010:32014 compcert.lib.Zbits <> Zsize def
+R31993:31995 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31997:32002 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R32018:32018 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R32003:32007 Coq.ZArith.Zpower <> two_p def
+R32010:32014 compcert.lib.Zbits <> Zsize def
+R32032:32046 compcert.lib.Zbits <> equal_same_bits thm
+R32032:32046 compcert.lib.Zbits <> equal_same_bits thm
+R32069:32086 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R32069:32086 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R32069:32086 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R32069:32086 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R32069:32086 compcert.lib.Zbits <> Ztestbit_mod_two_p thm
+R32109:32111 compcert.lib.Coqlib <> zlt def
+R32116:32120 compcert.lib.Zbits <> Zsize def
+R32109:32111 compcert.lib.Coqlib <> zlt def
+R32116:32120 compcert.lib.Zbits <> Zsize def
+R32139:32153 compcert.lib.Zbits <> Ztestbit_size_2 thm
+R32139:32153 compcert.lib.Zbits <> Ztestbit_size_2 thm
+R32172:32180 compcert.lib.Zbits <> Zsize_pos thm
+R32172:32180 compcert.lib.Zbits <> Zsize_pos thm
+R32231:32238 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R32231:32238 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R32247:32259 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R32247:32259 Coq.ZArith.Zpower <> two_p_gt_ZERO thm
+R32268:32276 compcert.lib.Zbits <> Zsize_pos thm
+R32268:32276 compcert.lib.Zbits <> Zsize_pos thm
+prf 32297:32312 <> Zsize_interval_2
+binder 32324:32324 <> x:245
+binder 32326:32326 <> n:246
+R32335:32338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32330:32333 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R32334:32334 compcert.lib.Zbits <> n:246 var
+R32355:32358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32340:32343 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R32345:32347 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R32344:32344 compcert.lib.Zbits <> x:245 var
+R32344:32344 compcert.lib.Zbits <> x:245 var
+R32348:32352 Coq.ZArith.Zpower <> two_p def
+R32354:32354 compcert.lib.Zbits <> n:246 var
+R32360:32363 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R32359:32359 compcert.lib.Zbits <> n:246 var
+R32364:32368 compcert.lib.Zbits <> Zsize def
+R32370:32370 compcert.lib.Zbits <> x:245 var
+R32400:32407 Coq.ZArith.BinInt Z to_nat def
+R32400:32407 Coq.ZArith.BinInt Z to_nat def
+R32433:32435 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32423:32430 Coq.ZArith.BinInt Z of_nat def
+R32449:32456 Coq.ZArith.Znat Z2Nat id thm
+R32433:32435 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32423:32430 Coq.ZArith.BinInt Z of_nat def
+R32449:32456 Coq.ZArith.Znat Z2Nat id thm
+R32500:32518 compcert.lib.Coqlib <> two_power_nat_two_p thm
+R32500:32518 compcert.lib.Coqlib <> two_power_nat_two_p thm
+R32500:32518 compcert.lib.Coqlib <> two_power_nat_two_p thm
+R32539:32541 compcert.lib.Coqlib <> zeq def
+R32539:32541 compcert.lib.Coqlib <> zeq def
+R32584:32586 compcert.lib.Coqlib <> zlt def
+R32591:32595 compcert.lib.Zbits <> Zsize def
+R32584:32586 compcert.lib.Coqlib <> zlt def
+R32591:32595 compcert.lib.Zbits <> Zsize def
+R32619:32632 compcert.lib.Zbits <> Ztestbit_above thm
+R32639:32644 Coq.ZArith.BinInt Z pred def
+R32647:32651 compcert.lib.Zbits <> Zsize def
+R32619:32632 compcert.lib.Zbits <> Ztestbit_above thm
+R32639:32644 Coq.ZArith.BinInt Z pred def
+R32647:32651 compcert.lib.Zbits <> Zsize def
+R32680:32694 compcert.lib.Zbits <> Ztestbit_size_1 thm
+R32680:32694 compcert.lib.Zbits <> Ztestbit_size_1 thm
+R32680:32694 compcert.lib.Zbits <> Ztestbit_size_1 thm
+R32680:32694 compcert.lib.Zbits <> Ztestbit_size_1 thm
+prf 32726:32739 <> Zsize_monotone
+binder 32751:32751 <> x:247
+binder 32753:32753 <> y:248
+R32767:32770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32757:32760 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R32762:32765 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R32761:32761 compcert.lib.Zbits <> x:247 var
+R32761:32761 compcert.lib.Zbits <> x:247 var
+R32766:32766 compcert.lib.Zbits <> y:248 var
+R32778:32781 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R32771:32775 compcert.lib.Zbits <> Zsize def
+R32777:32777 compcert.lib.Zbits <> x:247 var
+R32782:32786 compcert.lib.Zbits <> Zsize def
+R32788:32788 compcert.lib.Zbits <> y:248 var
+R32814:32820 Coq.ZArith.BinInt Z ge_le thm
+R32814:32820 Coq.ZArith.BinInt Z ge_le thm
+R32829:32844 compcert.lib.Zbits <> Zsize_interval_2 thm
+R32829:32844 compcert.lib.Zbits <> Zsize_interval_2 thm
+R32853:32861 compcert.lib.Zbits <> Zsize_pos thm
+R32853:32861 compcert.lib.Zbits <> Zsize_pos thm
+R32875:32890 compcert.lib.Zbits <> Zsize_interval_1 thm
+R32875:32890 compcert.lib.Zbits <> Zsize_interval_1 thm
+def 33040:33049 <> Zextract_u
+R33055:33055 Coq.Numbers.BinNums <> Z ind
+binder 33052:33052 <> x:249
+R33065:33065 Coq.Numbers.BinNums <> Z ind
+binder 33059:33062 <> from:250
+R33074:33074 Coq.Numbers.BinNums <> Z ind
+binder 33069:33071 <> len:251
+R33079:33079 Coq.Numbers.BinNums <> Z ind
+R33086:33094 compcert.lib.Zbits <> Zzero_ext def
+R33096:33098 compcert.lib.Zbits <> len:251 var
+R33101:33108 Coq.ZArith.BinInt Z shiftr def
+R33110:33110 compcert.lib.Zbits <> x:249 var
+R33112:33115 compcert.lib.Zbits <> from:250 var
+def 33131:33140 <> Zextract_s
+R33146:33146 Coq.Numbers.BinNums <> Z ind
+binder 33143:33143 <> x:252
+R33156:33156 Coq.Numbers.BinNums <> Z ind
+binder 33150:33153 <> from:253
+R33165:33165 Coq.Numbers.BinNums <> Z ind
+binder 33160:33162 <> len:254
+R33170:33170 Coq.Numbers.BinNums <> Z ind
+R33177:33185 compcert.lib.Zbits <> Zsign_ext def
+R33187:33189 compcert.lib.Zbits <> len:254 var
+R33192:33199 Coq.ZArith.BinInt Z shiftr def
+R33201:33201 compcert.lib.Zbits <> x:252 var
+R33203:33206 compcert.lib.Zbits <> from:253 var
+prf 33217:33231 <> Zextract_u_spec
+binder 33243:33243 <> x:255
+binder 33245:33248 <> from:256
+binder 33250:33252 <> len:257
+binder 33254:33254 <> i:258
+R33268:33271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33260:33263 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R33264:33267 compcert.lib.Zbits <> from:256 var
+R33280:33283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33273:33276 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R33277:33279 compcert.lib.Zbits <> len:257 var
+R33290:33295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33285:33288 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R33289:33289 compcert.lib.Zbits <> i:258 var
+R33331:33335 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33296:33304 Coq.ZArith.BinInt Z testbit def
+R33307:33316 compcert.lib.Zbits <> Zextract_u def
+R33318:33318 compcert.lib.Zbits <> x:255 var
+R33320:33323 compcert.lib.Zbits <> from:256 var
+R33325:33327 compcert.lib.Zbits <> len:257 var
+R33330:33330 compcert.lib.Zbits <> i:258 var
+R33339:33341 compcert.lib.Coqlib <> zlt def
+R33343:33343 compcert.lib.Zbits <> i:258 var
+R33345:33347 compcert.lib.Zbits <> len:257 var
+R33382:33386 Coq.Init.Datatypes <> false constr
+R33354:33362 Coq.ZArith.BinInt Z testbit def
+R33364:33364 compcert.lib.Zbits <> x:255 var
+R33371:33373 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R33367:33370 compcert.lib.Zbits <> from:256 var
+R33374:33374 compcert.lib.Zbits <> i:258 var
+R33405:33414 compcert.lib.Zbits <> Zextract_u def
+R33433:33446 compcert.lib.Zbits <> Zzero_ext_spec thm
+R33449:33461 Coq.ZArith.BinInt Z shiftr_spec thm
+R33433:33446 compcert.lib.Zbits <> Zzero_ext_spec thm
+R33433:33446 compcert.lib.Zbits <> Zzero_ext_spec thm
+R33449:33461 Coq.ZArith.BinInt Z shiftr_spec thm
+R33449:33461 Coq.ZArith.BinInt Z shiftr_spec thm
+R33482:33491 Coq.ZArith.BinInt Z add_comm thm
+R33482:33491 Coq.ZArith.BinInt Z add_comm thm
+R33482:33491 Coq.ZArith.BinInt Z add_comm thm
+prf 33512:33526 <> Zextract_s_spec
+binder 33538:33538 <> x:259
+binder 33540:33543 <> from:260
+binder 33545:33547 <> len:261
+binder 33549:33549 <> i:262
+R33563:33566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33555:33558 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R33559:33562 compcert.lib.Zbits <> from:260 var
+R33574:33577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33568:33570 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R33571:33573 compcert.lib.Zbits <> len:261 var
+R33584:33589 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33579:33582 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R33583:33583 compcert.lib.Zbits <> i:262 var
+R33625:33629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33590:33598 Coq.ZArith.BinInt Z testbit def
+R33601:33610 compcert.lib.Zbits <> Zextract_s def
+R33612:33612 compcert.lib.Zbits <> x:259 var
+R33614:33617 compcert.lib.Zbits <> from:260 var
+R33619:33621 compcert.lib.Zbits <> len:261 var
+R33624:33624 compcert.lib.Zbits <> i:262 var
+R33630:33638 Coq.ZArith.BinInt Z testbit def
+R33640:33640 compcert.lib.Zbits <> x:259 var
+R33647:33650 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R33683:33683 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R33643:33646 compcert.lib.Zbits <> from:260 var
+R33654:33656 compcert.lib.Coqlib <> zlt def
+R33658:33658 compcert.lib.Zbits <> i:262 var
+R33660:33662 compcert.lib.Zbits <> len:261 var
+R33679:33681 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R33676:33678 compcert.lib.Zbits <> len:261 var
+R33669:33669 compcert.lib.Zbits <> i:262 var
+R33703:33712 compcert.lib.Zbits <> Zextract_s def
+R33731:33744 compcert.lib.Zbits <> Zsign_ext_spec thm
+R33731:33744 compcert.lib.Zbits <> Zsign_ext_spec thm
+R33731:33744 compcert.lib.Zbits <> Zsign_ext_spec thm
+R33763:33775 Coq.ZArith.BinInt Z shiftr_spec thm
+R33763:33775 Coq.ZArith.BinInt Z shiftr_spec thm
+R33763:33775 Coq.ZArith.BinInt Z shiftr_spec thm
+R33763:33775 Coq.ZArith.BinInt Z shiftr_spec thm
+R33788:33797 Coq.ZArith.BinInt Z add_comm thm
+R33788:33797 Coq.ZArith.BinInt Z add_comm thm
+R33788:33797 Coq.ZArith.BinInt Z add_comm thm
+R33818:33820 compcert.lib.Coqlib <> zlt def
+R33818:33820 compcert.lib.Coqlib <> zlt def
+def 33924:33930 <> Zinsert
+R33938:33938 Coq.Numbers.BinNums <> Z ind
+binder 33933:33933 <> x:263
+binder 33935:33935 <> y:264
+R33946:33946 Coq.Numbers.BinNums <> Z ind
+binder 33942:33943 <> to:265
+R33955:33955 Coq.Numbers.BinNums <> Z ind
+binder 33950:33952 <> len:266
+R33960:33960 Coq.Numbers.BinNums <> Z ind
+R33979:33986 Coq.ZArith.BinInt Z shiftl def
+R33998:34000 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R33989:33993 Coq.ZArith.Zpower <> two_p def
+R33995:33997 compcert.lib.Zbits <> len:266 var
+R34004:34005 compcert.lib.Zbits <> to:265 var
+binder 33971:33974 <> mask:267
+R34012:34016 Coq.ZArith.BinInt Z lor def
+R34019:34024 Coq.ZArith.BinInt Z land def
+R34027:34034 Coq.ZArith.BinInt Z shiftl def
+R34036:34036 compcert.lib.Zbits <> y:264 var
+R34038:34039 compcert.lib.Zbits <> to:265 var
+R34042:34045 compcert.lib.Zbits <> mask:267 var
+R34049:34055 Coq.ZArith.BinInt Z ldiff def
+R34057:34057 compcert.lib.Zbits <> x:263 var
+R34059:34062 compcert.lib.Zbits <> mask:267 var
+prf 34073:34084 <> Zinsert_spec
+binder 34096:34096 <> x:268
+binder 34098:34098 <> y:269
+binder 34100:34101 <> to:270
+binder 34103:34105 <> len:271
+binder 34107:34107 <> i:272
+R34119:34122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34113:34116 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R34117:34118 compcert.lib.Zbits <> to:270 var
+R34131:34134 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34124:34127 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R34128:34130 compcert.lib.Zbits <> len:271 var
+R34141:34146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34136:34139 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R34140:34140 compcert.lib.Zbits <> i:272 var
+R34179:34185 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34147:34155 Coq.ZArith.BinInt Z testbit def
+R34158:34164 compcert.lib.Zbits <> Zinsert def
+R34166:34166 compcert.lib.Zbits <> x:268 var
+R34168:34168 compcert.lib.Zbits <> y:269 var
+R34170:34171 compcert.lib.Zbits <> to:270 var
+R34173:34175 compcert.lib.Zbits <> len:271 var
+R34178:34178 compcert.lib.Zbits <> i:272 var
+R34197:34200 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R34189:34191 compcert.lib.Coqlib <> zle def
+R34193:34194 compcert.lib.Zbits <> to:270 var
+R34196:34196 compcert.lib.Zbits <> i:272 var
+R34201:34203 compcert.lib.Coqlib <> zlt def
+R34205:34205 compcert.lib.Zbits <> i:272 var
+R34210:34212 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R34208:34209 compcert.lib.Zbits <> to:270 var
+R34213:34215 compcert.lib.Zbits <> len:271 var
+R34257:34265 Coq.ZArith.BinInt Z testbit def
+R34267:34267 compcert.lib.Zbits <> x:268 var
+R34269:34269 compcert.lib.Zbits <> i:272 var
+R34227:34235 Coq.ZArith.BinInt Z testbit def
+R34237:34237 compcert.lib.Zbits <> y:269 var
+R34241:34243 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R34240:34240 compcert.lib.Zbits <> i:272 var
+R34244:34245 compcert.lib.Zbits <> to:270 var
+R34288:34294 compcert.lib.Zbits <> Zinsert def
+R34327:34329 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R34318:34322 Coq.ZArith.Zpower <> two_p def
+R34327:34329 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R34318:34322 Coq.ZArith.Zpower <> two_p def
+binder 34354:34354 <> j:273
+R34363:34366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34358:34361 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R34362:34362 compcert.lib.Zbits <> j:273 var
+R34383:34385 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34367:34375 Coq.ZArith.BinInt Z testbit def
+R34382:34382 compcert.lib.Zbits <> j:273 var
+R34389:34391 compcert.lib.Coqlib <> zlt def
+R34393:34393 compcert.lib.Zbits <> j:273 var
+R34414:34418 Coq.Init.Datatypes <> false constr
+R34404:34407 Coq.Init.Datatypes <> true constr
+binder 34354:34354 <> j:274
+R34363:34366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34358:34361 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R34362:34362 compcert.lib.Zbits <> j:274 var
+R34383:34385 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34367:34375 Coq.ZArith.BinInt Z testbit def
+R34382:34382 compcert.lib.Zbits <> j:274 var
+R34389:34391 compcert.lib.Coqlib <> zlt def
+R34393:34393 compcert.lib.Zbits <> j:274 var
+R34414:34418 Coq.Init.Datatypes <> false constr
+R34404:34407 Coq.Init.Datatypes <> true constr
+R34440:34456 compcert.lib.Zbits <> Ztestbit_two_p_m1 thm
+R34440:34456 compcert.lib.Zbits <> Ztestbit_two_p_m1 thm
+R34477:34486 Coq.ZArith.BinInt Z lor_spec thm
+R34489:34499 Coq.ZArith.BinInt Z land_spec thm
+R34502:34513 Coq.ZArith.BinInt Z ldiff_spec thm
+R34477:34486 Coq.ZArith.BinInt Z lor_spec thm
+R34477:34486 Coq.ZArith.BinInt Z lor_spec thm
+R34489:34499 Coq.ZArith.BinInt Z land_spec thm
+R34489:34499 Coq.ZArith.BinInt Z land_spec thm
+R34502:34513 Coq.ZArith.BinInt Z ldiff_spec thm
+R34502:34513 Coq.ZArith.BinInt Z ldiff_spec thm
+R34537:34539 compcert.lib.Coqlib <> zle def
+R34537:34539 compcert.lib.Coqlib <> zle def
+R34560:34572 Coq.ZArith.BinInt Z shiftl_spec thm
+R34560:34572 Coq.ZArith.BinInt Z shiftl_spec thm
+R34560:34572 Coq.ZArith.BinInt Z shiftl_spec thm
+R34560:34572 Coq.ZArith.BinInt Z shiftl_spec thm
+R34560:34572 Coq.ZArith.BinInt Z shiftl_spec thm
+R34613:34624 compcert.lib.Coqlib <> proj_sumbool def
+R34637:34639 compcert.lib.Coqlib <> zlt def
+R34643:34645 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R34673:34683 Coq.Bool.Bool <> andb_true_r thm
+R34686:34697 Coq.Bool.Bool <> andb_false_r thm
+R34637:34639 compcert.lib.Coqlib <> zlt def
+R34643:34645 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R34673:34683 Coq.Bool.Bool <> andb_true_r thm
+R34673:34683 Coq.Bool.Bool <> andb_true_r thm
+R34686:34697 Coq.Bool.Bool <> andb_false_r thm
+R34686:34697 Coq.Bool.Bool <> andb_false_r thm
+R34673:34683 Coq.Bool.Bool <> andb_true_r thm
+R34673:34683 Coq.Bool.Bool <> andb_true_r thm
+R34686:34697 Coq.Bool.Bool <> andb_false_r thm
+R34686:34697 Coq.Bool.Bool <> andb_false_r thm
+R34710:34717 compcert.lib.Coqlib <> zlt_true thm
+R34710:34717 compcert.lib.Coqlib <> zlt_true thm
+R34710:34717 compcert.lib.Coqlib <> zlt_true thm
+R34733:34743 Coq.Bool.Bool <> orb_false_r thm
+R34733:34743 Coq.Bool.Bool <> orb_false_r thm
+R34756:34764 compcert.lib.Coqlib <> zlt_false thm
+R34756:34764 compcert.lib.Coqlib <> zlt_false thm
+R34756:34764 compcert.lib.Coqlib <> zlt_false thm
+R34792:34808 Coq.ZArith.BinInt Z shiftl_spec_low thm
+R34792:34808 Coq.ZArith.BinInt Z shiftl_spec_low thm
+R34792:34808 Coq.ZArith.BinInt Z shiftl_spec_low thm
+R34792:34808 Coq.ZArith.BinInt Z shiftl_spec_low thm
+R34792:34808 Coq.ZArith.BinInt Z shiftl_spec_low thm
+R34831:34841 Coq.Bool.Bool <> andb_true_r thm
+R34831:34841 Coq.Bool.Bool <> andb_true_r thm

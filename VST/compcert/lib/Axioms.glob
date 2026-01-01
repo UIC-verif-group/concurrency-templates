@@ -1,0 +1,71 @@
+DIGEST 214ebd0d35e4b12193d42917a2bc26af
+Fcompcert.lib.Axioms
+R1200:1213 Coq.Logic.ClassicalFacts <> <> lib
+R1224:1247 Coq.Logic.FunctionalExtensionality <> <> lib
+prf 1405:1433 <> functional_extensionality_dep
+binder 1446:1446 <> A:1
+R1461:1464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1460:1460 compcert.lib.Axioms <> A:1 var
+binder 1456:1456 <> B:2
+R1489:1489 compcert.lib.Axioms <> A:1 var
+binder 1485:1485 <> x:3
+R1492:1492 compcert.lib.Axioms <> B:2 var
+R1494:1494 compcert.lib.Axioms <> x:3 var
+binder 1472:1472 <> f:4
+binder 1474:1474 <> g:5
+R1500:1500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1520:1524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1508:1508 <> x:6
+R1514:1516 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1511:1511 compcert.lib.Axioms <> f:4 var
+R1513:1513 compcert.lib.Axioms <> x:6 var
+R1517:1517 compcert.lib.Axioms <> g:5 var
+R1519:1519 compcert.lib.Axioms <> x:6 var
+R1526:1528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1525:1525 compcert.lib.Axioms <> f:4 var
+R1529:1529 compcert.lib.Axioms <> g:5 var
+R1539:1592 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+prf 1686:1710 <> functional_extensionality
+binder 1723:1723 <> A:7
+binder 1725:1725 <> B:8
+R1742:1745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1741:1741 compcert.lib.Axioms <> A:7 var
+R1746:1746 compcert.lib.Axioms <> B:8 var
+binder 1735:1735 <> f:9
+binder 1737:1737 <> g:10
+R1750:1750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1770:1774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1758:1758 <> x:11
+R1764:1766 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1761:1761 compcert.lib.Axioms <> f:9 var
+R1763:1763 compcert.lib.Axioms <> x:11 var
+R1767:1767 compcert.lib.Axioms <> g:10 var
+R1769:1769 compcert.lib.Axioms <> x:11 var
+R1776:1778 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1775:1775 compcert.lib.Axioms <> f:9 var
+R1779:1779 compcert.lib.Axioms <> g:10 var
+R1789:1838 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 1965:1978 <> extensionality
+binder 1991:1991 <> A:12
+binder 1993:1993 <> B:13
+R2010:2013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2009:2009 compcert.lib.Axioms <> A:12 var
+R2014:2014 compcert.lib.Axioms <> B:13 var
+binder 2003:2003 <> f:14
+binder 2005:2005 <> g:15
+R2019:2019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2039:2043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2027:2027 <> x:16
+R2033:2035 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2030:2030 compcert.lib.Axioms <> f:14 var
+R2032:2032 compcert.lib.Axioms <> x:16 var
+R2036:2036 compcert.lib.Axioms <> g:15 var
+R2038:2038 compcert.lib.Axioms <> x:16 var
+R2045:2047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2044:2044 compcert.lib.Axioms <> f:14 var
+R2048:2048 compcert.lib.Axioms <> g:15 var
+R2058:2082 compcert.lib.Axioms <> functional_extensionality thm
+ax 2159:2167 <> proof_irr
+R2170:2201 Coq.Logic.ClassicalFacts <> proof_irrelevance def
+R2215:2223 compcert.lib.Axioms <> proof_irr prfax
+R2215:2223 compcert.lib.Axioms <> proof_irr prfax

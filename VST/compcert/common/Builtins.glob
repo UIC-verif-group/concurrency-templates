@@ -1,0 +1,104 @@
+DIGEST 28eb34aa59fffa6d1672cbb094ac5601
+Fcompcert.common.Builtins
+R1160:1165 Coq.Strings.String <> <> lib
+R1167:1172 compcert.lib.Coqlib <> <> lib
+R1190:1192 compcert.common.AST <> <> lib
+R1194:1201 compcert.lib.Integers <> <> lib
+R1203:1208 compcert.lib.Floats <> <> lib
+R1210:1215 compcert.common.Values <> <> lib
+R1233:1241 compcert.common.Builtins0 <> <> lib
+R1243:1251 compcert.x86.Builtins1 <> <> lib
+ind 1265:1280 <> builtin_function
+constr 1296:1306 <> BI_standard
+constr 1334:1344 <> BI_platform
+R1312:1327 compcert.common.Builtins0 <> standard_builtin ind
+binder 1309:1309 <> b:3
+R1350:1365 compcert.x86.Builtins1 <> platform_builtin ind
+binder 1347:1347 <> b:4
+scheme 1265:1280 <> builtin_function_rect
+scheme 1265:1280 <> builtin_function_ind
+scheme 1265:1280 <> builtin_function_rec
+scheme 1265:1280 <> builtin_function_sind
+def 1381:1400 <> builtin_function_sig
+R1406:1421 compcert.common.Builtins <> builtin_function ind
+binder 1403:1403 <> b:5
+R1426:1434 compcert.common.AST <> signature rec
+R1447:1447 compcert.common.Builtins <> b:5 var
+R1458:1468 compcert.common.Builtins <> BI_standard constr
+R1475:1494 compcert.common.Builtins0 <> standard_builtin_sig def
+R1496:1496 compcert.common.Builtins <> b:5 var
+R1502:1512 compcert.common.Builtins <> BI_platform constr
+R1519:1538 compcert.x86.Builtins1 <> platform_builtin_sig def
+R1540:1540 compcert.common.Builtins <> b:5 var
+def 1561:1580 <> builtin_function_sem
+R1586:1601 compcert.common.Builtins <> builtin_function ind
+binder 1583:1583 <> b:7
+R1606:1616 compcert.common.Builtins0 <> builtin_sem rec
+R1619:1625 compcert.common.AST <> sig_res proj
+R1628:1647 compcert.common.Builtins <> builtin_function_sig def
+R1649:1649 compcert.common.Builtins <> b:7 var
+R1664:1664 compcert.common.Builtins <> b:7 var
+R1675:1685 compcert.common.Builtins <> BI_standard constr
+R1692:1711 compcert.common.Builtins0 <> standard_builtin_sem def
+R1713:1713 compcert.common.Builtins <> b:7 var
+R1719:1729 compcert.common.Builtins <> BI_platform constr
+R1736:1755 compcert.x86.Builtins1 <> platform_builtin_sem def
+R1757:1757 compcert.common.Builtins <> b:7 var
+def 1778:1800 <> lookup_builtin_function
+R1809:1814 Coq.Strings.String <> string ind
+binder 1803:1806 <> name:9
+R1822:1830 compcert.common.AST <> signature rec
+binder 1818:1819 <> sg:10
+R1835:1840 Coq.Init.Datatypes <> option ind
+R1842:1857 compcert.common.Builtins <> builtin_function ind
+R1870:1883 compcert.common.Builtins0 <> lookup_builtin def
+R1906:1909 compcert.common.Builtins <> name:9 var
+R1911:1912 compcert.common.Builtins <> sg:10 var
+R1914:1935 compcert.common.Builtins0 <> standard_builtin_table def
+R1885:1904 compcert.common.Builtins0 <> standard_builtin_sig def
+R1946:1949 Coq.Init.Datatypes <> Some constr
+R1956:1959 Coq.Init.Datatypes <> Some constr
+R1962:1972 compcert.common.Builtins <> BI_standard constr
+R1981:1984 Coq.Init.Datatypes <> None constr
+R1998:2011 compcert.common.Builtins0 <> lookup_builtin def
+R2034:2037 compcert.common.Builtins <> name:9 var
+R2039:2040 compcert.common.Builtins <> sg:10 var
+R2042:2063 compcert.x86.Builtins1 <> platform_builtin_table def
+R2013:2032 compcert.x86.Builtins1 <> platform_builtin_sig def
+R2074:2077 Coq.Init.Datatypes <> Some constr
+R2084:2087 Coq.Init.Datatypes <> Some constr
+R2090:2100 compcert.common.Builtins <> BI_platform constr
+R2109:2112 Coq.Init.Datatypes <> None constr
+R2117:2120 Coq.Init.Datatypes <> None constr
+prf 2140:2166 <> lookup_builtin_function_sig
+binder 2178:2181 <> name:11
+binder 2183:2184 <> sg:12
+binder 2186:2186 <> b:13
+R2229:2232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2220:2222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2189:2211 compcert.common.Builtins <> lookup_builtin_function def
+R2213:2216 compcert.common.Builtins <> name:11 var
+R2218:2219 compcert.common.Builtins <> sg:12 var
+R2223:2226 Coq.Init.Datatypes <> Some constr
+R2228:2228 compcert.common.Builtins <> b:13 var
+R2255:2257 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2233:2252 compcert.common.Builtins <> builtin_function_sig def
+R2254:2254 compcert.common.Builtins <> b:13 var
+R2258:2259 compcert.common.Builtins <> sg:12 var
+R2278:2300 compcert.common.Builtins <> lookup_builtin_function def
+R2323:2336 compcert.common.Builtins0 <> lookup_builtin def
+R2367:2388 compcert.common.Builtins0 <> standard_builtin_table def
+R2338:2357 compcert.common.Builtins0 <> standard_builtin_sig def
+R2323:2336 compcert.common.Builtins0 <> lookup_builtin def
+R2367:2388 compcert.common.Builtins0 <> standard_builtin_table def
+R2338:2357 compcert.common.Builtins0 <> standard_builtin_sig def
+R2430:2447 compcert.common.Builtins0 <> lookup_builtin_sig thm
+R2430:2447 compcert.common.Builtins0 <> lookup_builtin_sig thm
+R2469:2482 compcert.common.Builtins0 <> lookup_builtin def
+R2513:2534 compcert.x86.Builtins1 <> platform_builtin_table def
+R2484:2503 compcert.x86.Builtins1 <> platform_builtin_sig def
+R2469:2482 compcert.common.Builtins0 <> lookup_builtin def
+R2513:2534 compcert.x86.Builtins1 <> platform_builtin_table def
+R2484:2503 compcert.x86.Builtins1 <> platform_builtin_sig def
+R2577:2594 compcert.common.Builtins0 <> lookup_builtin_sig thm
+R2577:2594 compcert.common.Builtins0 <> lookup_builtin_sig thm

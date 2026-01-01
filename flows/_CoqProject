@@ -1,0 +1,14 @@
+-Q theories flows
+# We sometimes want to locally override notation, and there is no good way to do that with scopes.
+-arg -w -arg -notation-overridden
+# Cannot use non-canonical projections as it causes massive unification failures
+# (https://github.com/coq/coq/issues/6294).
+-arg -w -arg -redundant-canonical-projection
+
+theories/gmap_more.v
+theories/ccm.v
+theories/flows.v
+theories/multiset_flows.v
+theories/keyset_ra.v
+theories/inset_flows.v
+theories/ccm_big_op.v

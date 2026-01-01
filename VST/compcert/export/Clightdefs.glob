@@ -1,0 +1,86 @@
+DIGEST 6111ef59e16b28eac729f5210100d5ee
+Fcompcert.export.Clightdefs
+R1195:1198 Coq.Lists.List <> <> lib
+R1230:1233 compcert.lib.Maps <> <> lib
+R1235:1240 compcert.common.Errors <> <> lib
+R1242:1244 compcert.common.AST <> <> lib
+R1246:1251 compcert.cfrontend.Ctypes <> <> lib
+R1253:1258 compcert.cfrontend.Clight <> <> lib
+R1290:1299 compcert.export.Ctypesdefs <> <> lib
+def 1372:1384 <> wf_composites
+R1394:1397 Coq.Init.Datatypes <> list ind
+R1399:1418 compcert.cfrontend.Ctypes <> composite_definition ind
+binder 1387:1391 <> types:1
+R1439:1457 compcert.cfrontend.Ctypes <> build_composite_env def
+R1459:1463 compcert.export.Clightdefs <> types:1 var
+R1470:1471 compcert.common.Errors <> OK constr
+R1478:1481 Coq.Init.Logic <> True ind
+R1485:1489 compcert.common.Errors <> Error constr
+R1496:1500 Coq.Init.Logic <> False ind
+def 1519:1538 <> build_composite_env'
+R1548:1551 Coq.Init.Datatypes <> list ind
+R1553:1572 compcert.cfrontend.Ctypes <> composite_definition ind
+binder 1541:1545 <> types:2
+R1612:1624 compcert.export.Clightdefs <> wf_composites def
+R1626:1630 compcert.export.Clightdefs <> types:2 var
+binder 1608:1609 <> WF:3
+R1664:1665 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1668:1670 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1705:1706 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 1666:1667 <> ce:4
+R1696:1699 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1671:1689 compcert.cfrontend.Ctypes <> build_composite_env def
+R1691:1695 compcert.export.Clightdefs <> types:2 var
+R1700:1701 compcert.common.Errors <> OK constr
+R1703:1704 compcert.export.Clightdefs <> ce:4 var
+R1736:1748 compcert.export.Clightdefs <> wf_composites def
+R1757:1775 compcert.cfrontend.Ctypes <> build_composite_env def
+R1757:1775 compcert.cfrontend.Ctypes <> build_composite_env def
+def 1856:1864 <> mkprogram
+R1874:1877 Coq.Init.Datatypes <> list ind
+R1879:1898 compcert.cfrontend.Ctypes <> composite_definition ind
+binder 1867:1871 <> types:5
+R1929:1932 Coq.Init.Datatypes <> list ind
+R1940:1942 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1935:1939 compcert.common.AST <> ident def
+R1943:1949 compcert.common.AST <> globdef ind
+R1958:1961 compcert.cfrontend.Ctypes <> type ind
+R1951:1956 compcert.cfrontend.Clight <> fundef def
+binder 1923:1926 <> defs:6
+R1995:1998 Coq.Init.Datatypes <> list ind
+R2000:2004 compcert.common.AST <> ident def
+binder 1987:1992 <> public:7
+R2035:2039 compcert.common.AST <> ident def
+binder 2029:2032 <> main:8
+R2068:2080 compcert.export.Clightdefs <> wf_composites def
+R2082:2086 compcert.export.Clightdefs <> types:5 var
+binder 2064:2065 <> WF:9
+R2091:2104 compcert.cfrontend.Clight <> program def
+R2127:2146 compcert.export.Clightdefs <> build_composite_env' def
+R2148:2152 compcert.export.Clightdefs <> types:5 var
+R2154:2155 compcert.export.Clightdefs <> WF:9 var
+binder 2116:2117 <> ce:10
+binder 2120:2121 <> EQ:11
+R2165:2173 compcert.cfrontend.Ctypes <> prog_defs proj
+R2165:2173 compcert.cfrontend.Ctypes <> prog_defs proj
+R2165:2173 compcert.cfrontend.Ctypes <> prog_defs proj
+R2189:2199 compcert.cfrontend.Ctypes <> prog_public proj
+R2189:2199 compcert.cfrontend.Ctypes <> prog_public proj
+R2217:2225 compcert.cfrontend.Ctypes <> prog_main proj
+R2217:2225 compcert.cfrontend.Ctypes <> prog_main proj
+R2241:2250 compcert.cfrontend.Ctypes <> prog_types proj
+R2241:2250 compcert.cfrontend.Ctypes <> prog_types proj
+R2267:2279 compcert.cfrontend.Ctypes <> prog_comp_env proj
+R2267:2279 compcert.cfrontend.Ctypes <> prog_comp_env proj
+R2293:2308 compcert.cfrontend.Ctypes <> prog_comp_env_eq proj
+R2293:2308 compcert.cfrontend.Ctypes <> prog_comp_env_eq proj
+R2178:2181 compcert.export.Clightdefs <> defs:6 var
+R2204:2209 compcert.export.Clightdefs <> public:7 var
+R2230:2233 compcert.export.Clightdefs <> main:8 var
+R2255:2259 compcert.export.Clightdefs <> types:5 var
+R2284:2285 compcert.export.Clightdefs <> ce:10 var
+R2313:2314 compcert.export.Clightdefs <> EQ:11 var
+mod 2378:2392 <> ClightNotations
+R2536:2550 compcert.export.Ctypesdefs <> ident_of_string def
+not 2611:2611 ClightNotations ::clight_scope:'$'_x
+R2713:2727 compcert.export.Clightdefs ClightNotations <> mod

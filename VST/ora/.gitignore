@@ -1,0 +1,14 @@
+*.cache
+/Makefile.coq
+/Makefile.coq.conf
+build-dep/
+*~
+*.aux
+*.glob
+*.v.d
+*.vo
+*.vos
+*.vok
+.coqdeps.d
+.Makefile.coq.d
+_opam

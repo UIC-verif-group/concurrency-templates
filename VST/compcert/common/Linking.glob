@@ -1,0 +1,2626 @@
+DIGEST 4cb66c750d1200932865a5f8e2849643
+Fcompcert.common.Linking
+R1177:1182 compcert.lib.Coqlib <> <> lib
+R1184:1187 compcert.lib.Maps <> <> lib
+R1189:1194 compcert.common.Errors <> <> lib
+R1196:1198 compcert.common.AST <> <> lib
+rec 1817:1822 <> Linker
+proj 1841:1844 <> link
+proj 1869:1877 <> linkorder
+proj 1898:1911 <> linkorder_refl
+proj 1941:1955 <> linkorder_trans
+proj 2023:2036 <> link_linkorder
+binder 1825:1825 <> A:1
+R1848:1851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1847:1847 compcert.common.Linking <> A:1 var
+R1853:1856 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1852:1852 compcert.common.Linking <> A:1 var
+R1857:1862 Coq.Init.Datatypes <> option ind
+R1864:1864 compcert.common.Linking <> A:1 var
+R1881:1884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1880:1880 compcert.common.Linking <> A:1 var
+R1886:1889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1885:1885 compcert.common.Linking <> A:1 var
+binder 1921:1921 <> x:5
+R1924:1932 compcert.common.Linking <> linkorder:4 meth
+R1936:1936 compcert.common.Linking <> x:5 var
+R1934:1934 compcert.common.Linking <> x:5 var
+binder 1965:1965 <> x:7
+binder 1967:1967 <> y:8
+binder 1969:1969 <> z:9
+R1985:1988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1972:1980 compcert.common.Linking <> linkorder:4 meth
+R1984:1984 compcert.common.Linking <> y:8 var
+R1982:1982 compcert.common.Linking <> x:7 var
+R2002:2005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1989:1997 compcert.common.Linking <> linkorder:4 meth
+R2001:2001 compcert.common.Linking <> z:9 var
+R1999:1999 compcert.common.Linking <> y:8 var
+R2006:2014 compcert.common.Linking <> linkorder:4 meth
+R2018:2018 compcert.common.Linking <> z:9 var
+R2016:2016 compcert.common.Linking <> x:7 var
+binder 2046:2046 <> x:11
+binder 2048:2048 <> y:12
+binder 2050:2050 <> z:13
+R2070:2073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2061:2063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2053:2056 compcert.common.Linking <> link:3 meth
+R2060:2060 compcert.common.Linking <> y:12 var
+R2058:2058 compcert.common.Linking <> x:11 var
+R2064:2067 Coq.Init.Datatypes <> Some constr
+R2069:2069 compcert.common.Linking <> z:13 var
+R2087:2090 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2074:2082 compcert.common.Linking <> linkorder:4 meth
+R2086:2086 compcert.common.Linking <> z:13 var
+R2084:2084 compcert.common.Linking <> x:11 var
+R2091:2099 compcert.common.Linking <> linkorder:4 meth
+R2103:2103 compcert.common.Linking <> z:13 var
+R2101:2101 compcert.common.Linking <> y:12 var
+def 2361:2371 <> link_fundef
+binder 2374:2374 <> F:15
+R2393:2398 compcert.common.AST <> fundef ind
+R2400:2400 compcert.common.Linking <> F:15 var
+binder 2384:2386 <> fd1:16
+binder 2388:2390 <> fd2:17
+R2419:2421 compcert.common.Linking <> fd2:17 var
+R2414:2416 compcert.common.Linking <> fd1:16 var
+R2432:2439 compcert.common.AST <> Internal constr
+R2444:2451 compcert.common.AST <> Internal constr
+R2458:2461 Coq.Init.Datatypes <> None constr
+R2467:2474 compcert.common.AST <> External constr
+R2481:2488 compcert.common.AST <> External constr
+R2506:2525 compcert.common.AST <> external_function_eq def
+R2565:2568 Coq.Init.Datatypes <> None constr
+R2540:2543 Coq.Init.Datatypes <> Some constr
+R2546:2553 compcert.common.AST <> External constr
+R2574:2581 compcert.common.AST <> Internal constr
+R2586:2593 compcert.common.AST <> External constr
+R2621:2631 compcert.common.AST <> EF_external constr
+R2642:2645 Coq.Init.Datatypes <> Some constr
+R2648:2655 compcert.common.AST <> Internal constr
+R2667:2670 Coq.Init.Datatypes <> None constr
+R2680:2687 compcert.common.AST <> External constr
+R2693:2700 compcert.common.AST <> Internal constr
+R2727:2737 compcert.common.AST <> EF_external constr
+R2748:2751 Coq.Init.Datatypes <> Some constr
+R2754:2761 compcert.common.AST <> Internal constr
+R2773:2776 Coq.Init.Datatypes <> None constr
+ind 2800:2815 <> linkorder_fundef
+constr 2864:2884 <> linkorder_fundef_refl
+constr 2925:2948 <> linkorder_fundef_ext_int
+binder 2818:2818 <> F:22
+R2836:2839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2828:2833 compcert.common.AST <> fundef ind
+R2848:2851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2840:2845 compcert.common.AST <> fundef ind
+binder 2894:2895 <> fd:25
+R2898:2913 compcert.common.Linking <> linkorder_fundef:23 ind
+R2918:2919 compcert.common.Linking <> fd:25 var
+R2915:2916 compcert.common.Linking <> fd:25 var
+binder 2958:2958 <> f:26
+binder 2960:2961 <> id:27
+binder 2963:2964 <> sg:28
+R2967:2982 compcert.common.Linking <> linkorder_fundef:23 ind
+R3016:3023 compcert.common.AST <> Internal constr
+R3025:3025 compcert.common.Linking <> f:26 var
+R2985:2992 compcert.common.AST <> External constr
+R2995:3005 compcert.common.AST <> EF_external constr
+R3010:3011 compcert.common.Linking <> sg:28 var
+R3007:3008 compcert.common.Linking <> id:27 var
+scheme 2800:2815 <> linkorder_fundef_ind
+scheme 2800:2815 <> linkorder_fundef_sind
+inst 3054:3066 <> Linker_fundef
+binder 3069:3069 <> F:29
+R3079:3084 compcert.common.Linking <> Linker class
+R3087:3092 compcert.common.AST <> fundef ind
+R3094:3094 compcert.common.Linking <> F:29 var
+R3127:3135 compcert.common.Linking <> linkorder meth
+R3104:3107 compcert.common.Linking <> link meth
+R3112:3122 compcert.common.Linking <> link_fundef def
+R3140:3155 compcert.common.Linking <> linkorder_fundef ind
+R3413:3432 compcert.common.AST <> external_function_eq def
+R3413:3432 compcert.common.AST <> external_function_eq def
+R3492:3504 compcert.common.Linking <> Linker_fundef inst
+ind 3832:3841 <> init_class
+constr 3875:3885 <> Init_extern
+constr 3907:3917 <> Init_common
+constr 3969:3983 <> Init_definitive
+R3859:3862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3845:3848 Coq.Init.Datatypes <> list ind
+R3850:3858 compcert.common.AST <> init_data ind
+R3888:3897 compcert.common.Linking <> init_class:30 ind
+R3899:3901 Coq.Init.Datatypes <> nil constr
+binder 3927:3928 <> sz:32
+R3931:3940 compcert.common.Linking <> init_class:30 ind
+R3956:3959 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3943:3952 compcert.common.AST <> Init_space constr
+R3954:3955 compcert.common.Linking <> sz:32 var
+R3960:3962 Coq.Init.Datatypes <> nil constr
+binder 3993:3994 <> il:33
+R3997:4006 compcert.common.Linking <> init_class:30 ind
+R4008:4009 compcert.common.Linking <> il:33 var
+scheme 3832:3841 <> init_class_rect
+scheme 3832:3841 <> init_class_ind
+scheme 3832:3841 <> init_class_rec
+scheme 3832:3841 <> init_class_sind
+def 4024:4036 <> classify_init
+R4042:4045 Coq.Init.Datatypes <> list ind
+R4047:4055 compcert.common.AST <> init_data ind
+binder 4039:4039 <> i:34
+R4060:4069 compcert.common.Linking <> init_class ind
+R4071:4071 compcert.common.Linking <> i:34 var
+R4084:4084 compcert.common.Linking <> i:34 var
+R4095:4097 Coq.Init.Datatypes <> nil constr
+R4102:4112 compcert.common.Linking <> Init_extern constr
+R4131:4134 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4118:4127 compcert.common.AST <> Init_space constr
+R4135:4137 Coq.Init.Datatypes <> nil constr
+R4142:4152 compcert.common.Linking <> Init_common constr
+R4166:4180 compcert.common.Linking <> Init_definitive constr
+R4182:4182 compcert.common.Linking <> i:34 var
+def 4203:4214 <> link_varinit
+R4224:4227 Coq.Init.Datatypes <> list ind
+R4229:4237 compcert.common.AST <> init_data ind
+binder 4217:4218 <> i1:36
+binder 4220:4221 <> i2:37
+R4269:4281 compcert.common.Linking <> classify_init def
+R4283:4284 compcert.common.Linking <> i2:37 var
+R4251:4263 compcert.common.Linking <> classify_init def
+R4265:4266 compcert.common.Linking <> i1:36 var
+R4295:4305 compcert.common.Linking <> Init_extern constr
+R4313:4316 Coq.Init.Datatypes <> Some constr
+R4318:4319 compcert.common.Linking <> i2:37 var
+R4328:4338 compcert.common.Linking <> Init_extern constr
+R4343:4346 Coq.Init.Datatypes <> Some constr
+R4348:4349 compcert.common.Linking <> i1:36 var
+R4355:4365 compcert.common.Linking <> Init_common constr
+R4380:4382 compcert.lib.Coqlib <> zeq def
+R4389:4407 compcert.common.AST <> init_data_list_size def
+R4409:4410 compcert.common.Linking <> i2:37 var
+R4431:4434 Coq.Init.Datatypes <> None constr
+R4418:4421 Coq.Init.Datatypes <> Some constr
+R4423:4424 compcert.common.Linking <> i2:37 var
+R4443:4453 compcert.common.Linking <> Init_common constr
+R4465:4467 compcert.lib.Coqlib <> zeq def
+R4474:4492 compcert.common.AST <> init_data_list_size def
+R4494:4495 compcert.common.Linking <> i1:36 var
+R4516:4519 Coq.Init.Datatypes <> None constr
+R4503:4506 Coq.Init.Datatypes <> Some constr
+R4508:4509 compcert.common.Linking <> i1:36 var
+R4533:4536 Coq.Init.Datatypes <> None constr
+ind 4556:4572 <> linkorder_varinit
+constr 4623:4644 <> linkorder_varinit_refl
+constr 4686:4709 <> linkorder_varinit_extern
+constr 4752:4775 <> linkorder_varinit_common
+R4589:4592 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4575:4578 Coq.Init.Datatypes <> list ind
+R4580:4588 compcert.common.AST <> init_data ind
+R4607:4610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4593:4596 Coq.Init.Datatypes <> list ind
+R4598:4606 compcert.common.AST <> init_data ind
+binder 4654:4655 <> il:40
+R4658:4674 compcert.common.Linking <> linkorder_varinit:38 ind
+R4679:4680 compcert.common.Linking <> il:40 var
+R4676:4677 compcert.common.Linking <> il:40 var
+binder 4719:4720 <> il:41
+R4723:4739 compcert.common.Linking <> linkorder_varinit:38 ind
+R4745:4746 compcert.common.Linking <> il:41 var
+R4741:4743 Coq.Init.Datatypes <> nil constr
+binder 4785:4786 <> sz:42
+binder 4788:4789 <> il:43
+R4807:4810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4800:4803 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4798:4799 compcert.common.Linking <> il:43 var
+R4804:4806 Coq.Init.Datatypes <> nil constr
+R4838:4847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4833:4835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4811:4829 compcert.common.AST <> init_data_list_size def
+R4831:4832 compcert.common.Linking <> il:43 var
+R4836:4837 compcert.common.Linking <> sz:42 var
+R4848:4864 compcert.common.Linking <> linkorder_varinit:38 ind
+R4889:4890 compcert.common.Linking <> il:43 var
+R4880:4883 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4867:4876 compcert.common.AST <> Init_space constr
+R4878:4879 compcert.common.Linking <> sz:42 var
+R4884:4886 Coq.Init.Datatypes <> nil constr
+scheme 4556:4572 <> linkorder_varinit_ind
+scheme 4556:4572 <> linkorder_varinit_sind
+inst 4918:4931 <> Linker_varinit
+R4935:4940 compcert.common.Linking <> Linker class
+R4943:4946 Coq.Init.Datatypes <> list ind
+R4948:4956 compcert.common.AST <> init_data ind
+R4990:4998 compcert.common.Linking <> linkorder meth
+R4966:4969 compcert.common.Linking <> link meth
+R4974:4985 compcert.common.Linking <> link_varinit def
+R5003:5019 compcert.common.Linking <> linkorder_varinit ind
+R5153:5175 compcert.common.AST <> init_data_list_size_pos thm
+R5153:5175 compcert.common.AST <> init_data_list_size_pos thm
+R5234:5245 compcert.common.Linking <> link_varinit def
+R5260:5272 compcert.common.Linking <> classify_init def
+R5286:5298 compcert.common.Linking <> classify_init def
+R5260:5272 compcert.common.Linking <> classify_init def
+R5286:5298 compcert.common.Linking <> classify_init def
+R5286:5298 compcert.common.Linking <> classify_init def
+R5286:5298 compcert.common.Linking <> classify_init def
+R5372:5374 compcert.lib.Coqlib <> zeq def
+R5391:5393 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5380:5384 Coq.ZArith.BinInt Z max def
+R5372:5374 compcert.lib.Coqlib <> zeq def
+R5391:5393 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5380:5384 Coq.ZArith.BinInt Z max def
+R5459:5461 compcert.lib.Coqlib <> zeq def
+R5467:5485 compcert.common.AST <> init_data_list_size def
+R5459:5461 compcert.lib.Coqlib <> zeq def
+R5467:5485 compcert.common.AST <> init_data_list_size def
+R5577:5579 compcert.lib.Coqlib <> zeq def
+R5585:5603 compcert.common.AST <> init_data_list_size def
+R5577:5579 compcert.lib.Coqlib <> zeq def
+R5585:5603 compcert.common.AST <> init_data_list_size def
+R5707:5720 compcert.common.Linking <> Linker_varinit inst
+def 5773:5783 <> link_vardef
+binder 5786:5786 <> V:44
+R5800:5805 compcert.common.Linking <> Linker class
+R5807:5807 compcert.common.Linking <> V:44 var
+binder 5796:5797 <> LV:45
+R5818:5824 compcert.common.AST <> globvar rec
+R5826:5826 compcert.common.Linking <> V:44 var
+binder 5811:5812 <> v1:46
+binder 5814:5815 <> v2:47
+R5840:5843 compcert.common.Linking <> link meth
+R5864:5872 compcert.common.AST <> gvar_info proj
+R5860:5861 compcert.common.Linking <> v2:47 var
+R5849:5857 compcert.common.AST <> gvar_info proj
+R5845:5846 compcert.common.Linking <> v1:46 var
+R5884:5887 Coq.Init.Datatypes <> None constr
+R5892:5895 Coq.Init.Datatypes <> None constr
+R5901:5904 Coq.Init.Datatypes <> Some constr
+R5926:5929 compcert.common.Linking <> link meth
+R5950:5958 compcert.common.AST <> gvar_init proj
+R5946:5947 compcert.common.Linking <> v2:47 var
+R5935:5943 compcert.common.AST <> gvar_init proj
+R5931:5932 compcert.common.Linking <> v1:46 var
+R5974:5977 Coq.Init.Datatypes <> None constr
+R5982:5985 Coq.Init.Datatypes <> None constr
+R5995:5998 Coq.Init.Datatypes <> Some constr
+R6062:6075 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R6021:6023 Coq.Bool.Bool <> eqb def
+R6029:6041 compcert.common.AST <> gvar_readonly proj
+R6025:6026 compcert.common.Linking <> v1:46 var
+R6048:6060 compcert.common.AST <> gvar_readonly proj
+R6044:6045 compcert.common.Linking <> v2:47 var
+R6076:6078 Coq.Bool.Bool <> eqb def
+R6084:6096 compcert.common.AST <> gvar_volatile proj
+R6080:6081 compcert.common.Linking <> v1:46 var
+R6103:6115 compcert.common.AST <> gvar_volatile proj
+R6099:6100 compcert.common.Linking <> v2:47 var
+R6316:6319 Coq.Init.Datatypes <> None constr
+R6133:6136 Coq.Init.Datatypes <> Some constr
+R6141:6149 compcert.common.AST <> gvar_info proj
+R6141:6149 compcert.common.AST <> gvar_info proj
+R6141:6149 compcert.common.AST <> gvar_info proj
+R6160:6168 compcert.common.AST <> gvar_init proj
+R6160:6168 compcert.common.AST <> gvar_init proj
+R6202:6214 compcert.common.AST <> gvar_readonly proj
+R6202:6214 compcert.common.AST <> gvar_readonly proj
+R6262:6274 compcert.common.AST <> gvar_volatile proj
+R6262:6274 compcert.common.AST <> gvar_volatile proj
+R6223:6235 compcert.common.AST <> gvar_readonly proj
+R6219:6220 compcert.common.Linking <> v1:46 var
+R6283:6295 compcert.common.AST <> gvar_volatile proj
+R6279:6280 compcert.common.Linking <> v1:46 var
+ind 6349:6364 <> linkorder_vardef
+constr 6430:6451 <> linkorder_vardef_intro
+binder 6367:6367 <> V:48
+R6381:6386 compcert.common.Linking <> Linker class
+R6388:6388 compcert.common.Linking <> V:48 var
+binder 6377:6378 <> LV:49
+R6401:6404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6392:6398 compcert.common.AST <> globvar rec
+R6414:6417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6405:6411 compcert.common.AST <> globvar rec
+binder 6461:6465 <> info1:52
+binder 6467:6471 <> info2:53
+binder 6473:6474 <> i1:54
+binder 6476:6477 <> i2:55
+binder 6479:6480 <> ro:56
+binder 6482:6483 <> vo:57
+R6513:6522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6492:6500 compcert.common.Linking <> linkorder meth
+R6508:6512 compcert.common.Linking <> info2:53 var
+R6502:6506 compcert.common.Linking <> info1:52 var
+R6538:6547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6523:6531 compcert.common.Linking <> linkorder meth
+R6536:6537 compcert.common.Linking <> i2:55 var
+R6533:6534 compcert.common.Linking <> i1:54 var
+R6548:6563 compcert.common.Linking <> linkorder_vardef:50 ind
+R6593:6601 compcert.common.AST <> mkglobvar constr
+R6615:6616 compcert.common.Linking <> vo:57 var
+R6612:6613 compcert.common.Linking <> ro:56 var
+R6609:6610 compcert.common.Linking <> i2:55 var
+R6603:6607 compcert.common.Linking <> info2:53 var
+R6566:6574 compcert.common.AST <> mkglobvar constr
+R6588:6589 compcert.common.Linking <> vo:57 var
+R6585:6586 compcert.common.Linking <> ro:56 var
+R6582:6583 compcert.common.Linking <> i1:54 var
+R6576:6580 compcert.common.Linking <> info1:52 var
+scheme 6349:6364 <> linkorder_vardef_ind
+scheme 6349:6364 <> linkorder_vardef_sind
+inst 6645:6657 <> Linker_vardef
+binder 6660:6660 <> V:58
+R6674:6679 compcert.common.Linking <> Linker class
+R6681:6681 compcert.common.Linking <> V:58 var
+binder 6670:6671 <> LV:59
+R6685:6690 compcert.common.Linking <> Linker class
+R6693:6699 compcert.common.AST <> globvar rec
+R6701:6701 compcert.common.Linking <> V:58 var
+R6734:6742 compcert.common.Linking <> linkorder meth
+R6711:6714 compcert.common.Linking <> link meth
+R6719:6729 compcert.common.Linking <> link_vardef def
+R6747:6762 compcert.common.Linking <> linkorder_vardef ind
+R6817:6830 compcert.common.Linking <> linkorder_refl meth
+R6817:6830 compcert.common.Linking <> linkorder_refl meth
+R6817:6830 compcert.common.Linking <> linkorder_refl meth
+R6896:6910 compcert.common.Linking <> linkorder_trans meth
+R6896:6910 compcert.common.Linking <> linkorder_trans meth
+R6896:6910 compcert.common.Linking <> linkorder_trans meth
+R6965:6975 compcert.common.Linking <> link_vardef def
+R7048:7051 compcert.common.Linking <> link meth
+R7048:7051 compcert.common.Linking <> link meth
+R7106:7109 compcert.common.Linking <> link meth
+R7106:7109 compcert.common.Linking <> link meth
+R7164:7166 Coq.Bool.Bool <> eqb def
+R7164:7166 Coq.Bool.Bool <> eqb def
+R7213:7215 Coq.Bool.Bool <> eqb def
+R7213:7215 Coq.Bool.Bool <> eqb def
+R7259:7266 Coq.Bool.Bool <> eqb_prop thm
+R7281:7288 Coq.Bool.Bool <> eqb_prop thm
+R7259:7266 Coq.Bool.Bool <> eqb_prop thm
+R7281:7288 Coq.Bool.Bool <> eqb_prop thm
+R7318:7331 compcert.common.Linking <> link_linkorder meth
+R7318:7331 compcert.common.Linking <> link_linkorder meth
+R7346:7359 compcert.common.Linking <> link_linkorder meth
+R7346:7359 compcert.common.Linking <> link_linkorder meth
+R7421:7433 compcert.common.Linking <> Linker_vardef inst
+inst 7519:7529 <> Linker_unit
+R7532:7537 compcert.common.Linking <> Linker class
+R7539:7542 Coq.Init.Datatypes <> unit ind
+R7581:7589 compcert.common.Linking <> linkorder meth
+R7551:7554 compcert.common.Linking <> link meth
+binder 7563:7563 <> x:60
+binder 7565:7565 <> y:61
+R7570:7573 Coq.Init.Datatypes <> Some constr
+R7575:7576 Coq.Init.Datatypes <> tt constr
+binder 7598:7598 <> x:62
+binder 7600:7600 <> y:63
+R7605:7608 Coq.Init.Logic <> True ind
+R7628:7638 compcert.common.Linking <> Linker_unit inst
+def 7688:7695 <> link_def
+binder 7698:7698 <> F:64
+binder 7700:7700 <> V:65
+R7714:7719 compcert.common.Linking <> Linker class
+R7721:7721 compcert.common.Linking <> F:64 var
+binder 7710:7711 <> LF:66
+R7729:7734 compcert.common.Linking <> Linker class
+R7736:7736 compcert.common.Linking <> V:65 var
+binder 7725:7726 <> LV:67
+R7749:7755 compcert.common.AST <> globdef ind
+R7759:7759 compcert.common.Linking <> V:65 var
+R7757:7757 compcert.common.Linking <> F:64 var
+binder 7740:7742 <> gd1:68
+binder 7744:7746 <> gd2:69
+R7778:7780 compcert.common.Linking <> gd2:69 var
+R7773:7775 compcert.common.Linking <> gd1:68 var
+R7791:7794 compcert.common.AST <> Gfun constr
+R7800:7803 compcert.common.AST <> Gfun constr
+R7823:7826 compcert.common.Linking <> link meth
+R7839:7842 Coq.Init.Datatypes <> Some constr
+R7849:7852 Coq.Init.Datatypes <> Some constr
+R7855:7858 compcert.common.AST <> Gfun constr
+R7865:7868 Coq.Init.Datatypes <> None constr
+R7873:7876 Coq.Init.Datatypes <> None constr
+R7886:7889 compcert.common.AST <> Gvar constr
+R7895:7898 compcert.common.AST <> Gvar constr
+R7918:7921 compcert.common.Linking <> link meth
+R7934:7937 Coq.Init.Datatypes <> Some constr
+R7944:7947 Coq.Init.Datatypes <> Some constr
+R7950:7953 compcert.common.AST <> Gvar constr
+R7960:7963 Coq.Init.Datatypes <> None constr
+R7968:7971 Coq.Init.Datatypes <> None constr
+R7989:7992 Coq.Init.Datatypes <> None constr
+ind 8012:8024 <> linkorder_def
+constr 8111:8127 <> linkorder_def_fun
+constr 8219:8235 <> linkorder_def_var
+binder 8027:8027 <> F:72
+binder 8029:8029 <> V:73
+R8043:8048 compcert.common.Linking <> Linker class
+R8050:8050 compcert.common.Linking <> F:72 var
+binder 8039:8040 <> LF:74
+R8058:8063 compcert.common.Linking <> Linker class
+R8065:8065 compcert.common.Linking <> V:73 var
+binder 8054:8055 <> LV:75
+R8080:8083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8069:8075 compcert.common.AST <> globdef ind
+R8095:8098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8084:8090 compcert.common.AST <> globdef ind
+binder 8137:8139 <> fd1:78
+binder 8141:8143 <> fd2:79
+R8169:8178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8152:8160 compcert.common.Linking <> linkorder meth
+R8166:8168 compcert.common.Linking <> fd2:79 var
+R8162:8164 compcert.common.Linking <> fd1:78 var
+R8179:8191 compcert.common.Linking <> linkorder_def:76 ind
+R8205:8208 compcert.common.AST <> Gfun constr
+R8210:8212 compcert.common.Linking <> fd2:79 var
+R8194:8197 compcert.common.AST <> Gfun constr
+R8199:8201 compcert.common.Linking <> fd1:78 var
+binder 8245:8246 <> v1:80
+binder 8248:8249 <> v2:81
+R8273:8282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8258:8266 compcert.common.Linking <> linkorder meth
+R8271:8272 compcert.common.Linking <> v2:81 var
+R8268:8269 compcert.common.Linking <> v1:80 var
+R8283:8295 compcert.common.Linking <> linkorder_def:76 ind
+R8308:8311 compcert.common.AST <> Gvar constr
+R8313:8314 compcert.common.Linking <> v2:81 var
+R8298:8301 compcert.common.AST <> Gvar constr
+R8303:8304 compcert.common.Linking <> v1:80 var
+scheme 8012:8024 <> linkorder_def_ind
+scheme 8012:8024 <> linkorder_def_sind
+inst 8343:8352 <> Linker_def
+binder 8355:8355 <> F:82
+binder 8357:8357 <> V:83
+R8371:8376 compcert.common.Linking <> Linker class
+R8378:8378 compcert.common.Linking <> F:82 var
+binder 8367:8368 <> LF:84
+R8386:8391 compcert.common.Linking <> Linker class
+R8393:8393 compcert.common.Linking <> V:83 var
+binder 8382:8383 <> LV:85
+R8397:8402 compcert.common.Linking <> Linker class
+R8405:8411 compcert.common.AST <> globdef ind
+R8415:8415 compcert.common.Linking <> V:83 var
+R8413:8413 compcert.common.Linking <> F:82 var
+R8445:8453 compcert.common.Linking <> linkorder meth
+R8425:8428 compcert.common.Linking <> link meth
+R8433:8440 compcert.common.Linking <> link_def def
+R8458:8470 compcert.common.Linking <> linkorder_def ind
+R8525:8538 compcert.common.Linking <> linkorder_refl meth
+R8525:8538 compcert.common.Linking <> linkorder_refl meth
+R8525:8538 compcert.common.Linking <> linkorder_refl meth
+R8604:8618 compcert.common.Linking <> linkorder_trans meth
+R8604:8618 compcert.common.Linking <> linkorder_trans meth
+R8604:8618 compcert.common.Linking <> linkorder_trans meth
+R8663:8670 compcert.common.Linking <> link_def def
+R8762:8765 compcert.common.Linking <> link meth
+R8762:8765 compcert.common.Linking <> link meth
+R8802:8815 compcert.common.Linking <> link_linkorder meth
+R8802:8815 compcert.common.Linking <> link_linkorder meth
+R8890:8893 compcert.common.Linking <> link meth
+R8890:8893 compcert.common.Linking <> link meth
+R8930:8943 compcert.common.Linking <> link_linkorder meth
+R8930:8943 compcert.common.Linking <> link_linkorder meth
+R9004:9013 compcert.common.Linking <> Linker_def inst
+sec 9813:9823 <> LINKER_PROG
+binder 9836:9836 <> F:86
+binder 9838:9838 <> V:87
+R9852:9857 compcert.common.Linking <> Linker class
+R9859:9859 compcert.common.Linking <> F:86 var
+binder 9848:9849 <> LF:88
+R9867:9872 compcert.common.Linking <> Linker class
+R9874:9874 compcert.common.Linking <> V:87 var
+binder 9863:9864 <> LV:89
+R9885:9891 compcert.common.AST <> program rec
+R9895:9895 compcert.common.Linking <> V:87 var
+R9893:9893 compcert.common.Linking <> F:86 var
+binder 9878:9879 <> p1:90
+binder 9881:9882 <> p2:91
+var 9904:9906 LINKER_PROG dm1
+R9911:9921 compcert.common.AST <> prog_defmap def
+R9923:9924 compcert.common.Linking <> LINKER_PROG.p1 var
+var 9931:9933 LINKER_PROG dm2
+R9938:9948 compcert.common.AST <> prog_defmap def
+R9950:9951 compcert.common.Linking <> LINKER_PROG.p2 var
+def 9966:9980 <> link_prog_check
+R9986:9990 compcert.common.AST <> ident def
+binder 9983:9983 <> x:92
+R9999:10005 compcert.common.AST <> globdef ind
+R10009:10009 compcert.common.Linking <> LINKER_PROG.V var
+R10007:10007 compcert.common.Linking <> LINKER_PROG.F var
+binder 9994:9996 <> gd1:93
+R10026:10026 compcert.lib.Maps <> :::x_'!'_x not
+R10027:10027 compcert.common.Linking <> x:92 var
+R10023:10025 compcert.common.Linking <> LINKER_PROG.dm2 var
+R10038:10041 Coq.Init.Datatypes <> None constr
+R10046:10049 Coq.Init.Datatypes <> true constr
+R10055:10058 Coq.Init.Datatypes <> Some constr
+R10141:10150 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R10102:10111 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R10073:10078 Coq.Lists.List <> In_dec abbrev
+R10090:10100 compcert.common.AST <> prog_public proj
+R10086:10087 compcert.common.Linking <> LINKER_PROG.p1 var
+R10084:10084 compcert.common.Linking <> x:92 var
+R10080:10082 compcert.lib.Coqlib <> peq def
+R10112:10117 Coq.Lists.List <> In_dec abbrev
+R10129:10139 compcert.common.AST <> prog_public proj
+R10125:10126 compcert.common.Linking <> LINKER_PROG.p2 var
+R10123:10123 compcert.common.Linking <> x:92 var
+R10119:10121 compcert.lib.Coqlib <> peq def
+R10157:10160 compcert.common.Linking <> link meth
+R10162:10164 compcert.common.Linking <> gd1:93 var
+R10175:10178 Coq.Init.Datatypes <> Some constr
+R10185:10188 Coq.Init.Datatypes <> true constr
+R10192:10195 Coq.Init.Datatypes <> None constr
+R10200:10204 Coq.Init.Datatypes <> false constr
+def 10229:10243 <> link_prog_merge
+R10253:10258 Coq.Init.Datatypes <> option ind
+R10261:10267 compcert.common.AST <> globdef ind
+R10271:10271 compcert.common.Linking <> LINKER_PROG.V var
+R10269:10269 compcert.common.Linking <> LINKER_PROG.F var
+binder 10246:10247 <> o1:94
+binder 10249:10250 <> o2:95
+R10290:10291 compcert.common.Linking <> o2:95 var
+R10286:10287 compcert.common.Linking <> o1:94 var
+R10302:10305 Coq.Init.Datatypes <> None constr
+R10313:10314 compcert.common.Linking <> o2:95 var
+R10323:10326 Coq.Init.Datatypes <> None constr
+R10331:10332 compcert.common.Linking <> o1:94 var
+R10338:10341 Coq.Init.Datatypes <> Some constr
+R10348:10351 Coq.Init.Datatypes <> Some constr
+R10360:10363 compcert.common.Linking <> link meth
+def 10392:10400 <> link_prog
+R10448:10453 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R10410:10417 compcert.common.AST <> ident_eq def
+R10438:10446 compcert.common.AST <> prog_main proj
+R10434:10435 compcert.common.Linking <> LINKER_PROG.p2 var
+R10423:10431 compcert.common.AST <> prog_main proj
+R10419:10420 compcert.common.Linking <> LINKER_PROG.p1 var
+R10454:10477 compcert.lib.Maps PTree_Properties for_all def
+R10483:10497 compcert.common.Linking <> link_prog_check def
+R10479:10481 compcert.common.Linking <> LINKER_PROG.dm1 var
+R10704:10707 Coq.Init.Datatypes <> None constr
+R10508:10511 Coq.Init.Datatypes <> Some constr
+R10516:10524 compcert.common.AST <> prog_main proj
+R10516:10524 compcert.common.AST <> prog_main proj
+R10516:10524 compcert.common.AST <> prog_main proj
+R10557:10567 compcert.common.AST <> prog_public proj
+R10557:10567 compcert.common.AST <> prog_public proj
+R10622:10630 compcert.common.AST <> prog_defs proj
+R10622:10630 compcert.common.AST <> prog_defs proj
+R10635:10648 compcert.lib.Maps PTree elements def
+R10651:10663 compcert.lib.Maps PTree combine def
+R10685:10687 compcert.common.Linking <> LINKER_PROG.dm2 var
+R10681:10683 compcert.common.Linking <> LINKER_PROG.dm1 var
+R10665:10679 compcert.common.Linking <> link_prog_merge def
+R10588:10591 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10576:10586 compcert.common.AST <> prog_public proj
+R10572:10573 compcert.common.Linking <> LINKER_PROG.p1 var
+R10596:10606 compcert.common.AST <> prog_public proj
+R10592:10593 compcert.common.Linking <> LINKER_PROG.p2 var
+R10533:10541 compcert.common.AST <> prog_main proj
+R10529:10530 compcert.common.Linking <> LINKER_PROG.p1 var
+prf 10717:10729 <> link_prog_inv
+binder 10741:10741 <> p:98
+R10764:10773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10755:10757 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10746:10754 compcert.common.Linking <> link_prog def
+R10758:10761 Coq.Init.Datatypes <> Some constr
+R10763:10763 compcert.common.Linking <> p:98 var
+R10805:10811 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10788:10790 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10778:10786 compcert.common.AST <> prog_main proj
+R10774:10775 compcert.common.Linking <> LINKER_PROG.p1 var
+R10795:10803 compcert.common.AST <> prog_main proj
+R10791:10792 compcert.common.Linking <> LINKER_PROG.p2 var
+R10812:10812 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10977:10983 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 10820:10821 <> id:99
+binder 10823:10825 <> gd1:100
+binder 10827:10829 <> gd2:101
+R10858:10861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10847:10849 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10844:10844 compcert.lib.Maps <> :::x_'!'_x not
+R10845:10846 compcert.common.Linking <> id:99 var
+R10841:10843 compcert.common.Linking <> LINKER_PROG.dm1 var
+R10850:10853 Coq.Init.Datatypes <> Some constr
+R10855:10857 compcert.common.Linking <> gd1:100 var
+R10879:10891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10868:10870 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10865:10865 compcert.lib.Maps <> :::x_'!'_x not
+R10866:10867 compcert.common.Linking <> id:99 var
+R10862:10864 compcert.common.Linking <> LINKER_PROG.dm2 var
+R10871:10874 Coq.Init.Datatypes <> Some constr
+R10876:10878 compcert.common.Linking <> gd2:101 var
+R10914:10917 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10892:10893 Coq.Lists.List <> In def
+R10902:10912 compcert.common.AST <> prog_public proj
+R10898:10899 compcert.common.Linking <> LINKER_PROG.p1 var
+R10895:10896 compcert.common.Linking <> id:99 var
+R10940:10943 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10918:10919 Coq.Lists.List <> In def
+R10928:10938 compcert.common.AST <> prog_public proj
+R10924:10925 compcert.common.Linking <> LINKER_PROG.p2 var
+R10921:10922 compcert.common.Linking <> id:99 var
+R10944:10950 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10953:10954 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10951:10952 <> gd:102
+R10967:10969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10955:10958 compcert.common.Linking <> link meth
+R10964:10966 compcert.common.Linking <> gd2:101 var
+R10960:10962 compcert.common.Linking <> gd1:100 var
+R10970:10973 Coq.Init.Datatypes <> Some constr
+R10975:10976 compcert.common.Linking <> gd:102 var
+R10985:10990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11164:11166 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10984:10984 compcert.common.Linking <> p:98 var
+R10991:10999 compcert.common.AST <> prog_main proj
+R10991:10999 compcert.common.AST <> prog_main proj
+R10991:10999 compcert.common.AST <> prog_main proj
+R11032:11042 compcert.common.AST <> prog_public proj
+R11032:11042 compcert.common.AST <> prog_public proj
+R11097:11105 compcert.common.AST <> prog_defs proj
+R11097:11105 compcert.common.AST <> prog_defs proj
+R11110:11123 compcert.lib.Maps PTree elements def
+R11126:11138 compcert.lib.Maps PTree combine def
+R11160:11162 compcert.common.Linking <> LINKER_PROG.dm2 var
+R11156:11158 compcert.common.Linking <> LINKER_PROG.dm1 var
+R11140:11154 compcert.common.Linking <> link_prog_merge def
+R11063:11066 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11051:11061 compcert.common.AST <> prog_public proj
+R11047:11048 compcert.common.Linking <> LINKER_PROG.p1 var
+R11071:11081 compcert.common.AST <> prog_public proj
+R11067:11068 compcert.common.Linking <> LINKER_PROG.p2 var
+R11008:11016 compcert.common.AST <> prog_main proj
+R11004:11005 compcert.common.Linking <> LINKER_PROG.p1 var
+R11185:11193 compcert.common.Linking <> link_prog def
+R11220:11227 compcert.common.AST <> ident_eq def
+R11245:11253 compcert.common.AST <> prog_main proj
+R11255:11256 compcert.common.Linking <> LINKER_PROG.p2 var
+R11230:11238 compcert.common.AST <> prog_main proj
+R11240:11241 compcert.common.Linking <> LINKER_PROG.p1 var
+R11220:11227 compcert.common.AST <> ident_eq def
+R11245:11253 compcert.common.AST <> prog_main proj
+R11255:11256 compcert.common.Linking <> LINKER_PROG.p2 var
+R11230:11238 compcert.common.AST <> prog_main proj
+R11240:11241 compcert.common.Linking <> LINKER_PROG.p1 var
+R11291:11314 compcert.lib.Maps PTree_Properties for_all def
+R11320:11334 compcert.common.Linking <> link_prog_check def
+R11316:11318 compcert.common.Linking <> LINKER_PROG.dm1 var
+R11291:11314 compcert.lib.Maps PTree_Properties for_all def
+R11320:11334 compcert.common.Linking <> link_prog_check def
+R11316:11318 compcert.common.Linking <> LINKER_PROG.dm1 var
+R11361:11392 compcert.lib.Maps PTree_Properties for_all_correct thm
+R11361:11392 compcert.lib.Maps PTree_Properties for_all_correct thm
+R11361:11392 compcert.lib.Maps PTree_Properties for_all_correct thm
+R11463:11477 compcert.common.Linking <> link_prog_check def
+R11512:11517 Coq.Lists.List <> in_dec thm
+R11527:11537 compcert.common.AST <> prog_public proj
+R11539:11540 compcert.common.Linking <> LINKER_PROG.p1 var
+R11519:11521 compcert.lib.Coqlib <> peq def
+R11512:11517 Coq.Lists.List <> in_dec thm
+R11527:11537 compcert.common.AST <> prog_public proj
+R11539:11540 compcert.common.Linking <> LINKER_PROG.p1 var
+R11519:11521 compcert.lib.Coqlib <> peq def
+R11575:11580 Coq.Lists.List <> in_dec thm
+R11590:11600 compcert.common.AST <> prog_public proj
+R11602:11603 compcert.common.Linking <> LINKER_PROG.p2 var
+R11582:11584 compcert.lib.Coqlib <> peq def
+R11575:11580 Coq.Lists.List <> in_dec thm
+R11590:11600 compcert.common.AST <> prog_public proj
+R11602:11603 compcert.common.Linking <> LINKER_PROG.p2 var
+R11582:11584 compcert.lib.Coqlib <> peq def
+R11638:11641 compcert.common.Linking <> link meth
+R11638:11641 compcert.common.Linking <> link meth
+prf 11723:11740 <> link_prog_succeeds
+R11776:11781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11759:11761 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11749:11757 compcert.common.AST <> prog_main proj
+R11745:11746 compcert.common.Linking <> LINKER_PROG.p1 var
+R11766:11774 compcert.common.AST <> prog_main proj
+R11762:11763 compcert.common.Linking <> LINKER_PROG.p2 var
+R11782:11782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11928:11934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 11790:11791 <> id:103
+binder 11793:11795 <> gd1:104
+binder 11797:11799 <> gd2:105
+R11825:11828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11814:11816 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11811:11811 compcert.lib.Maps <> :::x_'!'_x not
+R11812:11813 compcert.common.Linking <> id:103 var
+R11808:11810 compcert.common.Linking <> LINKER_PROG.dm1 var
+R11817:11820 Coq.Init.Datatypes <> Some constr
+R11822:11824 compcert.common.Linking <> gd1:104 var
+R11846:11855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11835:11837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11832:11832 compcert.lib.Maps <> :::x_'!'_x not
+R11833:11834 compcert.common.Linking <> id:103 var
+R11829:11831 compcert.common.Linking <> LINKER_PROG.dm2 var
+R11838:11841 Coq.Init.Datatypes <> Some constr
+R11843:11845 compcert.common.Linking <> gd2:105 var
+R11878:11881 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11856:11857 Coq.Lists.List <> In def
+R11866:11876 compcert.common.AST <> prog_public proj
+R11862:11863 compcert.common.Linking <> LINKER_PROG.p1 var
+R11859:11860 compcert.common.Linking <> id:103 var
+R11904:11907 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11882:11883 Coq.Lists.List <> In def
+R11892:11902 compcert.common.AST <> prog_public proj
+R11888:11889 compcert.common.Linking <> LINKER_PROG.p2 var
+R11885:11886 compcert.common.Linking <> id:103 var
+R11920:11923 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11908:11911 compcert.common.Linking <> link meth
+R11917:11919 compcert.common.Linking <> gd2:105 var
+R11913:11915 compcert.common.Linking <> gd1:104 var
+R11924:11927 Coq.Init.Datatypes <> None constr
+R11944:11950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11935:11943 compcert.common.Linking <> link_prog def
+R11951:11954 Coq.Init.Datatypes <> Some constr
+R11959:11967 compcert.common.AST <> prog_main proj
+R11959:11967 compcert.common.AST <> prog_main proj
+R11959:11967 compcert.common.AST <> prog_main proj
+R12000:12010 compcert.common.AST <> prog_public proj
+R12000:12010 compcert.common.AST <> prog_public proj
+R12065:12073 compcert.common.AST <> prog_defs proj
+R12065:12073 compcert.common.AST <> prog_defs proj
+R12078:12091 compcert.lib.Maps PTree elements def
+R12094:12106 compcert.lib.Maps PTree combine def
+R12128:12130 compcert.common.Linking <> LINKER_PROG.dm2 var
+R12124:12126 compcert.common.Linking <> LINKER_PROG.dm1 var
+R12108:12122 compcert.common.Linking <> link_prog_merge def
+R12031:12034 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12019:12029 compcert.common.AST <> prog_public proj
+R12015:12016 compcert.common.Linking <> LINKER_PROG.p1 var
+R12039:12049 compcert.common.AST <> prog_public proj
+R12035:12036 compcert.common.Linking <> LINKER_PROG.p2 var
+R11976:11984 compcert.common.AST <> prog_main proj
+R11972:11973 compcert.common.Linking <> LINKER_PROG.p1 var
+R12161:12169 compcert.common.Linking <> link_prog def
+R12179:12190 compcert.lib.Coqlib <> proj_sumbool def
+R12204:12214 compcert.lib.Coqlib <> dec_eq_true thm
+R12204:12214 compcert.lib.Coqlib <> dec_eq_true thm
+R12204:12214 compcert.lib.Coqlib <> dec_eq_true thm
+R12235:12258 compcert.lib.Maps PTree_Properties for_all def
+R12264:12278 compcert.common.Linking <> link_prog_check def
+R12260:12262 compcert.common.Linking <> LINKER_PROG.dm1 var
+R12286:12289 Coq.Init.Datatypes <> true constr
+R12235:12258 compcert.lib.Maps PTree_Properties for_all def
+R12264:12278 compcert.common.Linking <> link_prog_check def
+R12260:12262 compcert.common.Linking <> LINKER_PROG.dm1 var
+R12286:12289 Coq.Init.Datatypes <> true constr
+R12316:12347 compcert.lib.Maps PTree_Properties for_all_correct thm
+R12316:12347 compcert.lib.Maps PTree_Properties for_all_correct thm
+R12386:12400 compcert.common.Linking <> link_prog_check def
+R12415:12415 compcert.lib.Maps <> :::x_'!'_x not
+R12412:12414 compcert.common.Linking <> LINKER_PROG.dm2 var
+R12415:12415 compcert.lib.Maps <> :::x_'!'_x not
+R12412:12414 compcert.common.Linking <> LINKER_PROG.dm2 var
+R12490:12501 compcert.lib.Coqlib <> proj_sumbool def
+R12514:12526 compcert.lib.Coqlib <> pred_dec_true thm
+R12514:12526 compcert.lib.Coqlib <> pred_dec_true thm
+R12514:12526 compcert.lib.Coqlib <> pred_dec_true thm
+R12514:12526 compcert.lib.Coqlib <> pred_dec_true thm
+R12514:12526 compcert.lib.Coqlib <> pred_dec_true thm
+R12549:12552 compcert.common.Linking <> link meth
+R12549:12552 compcert.common.Linking <> link meth
+prf 12596:12615 <> prog_defmap_elements
+R12631:12637 compcert.lib.Maps PTree t def
+R12640:12646 compcert.common.AST <> globdef ind
+R12650:12650 compcert.common.Linking <> LINKER_PROG.V var
+R12648:12648 compcert.common.Linking <> LINKER_PROG.F var
+binder 12628:12628 <> m:106
+binder 12654:12656 <> pub:107
+binder 12658:12659 <> mn:108
+binder 12661:12661 <> x:109
+R12754:12756 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12666:12666 compcert.lib.Maps <> :::x_'!'_x not
+R12751:12752 compcert.lib.Maps <> :::x_'!'_x not
+R12753:12753 compcert.common.Linking <> x:109 var
+R12667:12677 compcert.common.AST <> prog_defmap def
+R12682:12690 compcert.common.AST <> prog_defs proj
+R12682:12690 compcert.common.AST <> prog_defs proj
+R12682:12690 compcert.common.AST <> prog_defs proj
+R12713:12723 compcert.common.AST <> prog_public proj
+R12713:12723 compcert.common.AST <> prog_public proj
+R12733:12741 compcert.common.AST <> prog_main proj
+R12733:12741 compcert.common.AST <> prog_main proj
+R12695:12708 compcert.lib.Maps PTree elements def
+R12710:12710 compcert.common.Linking <> m:106 var
+R12728:12730 compcert.common.Linking <> pub:107 var
+R12746:12747 compcert.common.Linking <> mn:108 var
+R12758:12758 compcert.lib.Maps <> :::x_'!'_x not
+R12759:12759 compcert.common.Linking <> x:109 var
+R12757:12757 compcert.common.Linking <> m:106 var
+R12786:12796 compcert.common.AST <> prog_defmap def
+R12812:12844 compcert.lib.Maps PTree_Properties of_list_elements thm
+R12812:12844 compcert.lib.Maps PTree_Properties of_list_elements thm
+R12857:12867 compcert.common.Linking LINKER_PROG <> sec
+inst 12895:12905 <> Linker_prog
+binder 12908:12908 <> F:110
+binder 12910:12910 <> V:111
+R12924:12929 compcert.common.Linking <> Linker class
+R12931:12931 compcert.common.Linking <> F:110 var
+binder 12920:12921 <> LF:112
+R12939:12944 compcert.common.Linking <> Linker class
+R12946:12946 compcert.common.Linking <> V:111 var
+binder 12935:12936 <> LV:113
+R12951:12956 compcert.common.Linking <> Linker class
+R12959:12965 compcert.common.AST <> program rec
+R12969:12969 compcert.common.Linking <> V:111 var
+R12967:12967 compcert.common.Linking <> F:110 var
+R13000:13008 compcert.common.Linking <> linkorder meth
+R12979:12982 compcert.common.Linking <> link meth
+R12987:12995 compcert.common.Linking <> link_prog def
+binder 13017:13018 <> p1:114
+binder 13020:13021 <> p2:115
+R13062:13067 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13045:13047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13035:13043 compcert.common.AST <> prog_main proj
+R13031:13032 compcert.common.Linking <> p1:114 var
+R13052:13060 compcert.common.AST <> prog_main proj
+R13048:13049 compcert.common.Linking <> p2:115 var
+R13106:13111 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13068:13071 Coq.Lists.List <> incl def
+R13094:13104 compcert.common.AST <> prog_public proj
+R13090:13091 compcert.common.Linking <> p2:115 var
+R13077:13087 compcert.common.AST <> prog_public proj
+R13073:13074 compcert.common.Linking <> p1:114 var
+binder 13119:13120 <> id:116
+binder 13122:13124 <> gd1:117
+R13162:13170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13151:13153 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13132:13132 compcert.lib.Maps <> :::x_'!'_x not
+R13147:13148 compcert.lib.Maps <> :::x_'!'_x not
+R13149:13150 compcert.common.Linking <> id:116 var
+R13133:13143 compcert.common.AST <> prog_defmap def
+R13145:13146 compcert.common.Linking <> p1:114 var
+R13154:13157 Coq.Init.Datatypes <> Some constr
+R13159:13161 compcert.common.Linking <> gd1:117 var
+R13171:13177 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13181:13190 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13178:13180 <> gd2:118
+R13221:13229 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13210:13212 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13191:13191 compcert.lib.Maps <> :::x_'!'_x not
+R13206:13207 compcert.lib.Maps <> :::x_'!'_x not
+R13208:13209 compcert.common.Linking <> id:116 var
+R13192:13202 compcert.common.AST <> prog_defmap def
+R13204:13205 compcert.common.Linking <> p2:115 var
+R13213:13216 Coq.Init.Datatypes <> Some constr
+R13218:13220 compcert.common.Linking <> gd2:118 var
+R13247:13256 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13293:13293 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13230:13238 compcert.common.Linking <> linkorder meth
+R13244:13246 compcert.common.Linking <> gd2:118 var
+R13240:13242 compcert.common.Linking <> gd1:117 var
+R13280:13283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13257:13257 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13258:13259 Coq.Lists.List <> In def
+R13268:13278 compcert.common.AST <> prog_public proj
+R13264:13265 compcert.common.Linking <> p2:115 var
+R13261:13262 compcert.common.Linking <> id:116 var
+R13287:13289 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13284:13286 compcert.common.Linking <> gd2:118 var
+R13290:13292 compcert.common.Linking <> gd1:117 var
+R13343:13351 Coq.Lists.List <> incl_refl thm
+R13343:13351 Coq.Lists.List <> incl_refl thm
+R13408:13421 compcert.common.Linking <> linkorder_refl meth
+R13408:13421 compcert.common.Linking <> linkorder_refl meth
+R13633:13647 compcert.common.Linking <> linkorder_trans meth
+R13633:13647 compcert.common.Linking <> linkorder_trans meth
+R13771:13783 compcert.common.Linking <> link_prog_inv thm
+R13771:13783 compcert.common.Linking <> link_prog_inv thm
+R13876:13885 Coq.Lists.List <> in_app_iff thm
+R13876:13885 Coq.Lists.List <> in_app_iff thm
+R13904:13923 compcert.common.Linking <> prog_defmap_elements thm
+R13926:13939 compcert.lib.Maps PTree gcombine thm
+R13904:13923 compcert.common.Linking <> prog_defmap_elements thm
+R13904:13923 compcert.common.Linking <> prog_defmap_elements thm
+R13926:13939 compcert.lib.Maps PTree gcombine thm
+R13926:13939 compcert.lib.Maps PTree gcombine thm
+R13964:13964 compcert.lib.Maps <> :::x_'!'_x not
+R13978:13979 compcert.lib.Maps <> :::x_'!'_x not
+R13965:13975 compcert.common.AST <> prog_defmap def
+R13964:13964 compcert.lib.Maps <> :::x_'!'_x not
+R13978:13979 compcert.lib.Maps <> :::x_'!'_x not
+R13965:13975 compcert.common.AST <> prog_defmap def
+R14094:14107 compcert.common.Linking <> link_linkorder meth
+R14094:14107 compcert.common.Linking <> link_linkorder meth
+R14132:14141 Coq.Lists.List <> in_app_iff thm
+R14132:14141 Coq.Lists.List <> in_app_iff thm
+R14132:14141 Coq.Lists.List <> in_app_iff thm
+R14191:14204 compcert.common.Linking <> linkorder_refl meth
+R14191:14204 compcert.common.Linking <> linkorder_refl meth
+R14234:14243 Coq.Lists.List <> in_app_iff thm
+R14234:14243 Coq.Lists.List <> in_app_iff thm
+R14262:14281 compcert.common.Linking <> prog_defmap_elements thm
+R14284:14297 compcert.lib.Maps PTree gcombine thm
+R14262:14281 compcert.common.Linking <> prog_defmap_elements thm
+R14262:14281 compcert.common.Linking <> prog_defmap_elements thm
+R14284:14297 compcert.lib.Maps PTree gcombine thm
+R14284:14297 compcert.lib.Maps PTree gcombine thm
+R14322:14322 compcert.lib.Maps <> :::x_'!'_x not
+R14336:14337 compcert.lib.Maps <> :::x_'!'_x not
+R14323:14333 compcert.common.AST <> prog_defmap def
+R14322:14322 compcert.lib.Maps <> :::x_'!'_x not
+R14336:14337 compcert.lib.Maps <> :::x_'!'_x not
+R14323:14333 compcert.common.AST <> prog_defmap def
+R14452:14465 compcert.common.Linking <> link_linkorder meth
+R14452:14465 compcert.common.Linking <> link_linkorder meth
+R14490:14499 Coq.Lists.List <> in_app_iff thm
+R14490:14499 Coq.Lists.List <> in_app_iff thm
+R14490:14499 Coq.Lists.List <> in_app_iff thm
+R14549:14562 compcert.common.Linking <> linkorder_refl meth
+R14549:14562 compcert.common.Linking <> linkorder_refl meth
+prf 14587:14607 <> prog_defmap_linkorder
+binder 14620:14620 <> F:119
+binder 14622:14622 <> V:120
+R14636:14641 compcert.common.Linking <> Linker class
+R14643:14643 compcert.common.Linking <> F:119 var
+binder 14632:14633 <> LF:121
+R14651:14656 compcert.common.Linking <> Linker class
+R14658:14658 compcert.common.Linking <> V:120 var
+binder 14647:14648 <> LV:122
+R14669:14675 compcert.common.AST <> program rec
+R14679:14679 compcert.common.Linking <> V:120 var
+R14677:14677 compcert.common.Linking <> F:119 var
+binder 14662:14663 <> p1:123
+binder 14665:14666 <> p2:124
+binder 14682:14683 <> id:125
+binder 14685:14687 <> gd1:126
+R14707:14712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14692:14700 compcert.common.Linking <> linkorder meth
+R14705:14706 compcert.common.Linking <> p2:124 var
+R14702:14703 compcert.common.Linking <> p1:123 var
+R14743:14748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14732:14734 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14713:14713 compcert.lib.Maps <> :::x_'!'_x not
+R14728:14729 compcert.lib.Maps <> :::x_'!'_x not
+R14730:14731 compcert.common.Linking <> id:125 var
+R14714:14724 compcert.common.AST <> prog_defmap def
+R14726:14727 compcert.common.Linking <> p1:123 var
+R14735:14738 Coq.Init.Datatypes <> Some constr
+R14740:14742 compcert.common.Linking <> gd1:126 var
+R14749:14755 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14759:14760 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14756:14758 <> gd2:127
+R14791:14794 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14780:14782 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14761:14761 compcert.lib.Maps <> :::x_'!'_x not
+R14776:14777 compcert.lib.Maps <> :::x_'!'_x not
+R14778:14779 compcert.common.Linking <> id:125 var
+R14762:14772 compcert.common.AST <> prog_defmap def
+R14774:14775 compcert.common.Linking <> p2:124 var
+R14783:14786 Coq.Init.Datatypes <> Some constr
+R14788:14790 compcert.common.Linking <> gd2:127 var
+R14795:14803 compcert.common.Linking <> linkorder meth
+R14809:14811 compcert.common.Linking <> gd2:127 var
+R14805:14807 compcert.common.Linking <> gd1:126 var
+R14942:14952 compcert.common.Linking <> Linker_prog inst
+sec 15469:15489 <> MATCH_PROGRAM_GENERIC
+binder 15502:15502 <> C:128
+binder 15504:15505 <> F1:129
+binder 15507:15508 <> V1:130
+binder 15510:15511 <> F2:131
+binder 15513:15514 <> V2:132
+R15528:15533 compcert.common.Linking <> Linker class
+R15535:15535 compcert.common.Linking <> C:128 var
+binder 15524:15525 <> LC:133
+R15543:15548 compcert.common.Linking <> Linker class
+R15550:15551 compcert.common.Linking <> F1:129 var
+binder 15539:15540 <> LF:134
+R15559:15564 compcert.common.Linking <> Linker class
+R15566:15567 compcert.common.Linking <> V1:130 var
+binder 15555:15556 <> LV:135
+var 15580:15591 MATCH_PROGRAM_GENERIC match_fundef
+R15595:15598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15594:15594 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.C var
+R15601:15604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15599:15600 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.F1 var
+R15607:15610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15605:15606 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.F2 var
+var 15626:15638 MATCH_PROGRAM_GENERIC match_varinfo
+R15643:15646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15641:15642 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.V1 var
+R15649:15652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15647:15648 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.V2 var
+ind 15670:15682 <> match_globvar
+constr 15725:15743 <> match_globvar_intro
+R15695:15698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15685:15691 compcert.common.AST <> globvar rec
+R15693:15694 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.V1 var
+R15709:15712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15699:15705 compcert.common.AST <> globvar rec
+R15707:15708 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.V2 var
+binder 15753:15754 <> i1:140
+binder 15756:15757 <> i2:141
+binder 15759:15762 <> init:142
+binder 15764:15765 <> ro:143
+binder 15767:15768 <> vo:144
+R15796:15805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15777:15789 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.match_varinfo var
+R15791:15792 compcert.common.Linking <> i1:140 var
+R15794:15795 compcert.common.Linking <> i2:141 var
+R15806:15818 compcert.common.Linking <> match_globvar:138 ind
+R15847:15855 compcert.common.AST <> mkglobvar constr
+R15868:15869 compcert.common.Linking <> vo:144 var
+R15865:15866 compcert.common.Linking <> ro:143 var
+R15860:15863 compcert.common.Linking <> init:142 var
+R15857:15858 compcert.common.Linking <> i2:141 var
+R15821:15829 compcert.common.AST <> mkglobvar constr
+R15842:15843 compcert.common.Linking <> vo:144 var
+R15839:15840 compcert.common.Linking <> ro:143 var
+R15834:15837 compcert.common.Linking <> init:142 var
+R15831:15832 compcert.common.Linking <> i1:140 var
+scheme 15670:15682 <> match_globvar_ind
+scheme 15670:15682 <> match_globvar_sind
+ind 15884:15896 <> match_globdef
+constr 15954:15970 <> match_globdef_fun
+constr 16101:16117 <> match_globdef_var
+R15904:15904 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.C var
+binder 15899:15901 <> ctx:145
+R15921:15924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15908:15914 compcert.common.AST <> globdef ind
+R15919:15920 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.V1 var
+R15916:15917 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.F1 var
+R15938:15941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15925:15931 compcert.common.AST <> globdef ind
+R15936:15937 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.V2 var
+R15933:15934 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.F2 var
+binder 15980:15983 <> ctx':148
+binder 15985:15986 <> f1:149
+binder 15988:15989 <> f2:150
+R16016:16025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15998:16006 compcert.common.Linking <> linkorder meth
+R16013:16015 compcert.common.Linking <> ctx:145 var
+R16008:16011 compcert.common.Linking <> ctx':148 var
+R16049:16058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16026:16037 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.match_fundef var
+R16039:16042 compcert.common.Linking <> ctx':148 var
+R16044:16045 compcert.common.Linking <> f1:149 var
+R16047:16048 compcert.common.Linking <> f2:150 var
+R16059:16071 compcert.common.Linking <> match_globdef:146 ind
+R16088:16091 compcert.common.AST <> Gfun constr
+R16093:16094 compcert.common.Linking <> f2:150 var
+R16078:16081 compcert.common.AST <> Gfun constr
+R16083:16084 compcert.common.Linking <> f1:149 var
+R16073:16075 compcert.common.Linking <> ctx:145 var
+binder 16127:16128 <> v1:151
+binder 16130:16131 <> v2:152
+R16159:16168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16140:16152 compcert.common.Linking <> match_globvar ind
+R16154:16155 compcert.common.Linking <> v1:151 var
+R16157:16158 compcert.common.Linking <> v2:152 var
+R16169:16181 compcert.common.Linking <> match_globdef:146 ind
+R16198:16201 compcert.common.AST <> Gvar constr
+R16203:16204 compcert.common.Linking <> v2:152 var
+R16188:16191 compcert.common.AST <> Gvar constr
+R16193:16194 compcert.common.Linking <> v1:151 var
+R16183:16185 compcert.common.Linking <> ctx:145 var
+scheme 15884:15896 <> match_globdef_ind
+scheme 15884:15896 <> match_globdef_sind
+def 16220:16238 <> match_ident_globdef
+R16251:16251 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.C var
+binder 16246:16248 <> ctx:153
+R16265:16267 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R16260:16264 compcert.common.AST <> ident def
+R16268:16274 compcert.common.AST <> globdef ind
+R16279:16280 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.V1 var
+R16276:16277 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.F1 var
+binder 16255:16257 <> ig1:154
+R16294:16296 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R16289:16293 compcert.common.AST <> ident def
+R16297:16303 compcert.common.AST <> globdef ind
+R16308:16309 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.V2 var
+R16305:16306 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.F2 var
+binder 16284:16286 <> ig2:155
+R16341:16344 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16331:16333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16324:16326 Coq.Init.Datatypes <> fst def
+R16328:16330 compcert.common.Linking <> ig1:154 var
+R16334:16336 Coq.Init.Datatypes <> fst def
+R16338:16340 compcert.common.Linking <> ig2:155 var
+R16345:16357 compcert.common.Linking <> match_globdef ind
+R16359:16361 compcert.common.Linking <> ctx:153 var
+R16364:16366 Coq.Init.Datatypes <> snd def
+R16368:16370 compcert.common.Linking <> ig1:154 var
+R16374:16376 Coq.Init.Datatypes <> snd def
+R16378:16380 compcert.common.Linking <> ig2:155 var
+def 16396:16412 <> match_program_gen
+R16420:16420 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.C var
+binder 16415:16417 <> ctx:156
+R16428:16434 compcert.common.AST <> program rec
+R16439:16440 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.V1 var
+R16436:16437 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.F1 var
+binder 16424:16425 <> p1:157
+R16448:16454 compcert.common.AST <> program rec
+R16459:16460 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.V2 var
+R16456:16457 compcert.common.Linking <> MATCH_PROGRAM_GENERIC.F2 var
+binder 16444:16445 <> p2:158
+R16543:16548 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16475:16486 compcert.lib.Coqlib <> list_forall2 ind
+R16533:16541 compcert.common.AST <> prog_defs proj
+R16529:16530 compcert.common.Linking <> p2:158 var
+R16518:16526 compcert.common.AST <> prog_defs proj
+R16514:16515 compcert.common.Linking <> p1:157 var
+R16489:16507 compcert.common.Linking <> match_ident_globdef def
+R16509:16511 compcert.common.Linking <> ctx:156 var
+R16580:16585 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16563:16565 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16553:16561 compcert.common.AST <> prog_main proj
+R16549:16550 compcert.common.Linking <> p2:158 var
+R16570:16578 compcert.common.AST <> prog_main proj
+R16566:16567 compcert.common.Linking <> p1:157 var
+R16602:16604 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16590:16600 compcert.common.AST <> prog_public proj
+R16586:16587 compcert.common.Linking <> p2:158 var
+R16609:16619 compcert.common.AST <> prog_public proj
+R16605:16606 compcert.common.Linking <> p1:157 var
+prf 16632:16651 <> match_program_defmap
+binder 16663:16665 <> ctx:159
+binder 16667:16668 <> p1:160
+binder 16670:16671 <> p2:161
+R16701:16706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16674:16690 compcert.common.Linking <> match_program_gen def
+R16692:16694 compcert.common.Linking <> ctx:159 var
+R16696:16697 compcert.common.Linking <> p1:160 var
+R16699:16700 compcert.common.Linking <> p2:161 var
+binder 16714:16715 <> id:162
+R16718:16727 compcert.lib.Coqlib <> option_rel ind
+R16769:16769 compcert.lib.Maps <> :::x_'!'_x not
+R16784:16785 compcert.lib.Maps <> :::x_'!'_x not
+R16786:16787 compcert.common.Linking <> id:162 var
+R16770:16780 compcert.common.AST <> prog_defmap def
+R16782:16783 compcert.common.Linking <> p2:161 var
+R16749:16749 compcert.lib.Maps <> :::x_'!'_x not
+R16764:16765 compcert.lib.Maps <> :::x_'!'_x not
+R16766:16767 compcert.common.Linking <> id:162 var
+R16750:16760 compcert.common.AST <> prog_defmap def
+R16762:16763 compcert.common.Linking <> p1:160 var
+R16730:16742 compcert.common.Linking <> match_globdef ind
+R16744:16746 compcert.common.Linking <> ctx:159 var
+R16813:16844 compcert.lib.Maps PTree_Properties of_list_related thm
+R16813:16844 compcert.lib.Maps PTree_Properties of_list_related thm
+prf 16868:16889 <> match_program_gen_main
+binder 16901:16903 <> ctx:163
+binder 16905:16906 <> p1:164
+binder 16908:16909 <> p2:165
+R16939:16942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16912:16928 compcert.common.Linking <> match_program_gen def
+R16930:16932 compcert.common.Linking <> ctx:163 var
+R16934:16935 compcert.common.Linking <> p1:164 var
+R16937:16938 compcert.common.Linking <> p2:165 var
+R16957:16959 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16947:16955 compcert.common.AST <> prog_main proj
+R16943:16944 compcert.common.Linking <> p2:165 var
+R16964:16972 compcert.common.AST <> prog_main proj
+R16960:16961 compcert.common.Linking <> p1:164 var
+prf 17014:17033 <> match_program_public
+binder 17045:17047 <> ctx:166
+binder 17049:17050 <> p1:167
+binder 17052:17053 <> p2:168
+R17083:17086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17056:17072 compcert.common.Linking <> match_program_gen def
+R17074:17076 compcert.common.Linking <> ctx:166 var
+R17078:17079 compcert.common.Linking <> p1:167 var
+R17081:17082 compcert.common.Linking <> p2:168 var
+R17103:17105 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17091:17101 compcert.common.AST <> prog_public proj
+R17087:17088 compcert.common.Linking <> p2:168 var
+R17110:17120 compcert.common.AST <> prog_public proj
+R17106:17107 compcert.common.Linking <> p1:167 var
+R17160:17180 compcert.common.Linking MATCH_PROGRAM_GENERIC <> sec
+def 17365:17377 <> match_program
+binder 17380:17381 <> F1:169
+binder 17383:17384 <> V1:170
+binder 17386:17387 <> F2:171
+binder 17389:17390 <> V2:172
+R17404:17409 compcert.common.Linking <> Linker class
+R17411:17412 compcert.common.Linking <> F1:169 var
+binder 17400:17401 <> LF:173
+R17420:17425 compcert.common.Linking <> Linker class
+R17427:17428 compcert.common.Linking <> V1:170 var
+binder 17416:17417 <> LV:174
+R17484:17487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17471:17477 compcert.common.AST <> program rec
+R17482:17483 compcert.common.Linking <> V1:170 var
+R17479:17480 compcert.common.Linking <> F1:169 var
+R17490:17493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17488:17489 compcert.common.Linking <> F1:169 var
+R17496:17499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17494:17495 compcert.common.Linking <> F2:171 var
+binder 17457:17468 <> match_fundef:175
+R17549:17552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17547:17548 compcert.common.Linking <> V1:170 var
+R17555:17558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17553:17554 compcert.common.Linking <> V2:172 var
+binder 17532:17544 <> match_varinfo:176
+R17595:17601 compcert.common.AST <> program rec
+R17606:17607 compcert.common.Linking <> V1:170 var
+R17603:17604 compcert.common.Linking <> F1:169 var
+binder 17591:17592 <> p1:177
+R17615:17621 compcert.common.AST <> program rec
+R17626:17627 compcert.common.Linking <> V2:172 var
+R17623:17624 compcert.common.Linking <> F2:171 var
+binder 17611:17612 <> p2:178
+R17642:17658 compcert.common.Linking <> match_program_gen def
+R17687:17688 compcert.common.Linking <> p1:177 var
+R17690:17691 compcert.common.Linking <> p1:177 var
+R17693:17694 compcert.common.Linking <> p2:178 var
+R17673:17685 compcert.common.Linking <> match_varinfo:176 var
+R17660:17671 compcert.common.Linking <> match_fundef:175 var
+prf 17704:17721 <> match_program_main
+binder 17734:17735 <> F1:179
+binder 17737:17738 <> V1:180
+binder 17740:17741 <> F2:181
+binder 17743:17744 <> V2:182
+R17758:17763 compcert.common.Linking <> Linker class
+R17765:17766 compcert.common.Linking <> F1:179 var
+binder 17754:17755 <> LF:183
+R17774:17779 compcert.common.Linking <> Linker class
+R17781:17782 compcert.common.Linking <> V1:180 var
+binder 17770:17771 <> LV:184
+R17822:17825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17809:17815 compcert.common.AST <> program rec
+R17820:17821 compcert.common.Linking <> V1:180 var
+R17817:17818 compcert.common.Linking <> F1:179 var
+R17828:17831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17826:17827 compcert.common.Linking <> F1:179 var
+R17834:17837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17832:17833 compcert.common.Linking <> F2:181 var
+binder 17795:17806 <> match_fundef:185
+R17871:17874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17869:17870 compcert.common.Linking <> V1:180 var
+R17877:17880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17875:17876 compcert.common.Linking <> V2:182 var
+binder 17854:17866 <> match_varinfo:186
+R17901:17907 compcert.common.AST <> program rec
+R17912:17913 compcert.common.Linking <> V1:180 var
+R17909:17910 compcert.common.Linking <> F1:179 var
+binder 17897:17898 <> p1:187
+R17921:17927 compcert.common.AST <> program rec
+R17932:17933 compcert.common.Linking <> V2:182 var
+R17929:17930 compcert.common.Linking <> F2:181 var
+binder 17917:17918 <> p2:188
+R17985:17988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17939:17951 compcert.common.Linking <> match_program def
+R17983:17984 compcert.common.Linking <> p2:188 var
+R17980:17981 compcert.common.Linking <> p1:187 var
+R17966:17978 compcert.common.Linking <> match_varinfo:186 var
+R17953:17964 compcert.common.Linking <> match_fundef:185 var
+R18003:18005 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17993:18001 compcert.common.AST <> prog_main proj
+R17989:17990 compcert.common.Linking <> p2:188 var
+R18010:18018 compcert.common.AST <> prog_main proj
+R18006:18007 compcert.common.Linking <> p1:187 var
+prf 18850:18881 <> match_transform_partial_program2
+binder 18894:18894 <> C:189
+binder 18896:18897 <> F1:190
+binder 18899:18900 <> V1:191
+binder 18902:18903 <> F2:192
+binder 18905:18906 <> V2:193
+R18920:18925 compcert.common.Linking <> Linker class
+R18927:18927 compcert.common.Linking <> C:189 var
+binder 18916:18917 <> LC:194
+R18935:18940 compcert.common.Linking <> Linker class
+R18942:18943 compcert.common.Linking <> F1:190 var
+binder 18931:18932 <> LF:195
+R18951:18956 compcert.common.Linking <> Linker class
+R18958:18959 compcert.common.Linking <> V1:191 var
+binder 18947:18948 <> LV:196
+R18987:18990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18986:18986 compcert.common.Linking <> C:189 var
+R18993:18996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18991:18992 compcert.common.Linking <> F1:190 var
+R18999:19002 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18997:18998 compcert.common.Linking <> F2:192 var
+binder 18972:18983 <> match_fundef:197
+R19036:19039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19034:19035 compcert.common.Linking <> V1:191 var
+R19042:19045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19040:19041 compcert.common.Linking <> V2:193 var
+binder 19019:19031 <> match_varinfo:198
+R19079:19082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19074:19078 compcert.common.AST <> ident def
+R19085:19088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19083:19084 compcert.common.Linking <> F1:190 var
+R19089:19091 compcert.common.Errors <> res ind
+R19093:19094 compcert.common.Linking <> F2:192 var
+binder 19062:19071 <> transf_fun:199
+R19124:19127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19119:19123 compcert.common.AST <> ident def
+R19130:19133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19128:19129 compcert.common.Linking <> V1:191 var
+R19134:19136 compcert.common.Errors <> res ind
+R19138:19139 compcert.common.Linking <> V2:193 var
+binder 19107:19116 <> transf_var:200
+R19157:19157 compcert.common.Linking <> C:189 var
+binder 19152:19154 <> ctx:201
+R19164:19170 compcert.common.AST <> program rec
+R19175:19176 compcert.common.Linking <> V1:191 var
+R19172:19173 compcert.common.Linking <> F1:190 var
+binder 19161:19161 <> p:202
+R19184:19190 compcert.common.AST <> program rec
+R19195:19196 compcert.common.Linking <> V2:193 var
+R19192:19193 compcert.common.Linking <> F2:192 var
+binder 19180:19181 <> tp:203
+R19260:19265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19252:19254 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19202:19227 compcert.common.AST <> transform_partial_program2 def
+R19251:19251 compcert.common.Linking <> p:202 var
+R19240:19249 compcert.common.Linking <> transf_var:200 var
+R19229:19238 compcert.common.Linking <> transf_fun:199 var
+R19255:19256 compcert.common.Errors <> OK constr
+R19258:19259 compcert.common.Linking <> tp:203 var
+R19266:19266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19329:19335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 19274:19274 <> i:204
+binder 19276:19276 <> f:205
+binder 19278:19279 <> tf:206
+R19304:19307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19296:19298 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19282:19291 compcert.common.Linking <> transf_fun:199 var
+R19295:19295 compcert.common.Linking <> f:205 var
+R19293:19293 compcert.common.Linking <> i:204 var
+R19299:19300 compcert.common.Errors <> OK constr
+R19302:19303 compcert.common.Linking <> tf:206 var
+R19308:19319 compcert.common.Linking <> match_fundef:197 var
+R19327:19328 compcert.common.Linking <> tf:206 var
+R19325:19325 compcert.common.Linking <> f:205 var
+R19321:19323 compcert.common.Linking <> ctx:201 var
+R19336:19336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19396:19402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 19344:19344 <> i:207
+binder 19346:19346 <> v:208
+binder 19348:19349 <> tv:209
+R19374:19377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19366:19368 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19352:19361 compcert.common.Linking <> transf_var:200 var
+R19365:19365 compcert.common.Linking <> v:208 var
+R19363:19363 compcert.common.Linking <> i:207 var
+R19369:19370 compcert.common.Errors <> OK constr
+R19372:19373 compcert.common.Linking <> tv:209 var
+R19378:19390 compcert.common.Linking <> match_varinfo:198 var
+R19394:19395 compcert.common.Linking <> tv:209 var
+R19392:19392 compcert.common.Linking <> v:208 var
+R19403:19419 compcert.common.Linking <> match_program_gen def
+R19448:19450 compcert.common.Linking <> ctx:201 var
+R19452:19452 compcert.common.Linking <> p:202 var
+R19454:19455 compcert.common.Linking <> tp:203 var
+R19434:19446 compcert.common.Linking <> match_varinfo:198 var
+R19421:19432 compcert.common.Linking <> match_fundef:197 var
+R19474:19499 compcert.common.AST <> transform_partial_program2 def
+R19576:19584 compcert.common.AST <> prog_defs proj
+R19576:19584 compcert.common.AST <> prog_defs proj
+R19807:19820 compcert.common.Linking <> linkorder_refl meth
+R19807:19820 compcert.common.Linking <> linkorder_refl meth
+R19842:19855 compcert.common.AST <> transf_globvar def
+R19842:19855 compcert.common.AST <> transf_globvar def
+prf 20026:20067 <> match_transform_partial_program_contextual
+binder 20080:20080 <> A:210
+binder 20082:20082 <> B:211
+binder 20084:20084 <> V:212
+R20098:20103 compcert.common.Linking <> Linker class
+R20105:20105 compcert.common.Linking <> A:210 var
+binder 20094:20095 <> LA:213
+R20113:20118 compcert.common.Linking <> Linker class
+R20120:20120 compcert.common.Linking <> V:212 var
+binder 20109:20110 <> LV:214
+R20158:20161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20147:20153 compcert.common.AST <> program rec
+R20157:20157 compcert.common.Linking <> V:212 var
+R20155:20155 compcert.common.Linking <> A:210 var
+R20163:20166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20162:20162 compcert.common.Linking <> A:210 var
+R20168:20171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20167:20167 compcert.common.Linking <> B:211 var
+binder 20133:20144 <> match_fundef:215
+R20201:20204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20200:20200 compcert.common.Linking <> A:210 var
+R20205:20207 compcert.common.Errors <> res ind
+R20209:20209 compcert.common.Linking <> B:211 var
+binder 20188:20197 <> transf_fun:216
+R20225:20231 compcert.common.AST <> program rec
+R20235:20235 compcert.common.Linking <> V:212 var
+R20233:20233 compcert.common.Linking <> A:210 var
+binder 20222:20222 <> p:217
+R20243:20249 compcert.common.AST <> program rec
+R20253:20253 compcert.common.Linking <> V:212 var
+R20251:20251 compcert.common.Linking <> B:211 var
+binder 20239:20240 <> tp:218
+R20305:20310 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20297:20299 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20259:20283 compcert.common.AST <> transform_partial_program def
+R20296:20296 compcert.common.Linking <> p:217 var
+R20285:20294 compcert.common.Linking <> transf_fun:216 var
+R20300:20301 compcert.common.Errors <> OK constr
+R20303:20304 compcert.common.Linking <> tp:218 var
+R20311:20311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20368:20374 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 20319:20319 <> f:219
+binder 20321:20322 <> tf:220
+R20345:20348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20337:20339 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20325:20334 compcert.common.Linking <> transf_fun:216 var
+R20336:20336 compcert.common.Linking <> f:219 var
+R20340:20341 compcert.common.Errors <> OK constr
+R20343:20344 compcert.common.Linking <> tf:220 var
+R20349:20360 compcert.common.Linking <> match_fundef:215 var
+R20366:20367 compcert.common.Linking <> tf:220 var
+R20364:20364 compcert.common.Linking <> f:219 var
+R20362:20362 compcert.common.Linking <> p:217 var
+R20375:20387 compcert.common.Linking <> match_program def
+R20407:20408 compcert.common.Linking <> tp:218 var
+R20405:20405 compcert.common.Linking <> p:217 var
+R20402:20403 Coq.Init.Logic <> eq ind
+R20389:20400 compcert.common.Linking <> match_fundef:215 var
+R20437:20468 compcert.common.Linking <> match_transform_partial_program2 thm
+R20437:20468 compcert.common.Linking <> match_transform_partial_program2 thm
+prf 20532:20565 <> match_transform_program_contextual
+binder 20578:20578 <> A:221
+binder 20580:20580 <> B:222
+binder 20582:20582 <> V:223
+R20596:20601 compcert.common.Linking <> Linker class
+R20603:20603 compcert.common.Linking <> A:221 var
+binder 20592:20593 <> LA:224
+R20611:20616 compcert.common.Linking <> Linker class
+R20618:20618 compcert.common.Linking <> V:223 var
+binder 20607:20608 <> LV:225
+R20656:20659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20645:20651 compcert.common.AST <> program rec
+R20655:20655 compcert.common.Linking <> V:223 var
+R20653:20653 compcert.common.Linking <> A:221 var
+R20661:20664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20660:20660 compcert.common.Linking <> A:221 var
+R20666:20669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20665:20665 compcert.common.Linking <> B:222 var
+binder 20631:20642 <> match_fundef:226
+R20699:20702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20698:20698 compcert.common.Linking <> A:221 var
+R20703:20703 compcert.common.Linking <> B:222 var
+binder 20686:20695 <> transf_fun:227
+R20719:20725 compcert.common.AST <> program rec
+R20729:20729 compcert.common.Linking <> V:223 var
+R20727:20727 compcert.common.Linking <> A:221 var
+binder 20716:20716 <> p:228
+R20735:20735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20777:20783 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 20743:20743 <> f:229
+R20746:20757 compcert.common.Linking <> match_fundef:226 var
+R20764:20773 compcert.common.Linking <> transf_fun:227 var
+R20775:20775 compcert.common.Linking <> f:229 var
+R20761:20761 compcert.common.Linking <> f:229 var
+R20759:20759 compcert.common.Linking <> p:228 var
+R20784:20796 compcert.common.Linking <> match_program def
+R20817:20833 compcert.common.AST <> transform_program def
+R20846:20846 compcert.common.Linking <> p:228 var
+R20835:20844 compcert.common.Linking <> transf_fun:227 var
+R20814:20814 compcert.common.Linking <> p:228 var
+R20811:20812 Coq.Init.Logic <> eq ind
+R20798:20809 compcert.common.Linking <> match_fundef:226 var
+R20876:20917 compcert.common.Linking <> match_transform_partial_program_contextual thm
+R20876:20917 compcert.common.Linking <> match_transform_partial_program_contextual thm
+R20928:20960 compcert.common.AST <> transform_program_partial_program thm
+R20928:20960 compcert.common.AST <> transform_program_partial_program thm
+prf 21186:21216 <> match_transform_partial_program
+binder 21229:21229 <> A:230
+binder 21231:21231 <> B:231
+binder 21233:21233 <> V:232
+R21247:21252 compcert.common.Linking <> Linker class
+R21254:21254 compcert.common.Linking <> A:230 var
+binder 21243:21244 <> LA:233
+R21262:21267 compcert.common.Linking <> Linker class
+R21269:21269 compcert.common.Linking <> V:232 var
+binder 21258:21259 <> LV:234
+R21295:21298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21294:21294 compcert.common.Linking <> A:230 var
+R21299:21301 compcert.common.Errors <> res ind
+R21303:21303 compcert.common.Linking <> B:231 var
+binder 21282:21291 <> transf_fun:235
+R21319:21325 compcert.common.AST <> program rec
+R21329:21329 compcert.common.Linking <> V:232 var
+R21327:21327 compcert.common.Linking <> A:230 var
+binder 21316:21316 <> p:236
+R21337:21343 compcert.common.AST <> program rec
+R21347:21347 compcert.common.Linking <> V:232 var
+R21345:21345 compcert.common.Linking <> B:231 var
+binder 21333:21334 <> tp:237
+R21399:21404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21391:21393 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21353:21377 compcert.common.AST <> transform_partial_program def
+R21390:21390 compcert.common.Linking <> p:236 var
+R21379:21388 compcert.common.Linking <> transf_fun:235 var
+R21394:21395 compcert.common.Errors <> OK constr
+R21397:21398 compcert.common.Linking <> tp:237 var
+R21405:21417 compcert.common.Linking <> match_program def
+R21462:21463 compcert.common.Linking <> tp:237 var
+R21460:21460 compcert.common.Linking <> p:236 var
+R21457:21458 Coq.Init.Logic <> eq ind
+binder 21424:21425 <> cu:238
+binder 21427:21427 <> f:239
+binder 21429:21430 <> tf:240
+R21447:21449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21435:21444 compcert.common.Linking <> transf_fun:235 var
+R21446:21446 compcert.common.Linking <> f:239 var
+R21450:21451 compcert.common.Errors <> OK constr
+R21453:21454 compcert.common.Linking <> tf:240 var
+R21492:21523 compcert.common.Linking <> match_transform_partial_program2 thm
+R21492:21523 compcert.common.Linking <> match_transform_partial_program2 thm
+prf 21587:21609 <> match_transform_program
+binder 21622:21622 <> A:241
+binder 21624:21624 <> B:242
+binder 21626:21626 <> V:243
+R21640:21645 compcert.common.Linking <> Linker class
+R21647:21647 compcert.common.Linking <> A:241 var
+binder 21636:21637 <> LA:244
+R21655:21660 compcert.common.Linking <> Linker class
+R21662:21662 compcert.common.Linking <> V:243 var
+binder 21651:21652 <> LV:245
+R21684:21687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21683:21683 compcert.common.Linking <> A:241 var
+R21688:21688 compcert.common.Linking <> B:242 var
+binder 21675:21680 <> transf:246
+R21704:21710 compcert.common.AST <> program rec
+R21714:21714 compcert.common.Linking <> V:243 var
+R21712:21712 compcert.common.Linking <> A:241 var
+binder 21701:21701 <> p:247
+R21720:21732 compcert.common.Linking <> match_program def
+R21771:21787 compcert.common.AST <> transform_program def
+R21796:21796 compcert.common.Linking <> p:247 var
+R21789:21794 compcert.common.Linking <> transf:246 var
+R21768:21768 compcert.common.Linking <> p:247 var
+R21765:21766 Coq.Init.Logic <> eq ind
+binder 21739:21740 <> cu:248
+binder 21742:21742 <> f:249
+binder 21744:21745 <> tf:250
+R21752:21754 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21750:21751 compcert.common.Linking <> tf:250 var
+R21755:21760 compcert.common.Linking <> transf:246 var
+R21762:21762 compcert.common.Linking <> f:249 var
+R21823:21856 compcert.common.Linking <> match_transform_program_contextual thm
+R21823:21856 compcert.common.Linking <> match_transform_program_contextual thm
+sec 21945:21962 <> LINK_MATCH_PROGRAM
+binder 21975:21975 <> C:251
+binder 21977:21978 <> F1:252
+binder 21980:21981 <> V1:253
+binder 21983:21984 <> F2:254
+binder 21986:21987 <> V2:255
+R22001:22006 compcert.common.Linking <> Linker class
+R22008:22008 compcert.common.Linking <> C:251 var
+binder 21997:21998 <> LC:256
+R22017:22022 compcert.common.Linking <> Linker class
+R22024:22025 compcert.common.Linking <> F1:252 var
+binder 22012:22014 <> LF1:257
+R22034:22039 compcert.common.Linking <> Linker class
+R22041:22042 compcert.common.Linking <> F2:254 var
+binder 22029:22031 <> LF2:258
+R22051:22056 compcert.common.Linking <> Linker class
+R22058:22059 compcert.common.Linking <> V1:253 var
+binder 22046:22048 <> LV1:259
+R22068:22073 compcert.common.Linking <> Linker class
+R22075:22076 compcert.common.Linking <> V2:255 var
+binder 22063:22065 <> LV2:260
+var 22089:22100 LINK_MATCH_PROGRAM match_fundef
+R22104:22107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22103:22103 compcert.common.Linking <> LINK_MATCH_PROGRAM.C var
+R22110:22113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22108:22109 compcert.common.Linking <> LINK_MATCH_PROGRAM.F1 var
+R22116:22119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22114:22115 compcert.common.Linking <> LINK_MATCH_PROGRAM.F2 var
+var 22135:22147 LINK_MATCH_PROGRAM match_varinfo
+R22152:22155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22150:22151 compcert.common.Linking <> LINK_MATCH_PROGRAM.V1 var
+R22158:22161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22156:22157 compcert.common.Linking <> LINK_MATCH_PROGRAM.V2 var
+R22187:22199 compcert.common.Linking <> Linker_vardef inst
+R22201:22210 compcert.common.Linking <> Linker_def inst
+R22212:22222 compcert.common.Linking <> Linker_prog inst
+var 22237:22253 LINK_MATCH_PROGRAM link_match_fundef
+binder 22265:22268 <> ctx1:263
+binder 22270:22273 <> ctx2:264
+binder 22275:22276 <> f1:265
+binder 22278:22280 <> tf1:266
+binder 22282:22283 <> f2:267
+binder 22285:22287 <> tf2:268
+binder 22289:22289 <> f:269
+R22313:22318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22304:22306 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22294:22297 compcert.common.Linking <> link meth
+R22302:22303 compcert.common.Linking <> f2:267 var
+R22299:22300 compcert.common.Linking <> f1:265 var
+R22307:22310 Coq.Init.Datatypes <> Some constr
+R22312:22312 compcert.common.Linking <> f:269 var
+R22343:22346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22319:22330 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R22332:22335 compcert.common.Linking <> ctx1:263 var
+R22337:22338 compcert.common.Linking <> f1:265 var
+R22340:22342 compcert.common.Linking <> tf1:266 var
+R22371:22376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22347:22358 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R22360:22363 compcert.common.Linking <> ctx2:264 var
+R22365:22366 compcert.common.Linking <> f2:267 var
+R22368:22370 compcert.common.Linking <> tf2:268 var
+R22377:22383 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22386:22387 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22384:22385 <> tf:270
+R22410:22414 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22463:22463 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22400:22402 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22388:22391 compcert.common.Linking <> link meth
+R22397:22399 compcert.common.Linking <> tf2:268 var
+R22393:22395 compcert.common.Linking <> tf1:266 var
+R22403:22406 Coq.Init.Datatypes <> Some constr
+R22408:22409 compcert.common.Linking <> tf:270 var
+R22437:22440 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22415:22426 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R22428:22431 compcert.common.Linking <> ctx1:263 var
+R22433:22433 compcert.common.Linking <> f:269 var
+R22435:22436 compcert.common.Linking <> tf:270 var
+R22441:22452 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R22454:22457 compcert.common.Linking <> ctx2:264 var
+R22459:22459 compcert.common.Linking <> f:269 var
+R22461:22462 compcert.common.Linking <> tf:270 var
+var 22478:22495 LINK_MATCH_PROGRAM link_match_varinfo
+binder 22507:22508 <> v1:272
+binder 22510:22512 <> tv1:273
+binder 22514:22515 <> v2:274
+binder 22517:22519 <> tv2:275
+binder 22521:22521 <> v:276
+R22545:22550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22536:22538 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22526:22529 compcert.common.Linking <> link meth
+R22534:22535 compcert.common.Linking <> v2:274 var
+R22531:22532 compcert.common.Linking <> v1:272 var
+R22539:22542 Coq.Init.Datatypes <> Some constr
+R22544:22544 compcert.common.Linking <> v:276 var
+R22571:22574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22551:22563 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R22565:22566 compcert.common.Linking <> v1:272 var
+R22568:22570 compcert.common.Linking <> tv1:273 var
+R22595:22600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22575:22587 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R22589:22590 compcert.common.Linking <> v2:274 var
+R22592:22594 compcert.common.Linking <> tv2:275 var
+R22601:22607 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22610:22611 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22608:22609 <> tv:277
+R22634:22637 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22624:22626 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22612:22615 compcert.common.Linking <> link meth
+R22621:22623 compcert.common.Linking <> tv2:275 var
+R22617:22619 compcert.common.Linking <> tv1:273 var
+R22627:22630 Coq.Init.Datatypes <> Some constr
+R22632:22633 compcert.common.Linking <> tv:277 var
+R22638:22650 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R22652:22652 compcert.common.Linking <> v:276 var
+R22654:22655 compcert.common.Linking <> tv:277 var
+prf 22665:22682 <> link_match_globvar
+binder 22694:22695 <> v1:279
+binder 22697:22699 <> tv1:280
+binder 22701:22702 <> v2:281
+binder 22704:22706 <> tv2:282
+binder 22708:22708 <> v:283
+R22732:22737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22723:22725 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22713:22716 compcert.common.Linking <> link meth
+R22721:22722 compcert.common.Linking <> v2:281 var
+R22718:22719 compcert.common.Linking <> v1:279 var
+R22726:22729 Coq.Init.Datatypes <> Some constr
+R22731:22731 compcert.common.Linking <> v:283 var
+R22772:22775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22738:22750 compcert.common.Linking <> match_globvar ind
+R22766:22767 compcert.common.Linking <> v1:279 var
+R22769:22771 compcert.common.Linking <> tv1:280 var
+R22752:22764 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R22810:22815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22776:22788 compcert.common.Linking <> match_globvar ind
+R22804:22805 compcert.common.Linking <> v2:281 var
+R22807:22809 compcert.common.Linking <> tv2:282 var
+R22790:22802 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R22816:22822 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22825:22826 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22823:22824 <> tv:284
+R22849:22852 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22839:22841 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22827:22830 compcert.common.Linking <> link meth
+R22836:22838 compcert.common.Linking <> tv2:282 var
+R22832:22834 compcert.common.Linking <> tv1:280 var
+R22842:22845 Coq.Init.Datatypes <> Some constr
+R22847:22848 compcert.common.Linking <> tv:284 var
+R22853:22865 compcert.common.Linking <> match_globvar ind
+R22881:22881 compcert.common.Linking <> v:283 var
+R22883:22884 compcert.common.Linking <> tv:284 var
+R22867:22879 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R22918:22928 compcert.common.Linking <> link_vardef def
+R22976:22979 compcert.common.Linking <> link meth
+R22976:22979 compcert.common.Linking <> link meth
+R23041:23044 compcert.common.Linking <> link meth
+R23041:23044 compcert.common.Linking <> link meth
+R23121:23124 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23111:23113 Coq.Bool.Bool <> eqb def
+R23125:23127 Coq.Bool.Bool <> eqb def
+R23121:23124 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23111:23113 Coq.Bool.Bool <> eqb def
+R23125:23127 Coq.Bool.Bool <> eqb def
+R23155:23172 compcert.common.Linking <> LINK_MATCH_PROGRAM.link_match_varinfo var
+prf 23278:23295 <> link_match_globdef
+binder 23307:23310 <> ctx1:285
+binder 23312:23315 <> ctx2:286
+binder 23317:23319 <> ctx:287
+binder 23321:23322 <> g1:288
+binder 23324:23326 <> tg1:289
+binder 23328:23329 <> g2:290
+binder 23331:23333 <> tg2:291
+binder 23335:23335 <> g:292
+R23358:23361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23340:23348 compcert.common.Linking <> linkorder meth
+R23355:23357 compcert.common.Linking <> ctx:287 var
+R23350:23353 compcert.common.Linking <> ctx1:285 var
+R23380:23385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23362:23370 compcert.common.Linking <> linkorder meth
+R23377:23379 compcert.common.Linking <> ctx:287 var
+R23372:23375 compcert.common.Linking <> ctx2:286 var
+R23405:23410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23396:23398 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23386:23389 compcert.common.Linking <> link meth
+R23394:23395 compcert.common.Linking <> g2:290 var
+R23391:23392 compcert.common.Linking <> g1:288 var
+R23399:23402 Coq.Init.Datatypes <> Some constr
+R23404:23404 compcert.common.Linking <> g:292 var
+R23463:23468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23411:23423 compcert.common.Linking <> match_globdef ind
+R23452:23455 compcert.common.Linking <> ctx1:285 var
+R23457:23458 compcert.common.Linking <> g1:288 var
+R23460:23462 compcert.common.Linking <> tg1:289 var
+R23438:23450 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R23425:23436 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R23521:23526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23469:23481 compcert.common.Linking <> match_globdef ind
+R23510:23513 compcert.common.Linking <> ctx2:286 var
+R23515:23516 compcert.common.Linking <> g2:290 var
+R23518:23520 compcert.common.Linking <> tg2:291 var
+R23496:23508 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R23483:23494 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R23527:23533 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23536:23537 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23534:23535 <> tg:293
+R23560:23563 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23550:23552 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23538:23541 compcert.common.Linking <> link meth
+R23547:23549 compcert.common.Linking <> tg2:291 var
+R23543:23545 compcert.common.Linking <> tg1:289 var
+R23553:23556 Coq.Init.Datatypes <> Some constr
+R23558:23559 compcert.common.Linking <> tg:293 var
+R23564:23576 compcert.common.Linking <> match_globdef ind
+R23605:23607 compcert.common.Linking <> ctx:287 var
+R23609:23609 compcert.common.Linking <> g:292 var
+R23611:23612 compcert.common.Linking <> tg:293 var
+R23591:23603 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R23578:23589 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R23630:23633 compcert.common.Linking <> link meth
+R23643:23650 compcert.common.Linking <> link_def def
+R23707:23710 compcert.common.Linking <> link meth
+R23707:23710 compcert.common.Linking <> link meth
+R23753:23769 compcert.common.Linking <> LINK_MATCH_PROGRAM.link_match_fundef var
+R23813:23819 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23824:23825 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23820:23823 <> ctx':294
+R23844:23847 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23826:23834 compcert.common.Linking <> linkorder meth
+R23836:23839 compcert.common.Linking <> ctx':294 var
+R23848:23859 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R23861:23864 compcert.common.Linking <> ctx':294 var
+R23813:23819 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23824:23825 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23820:23823 <> ctx':295
+R23844:23847 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23826:23834 compcert.common.Linking <> linkorder meth
+R23836:23839 compcert.common.Linking <> ctx':295 var
+R23848:23859 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R23861:23864 compcert.common.Linking <> ctx':295 var
+R23947:23961 compcert.common.Linking <> linkorder_trans meth
+R23947:23961 compcert.common.Linking <> linkorder_trans meth
+R23990:24004 compcert.common.Linking <> linkorder_trans meth
+R23990:24004 compcert.common.Linking <> linkorder_trans meth
+R24065:24068 compcert.common.AST <> Gfun constr
+R24065:24068 compcert.common.AST <> Gfun constr
+R24132:24135 compcert.common.Linking <> link meth
+R24132:24135 compcert.common.Linking <> link meth
+R24180:24197 compcert.common.Linking <> link_match_globvar thm
+R24238:24241 compcert.common.AST <> Gvar constr
+R24238:24241 compcert.common.AST <> Gvar constr
+prf 24303:24325 <> match_globdef_linkorder
+binder 24337:24339 <> ctx:296
+binder 24341:24344 <> ctx':297
+binder 24346:24346 <> g:298
+binder 24348:24349 <> tg:299
+R24403:24408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24354:24366 compcert.common.Linking <> match_globdef ind
+R24395:24397 compcert.common.Linking <> ctx:296 var
+R24399:24399 compcert.common.Linking <> g:298 var
+R24401:24402 compcert.common.Linking <> tg:299 var
+R24381:24393 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R24368:24379 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R24427:24432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24409:24417 compcert.common.Linking <> linkorder meth
+R24423:24426 compcert.common.Linking <> ctx':297 var
+R24419:24421 compcert.common.Linking <> ctx:296 var
+R24433:24445 compcert.common.Linking <> match_globdef ind
+R24474:24477 compcert.common.Linking <> ctx':297 var
+R24479:24479 compcert.common.Linking <> g:298 var
+R24481:24482 compcert.common.Linking <> tg:299 var
+R24460:24472 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R24447:24458 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R24532:24546 compcert.common.Linking <> linkorder_trans meth
+R24532:24546 compcert.common.Linking <> linkorder_trans meth
+prf 24597:24614 <> link_match_program
+binder 24626:24629 <> ctx1:300
+binder 24631:24634 <> ctx2:301
+binder 24636:24638 <> ctx:302
+binder 24640:24641 <> p1:303
+binder 24643:24644 <> p2:304
+binder 24646:24648 <> tp1:305
+binder 24650:24652 <> tp2:306
+binder 24654:24654 <> p:307
+R24678:24683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24669:24671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24659:24662 compcert.common.Linking <> link meth
+R24667:24668 compcert.common.Linking <> p2:304 var
+R24664:24665 compcert.common.Linking <> p1:303 var
+R24672:24675 Coq.Init.Datatypes <> Some constr
+R24677:24677 compcert.common.Linking <> p:307 var
+R24740:24745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24684:24700 compcert.common.Linking <> match_program_gen def
+R24729:24732 compcert.common.Linking <> ctx1:300 var
+R24734:24735 compcert.common.Linking <> p1:303 var
+R24737:24739 compcert.common.Linking <> tp1:305 var
+R24715:24727 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R24702:24713 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R24802:24807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24746:24762 compcert.common.Linking <> match_program_gen def
+R24791:24794 compcert.common.Linking <> ctx2:301 var
+R24796:24797 compcert.common.Linking <> p2:304 var
+R24799:24801 compcert.common.Linking <> tp2:306 var
+R24777:24789 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R24764:24775 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R24826:24829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24808:24816 compcert.common.Linking <> linkorder meth
+R24823:24825 compcert.common.Linking <> ctx:302 var
+R24818:24821 compcert.common.Linking <> ctx1:300 var
+R24848:24853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24830:24838 compcert.common.Linking <> linkorder meth
+R24845:24847 compcert.common.Linking <> ctx:302 var
+R24840:24843 compcert.common.Linking <> ctx2:301 var
+R24854:24860 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24863:24864 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 24861:24862 <> tp:308
+R24887:24890 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24877:24879 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24865:24868 compcert.common.Linking <> link meth
+R24874:24876 compcert.common.Linking <> tp2:306 var
+R24870:24872 compcert.common.Linking <> tp1:305 var
+R24880:24883 Coq.Init.Datatypes <> Some constr
+R24885:24886 compcert.common.Linking <> tp:308 var
+R24891:24907 compcert.common.Linking <> match_program_gen def
+R24936:24938 compcert.common.Linking <> ctx:302 var
+R24940:24940 compcert.common.Linking <> p:307 var
+R24942:24943 compcert.common.Linking <> tp:308 var
+R24922:24934 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_varinfo var
+R24909:24920 compcert.common.Linking <> LINK_MATCH_PROGRAM.match_fundef var
+R24973:24985 compcert.common.Linking <> link_prog_inv thm
+R24973:24985 compcert.common.Linking <> link_prog_inv thm
+R25123:25140 compcert.common.Linking <> link_prog_succeeds thm
+R25123:25140 compcert.common.Linking <> link_prog_succeeds thm
+R25181:25200 compcert.common.Linking <> match_program_defmap thm
+R25220:25239 compcert.common.Linking <> match_program_defmap thm
+R25181:25200 compcert.common.Linking <> match_program_defmap thm
+R25220:25239 compcert.common.Linking <> match_program_defmap thm
+R25362:25379 compcert.common.Linking <> link_match_globdef thm
+R25509:25539 compcert.lib.Maps PTree elements_canonical_order' thm
+R25509:25539 compcert.lib.Maps PTree elements_canonical_order' thm
+R25565:25578 compcert.lib.Maps PTree gcombine thm
+R25565:25578 compcert.lib.Maps PTree gcombine thm
+R25565:25578 compcert.lib.Maps PTree gcombine thm
+R25565:25578 compcert.lib.Maps PTree gcombine thm
+R25565:25578 compcert.lib.Maps PTree gcombine thm
+R25603:25622 compcert.common.Linking <> match_program_defmap thm
+R25642:25661 compcert.common.Linking <> match_program_defmap thm
+R25603:25622 compcert.common.Linking <> match_program_defmap thm
+R25642:25661 compcert.common.Linking <> match_program_defmap thm
+R25729:25743 compcert.common.Linking <> link_prog_merge def
+R25782:25804 compcert.common.Linking <> match_globdef_linkorder thm
+R25782:25804 compcert.common.Linking <> match_globdef_linkorder thm
+R25844:25866 compcert.common.Linking <> match_globdef_linkorder thm
+R25844:25866 compcert.common.Linking <> match_globdef_linkorder thm
+R25940:25957 compcert.common.Linking <> link_match_globdef thm
+R26130:26147 compcert.common.Linking LINK_MATCH_PROGRAM <> sec
+ind 26251:26260 <> TransfLink
+constr 26334:26344 <> transf_link
+rec 26251:26260 <> TransfLink
+proj 26334:26344 <> transf_link
+binder 26263:26263 <> A:309
+binder 26265:26265 <> B:310
+R26279:26284 compcert.common.Linking <> Linker class
+R26286:26286 compcert.common.Linking <> A:309 var
+binder 26275:26276 <> LA:311
+R26294:26299 compcert.common.Linking <> Linker class
+R26301:26301 compcert.common.Linking <> B:310 var
+binder 26290:26291 <> LB:312
+R26314:26317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26313:26313 compcert.common.Linking <> A:309 var
+R26319:26322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26318:26318 compcert.common.Linking <> B:310 var
+binder 26305:26310 <> transf:313
+R26366:26366 compcert.common.Linking <> A:309 var
+binder 26359:26360 <> p1:315
+binder 26362:26363 <> p2:316
+R26379:26379 compcert.common.Linking <> B:310 var
+binder 26370:26372 <> tp1:317
+binder 26374:26376 <> tp2:318
+R26386:26386 compcert.common.Linking <> A:309 var
+binder 26383:26383 <> p:319
+R26413:26420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26404:26406 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26394:26397 compcert.common.Linking <> link meth
+R26402:26403 compcert.common.Linking <> p2:316 var
+R26399:26400 compcert.common.Linking <> p1:315 var
+R26407:26410 Coq.Init.Datatypes <> Some constr
+R26412:26412 compcert.common.Linking <> p:319 var
+R26434:26437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26421:26426 compcert.common.Linking <> transf:313 var
+R26431:26433 compcert.common.Linking <> tp1:317 var
+R26428:26429 compcert.common.Linking <> p1:315 var
+R26451:26458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26438:26443 compcert.common.Linking <> transf:313 var
+R26448:26450 compcert.common.Linking <> tp2:318 var
+R26445:26446 compcert.common.Linking <> p2:316 var
+R26459:26465 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26468:26469 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 26466:26467 <> tp:320
+R26492:26495 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26482:26484 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26470:26473 compcert.common.Linking <> link meth
+R26479:26481 compcert.common.Linking <> tp2:318 var
+R26475:26477 compcert.common.Linking <> tp1:317 var
+R26485:26488 Coq.Init.Datatypes <> Some constr
+R26490:26491 compcert.common.Linking <> tp:320 var
+R26496:26501 compcert.common.Linking <> transf:313 var
+R26505:26506 compcert.common.Linking <> tp:320 var
+R26503:26503 compcert.common.Linking <> p:319 var
+prf 26517:26542 <> link_transf_partial_fundef
+binder 26555:26555 <> A:322
+binder 26557:26557 <> B:323
+R26577:26580 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26576:26576 compcert.common.Linking <> A:322 var
+R26581:26583 compcert.common.Errors <> res ind
+R26585:26585 compcert.common.Linking <> B:323 var
+binder 26567:26569 <> tr1:324
+binder 26571:26573 <> tr2:325
+R26596:26601 compcert.common.AST <> fundef ind
+R26603:26603 compcert.common.Linking <> A:322 var
+binder 26589:26590 <> f1:326
+binder 26592:26593 <> f2:327
+R26616:26621 compcert.common.AST <> fundef ind
+R26623:26623 compcert.common.Linking <> B:323 var
+binder 26607:26609 <> tf1:328
+binder 26611:26613 <> tf2:329
+R26630:26635 compcert.common.AST <> fundef ind
+R26637:26637 compcert.common.Linking <> A:322 var
+binder 26627:26627 <> f:330
+R26662:26667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26653:26655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26643:26646 compcert.common.Linking <> link meth
+R26651:26652 compcert.common.Linking <> f2:327 var
+R26648:26649 compcert.common.Linking <> f1:326 var
+R26656:26659 Coq.Init.Datatypes <> Some constr
+R26661:26661 compcert.common.Linking <> f:330 var
+R26705:26710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26696:26698 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26668:26688 compcert.common.AST <> transf_partial_fundef def
+R26694:26695 compcert.common.Linking <> f1:326 var
+R26690:26692 compcert.common.Linking <> tr1:324 var
+R26699:26700 compcert.common.Errors <> OK constr
+R26702:26704 compcert.common.Linking <> tf1:328 var
+R26748:26753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26739:26741 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26711:26731 compcert.common.AST <> transf_partial_fundef def
+R26737:26738 compcert.common.Linking <> f2:327 var
+R26733:26735 compcert.common.Linking <> tr2:325 var
+R26742:26743 compcert.common.Errors <> OK constr
+R26745:26747 compcert.common.Linking <> tf2:329 var
+R26754:26760 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26763:26770 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 26761:26762 <> tf:331
+R26793:26799 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26874:26874 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26783:26785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26771:26774 compcert.common.Linking <> link meth
+R26780:26782 compcert.common.Linking <> tf2:329 var
+R26776:26778 compcert.common.Linking <> tf1:328 var
+R26786:26789 Coq.Init.Datatypes <> Some constr
+R26791:26792 compcert.common.Linking <> tf:331 var
+R26835:26838 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R26827:26829 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26800:26820 compcert.common.AST <> transf_partial_fundef def
+R26826:26826 compcert.common.Linking <> f:330 var
+R26822:26824 compcert.common.Linking <> tr1:324 var
+R26830:26831 compcert.common.Errors <> OK constr
+R26833:26834 compcert.common.Linking <> tf:331 var
+R26866:26868 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26839:26859 compcert.common.AST <> transf_partial_fundef def
+R26865:26865 compcert.common.Linking <> f:330 var
+R26861:26863 compcert.common.Linking <> tr2:325 var
+R26869:26870 compcert.common.Errors <> OK constr
+R26872:26873 compcert.common.Linking <> tf:331 var
+R26902:26914 compcert.common.Linking <> Linker_fundef inst
+R27060:27067 compcert.common.AST <> Internal constr
+R27060:27067 compcert.common.AST <> Internal constr
+R27148:27155 compcert.common.AST <> Internal constr
+R27148:27155 compcert.common.AST <> Internal constr
+R27218:27237 compcert.common.AST <> external_function_eq def
+R27218:27237 compcert.common.AST <> external_function_eq def
+R27264:27271 compcert.common.AST <> External constr
+R27264:27271 compcert.common.AST <> External constr
+R27307:27317 compcert.lib.Coqlib <> dec_eq_true thm
+R27307:27317 compcert.lib.Coqlib <> dec_eq_true thm
+R27307:27317 compcert.lib.Coqlib <> dec_eq_true thm
+R26902:26914 compcert.common.Linking <> Linker_fundef inst
+inst 27348:27374 <> TransfPartialContextualLink
+binder 27388:27388 <> A:332
+binder 27390:27390 <> B:333
+binder 27392:27392 <> C:334
+binder 27394:27394 <> V:335
+R27408:27413 compcert.common.Linking <> Linker class
+R27415:27415 compcert.common.Linking <> V:335 var
+binder 27404:27405 <> LV:336
+R27439:27442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27438:27438 compcert.common.Linking <> C:334 var
+R27444:27447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27443:27443 compcert.common.Linking <> A:332 var
+R27448:27450 compcert.common.Errors <> res ind
+R27452:27452 compcert.common.Linking <> B:333 var
+binder 27430:27435 <> tr_fun:337
+R27496:27499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27476:27482 compcert.common.AST <> program rec
+R27495:27495 compcert.common.Linking <> V:335 var
+R27485:27490 compcert.common.AST <> fundef ind
+R27492:27492 compcert.common.Linking <> A:332 var
+R27500:27500 compcert.common.Linking <> C:334 var
+binder 27467:27473 <> ctx_for:338
+R27506:27515 compcert.common.Linking <> TransfLink class
+R27527:27533 compcert.common.AST <> program rec
+R27546:27546 compcert.common.Linking <> V:335 var
+R27536:27541 compcert.common.AST <> fundef ind
+R27543:27543 compcert.common.Linking <> A:332 var
+binder 27523:27524 <> p1:339
+R27554:27560 compcert.common.AST <> program rec
+R27573:27573 compcert.common.Linking <> V:335 var
+R27563:27568 compcert.common.AST <> fundef ind
+R27570:27570 compcert.common.Linking <> B:333 var
+binder 27550:27551 <> p2:340
+R27593:27605 compcert.common.Linking <> match_program def
+R27720:27721 compcert.common.Linking <> p2:340 var
+R27717:27718 compcert.common.Linking <> p1:339 var
+R27714:27715 Coq.Init.Logic <> eq ind
+binder 27628:27629 <> cu:341
+binder 27631:27631 <> f:342
+binder 27633:27634 <> tf:343
+R27688:27690 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27639:27663 compcert.common.AST <> transf_partial_fundef def
+R27687:27687 compcert.common.Linking <> f:342 var
+R27666:27671 compcert.common.Linking <> tr_fun:337 var
+R27674:27680 compcert.common.Linking <> ctx_for:338 var
+R27682:27683 compcert.common.Linking <> cu:341 var
+R27691:27692 compcert.common.Errors <> OK constr
+R27694:27695 compcert.common.Linking <> tf:343 var
+R27757:27770 compcert.common.Linking <> link_linkorder meth
+R27757:27770 compcert.common.Linking <> link_linkorder meth
+R27804:27821 compcert.common.Linking <> link_match_program thm
+R27804:27821 compcert.common.Linking <> link_match_program thm
+R27848:27873 compcert.common.Linking <> link_transf_partial_fundef thm
+R27848:27873 compcert.common.Linking <> link_transf_partial_fundef thm
+inst 27938:27954 <> TransfPartialLink
+binder 27968:27968 <> A:344
+binder 27970:27970 <> B:345
+binder 27972:27972 <> V:346
+R27986:27991 compcert.common.Linking <> Linker class
+R27993:27993 compcert.common.Linking <> V:346 var
+binder 27982:27983 <> LV:347
+R28017:28020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28016:28016 compcert.common.Linking <> A:344 var
+R28021:28023 compcert.common.Errors <> res ind
+R28025:28025 compcert.common.Linking <> B:345 var
+binder 28008:28013 <> tr_fun:348
+R28031:28040 compcert.common.Linking <> TransfLink class
+R28052:28058 compcert.common.AST <> program rec
+R28071:28071 compcert.common.Linking <> V:346 var
+R28061:28066 compcert.common.AST <> fundef ind
+R28068:28068 compcert.common.Linking <> A:344 var
+binder 28048:28049 <> p1:349
+R28079:28085 compcert.common.AST <> program rec
+R28098:28098 compcert.common.Linking <> V:346 var
+R28088:28093 compcert.common.AST <> fundef ind
+R28095:28095 compcert.common.Linking <> B:345 var
+binder 28075:28076 <> p2:350
+R28118:28130 compcert.common.Linking <> match_program def
+R28230:28231 compcert.common.Linking <> p2:350 var
+R28227:28228 compcert.common.Linking <> p1:349 var
+R28224:28225 Coq.Init.Logic <> eq ind
+binder 28153:28154 <> cu:351
+binder 28156:28156 <> f:352
+binder 28158:28159 <> tf:353
+R28198:28200 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28164:28188 compcert.common.AST <> transf_partial_fundef def
+R28197:28197 compcert.common.Linking <> f:352 var
+R28190:28195 compcert.common.Linking <> tr_fun:348 var
+R28201:28202 compcert.common.Errors <> OK constr
+R28204:28205 compcert.common.Linking <> tf:353 var
+R28267:28280 compcert.common.Linking <> link_linkorder meth
+R28267:28280 compcert.common.Linking <> link_linkorder meth
+R28314:28331 compcert.common.Linking <> link_match_program thm
+R28314:28331 compcert.common.Linking <> link_match_program thm
+R28358:28383 compcert.common.Linking <> link_transf_partial_fundef thm
+R28358:28383 compcert.common.Linking <> link_transf_partial_fundef thm
+inst 28448:28473 <> TransfTotallContextualLink
+binder 28487:28487 <> A:354
+binder 28489:28489 <> B:355
+binder 28491:28491 <> C:356
+binder 28493:28493 <> V:357
+R28507:28512 compcert.common.Linking <> Linker class
+R28514:28514 compcert.common.Linking <> V:357 var
+binder 28503:28504 <> LV:358
+R28538:28541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28537:28537 compcert.common.Linking <> C:356 var
+R28543:28546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28542:28542 compcert.common.Linking <> A:354 var
+R28547:28547 compcert.common.Linking <> B:355 var
+binder 28529:28534 <> tr_fun:359
+R28591:28594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28571:28577 compcert.common.AST <> program rec
+R28590:28590 compcert.common.Linking <> V:357 var
+R28580:28585 compcert.common.AST <> fundef ind
+R28587:28587 compcert.common.Linking <> A:354 var
+R28595:28595 compcert.common.Linking <> C:356 var
+binder 28562:28568 <> ctx_for:360
+R28601:28610 compcert.common.Linking <> TransfLink class
+R28622:28628 compcert.common.AST <> program rec
+R28641:28641 compcert.common.Linking <> V:357 var
+R28631:28636 compcert.common.AST <> fundef ind
+R28638:28638 compcert.common.Linking <> A:354 var
+binder 28618:28619 <> p1:361
+R28649:28655 compcert.common.AST <> program rec
+R28668:28668 compcert.common.Linking <> V:357 var
+R28658:28663 compcert.common.AST <> fundef ind
+R28665:28665 compcert.common.Linking <> B:355 var
+binder 28645:28646 <> p2:362
+R28688:28700 compcert.common.Linking <> match_program def
+R28804:28805 compcert.common.Linking <> p2:362 var
+R28801:28802 compcert.common.Linking <> p1:361 var
+R28798:28799 Coq.Init.Logic <> eq ind
+binder 28723:28724 <> cu:363
+binder 28726:28726 <> f:364
+binder 28728:28729 <> tf:365
+R28736:28738 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28734:28735 compcert.common.Linking <> tf:365 var
+R28739:28755 compcert.common.AST <> transf_fundef def
+R28779:28779 compcert.common.Linking <> f:364 var
+R28758:28763 compcert.common.Linking <> tr_fun:359 var
+R28766:28772 compcert.common.Linking <> ctx_for:360 var
+R28774:28775 compcert.common.Linking <> cu:363 var
+R28841:28854 compcert.common.Linking <> link_linkorder meth
+R28841:28854 compcert.common.Linking <> link_linkorder meth
+R28888:28905 compcert.common.Linking <> link_match_program thm
+R28888:28905 compcert.common.Linking <> link_match_program thm
+R29075:29094 compcert.common.AST <> external_function_eq def
+R29075:29094 compcert.common.AST <> external_function_eq def
+inst 29187:29201 <> TransfTotalLink
+binder 29215:29215 <> A:366
+binder 29217:29217 <> B:367
+binder 29219:29219 <> V:368
+R29233:29238 compcert.common.Linking <> Linker class
+R29240:29240 compcert.common.Linking <> V:368 var
+binder 29229:29230 <> LV:369
+R29264:29267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29263:29263 compcert.common.Linking <> A:366 var
+R29268:29268 compcert.common.Linking <> B:367 var
+binder 29255:29260 <> tr_fun:370
+R29274:29283 compcert.common.Linking <> TransfLink class
+R29295:29301 compcert.common.AST <> program rec
+R29314:29314 compcert.common.Linking <> V:368 var
+R29304:29309 compcert.common.AST <> fundef ind
+R29311:29311 compcert.common.Linking <> A:366 var
+binder 29291:29292 <> p1:371
+R29322:29328 compcert.common.AST <> program rec
+R29341:29341 compcert.common.Linking <> V:368 var
+R29331:29336 compcert.common.AST <> fundef ind
+R29338:29338 compcert.common.Linking <> B:367 var
+binder 29318:29319 <> p2:372
+R29361:29373 compcert.common.Linking <> match_program def
+R29462:29463 compcert.common.Linking <> p2:372 var
+R29459:29460 compcert.common.Linking <> p1:371 var
+R29456:29457 Coq.Init.Logic <> eq ind
+binder 29396:29397 <> cu:373
+binder 29399:29399 <> f:374
+binder 29401:29402 <> tf:375
+R29409:29411 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29407:29408 compcert.common.Linking <> tf:375 var
+R29412:29428 compcert.common.AST <> transf_fundef def
+R29437:29437 compcert.common.Linking <> f:374 var
+R29430:29435 compcert.common.Linking <> tr_fun:370 var
+R29499:29512 compcert.common.Linking <> link_linkorder meth
+R29499:29512 compcert.common.Linking <> link_linkorder meth
+R29546:29563 compcert.common.Linking <> link_match_program thm
+R29546:29563 compcert.common.Linking <> link_match_program thm
+R29733:29752 compcert.common.AST <> external_function_eq def
+R29733:29752 compcert.common.AST <> external_function_eq def
+sec 30015:30023 <> LINK_LIST
+binder 30036:30036 <> A:376
+R30050:30055 compcert.common.Linking <> Linker class
+R30057:30057 compcert.common.Linking <> A:376 var
+binder 30046:30047 <> LA:377
+def 30071:30079 <> link_list
+R30085:30089 compcert.lib.Coqlib <> nlist ind
+R30091:30091 compcert.common.Linking <> LINK_LIST.A var
+binder 30082:30082 <> l:378
+R30096:30101 Coq.Init.Datatypes <> option ind
+R30103:30103 compcert.common.Linking <> LINK_LIST.A var
+R30116:30116 compcert.common.Linking <> l:378 var
+R30127:30131 compcert.lib.Coqlib <> nbase constr
+R30138:30141 Coq.Init.Datatypes <> Some constr
+R30149:30153 compcert.lib.Coqlib <> ncons constr
+R30174:30182 compcert.common.Linking <> link_list:379 def
+R30184:30184 compcert.common.Linking <> l:378 var
+R30191:30194 Coq.Init.Datatypes <> None constr
+R30199:30202 Coq.Init.Datatypes <> None constr
+R30206:30209 Coq.Init.Datatypes <> Some constr
+R30216:30219 compcert.common.Linking <> link meth
+prf 30243:30261 <> link_list_linkorder
+binder 30273:30273 <> a:381
+binder 30275:30275 <> l:382
+binder 30277:30277 <> b:383
+R30300:30303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30291:30293 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30280:30288 compcert.common.Linking <> link_list def
+R30290:30290 compcert.common.Linking <> l:382 var
+R30294:30297 Coq.Init.Datatypes <> Some constr
+R30299:30299 compcert.common.Linking <> b:383 var
+R30311:30314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30304:30306 compcert.lib.Coqlib <> nIn def
+R30310:30310 compcert.common.Linking <> l:382 var
+R30308:30308 compcert.common.Linking <> a:381 var
+R30315:30323 compcert.common.Linking <> linkorder meth
+R30327:30327 compcert.common.Linking <> b:383 var
+R30325:30325 compcert.common.Linking <> a:381 var
+R30389:30402 compcert.common.Linking <> linkorder_refl meth
+R30389:30402 compcert.common.Linking <> linkorder_refl meth
+R30417:30425 compcert.common.Linking <> link_list def
+R30417:30425 compcert.common.Linking <> link_list def
+R30466:30479 compcert.common.Linking <> link_linkorder meth
+R30466:30479 compcert.common.Linking <> link_linkorder meth
+R30527:30541 compcert.common.Linking <> linkorder_trans meth
+R30527:30541 compcert.common.Linking <> linkorder_trans meth
+R30575:30583 compcert.common.Linking LINK_LIST <> sec
+sec 30724:30738 <> LINK_LIST_MATCH
+binder 30751:30751 <> A:384
+binder 30753:30753 <> B:385
+R30767:30772 compcert.common.Linking <> Linker class
+R30774:30774 compcert.common.Linking <> A:384 var
+binder 30763:30764 <> LA:386
+R30782:30787 compcert.common.Linking <> Linker class
+R30789:30789 compcert.common.Linking <> B:385 var
+binder 30778:30779 <> LB:387
+R30806:30809 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30805:30805 compcert.common.Linking <> A:384 var
+R30811:30814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30810:30810 compcert.common.Linking <> B:385 var
+binder 30793:30802 <> prog_match:388
+R30826:30835 compcert.common.Linking <> TransfLink class
+R30837:30846 compcert.common.Linking <> prog_match:388 var
+binder 30822:30823 <> TL:389
+prf 30859:30873 <> link_list_match
+binder 30885:30886 <> al:390
+binder 30888:30889 <> bl:391
+R30922:30927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30892:30904 compcert.lib.Coqlib <> nlist_forall2 ind
+R30920:30921 compcert.common.Linking <> bl:391 var
+R30917:30918 compcert.common.Linking <> al:390 var
+R30906:30915 compcert.common.Linking <> LINK_LIST_MATCH.prog_match var
+binder 30935:30935 <> a:392
+R30959:30964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30950:30952 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30938:30946 compcert.common.Linking <> link_list def
+R30948:30949 compcert.common.Linking <> al:390 var
+R30953:30956 Coq.Init.Datatypes <> Some constr
+R30958:30958 compcert.common.Linking <> a:392 var
+R30965:30971 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30973:30974 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 30972:30972 <> b:393
+R30996:30999 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30987:30989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30975:30983 compcert.common.Linking <> link_list def
+R30985:30986 compcert.common.Linking <> bl:391 var
+R30990:30993 Coq.Init.Datatypes <> Some constr
+R30995:30995 compcert.common.Linking <> b:393 var
+R31000:31009 compcert.common.Linking <> LINK_LIST_MATCH.prog_match var
+R31011:31011 compcert.common.Linking <> a:392 var
+R31013:31013 compcert.common.Linking <> b:393 var
+R31095:31103 compcert.common.Linking <> link_list def
+R31095:31103 compcert.common.Linking <> link_list def
+R31219:31220 compcert.common.Linking <> LINK_LIST_MATCH.TL var
+R31293:31307 compcert.common.Linking LINK_LIST_MATCH <> sec
+rec 31465:31472 <> Language
+proj 31486:31494 <> lang_prog
+proj 31505:31513 <> lang_link
+R31516:31521 compcert.common.Linking <> Linker class
+R31523:31531 compcert.common.Linking <> lang_prog:395 meth
+def 31557:31568 <> Language_gen
+binder 31571:31571 <> A:397
+R31584:31589 compcert.common.Linking <> Linker class
+R31591:31591 compcert.common.Linking <> A:397 var
+binder 31581:31581 <> L:398
+R31596:31603 compcert.common.Linking <> Language rec
+R31609:31614 compcert.common.Linking <> mklang constr
+R31616:31616 compcert.common.Linking <> A:397 var
+R31618:31618 compcert.common.Linking <> L:398 var
+rec 31867:31870 <> Pass
+proj 31902:31911 <> pass_match
+proj 31954:31968 <> pass_match_link
+R31878:31885 compcert.common.Linking <> Language rec
+binder 31873:31873 <> S:399
+binder 31875:31875 <> T:400
+R31927:31930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31916:31924 compcert.common.Linking <> lang_prog proj
+R31926:31926 compcert.common.Linking <> S:399 var
+R31942:31945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31931:31939 compcert.common.Linking <> lang_prog proj
+R31941:31941 compcert.common.Linking <> T:400 var
+R31972:31981 compcert.common.Linking <> TransfLink class
+R31984:31992 compcert.common.Linking <> lang_prog proj
+R31994:31994 compcert.common.Linking <> S:399 var
+R31998:32006 compcert.common.Linking <> lang_prog proj
+R32008:32008 compcert.common.Linking <> T:400 var
+R32012:32020 compcert.common.Linking <> lang_link proj
+R32022:32022 compcert.common.Linking <> S:399 var
+R32026:32034 compcert.common.Linking <> lang_link proj
+R32036:32036 compcert.common.Linking <> T:400 var
+R32039:32048 compcert.common.Linking <> pass_match:402 meth
+R32064:32069 compcert.common.Linking <> mkpass constr
+R32064:32069 compcert.common.Linking <> mkpass constr
+def 32131:32143 <> pass_identity
+R32149:32156 compcert.common.Linking <> Language rec
+binder 32146:32146 <> l:404
+R32160:32163 compcert.common.Linking <> Pass rec
+R32167:32167 compcert.common.Linking <> l:404 var
+R32165:32165 compcert.common.Linking <> l:404 var
+R32177:32186 compcert.common.Linking <> pass_match proj
+R32177:32186 compcert.common.Linking <> pass_match proj
+R32177:32186 compcert.common.Linking <> pass_match proj
+R32218:32232 compcert.common.Linking <> pass_match_link proj
+R32218:32232 compcert.common.Linking <> pass_match_link proj
+binder 32195:32196 <> p1:405
+binder 32198:32199 <> p2:406
+R32206:32208 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32204:32205 compcert.common.Linking <> p1:405 var
+R32209:32210 compcert.common.Linking <> p2:406 var
+def 32327:32338 <> pass_compose
+R32351:32358 compcert.common.Linking <> Language rec
+binder 32341:32342 <> l1:407
+binder 32344:32345 <> l2:408
+binder 32347:32348 <> l3:409
+R32368:32371 compcert.common.Linking <> Pass rec
+R32376:32377 compcert.common.Linking <> l2:408 var
+R32373:32374 compcert.common.Linking <> l1:407 var
+binder 32362:32365 <> pass:410
+R32388:32391 compcert.common.Linking <> Pass rec
+R32396:32397 compcert.common.Linking <> l3:409 var
+R32393:32394 compcert.common.Linking <> l2:408 var
+binder 32381:32385 <> pass':411
+R32402:32405 compcert.common.Linking <> Pass rec
+R32410:32411 compcert.common.Linking <> l3:409 var
+R32407:32408 compcert.common.Linking <> l1:407 var
+R32421:32430 compcert.common.Linking <> pass_match proj
+R32421:32430 compcert.common.Linking <> pass_match proj
+R32421:32430 compcert.common.Linking <> pass_match proj
+R32513:32527 compcert.common.Linking <> pass_match_link proj
+R32513:32527 compcert.common.Linking <> pass_match_link proj
+binder 32439:32440 <> p1:412
+binder 32442:32443 <> p3:413
+R32448:32454 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32457:32458 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32455:32456 <> p2:414
+R32480:32483 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32459:32468 compcert.common.Linking <> pass_match proj
+R32478:32479 compcert.common.Linking <> p2:414 var
+R32475:32476 compcert.common.Linking <> p1:412 var
+R32470:32473 compcert.common.Linking <> pass:410 var
+R32484:32493 compcert.common.Linking <> pass_match proj
+R32504:32505 compcert.common.Linking <> p3:413 var
+R32501:32502 compcert.common.Linking <> p2:414 var
+R32495:32499 compcert.common.Linking <> pass':411 var
+R32651:32665 compcert.common.Linking <> pass_match_link proj
+R32651:32665 compcert.common.Linking <> pass_match_link proj
+R32710:32724 compcert.common.Linking <> pass_match_link proj
+R32710:32724 compcert.common.Linking <> pass_match_link proj
+ind 32836:32841 <> Passes
+constr 32880:32887 <> pass_nil
+constr 32915:32923 <> pass_cons
+R32852:32855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32844:32851 compcert.common.Linking <> Language rec
+R32864:32867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32856:32863 compcert.common.Linking <> Language rec
+binder 32897:32897 <> l:417
+R32900:32905 compcert.common.Linking <> Passes:415 ind
+R32909:32909 compcert.common.Linking <> l:417 var
+R32907:32907 compcert.common.Linking <> l:417 var
+binder 32933:32934 <> l1:418
+binder 32936:32937 <> l2:419
+binder 32939:32940 <> l3:420
+R32953:32956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32943:32946 compcert.common.Linking <> Pass rec
+R32951:32952 compcert.common.Linking <> l2:419 var
+R32948:32949 compcert.common.Linking <> l1:418 var
+R32969:32972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32957:32962 compcert.common.Linking <> Passes:415 ind
+R32967:32968 compcert.common.Linking <> l3:420 var
+R32964:32965 compcert.common.Linking <> l2:419 var
+R32973:32978 compcert.common.Linking <> Passes:415 ind
+R32983:32984 compcert.common.Linking <> l3:420 var
+R32980:32981 compcert.common.Linking <> l1:418 var
+scheme 32836:32841 <> Passes_rect
+scheme 32836:32841 <> Passes_ind
+scheme 32836:32841 <> Passes_rec
+scheme 32836:32841 <> Passes_sind
+R33033:33041 compcert.common.Linking <> pass_cons constr
+not 33024:33024 <> ::linking_scope:x_':::'_x
+def 33176:33189 <> compose_passes
+R33198:33205 compcert.common.Linking <> Language rec
+binder 33192:33192 <> l:421
+binder 33194:33195 <> l':422
+R33217:33222 compcert.common.Linking <> Passes ind
+R33226:33227 compcert.common.Linking <> l':422 var
+R33224:33224 compcert.common.Linking <> l:421 var
+binder 33209:33214 <> passes:423
+R33232:33235 compcert.common.Linking <> Pass rec
+R33239:33240 compcert.common.Linking <> l':422 var
+R33237:33237 compcert.common.Linking <> l:421 var
+R33253:33258 compcert.common.Linking <> passes:423 var
+R33263:33268 compcert.common.Linking <> Passes ind
+R33282:33285 compcert.common.Linking <> Pass rec
+R33289:33290 compcert.common.Linking <> l':426 var
+R33287:33287 compcert.common.Linking <> l:425 var
+R33301:33308 compcert.common.Linking <> pass_nil constr
+R33315:33327 compcert.common.Linking <> pass_identity def
+R33329:33329 compcert.common.Linking <> l:421 var
+R33335:33343 compcert.common.Linking <> pass_cons constr
+R33361:33372 compcert.common.Linking <> pass_compose def
+R33381:33394 compcert.common.Linking <> compose_passes:424 def
+R33396:33401 compcert.common.Linking <> passes:423 var
+prf 33466:33487 <> nlist_forall2_identity
+binder 33500:33500 <> A:428
+R33517:33521 compcert.lib.Coqlib <> nlist ind
+R33523:33523 compcert.common.Linking <> A:428 var
+binder 33510:33511 <> la:429
+binder 33513:33514 <> lb:430
+R33567:33570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33529:33541 compcert.lib.Coqlib <> nlist_forall2 ind
+R33565:33566 compcert.common.Linking <> lb:430 var
+R33562:33563 compcert.common.Linking <> la:429 var
+binder 33548:33548 <> a:431
+binder 33550:33550 <> b:432
+R33556:33558 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33555:33555 compcert.common.Linking <> a:431 var
+R33559:33559 compcert.common.Linking <> b:432 var
+R33573:33575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33571:33572 compcert.common.Linking <> la:429 var
+R33576:33577 compcert.common.Linking <> lb:430 var
+prf 33626:33650 <> nlist_forall2_compose_inv
+binder 33663:33663 <> A:433
+binder 33665:33665 <> B:434
+binder 33667:33667 <> C:435
+R33682:33685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33681:33681 compcert.common.Linking <> A:433 var
+R33687:33690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33686:33686 compcert.common.Linking <> B:434 var
+binder 33677:33678 <> R1:436
+R33703:33706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33702:33702 compcert.common.Linking <> B:434 var
+R33708:33711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33707:33707 compcert.common.Linking <> C:435 var
+binder 33698:33699 <> R2:437
+R33732:33736 compcert.lib.Coqlib <> nlist ind
+R33738:33738 compcert.common.Linking <> A:433 var
+binder 33728:33729 <> la:438
+R33746:33750 compcert.lib.Coqlib <> nlist ind
+R33752:33752 compcert.common.Linking <> C:435 var
+binder 33742:33743 <> lc:439
+R33817:33822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33758:33770 compcert.lib.Coqlib <> nlist_forall2 ind
+R33815:33816 compcert.common.Linking <> lc:439 var
+R33812:33813 compcert.common.Linking <> la:438 var
+binder 33777:33777 <> a:440
+binder 33779:33779 <> c:441
+R33784:33790 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33792:33793 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 33791:33791 <> b:442
+R33800:33803 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33794:33795 compcert.common.Linking <> R1:436 var
+R33799:33799 compcert.common.Linking <> b:442 var
+R33797:33797 compcert.common.Linking <> a:440 var
+R33804:33805 compcert.common.Linking <> R2:437 var
+R33809:33809 compcert.common.Linking <> c:441 var
+R33807:33807 compcert.common.Linking <> b:442 var
+R33823:33829 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33841:33842 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33834:33838 compcert.lib.Coqlib <> nlist ind
+R33840:33840 compcert.common.Linking <> B:434 var
+binder 33830:33831 <> lb:443
+R33865:33868 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33843:33855 compcert.lib.Coqlib <> nlist_forall2 ind
+R33863:33864 compcert.common.Linking <> lb:443 var
+R33860:33861 compcert.common.Linking <> la:438 var
+R33857:33858 compcert.common.Linking <> R1:436 var
+R33869:33881 compcert.lib.Coqlib <> nlist_forall2 ind
+R33889:33890 compcert.common.Linking <> lc:439 var
+R33886:33887 compcert.common.Linking <> lb:443 var
+R33883:33884 compcert.common.Linking <> R2:437 var
+R33971:33975 compcert.lib.Coqlib <> nbase constr
+R33971:33975 compcert.lib.Coqlib <> nbase constr
+R34105:34109 compcert.lib.Coqlib <> ncons constr
+R34105:34109 compcert.lib.Coqlib <> ncons constr
+prf 34221:34244 <> link_list_compose_passes
+R34266:34273 compcert.common.Linking <> Language rec
+binder 34257:34259 <> src:444
+binder 34261:34263 <> tgt:445
+R34285:34290 compcert.common.Linking <> Passes ind
+R34296:34298 compcert.common.Linking <> tgt:445 var
+R34292:34294 compcert.common.Linking <> src:444 var
+binder 34277:34282 <> passes:446
+R34322:34326 compcert.lib.Coqlib <> nlist ind
+R34328:34330 compcert.common.Linking <> src:444 var
+binder 34311:34319 <> src_units:447
+R34345:34349 compcert.lib.Coqlib <> nlist ind
+R34351:34353 compcert.common.Linking <> tgt:445 var
+binder 34334:34342 <> tgt_units:448
+R34429:34434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34359:34371 compcert.lib.Coqlib <> nlist_forall2 ind
+R34420:34428 compcert.common.Linking <> tgt_units:448 var
+R34410:34418 compcert.common.Linking <> src_units:447 var
+R34374:34383 compcert.common.Linking <> pass_match proj
+R34386:34399 compcert.common.Linking <> compose_passes def
+R34401:34406 compcert.common.Linking <> passes:446 var
+binder 34442:34449 <> src_prog:449
+R34508:34513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34492:34494 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34455:34463 compcert.common.Linking <> link_list def
+R34468:34476 compcert.common.Linking <> lang_link proj
+R34478:34480 compcert.common.Linking <> src:444 var
+R34483:34491 compcert.common.Linking <> src_units:447 var
+R34495:34498 Coq.Init.Datatypes <> Some constr
+R34500:34507 compcert.common.Linking <> src_prog:449 var
+R34514:34520 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R34529:34532 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 34521:34528 <> tgt_prog:450
+R34587:34592 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R34571:34573 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34534:34542 compcert.common.Linking <> link_list def
+R34547:34555 compcert.common.Linking <> lang_link proj
+R34557:34559 compcert.common.Linking <> tgt:445 var
+R34562:34570 compcert.common.Linking <> tgt_units:448 var
+R34574:34577 Coq.Init.Datatypes <> Some constr
+R34579:34586 compcert.common.Linking <> tgt_prog:450 var
+R34593:34602 compcert.common.Linking <> pass_match proj
+R34637:34644 compcert.common.Linking <> tgt_prog:450 var
+R34628:34635 compcert.common.Linking <> src_prog:449 var
+R34605:34618 compcert.common.Linking <> compose_passes def
+R34620:34625 compcert.common.Linking <> passes:446 var
+R34734:34755 compcert.common.Linking <> nlist_forall2_identity thm
+R34734:34755 compcert.common.Linking <> nlist_forall2_identity thm
+R34812:34836 compcert.common.Linking <> nlist_forall2_compose_inv thm
+R34812:34836 compcert.common.Linking <> nlist_forall2_compose_inv thm
+R34898:34912 compcert.common.Linking <> link_list_match thm
+R34919:34927 compcert.common.Linking <> lang_link proj
+R34934:34942 compcert.common.Linking <> lang_link proj
+R34949:34958 compcert.common.Linking <> pass_match proj
+R34898:34912 compcert.common.Linking <> link_list_match thm
+R34919:34927 compcert.common.Linking <> lang_link proj
+R34934:34942 compcert.common.Linking <> lang_link proj
+R34949:34958 compcert.common.Linking <> pass_match proj
+R35000:35014 compcert.common.Linking <> pass_match_link proj
+R35000:35014 compcert.common.Linking <> pass_match_link proj
