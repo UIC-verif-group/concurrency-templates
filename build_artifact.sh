@@ -1,5 +1,37 @@
 #!/usr/bin/env bash
+START_TIME=$(date +%s)
 set -euo pipefail
+
+# --- parallel build (fixed) ---
+JOBS=5
+echo "Using $JOBS parallel jobs"
+
+command -v opam >/dev/null 2>&1 || { echo "Error: opam is not installed. Please install opam and try again."; exit 1; }
+
+# --- ensure opam is initialized ---
+if [ ! -d "$HOME/.opam" ]; then
+  echo "🔧 Initializing opam..."
+  opam init -y --disable-sandboxing
+fi
+
+eval "$(opam env)"
+
+# --- ensure `pkgconf` exists (opam conf-pkg-config may require this exact name) ---
+if ! command -v pkgconf >/dev/null 2>&1; then
+  if command -v pkg-config >/dev/null 2>&1; then
+    echo "🔧 pkgconf not found; creating local shim that forwards to pkg-config"
+    mkdir -p "$HOME/.local/bin"
+    cat > "$HOME/.local/bin/pkgconf" <<'EOF'
+#!/usr/bin/env bash
+exec pkg-config "$@"
+EOF
+    chmod +x "$HOME/.local/bin/pkgconf"
+    export PATH="$HOME/.local/bin:$PATH"
+  else
+    echo "❌ Neither pkgconf nor pkg-config found. On macOS: brew install pkgconf"
+    exit 1
+  fi
+fi
 
 # a small helper that strips Coq “not found” and other warnings
 filter_warnings() {
@@ -42,20 +74,24 @@ popd >/dev/null
 # 4. Build VST
 echo "🏗 Building VST"
 pushd VST >/dev/null
-  COQFLAGS="-quiet -w none" make -s 2>&1 | filter_warnings
+  COQFLAGS="-quiet -w none" make -s -j"$JOBS" 2>&1 | filter_warnings
 popd >/dev/null
 
 # 5. Build flows
 echo "🏗 Building flows"
 pushd flows >/dev/null
-  make -s 2>/dev/null
-  make -s install 2>/dev/null
+  make -s -j"$JOBS" 2>/dev/null
+  make -s -j"$JOBS" install 2>/dev/null
 popd >/dev/null
 
 # 6. Build templates
 echo "🏗 Building templates"
 pushd templates >/dev/null
-  make
+  make -j"$JOBS"
 popd >/dev/null
 
 echo "✅ The artifact built successfully."
+
+END_TIME=$(date +%s)
+ELAPSED=$((END_TIME - START_TIME))
+printf "\n⏱ Total build time: %d min %d sec\n" $((ELAPSED/60)) $((ELAPSED%60))

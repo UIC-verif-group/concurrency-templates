@@ -30,7 +30,13 @@ Here, `N` controls the level of parallelism and can be adjusted according to the
 
 ## Installation Option 2: Local Installation (Alternative)
 
-This installation installs the Rocq development locally using `opam`. It creates a **new opam switch inside the artifact directory**, ensuring that none of your existing Rocq developments are affected. Below, we provide step-by-step instructions.
+This option builds the Rocq development locally using **`opam`**. It creates a **fresh opam switch inside the artifact directory**, ensuring that none of your existing Rocq/Coq developments are affected.
+
+### Prerequisite
+
+This installation requires a working installation of **`opam`**. The provided script does **not** install `opam`; it only creates and uses a local switch. See [opam installation instructions](https://opam.ocaml.org/doc/Install.html).
+
+### Building the Artifact
 
 To build the artifact in a new opam switch, we provide an installation script, `build_artifact.sh`. Please run the following at the root of the artifact folder `./build_artifact.sh`
 
