@@ -1,0 +1,25 @@
+Artifact Status (ESOP 2026 - Artifact)
+
+Badges Applied for
+------------------
+Available
+Functional
+Reusable
+
+Justification
+-------------
+Available:
+The artifact is publicly archived on Zenodo (or Figshare) with a permanent DOI. It contains all
+materials needed to reproduce the results, including the source code, documentation, and a
+pre-built Docker image.
+
+Functional:
+We provide a pre-built Docker image that loads and runs successfully. Inside the container, the C
+implementations under template-implementations build and run, and the Rocq development under
+template-proofs can be checked by compilation using `make`.
+
+Reusable:
+The artifact is organized and documented with clear instructions. It provides modular
+implementations and proofs for multiple concurrent search structure templates, enabling other
+researchers to reuse and extend the codebase (e.g., by adding new data structures or new template
+instances) with minimal setup.

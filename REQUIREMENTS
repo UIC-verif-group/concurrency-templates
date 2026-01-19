@@ -1,0 +1,53 @@
+Artifact Requirements (ESOP 2026 - Artifact)
+
+Packaged Architectures
+----------------------
+This artifact is packaged as pre-built Docker images for the following architectures:
+
+1) linux/amd64 (x86_64)
+   Image archive: templates-artifact-amd64-built.tar.gz
+
+2) linux/arm64 (AArch64)
+   Image archive: templates-artifact-arm64-built.tar.gz
+
+
+Software Requirements
+---------------------
+Required:
+- Docker Engine (tested with Docker Desktop and Docker Engine)
+- A Linux environment, or macOS/Windows with Docker Desktop
+
+Notes for Windows:
+- We recommend using Docker Desktop with WSL2 backend for best performance.
+
+
+Hardware Requirements
+---------------------
+Minimum:
+- CPU: 4 cores
+- RAM: 16 GB
+- Storage: 35+ GB free disk space (Docker image is large)
+
+Recommended:
+- CPU: 8+ cores
+- RAM: 32 GB
+- Storage: 50+ GB free disk space
+
+Non-commodity peripherals:
+- None required.
+
+
+Performance Notes
+-----------------
+- Building/checking the Rocq/VST proofs inside Docker can take significant time on some machines.
+- If compilation is slow, reduce parallelism (e.g., `make -j2` or `make -j3`).
+
+
+Machine-Readable Dependency Files
+---------------------------------
+The artifact includes the following machine-readable dependency specifications:
+- Dockerfile (for building the container environment)
+- opam files / Rocq toolchain configuration inside the container (used to install Rocq/Coq packages)
+- Makefiles under:
+  - template-implementations/ (C implementations)
+  - template-proofs (Rocq development)

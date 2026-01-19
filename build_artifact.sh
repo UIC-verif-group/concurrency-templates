@@ -85,8 +85,8 @@ pushd flows >/dev/null
 popd >/dev/null
 
 # 6. Build templates
-echo "🏗 Building templates"
-pushd templates >/dev/null
+echo "🏗 Building template proofs"
+pushd template-proofs >/dev/null
   make -j"$JOBS"
 popd >/dev/null
 

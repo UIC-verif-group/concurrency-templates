@@ -13,20 +13,102 @@ To evaluate the artifact, we provide two options:
 
 ## Installation Option 1: Docker container (Recommended)
 
-To use the precompiled Docker image (`templates-artifact.tar.gz`), first install the [Docker engine](https://docs.docker.com/engine/install/) and then run:
+To use the precompiled Docker image, first install the [Docker engine](https://docs.docker.com/engine/install/).
+We provide two precompiled Docker images, depending on your machine architecture:
+
+### Option A: AMD64 (Intel / x86_64 Linux/Windows)
+
+Use this image if you are on an Intel/AMD x86_64 machine (linux/amd64):
 ```
-docker load -i templates-artifact.tar.gz
-docker run --rm -it templates-artifact:latest /bin/bash
+docker load -i templates-artifact-amd64-built.tar.gz
+docker run --rm -it templates-artifact:amd64-built /bin/bash
 ```
-The project is located in `root/templates` folder. To rebuild it, run the following commands:
+
+### Option B: ARM64 (Apple Silicon / ARM Linux)
+
+Use this image if you are on Apple Silicon (M1/M2/M3/M4) or a linux/arm64 machine:
 ```
-cd root/templates
+docker load -i templates-artifact-arm64-built.tar.gz
+docker run --rm -it templates-artifact:arm64-built /bin/bash
+```
+
+**Note:** Using the wrong architecture may require emulation and can be significantly slower.
+
+### Directory layout inside the container
+-------------------------------------
+```
+/root
+├── template-implementations/     # Runnable C implementations (executables)
+│   ├── Makefile
+│   ├── list.c
+│   ├── bst.c
+│   └── ...
+├── template-proofs/              # Rocq development (proof scripts)
+│   ├── Makefile
+│   ├── verif_template.v
+│   ├── verif_coarse.v
+│   ├── verif_coupling.v
+│   └── ...
+├── flows/                        # Flow framework used by proofs
+├── VST/                          # Verified Software Toolchain
+└── ...                           # Other dependencies
+```
+
+### How to evaluate the artifact (C programs + Rocq/VST proofs)
+
+This artifact can be evaluated in two complementary ways:
+
+#### 1) Run the C implementations (executable sanity check)
+Inside the Docker container, run:
+
+```
+cd root/template-implementations
+make clean && make coupling list && ./list
+```
+
+Here, `coupling` selects the **lock-coupling template**, and `list` selects the **linked-list** data structure.
+
+To run the **BST** version, replace `list` with `bst` (i.e., `make coupling bst && ./bst`). Repeat the above steps for the **give-up** template (e.g., `make giveup list && ./list` and `make giveup bst && ./bst`), and for the **coarse-grained locking** template (e.g., `make coarse list && ./list` and `make coarse bst && ./bst`).
+
+**Expected output (C demos):**
+
+Each executable (`./list` or `./bst`) runs a deterministic demo workload (a fixed sequence of inserts/lookups). The output is intended as a sanity check that:
+
+- The program terminates normally (exit code 0).
+- The printed output corresponds to a deterministic demo run (a fixed sequence of inserts/lookups), serving as a sanity check that the executable builds and runs correctly. The executable prints a *Traverse* section showing the final structure (either a Linked-List or a BST), followed by `lookup` results such as Lookup `key = 4: ten`.
+
+#### 2) Evaluate the Rocq development (run the proofs)
+
+The main way to evaluate the Rocq part is to compile the development, which checks all mechanized proofs.
+
+Inside the Docker container (or after local installation), run:
+```
+cd root/template-proofs
 eval $(opam env)
 make clean
 make -jN
 ```
 
-Here, `N` controls the level of parallelism and can be adjusted according to the available resources of your machine (e.g., `make -j4`).
+Here, `N` sets the parallelism (e.g., `-j3`).
+
+**Expected outcome:**
+
+- A successful build (no errors) means all Rocq proof files were typechecked and the proofs were accepted.
+
+- For the Rocq development, a successful build will show continuous compilation progress like the following:
+```
+make[1]: Entering directory '/root/template-proofs'
+COQDEP VFILES
+COQC flows_ora.v
+...
+COQC verif_template.v
+COQC verif_coarse.v
+COQC verif_giveup.v
+COQC verif_coupling.v
+make[1]: Leaving directory '/root/template-proofs'
+```
+
+If you see `COQC ...` lines continuing to appear, it indicates the proofs are still compiling normally, and the build may simply take some time depending on the machine resources.
 
 ## Installation Option 2: Local Installation (Alternative)
 
@@ -51,14 +133,22 @@ This section describes (1) how to run the C implementation and (2) how the Rocq 
 
 ## 1. Implementation in C
 
-Our implementation is written in C and located in `templates/implementations` directory. To run the program for each data structure (linked list or BST) with each template (coarse-grained locking, lock coupling, or give-up), use the following command:
+Our implementation is written in C and located in `template-implementations` directory. To run the program for each data structure (linked list or BST) with each template (coarse-grained locking, lock coupling, or give-up), use the following command:
 
 ```
+cd root/template-implementations
 make clean && make coupling list && ./list
 ```
 Here, `coupling` selects the **lock-coupling template**, and `list` selects the **linked-list** data structure.
 
 To run the **BST** version, replace `list` with `bst` (i.e., `make coupling bst && ./bst`). Repeat the above steps for the **give-up** template (e.g., `make giveup list && ./list` and `make giveup bst && ./bst`), and for the **coarse-grained locking** template (e.g., `make coarse list && ./list` and `make coarse bst && ./bst`).
+
+### Expected output (C demos).
+Each executable (`./list` or `./bst`) runs a deterministic demo workload (a fixed sequence of inserts/lookups). The output is intended as a sanity check that:
+
+- the program terminates normally (exit code 0), and
+
+- the printed results reflect successful operations under the chosen template.
 
 ### C source layout (high level)
 - `common.h` contains utility functions used by the templates.
@@ -111,19 +201,19 @@ POST [...] PROP () LOCAL ()SEP (Ref css | CSS ... (<[k := v]> C) css)
 
 ### 2.2. Data structure interface (Fig. 6)
 
-The data structure interface in Fig. 6 is formalized as `Class NodeRep` in `templates/data_struct.v`; the **Hoare-triple specifications** of `findNext`, `insertOp`, and `lookupOp` correspond to `findnext_spec`, `insertOp_spec`, and `get_value_spec`, respectively.
+The data structure interface in Fig. 6 is formalized as `Class NodeRep` in `template-proofs/data_struct.v`; the **Hoare-triple specifications** of `findNext`, `insertOp`, and `lookupOp` correspond to `findnext_spec`, `insertOp_spec`, and `get_value_spec`, respectively.
 
 The table below compares the paper predicates with their Rocq counterparts.
 
-| Paper (Fig. 6)                       | Rocq                                                                                               |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------- |
-| `node (n, In, Cn)`                   | `node p Ip Cp` in `templates/data_struct.v`                                                        |
-| `x ∈ ins(In, n)`                     | `in_inset _ _ _ x Ip p` in `templates/data_struct.v`                                               |
-| `x ∈ outs(In, next)`                 | `in_outset _ _ _ x Ip next` in `templates/data_struct.v`                                           |
-| `x ∉ outs(In)`                       | `¬ in_outsets _ _ Key x Ip` in `templates/data_struct.v`                                           |
-| `m ↦ next`                           | `data_at sh (tptr t_struct_node) n_pt n` in `templates/data_struct.v`                              |
-| `ks(In, n) = ks(I0, n) ⊎ ks(I1, n1)` | `keyset _ _ _ I0 p ∪ keyset _ _ _ I_new new_node = keyset _ _ _ Ip p` in `templates/data_struct.v` |
-| `In ≾ (I0 ⊕ I1)`                     | `contextualLeq _ Ip (I0 ⋅ I_new)` in `templates/data_struct.v`                                     |
+| Paper (Fig. 6)                       | Rocq                                                                                                     |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| `node (n, In, Cn)`                   | `node p Ip Cp` in `template-proofs/data_struct.v`                                                        |
+| `x ∈ ins(In, n)`                     | `in_inset _ _ _ x Ip p` in `template-proofs/data_struct.v`                                               |
+| `x ∈ outs(In, next)`                 | `in_outset _ _ _ x Ip next` in `template-proofs/data_struct.v`                                           |
+| `x ∉ outs(In)`                       | `¬ in_outsets _ _ Key x Ip` in `template-proofs/data_struct.v`                                           |
+| `m ↦ next`                           | `data_at sh (tptr t_struct_node) n_pt n` in `template-proofs/data_struct.v`                              |
+| `ks(In, n) = ks(I0, n) ⊎ ks(I1, n1)` | `keyset _ _ _ I0 p ∪ keyset _ _ _ I_new new_node = keyset _ _ _ Ip p` in `template-proofs/data_struct.v` |
+| `In ≾ (I0 ⊕ I1)`                     | `contextualLeq _ Ip (I0 ⋅ I_new)` in `template-proofs/data_struct.v`                                     |
 
 Differences between the paper and the Rocq development
 - Argument naming
@@ -146,17 +236,17 @@ Differences between the paper and the Rocq development
 
 ### 2.3. Concurrency template interface (Fig. 7)
 
-The concurrency template interface in Fig. 7 is formalized as `Class Template` in `templates/template_class.v`; the **logically atomic specifications** of `traverse`, `insertHelper`, and `lookupHelper` correspond to `traverse_spec`, `insertOp_helper_spec`, and `lookupOp_helper_spec`, respectively.
+The concurrency template interface in Fig. 7 is formalized as `Class Template` in `template-proofs/template_class.v`; the **logically atomic specifications** of `traverse`, `insertHelper`, and `lookupHelper` correspond to `traverse_spec`, `insertOp_helper_spec`, and `lookupOp_helper_spec`, respectively.
 
 The table below compares the paper predicates with their Rocq counterparts.
 
-| Paper (Fig. 7)               | Rocq                                                                                                 |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------- |
-| `InFP(n, p, lk)`             | `inFP γ_f pnN p1 l` in `templates/template_class.v`                                                  |
-| `is_root(n)`                 | `is_root_t γ_n pnN` in `templates/template_class.v`                                                  |
-| `md_node (n, p, Rn, css, r)` | `md_entry_rep_t γ_I γ_k γ_m γ_n p1 p nr css r` in `templates/template_class.v`                       |
-| `CSS(css, C)`                | `CSSt γ_I γ_f γ_k γ_g γ_m γ_n C css` in `templates/template_class.v`                                 |
-| `x ∈ ks(Rn.I, n)`            | `in_inset _ _ _ x (Ip_of nrt) pt ∧ ¬ in_outsets _ _ _ x (Ip_of nrt)` in `templates/template_class.v` |
+| Paper (Fig. 7)               | Rocq                                                                                                       |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `InFP(n, p, lk)`             | `inFP γ_f pnN p1 l` in `template-proofs/template_class.v`                                                  |
+| `is_root(n)`                 | `is_root_t γ_n pnN` in `template-proofs/template_class.v`                                                  |
+| `md_node (n, p, Rn, css, r)` | `md_entry_rep_t γ_I γ_k γ_m γ_n p1 p nr css r` in `template-proofs/template_class.v`                       |
+| `CSS(css, C)`                | `CSSt γ_I γ_f γ_k γ_g γ_m γ_n C css` in `template-proofs/template_class.v`                                 |
+| `x ∈ ks(Rn.I, n)`            | `in_inset _ _ _ x (Ip_of nrt) pt ∧ ¬ in_outsets _ _ _ x (Ip_of nrt)` in `template-proofs/template_class.v` |
 
 Differences between the paper and the Rocq development
 - Naming and parameters
@@ -173,29 +263,29 @@ Differences between the paper and the Rocq development
 
 ### 2.4. Definition of CSS (Fig. 16)
 
-The definitions of `CSS` and related predicates used in the lock-coupling proof in Fig. 16 are formalized in `templates/coupling_lib.v`.
+The definitions of `CSS` and related predicates used in the lock-coupling proof in Fig. 16 are formalized in `template-proofs/coupling_lib.v`.
 
 The table below compares the paper predicates with their Rocq counterparts.
 
-| Paper (Fig. 16)                                 | Rocq                                                                                                      |
-| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| `Rn := (In, Cn)`                                | `NodeR := { Cp : gmap Key KValue; Ip : flowint_T; }` in `templates/coupling_lib.v`                        |
-| `φ(r, I)`                                       | `globalinv _ _ _ r I` in `templates/coupling_lib.v`                                                       |
-| `InFP(n, p, lk)`                                | `inFP (γ_f : gname) (n : Node) (m : val) (lock : val)` in `templates/data_struct.v`                       |
-| `◯ N`<sup>`γf`</sup>                            | `own (inG0 := nodemap_inG) γ_f (◯ (to_agree <$> N) : gmap_authR Node _)` in `templates/data_struct.v`     |
-| `own_nodes(γf, I, h)`                           | `own_nodes γ_f (I : @multiset_flowint_ur Key _ _ ) md` in `templates/data_struct.v`                       |
-| `● N`<sup>`γf`</sup>                            | `own (inG0 := nodemap_inG) γ_f (● (to_agree <$> N))` in `templates/data_struct.v`                         |
-| `md_node (n, p, Rn, css, r)`                    | `md_entry_rep γ_I γ_k γ_m γ_n p1 (p : Node) (nr : NodeR) css r` in `templates/coupling_lib.v`             |
-| `◯ In`<sup>`γI`</sup>                           | `own γ_I (◯ (Ip nr))` in `templates/coupling_lib.v`                                                       |
-| `◯ (ks(In, n), dom(Cn))`<sup>`γk`</sup>         | `own γ_k (◯ prod (keyset _ _ _ nr.(Ip) p, dom (Cp nr)) : keyset_authR Key)` in `templates/coupling_lib.v` |
-| `◯ (Ex Cn)`<sup>`γm`</sup>                      | `own γ_m (◯ (Excl <$> (Cp nr)) : keymap_authR _ _)` in `templates/coupling_lib.v`                         |
-| `CSS(css, C)`                                   | `CSS γ_I γ_f γ_k γ_g γ_m γ_n C css` in `templates/coupling_lib.v`                                         |
-| `● I`<sup>`γI`</sup>                            | `own γ_I (● I)` in `templates/coupling_lib.v`                                                             |
-| `● (KS, dom(C))`<sup>`γk`</sup>                 | `own γ_k (● prod (KS, dom C) : keyset_authR Key)` in `templates/coupling_lib.v`                           |
-| `● (Ex C)`<sup>`γm`</sup>                       | `own γ_m (● (Excl <$> C) : keymap_authR _ _)` in `templates/coupling_lib.v`                               |
-| `p.lock ↦□ lk`                                  | `field_at lsh t_md_entry [StructField _lock] lock p1` in `templates/coupling_lib.v`                       |
-| `hashtable(h)`                                  | `([∗ set] i ∈ upto_gset size ∖ {[0%Z]}, md_slot i css)` in `templates/coupling_lib.v`                     |
-| `inv_for_lock (lk, md_node (n, p, Rn, css, r))` | `inv_for_lock lock (md_entry_rep γ_I γ_k γ_m γ_n p1 p nr css r)` in `templates/coupling_lib.v`            |
+| Paper (Fig. 16)                                 | Rocq                                                                                                            |
+| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `Rn := (In, Cn)`                                | `NodeR := { Cp : gmap Key KValue; Ip : flowint_T; }` in `template-proofs/coupling_lib.v`                        |
+| `φ(r, I)`                                       | `globalinv _ _ _ r I` in `template-proofs/coupling_lib.v`                                                       |
+| `InFP(n, p, lk)`                                | `inFP (γ_f : gname) (n : Node) (m : val) (lock : val)` in `template-proofs/data_struct.v`                       |
+| `◯ N`<sup>`γf`</sup>                            | `own (inG0 := nodemap_inG) γ_f (◯ (to_agree <$> N) : gmap_authR Node _)` in `template-proofs/data_struct.v`     |
+| `own_nodes(γf, I, h)`                           | `own_nodes γ_f (I : @multiset_flowint_ur Key _ _ ) md` in `template-proofs/data_struct.v`                       |
+| `● N`<sup>`γf`</sup>                            | `own (inG0 := nodemap_inG) γ_f (● (to_agree <$> N))` in `template-proofs/data_struct.v`                         |
+| `md_node (n, p, Rn, css, r)`                    | `md_entry_rep γ_I γ_k γ_m γ_n p1 (p : Node) (nr : NodeR) css r` in `template-proofs/coupling_lib.v`             |
+| `◯ In`<sup>`γI`</sup>                           | `own γ_I (◯ (Ip nr))` in `template-proofs/coupling_lib.v`                                                       |
+| `◯ (ks(In, n), dom(Cn))`<sup>`γk`</sup>         | `own γ_k (◯ prod (keyset _ _ _ nr.(Ip) p, dom (Cp nr)) : keyset_authR Key)` in `template-proofs/coupling_lib.v` |
+| `◯ (Ex Cn)`<sup>`γm`</sup>                      | `own γ_m (◯ (Excl <$> (Cp nr)) : keymap_authR _ _)` in `template-proofs/coupling_lib.v`                         |
+| `CSS(css, C)`                                   | `CSS γ_I γ_f γ_k γ_g γ_m γ_n C css` in `template-proofs/coupling_lib.v`                                         |
+| `● I`<sup>`γI`</sup>                            | `own γ_I (● I)` in `template-proofs/coupling_lib.v`                                                             |
+| `● (KS, dom(C))`<sup>`γk`</sup>                 | `own γ_k (● prod (KS, dom C) : keyset_authR Key)` in `template-proofs/coupling_lib.v`                           |
+| `● (Ex C)`<sup>`γm`</sup>                       | `own γ_m (● (Excl <$> C) : keymap_authR _ _)` in `template-proofs/coupling_lib.v`                               |
+| `p.lock ↦□ lk`                                  | `field_at lsh t_md_entry [StructField _lock] lock p1` in `template-proofs/coupling_lib.v`                       |
+| `hashtable(h)`                                  | `([∗ set] i ∈ upto_gset size ∖ {[0%Z]}, md_slot i css)` in `template-proofs/coupling_lib.v`                     |
+| `inv_for_lock (lk, md_node (n, p, Rn, css, r))` | `inv_for_lock lock (md_entry_rep γ_I γ_k γ_m γ_n p1 p nr css r)` in `template-proofs/coupling_lib.v`            |
 
 Differences between the paper and the Rocq development
 - Naming and parameters
@@ -225,17 +315,17 @@ Differences between the paper and the Rocq development
 
 ### 2.5. Definition of `md_node` for the give-up template (Fig. 19)
 
-The definitions of `md_node` and related predicates used in the give-up proof in Fig. 19 are formalized in `templates/giveup_lib.v`.
+The definitions of `md_node` and related predicates used in the give-up proof in Fig. 19 are formalized in `template-proofs/giveup_lib.v`.
 
 The table below compares the paper predicates with their Rocq counterparts.
 
-| Paper (Fig. 19)                                     | Rocq                                                                                                |
-| --------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `Rn := (In, Cn, minₙ, maxₙ)`                        | `NodeR := { min : Z; max : Z; Cp : gmap Key KValue; Ip : flowint_T; }` in `templates/giveup_lib.v`  |
-| `md_node (n, p, Rn, css, r)`                        | `md_entry_rep γ_I γ_k γ_m γ_n p1 (p : Node) (nr : NodeR) (css r : val)` in `templates/giveup_lib.v` |
-| `p.min ↦ minₙ`                                      | `field_at Ews t_md_entry [StructField _min] (vint (min nr)) p1` in `templates/giveup_lib.v`         |
-| `p.max ↦ maxₙ`                                      | `field_at Ews t_md_entry [StructField _max] (vint (max nr)) p1` in `templates/giveup_lib.v`         |
-| `p ≠ NULL ⇒ (∀k. minₙ < k < maxₙ ⇒ k ∈ ins(Iₙ, n))` | `(p <> nullval → ∀ k, (min nr < k < max nr)%Z → in_inset _ _ _ k (Ip nr) p)`                        |
+| Paper (Fig. 19)                                     | Rocq                                                                                                     |
+| --------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `Rn := (In, Cn, minₙ, maxₙ)`                        | `NodeR := { min : Z; max : Z; Cp : gmap Key KValue; Ip : flowint_T; }` in `template-proofs/giveup_lib.v`  |
+| `md_node (n, p, Rn, css, r)`                        | `md_entry_rep γ_I γ_k γ_m γ_n p1 (p : Node) (nr : NodeR) (css r : val)` in `template-proofs/giveup_lib.v` |
+| `p.min ↦ minₙ`                                      | `field_at Ews t_md_entry [StructField _min] (vint (min nr)) p1` in `template-proofs/giveup_lib.v`         |
+| `p.max ↦ maxₙ`                                      | `field_at Ews t_md_entry [StructField _max] (vint (max nr)) p1` in `template-proofs/giveup_lib.v`         |
+| `p ≠ NULL ⇒ (∀k. minₙ < k < maxₙ ⇒ k ∈ ins(Iₙ, n))` | `(p <> nullval → ∀ k, (min nr < k < max nr)%Z → in_inset _ _ _ k (Ip nr) p)`                               |
 
 Differences between the paper and the Rocq development
 - Extended metadata record
@@ -251,31 +341,58 @@ Differences between the paper and the Rocq development
     + Rocq: introduces additional auxiliary predicates and parameters to support proof automation and safety guarantees; these are omitted from the paper for brevity, as they do not add conceptual insight.
 
 ### 2.6. The `node` definition of BST (Fig. 10)
-- **Fig. 10 (BST `node`)** is formalized as `Program Instance specific_node_rep : NodeRep` in `templates/verif_bst.v`.
+- **Fig. 10 (BST `node`)** is formalized as `Program Instance specific_node_rep : NodeRep` in `template-proofs/verif_bst.v`.
 
 ### 2.7. The `node` definition of linked list (Fig. 13)
-- **Fig. 13 (linked list `node`)** is formalized as `Program Instance specific_node_rep : NodeRep` in `templates/verif_list.v`.
+- **Fig. 13 (linked list `node`)** is formalized as `Program Instance specific_node_rep : NodeRep` in `template-proofs/verif_list.v`.
 
 ### 2.8. Proof outlines (Figs. 9, 12, 17, and 18)
-- **Fig. 9 (top-level `insert`)** is formalized in `templates/verif_template.v`: its logically atomic specification is `insert_spec`, and its proof is `Lemma insert`.
-- **Fig. 12 (BST `insertOp`)** is formalized as follows: its Hoare-triple specification is `insertOp_spec` in `templates/data_struct.v`, and its proof is `Lemma insertOp` in `templates/verif_bst.v`.
-- **Fig. 17 (lock-coupling `traverse`)** is formalized in `templates/template_class.v`: its logically atomic specification is `traverse_spec`, and its proof is `Lemma traverse_lock` in `templates/verif_coupling.v`.
-- **Fig. 18 (lock-coupling `insertHelper`)** is formalized in `templates/template_class.v`: its logically atomic specification is `insertOp_helper_spec`, and its proof is `Lemma insertOp_helper` in `templates/verif_coupling.v`.
+- **Fig. 9 (top-level `insert`)** is formalized in `template-proofs/verif_template.v`: its logically atomic specification is `insert_spec`, and its proof is `Lemma insert`.
+- **Fig. 12 (BST `insertOp`)** is formalized as follows: its Hoare-triple specification is `insertOp_spec` in `template-proofs/data_struct.v`, and its proof is `Lemma insertOp` in `template-proofs/verif_bst.v`.
+- **Fig. 17 (lock-coupling `traverse`)** is formalized in `template-proofs/template_class.v`: its logically atomic specification is `traverse_spec`, and its proof is `Lemma traverse_lock` in `template-proofs/verif_coupling.v`.
+- **Fig. 18 (lock-coupling `insertHelper`)** is formalized in `template-proofs/template_class.v`: its logically atomic specification is `insertOp_helper_spec`, and its proof is `Lemma insertOp_helper` in `template-proofs/verif_coupling.v`.
 
-## 3. Proof Modules Summary
+## 3. What claims from the paper are supported by this artifact?
 
-Outside of what is explicitly discussed in the paper, we summarize the specification and verification modules included in the `templates` directory below:
+This artifact supports the paper's claims by providing:
 
-- Specifications of BST and Linked List (`templates/data_struct.v`)
-- Verification of BST (`templates/verif_bst.v`)
-- Verification of Linked List (`templates/verif_list.v`)
-- Specifications of Templates (`templates/template_class.v`)
-- Verification of Coarse-Grained Template (`templates/verif_coarse.v`)
-- Verification of Lock-Coupling Template (`templates/verif_coupling.v`)
-- Verification of Give-Up Template (`templates/verif_giveup.v`)
-- Specifications and Verification of Top-Level Code (`templates/verif_template.v`)
+1. A mechanized formalization of the interfaces:
+   - Data structure interface (Fig. 6): `template-proofs/data_struct.v`
+   - Template interface (Fig. 7): `template-proofs/template_class.v`
 
-## 4. Hash Function Assumptions and Specification
+2. Mechanized proofs (checked by Rocq/VST compilation) for:
+   - Top-level insert (Fig. 9): `template-proofs/verif_template.v`
+   - BST insertOp (Fig. 12): `template-proofs/verif_bst.v`
+   - Lock-coupling traverse + insertHelper (Figs. 17–18): `template-proofs/verif_coupling.v`
+   - Coarse-grained template: `template-proofs/verif_coarse.v`
+   - Give-up template: `template-proofs/verif_giveup.v`
+
+How to verify:
+- Run `make -jN` in the Rocq development. Successful compilation means the proofs are checked.
+- Run the C implementations (Section 1) to confirm the executable builds and runs.
+
+#### Key proof files (entry points)
+- `template-proofs/verif_template.v`   (top-level insert)
+- `template-proofs/verif_bst.v`        (BST insertOp)
+- `template-proofs/verif_list.v`       (List node + insertOp)
+- `template-proofs/verif_coupling.v`   (lock-coupling template proofs)
+- `template-proofs/verif_coarse.v`     (coarse-grained template proofs)
+- `template-proofs/verif_giveup.v`     (give-up template proofs)
+
+## 4. Proof Modules Summary
+
+Outside of what is explicitly discussed in the paper, we summarize the specification and verification modules included in the `template-proofs` directory below:
+
+- Specifications of BST and Linked List (`template-proofs/data_struct.v`)
+- Verification of BST (`template-proofs/verif_bst.v`)
+- Verification of Linked List (`template-proofs/verif_list.v`)
+- Specifications of Templates (`template-proofs/template_class.v`)
+- Verification of Coarse-Grained Template (`template-proofs/verif_coarse.v`)
+- Verification of Lock-Coupling Template (`template-proofs/verif_coupling.v`)
+- Verification of Give-Up Template (`template-proofs/verif_giveup.v`)
+- Specifications and Verification of Top-Level Code (`template-proofs/verif_template.v`)
+
+## 5. Hash Function Assumptions and Specification
 
 We model the hash function abstractly as a pure Coq function: `Parameter f : val -> Z.` together with the following axioms:
 - Injectivity: `f new = f p → new = p`. This assumption ensures that distinct pointers map to distinct hash values, simplifying reasoning about key uniqueness in the verified data structure.
@@ -293,7 +410,7 @@ DECLARE _hash
 ```
 That is, given a pointer (or null), `hash(p)` returns the integer value `f(p)`, which lies within the hash table bounds and is representable as a signed machine integer. The specification is purely functional and does not manipulate memory.
 
-All axioms and the corresponding VST specification can be found in `templates/common.v`.
+All axioms and the corresponding VST specification can be found in `template-proofs/common.v`.
 
 # References
 

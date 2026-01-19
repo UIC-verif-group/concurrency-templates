@@ -1,0 +1,51 @@
+-arg -w
+-arg -custom-entry-overridden,-notation-overridden,-deprecated
+-Q ../VST/shared VST.shared
+-Q ../VST/ora/theories iris_ora
+-Q ../VST/msl VST.msl 
+-Q ../VST/sepcomp VST.sepcomp 
+-Q ../VST/veric VST.veric 
+-Q ../VST/floyd VST.floyd 
+-Q ../VST/concurrency VST.concurrency 
+-Q ../VST/atomics VST.atomics 
+-Q ../VST/zlist VST.zlist 
+-Q . tmpl
+flows_ora.v
+keyset_ra_ora.v
+nzmap_more.v
+frac.v
+common.v
+
+# Data structure class 
+data_struct.v
+bst.v 
+list.v 
+
+# Interface & more library
+interface_more.v
+
+# Verify specific data structures
+verif_bst.v
+verif_list.v
+
+# Template class 
+template.v
+template_class.v
+
+# Verify Coarse-grained lock template
+coarse.v
+coarse_lib.v
+verif_coarse.v
+
+# Verify Give-up template
+giveup.v
+giveup_lib.v
+verif_giveup.v
+
+# Verify Lock-coupling template
+coupling.v
+coupling_lib.v
+verif_coupling.v
+
+# Verify General Template
+verif_template.v
