@@ -11,6 +11,8 @@ To evaluate the artifact, we provide two options:
 
 (2) installing the artifact locally on your machine ([Option 2: Local Installation](#installation-option-2-local-installation-alternative)). 
 
+**(3) For both options, the artifact can be downloaded from ([Zenodo](https://doi.org/10.5281/zenodo.18319035)). For Option 2, the repository can also be cloned.**
+
 ## Installation Option 1: Docker container (Recommended)
 
 To use the precompiled Docker image, first install the [Docker engine](https://docs.docker.com/engine/install/).
